@@ -1,10 +1,12 @@
 <script>
     import { onMount, onDestroy } from "svelte";
+    import { debug_console } from "$lib/debug_console.js";
     import LocaleSelector from "$components/LocaleSelector.svelte";
     import { t } from "svelte-intl-precompile";
     // TEMP debug
     import { delete_database } from "$lib/dictionary.js";
 
+    let small_console = false;
     // TEMP debug
     /*
     let x = 0;
@@ -50,7 +52,39 @@
     </main>
 </div>
 
+<div
+    class="console"
+    class:small={small_console}
+    on:click={() => small_console = !small_console}
+    on:keyup={() => null}
+>
+    <h3>dev console</h3>
+    {#if !small_console}
+        {#each $debug_console as msg}
+            <div>{msg}</div>
+        {/each}
+    {/if}
+</div>
+
 <style>
+    div.console {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 40vh;
+        background-color: rgb(170, 170, 190);
+        transition: height 0.4s ease-out;
+        display: flex;
+        flex-direction: column;
+        padding: 0 5vw;
+        font-family: monospace;
+    }
+
+    div.console.small {
+        height: 10vh;
+    }
+
     div.wrapper {
         width: 100vw;
     }

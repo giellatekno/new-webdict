@@ -2,6 +2,7 @@
     import { tick } from "svelte";
     import { fade } from "svelte/transition";
 
+    import { debug_console, debug } from "$lib/debug_console.js";
     import WordInput from "$components/WordInput.svelte";
     import LangSelector from "$components/LangSelector.svelte";
     import Progressbar from "$components/Progressbar.svelte";
@@ -55,6 +56,7 @@
     }
 
     async function load_dictionary(data) {
+        debug("load_dictionary()");
         dictionary = null;
         const meta = data.meta;
         dict_lemmas = meta.n;
@@ -65,22 +67,23 @@
         const db_dict = await get_from_indexeddb(meta);
 
         if (db_dict) {
-            console.log("dictionary found in idb");
+            debug("dictionary found in idb");
             dictionary = load_trie(db_dict);
             state = "ready";
             await tick();
             return;
         }
 
+        debug("state = downloading");
         state = "downloading";
         await tick();
-        console.log("trying the network instead");
 
         const url = `/${data.trie_path}`; 
-        console.log("fetch url: ", url);
+        debug(`fetch url: ${url}`);
 
         size = meta.ds;
 
+        debug("calling download()...");
         const {
             signal,
             data: downloaded_data
@@ -99,6 +102,8 @@
 
         abort_signal = signal;
 
+        debug("await downloaded data...");
+
         let buffer;
         try {
             buffer = await downloaded_data;
@@ -109,11 +114,11 @@
         }
 
         dictionary = load_trie(buffer);
-        console.log("saving dict to idb");
+        debug("saving dictionary to idb");
         state = "ready";
         await tick();
         await save_to_indexeddb(meta, buffer);
-        console.log("saved dict to idb");
+        debug("saved dictionary to idb");
         abort_signal = null;
     }
 
