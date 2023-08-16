@@ -97,12 +97,27 @@ async function _download(
     let size = 0;
 
     debug("about to await for response.body...");
+	const reader = response.body.getReader();
+	while (true) {
+		const { value: chunk, done } = await reader.read();
+		if (done) {
+			debug("done reading response body. break!");
+			break;
+		}
+        debug(`new chunk, length=${chunk.length}`);
+		chunks.push(chunk);
+		size += chunk.length;
+		on_progress(chunk);
+	}
+	/*
+	// Chrome on mobile just freezes here! (other mobile browser untested)
     for await (const chunk of response.body) {
+        debug(`new chunk, length=${chunk.length}`);
         chunks.push(chunk);
         size += chunk.length;
         on_progress(chunk);
     }
-    debug("got response body");
+	*/
 
     const buffer = new Uint8Array(size);
 
