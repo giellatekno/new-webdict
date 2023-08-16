@@ -1,0 +1,3710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root v="">
+    <n v="Anni">
+     <w v="Anni">
+     	<l>Anni<s n=""/></l>
+     	<r>Äännaž</r>
+     </w>
+    </n>
+    <n v="Anna">
+     <w v="Anna">
+     	<l>Anna<s n=""/></l>
+     	<r>Äʹnn, Äännaž</r>
+     </w>
+    </n>
+     <n v="Basil">
+      <w v="Basil">
+      	<l>Basil<s n=""/></l>
+      	<r>Väʹsǩǩ</r>
+      </w>
+     </n>
+     <n v="Enare">
+      <w v="Enare">
+      	<l>Enare<s n=""/></l>
+      	<r>Aanar</r>
+      </w>
+     </n>
+       <n v="England">
+        <w v="England">
+        	<l>England<s n=""/></l>
+        	<r>Eŋgglõs</r>
+        </w>
+       </n>
+       <n v="Finland">
+        <w v="Finland">
+        	<l>Finland<s n=""/></l>
+        	<r>Lääʹddjânnam</r>
+        </w>
+       </n>
+    <n v="Ivan">
+     <w v="Ivan">
+     	<l>Ivan<s n=""/></l>
+     	<r>Evvan</r>
+     </w>
+    </n>
+     <n v="Ivalo">
+      <w v="Ivalo">
+      	<l>Ivalo<s n=""/></l>
+      	<r>Âʹvvel</r>
+      </w>
+     </n>
+       <n v="Kiprian">
+        <w v="Kiprian">
+        	<l>Kiprian<s n=""/></l>
+        	<r>Ǩiuʹrrel</r>
+        </w>
+       </n>
+     <n v="Maria">
+      <w v="Maria">
+      	<l>Maria<s n=""/></l>
+      	<r>Mäʹrjj</r>
+      </w>
+     </n>
+     <n v="Norge">
+      <w v="Norge">
+      	<l>Norge<s n=""/></l>
+      	<r>Taarrjânnam</r>
+      </w>
+     </n>
+          <n v="Nitsijärvi">
+           <w v="Nitsijärvi">
+           	<l>Nitsijärvi<s n=""/></l>
+           	<r>Njeʹǯǯjäuʹrr</r>
+           </w>
+          </n>
+        <n v="Russland">
+         <w v="Russland">
+         	<l>Russland<s n=""/></l>
+         	<r>Ruõššjânnam</r>
+         </w>
+        </n>
+         <n v="Rovaniemi">
+          <w v="Rovaniemi">
+          	<l>Rovaniemi<s n=""/></l>
+          	<r>Ruäʹvnjargg</r>
+          </w>
+         </n>
+            <n v="Sevettijärvi">
+             <w v="Sevettijärvi">
+             	<l>Sevettijärvi<s n=""/></l>
+             	<r>Čeʹvetjäuʹrr</r>
+             </w>
+             <w v="Sevettijärvi">
+             	<l>Sevettijärvi<s n=""/></l>
+             	<r>Čeʹvetjäuʹrr</r>
+             </w>
+            </n>
+       <n v="Sverige">
+        <w v="Sverige">
+        	<l>Sverige<s n=""/></l>
+        	<r>Ruõcˈc</r>
+        </w>
+       </n>
+     <n v="Tyyne">
+      <w v="Tyyne">
+      	<l>Tyyne<s n=""/></l>
+      	<r>Dåʹmnn</r>
+      </w>
+     </n>
+        <n v="Tyskland">
+         <w v="Tyskland">
+         	<l>Tyskland<s n=""/></l>
+         	<r>Sakssajânnam</r>
+         </w>
+        </n>
+   <n v="arm">
+    <w v="arm">
+    	<l>arm<s n="subst."/></l>
+    	<r>ǩiõtt</r>
+    </w>
+   </n>
+    <n v="aske">
+     <w v="aske">
+     	<l>aske<s n="subst."/></l>
+     	<r>kunn</r>
+     </w>
+    </n>
+  <n v="at">
+   <w v="at">
+   	<l>at<s n="subj."/></l>
+   	<r>što</r>
+   </w>
+  </n>
+    <n v="aure">
+     <w v="aure">
+     	<l>aure<s n="subst."/></l>
+     	<r>kuʹvǯǯ</r>
+     </w>
+    </n>
+       <n v="avgjøre">
+        <w v="avgjøre">
+        	<l>avgjøre<s n="verb"/></l>
+        	<r>suåppâd</r>
+        </w>
+       </n>
+    <n v="akte">
+     <w v="akte">
+     	<l>akte<s n="verb"/></l>
+     	<r>vaarõõttâd</r>
+     </w>
+    </n>
+    <n v="alle">
+     <w v="alle">
+     	<l>alle<s n=""/></l>
+     	<r>puk</r>
+     </w>
+          <n v="alle slags">
+           <w v="alle slags">
+           	<l>alle slags<s n=""/></l>
+           	<r>juõʹǩǩnallšem</r>
+           </w>
+          </n>
+       <n v="allergi">
+        <w v="allergi">
+        	<l>allergi<s n="subst."/></l>
+        	<r>alleerǥ</r>
+        </w>
+       </n>
+        <n v="allerede">
+         <w v="allerede">
+         	<l>allerede<s n="adv."/></l>
+         	<r>juʹn</r>
+         </w>
+        </n>
+    </n>
+      <n v="alltid">
+       <w v="alltid">
+       	<l>alltid<s n="adv."/></l>
+       	<r>pâi</r>
+       </w>
+      </n>
+     <n v="alder">
+      <w v="alder">
+      	<l>alder<s n="subst."/></l>
+      	<r>ââʹǩǩ</r>
+      </w>
+     </n>
+     <n v="alene">
+      <w v="alene">
+      	<l>alene<s n="adv."/></l>
+      	<r>õhttu</r>
+      </w>
+     </n>
+     <n v="annen">
+      <w v="annen">
+      	<l>annen<s n="adj."/></l>
+      	<r>jeeʹres</r>
+      </w>
+      <w v="annen">
+      	<l>annen<s n="num."/></l>
+      	<r>nuʹbb</r>
+      </w>
+     </n>
+          <n v="annerledes">
+           <w v="annerledes">
+           	<l>annerledes<s n="adj."/></l>
+           	<r>jeeʹresnallšem, jeeʹres</r>
+           </w>
+          </n>
+     <n v="ankel">
+      <w v="ankel">
+      	<l>ankel<s n="subst."/></l>
+      	<r>ǩizldõk</r>
+      </w>
+     </n>
+   <n v="bra">
+    <w v="bra">
+    	<l>bra<s n="adj."/></l>
+    	<r>šiõǥǥ</r>
+    </w>
+    <w v="bra">
+    	<l>bra<s n="adv."/></l>
+    	<r>puârast</r>
+    </w>
+   </n>
+    <n v="brud">
+     <w v="brud">
+     	<l>brud<s n="subst."/></l>
+     	<r>kaavsõs</r>
+     </w>
+    </n>
+    <n v="brun">
+     <w v="brun">
+     	<l>brun<s n="adj."/></l>
+     	<r>ručkkâd</r>
+     </w>
+    </n>
+    <n v="bred">
+     <w v="bred">
+     	<l>bred<s n="adj."/></l>
+     	<r>kobddi</r>
+     </w>
+    </n>
+      <n v="brenne">
+       <w v="brenne">
+       	<l>brenne<s n="verb"/></l>
+       	<r>pueʹlled</r>
+       </w>
+      </n>
+     <n v="bryst">
+      <w v="bryst">
+      	<l>bryst<s n="subst."/></l>
+      	<r>râʹdd</r>
+      </w>
+     </n>
+     <n v="bryne">
+      <w v="bryne">
+      	<l>bryne<s n="subst."/></l>
+      	<r>taabǯâs</r>
+      </w>
+     </n>
+      <n v="bringe">
+       <w v="bringe">
+       	<l>bringe<s n="verb"/></l>
+       	<r>puʹhtted</r>
+       </w>
+      </n>
+    <n v="brød">
+     <w v="brød">
+     	<l>brød<s n="subst."/></l>
+     	<r>leiʹbb</r>
+     </w>
+             <n v="brødtallerken">
+              <w v="brødtallerken">
+              	<l>brødtallerken<s n="subst."/></l>
+              	<r>leiʹbbtiskk</r>
+              </w>
+             </n>
+    </n>
+    <n v="bror">
+     <w v="bror">
+     	<l>bror<s n="subst."/></l>
+     	<r>viʹllj</r>
+     </w>
+    </n>
+           <n v="befinne seg">
+            <w v="befinne seg">
+            	<l>befinne seg<s n="verb"/></l>
+            	<r>kaunnâd</r>
+            </w>
+           </n>
+        <n v="behandle">
+         <w v="behandle">
+         	<l>behandle<s n="verb"/></l>
+         	<r>hoiʹddjed</r>
+         </w>
+        </n>
+       <n v="begynne">
+        <w v="begynne">
+        	<l>begynne<s n="verb"/></l>
+        	<r>äʹlǧǧed</r>
+        </w>
+       </n>
+    <n v="bein">
+     <w v="bein">
+     	<l>bein<s n="subst."/></l>
+     	<r>jueʹlǧǧ, täʹhtt</r>
+     </w>
+     <w v="bein">
+     	<l>bein<s n="subst."/></l>
+     	<r>täʹhtt, jueʹlǧǧ</r>
+     </w>
+    </n>
+     <n v="belte">
+      <w v="belte">
+      	<l>belte<s n="subst."/></l>
+      	<r>läʹbǯǯ, puäǥǥanj</r>
+      </w>
+      <w v="belte">
+      	<l>belte<s n="subst."/></l>
+      	<r>puäǥǥanj, läʹbǯǯ</r>
+      </w>
+     </n>
+       <n v="beordre">
+        <w v="beordre">
+        	<l>beordre<s n="verb"/></l>
+        	<r>päkkad</r>
+        </w>
+       </n>
+     <n v="bukse">
+      <w v="bukse">
+      	<l>bukse<s n="subst."/></l>
+      	<r>puus</r>
+      </w>
+     </n>
+   <n v="bær">
+    <w v="bær">
+    	<l>bær<s n="subst."/></l>
+    	<r>mueʹrjj</r>
+    </w>
+    <n v="bære">
+     <w v="bære">
+     	<l>bære<s n="verb"/></l>
+     	<r>kueʹdˈded</r>
+     </w>
+    </n>
+        <n v="bærsuppe">
+         <w v="bærsuppe">
+         	<l>bærsuppe<s n="subst."/></l>
+         	<r>mueʹrjjsäʹpp</r>
+         </w>
+        </n>
+   </n>
+   <n v="bil">
+    <w v="bil">
+    	<l>bil<s n="subst."/></l>
+    	<r>autt</r>
+    </w>
+   </n>
+     <n v="binde">
+      <w v="binde">
+      	<l>binde<s n="verb"/></l>
+      	<r>čõõnnâd</r>
+      </w>
+     </n>
+    <n v="bite">
+     <w v="bite">
+     	<l>bite<s n="verb"/></l>
+     	<r>käʹcǩǩed</r>
+     </w>
+    </n>
+      <n v="bitter">
+       <w v="bitter">
+       	<l>bitter<s n="adj."/></l>
+       	<r>peʹčǩǩer, šuõrš-</r>
+       </w>
+       <w v="bitter">
+       	<l>bitter<s n="adj."/></l>
+       	<r>šuõrš-, peʹčǩǩer</r>
+       </w>
+      </n>
+     <n v="bjørk">
+      <w v="bjørk">
+      	<l>bjørk<s n="subst."/></l>
+      	<r>sueʹǩǩ, suẹʹǩǩ</r>
+      </w>
+      <w v="bjørk">
+      	<l>bjørk<s n="subst."/></l>
+      	<r>suẹʹǩǩ, sueʹǩǩ</r>
+      </w>
+     </n>
+    <n v="blod">
+     <w v="blod">
+     	<l>blod<s n="subst."/></l>
+     	<r>võrr</r>
+     </w>
+    </n>
+      <n v="blomst">
+       <w v="blomst">
+       	<l>blomst<s n="subst."/></l>
+       	<r>heäʹrvvrääʹss</r>
+       </w>
+      </n>
+         <n v="blokkebær">
+          <w v="blokkebær">
+          	<l>blokkebær<s n="subst."/></l>
+          	<r>jeättmõš</r>
+          </w>
+         </n>
+    <n v="blad">
+     <w v="blad">
+     	<l>blad<s n="subst."/></l>
+     	<r>lõstt</r>
+     </w>
+    </n>
+     <n v="bluse">
+      <w v="bluse">
+      	<l>bluse<s n="subst."/></l>
+      	<r>kuurta</r>
+      </w>
+     </n>
+     <n v="blåse">
+      <w v="blåse">
+      	<l>blåse<s n="verb"/></l>
+      	<r>pååssad</r>
+      </w>
+     </n>
+      <n v="blåbær">
+       <w v="blåbær">
+       	<l>blåbær<s n="subst."/></l>
+       	<r>sââʹrr</r>
+       </w>
+      </n>
+       <n v="bli til">
+        <w v="bli til">
+        	<l>bli til<s n="verb"/></l>
+        	<r>šõddâd</r>
+        </w>
+       </n>
+           <n v="bli sjenert">
+            <w v="bli sjenert">
+            	<l>bli sjenert<s n="verb"/></l>
+            	<r>käinnad</r>
+            </w>
+           </n>
+  <n v="bo">
+   <w v="bo">
+   	<l>bo<s n="verb"/></l>
+   	<r>jälsted</r>
+   </w>
+    <n v="bord">
+     <w v="bord">
+     	<l>bord<s n="subst."/></l>
+     	<r>påʹrdd</r>
+     </w>
+    </n>
+   <n v="bok">
+    <w v="bok">
+    	<l>bok<s n="subst."/></l>
+    	<r>ǩeʹrjj</r>
+    </w>
+        <n v="bokhylle">
+         <w v="bokhylle">
+         	<l>bokhylle<s n="subst."/></l>
+         	<r>ǩeʹrjjiʹlddi</r>
+         </w>
+        </n>
+   </n>
+  </n>
+    <n v="barn">
+     <w v="barn">
+     	<l>barn<s n="subst."/></l>
+     	<r>päʹrnn</r>
+     </w>
+    </n>
+    <n v="bark">
+     <w v="bark">
+     	<l>bark<s n="subst."/></l>
+     	<r>kõrr, pärkk</r>
+     </w>
+     <w v="bark">
+     	<l>bark<s n="subst."/></l>
+     	<r>pärkk, kõrr</r>
+     </w>
+    </n>
+    <n v="bare">
+     <w v="bare">
+     	<l>bare<s n="adv."/></l>
+     	<r>oʹdinakai</r>
+     </w>
+    </n>
+    <n v="bake">
+     <w v="bake">
+     	<l>bake<s n="verb"/></l>
+     	<r>vääʹlʼjed</r>
+     </w>
+    </n>
+       <n v="banking">
+        <w v="banking">
+        	<l>banking<s n="subst."/></l>
+        	<r>kuälktem</r>
+        </w>
+       </n>
+      <n v="dårlig">
+       <w v="dårlig">
+       	<l>dårlig<s n="adj."/></l>
+       	<r>neuʹrr</r>
+       </w>
+      </n>
+   <n v="der">
+    <w v="der">
+    	<l>der<s n="adv."/></l>
+    	<r>toʹben, tåʹben, tõʹst</r>
+    </w>
+    <w v="der">
+    	<l>der<s n="adv."/></l>
+    	<r>tåʹben, toʹben, tõʹst</r>
+    </w>
+    <w v="der">
+    	<l>der<s n="adv."/></l>
+    	<r>tõʹst, toʹben, tåʹben</r>
+    </w>
+    <n v="dere">
+     <w v="dere">
+     	<l>dere<s n=""/></l>
+     	<r>tij</r>
+     </w>
+    </n>
+      <n v="derfor">
+       <w v="derfor">
+       	<l>derfor<s n="adv."/></l>
+       	<r>tõndiõtt</r>
+       </w>
+      </n>
+      <n v="derfra">
+       <w v="derfra">
+       	<l>derfra<s n="adv."/></l>
+       	<r>tåʹben</r>
+       </w>
+      </n>
+   </n>
+   <n v="det">
+    <w v="det">
+    	<l>det<s n=""/></l>
+    	<r>tut</r>
+    </w>
+         <n v="det samme">
+          <w v="det samme">
+          	<l>det samme<s n="adj."/></l>
+          	<r>seämmanalla</r>
+          </w>
+         </n>
+   </n>
+        <n v="desember">
+         <w v="desember">
+         	<l>desember<s n="subst."/></l>
+         	<r>rosttovmään</r>
+         </w>
+        </n>
+          <n v="dekorasjon">
+           <w v="dekorasjon">
+           	<l>dekorasjon<s n="subst."/></l>
+           	<r>heäʹrvvkäuʹnn</r>
+           </w>
+          </n>
+     <n v="dekke">
+      <w v="dekke">
+      	<l>dekke<s n="verb"/></l>
+      	<r>tuʹvdded</r>
+      </w>
+      <n v="dekket">
+       <w v="dekket">
+       	<l>dekket<s n="verb"/></l>
+       	<r>vaalmâš</r>
+       </w>
+      </n>
+     </n>
+     <n v="denne">
+      <w v="denne">
+      	<l>denne<s n=""/></l>
+      	<r>tät, tõt</r>
+      </w>
+      <w v="denne">
+      	<l>denne<s n=""/></l>
+      	<r>tõt, tät</r>
+      </w>
+     </n>
+   <n v="dem">
+    <w v="dem">
+    	<l>dem<s n=""/></l>
+    	<r>sij</r>
+    </w>
+   </n>
+  <n v="du">
+   <w v="du">
+   	<l>du<s n=""/></l>
+   	<r>ton</r>
+   </w>
+  </n>
+          <n v="dvergbjørk">
+           <w v="dvergbjørk">
+           	<l>dvergbjørk<s n="subst."/></l>
+           	<r>jeäʹǧǧreʹss</r>
+           </w>
+          </n>
+  <n v="dø">
+   <w v="dø">
+   	<l>dø<s n="verb"/></l>
+   	<r>jääʹmmed</r>
+   </w>
+   <n v="dør">
+    <w v="dør">
+    	<l>dør<s n="subst."/></l>
+    	<r>uhss</r>
+    </w>
+   </n>
+  </n>
+      <n v="dyktig">
+       <w v="dyktig">
+       	<l>dyktig<s n="adj."/></l>
+       	<r>čeäʹp'p</r>
+       </w>
+      </n>
+   <n v="dit">
+    <w v="dit">
+    	<l>dit<s n="adv."/></l>
+    	<r>tok</r>
+    </w>
+   </n>
+    <n v="djur">
+     <w v="djur">
+     	<l>djur<s n="subst."/></l>
+     	<r>jieʹlli</r>
+     </w>
+    </n>
+  <n v="da">
+   <w v="da">
+   	<l>da<s n="adv."/></l>
+   	<r>de, teʹl</r>
+   </w>
+   <w v="da">
+   	<l>da<s n="adv."/></l>
+   	<r>teʹl, de</r>
+   </w>
+     <n v="danse">
+      <w v="danse">
+      	<l>danse<s n="verb"/></l>
+      	<r>pleässjed</r>
+      </w>
+     </n>
+      <n v="datter">
+       <w v="datter">
+       	<l>datter<s n="subst."/></l>
+       	<r>nijdd</r>
+       </w>
+      </n>
+   <n v="dag">
+    <w v="dag">
+    	<l>dag<s n="subst."/></l>
+    	<r>peiʹvv</r>
+    </w>
+   </n>
+  </n>
+   <n v="dra">
+    <w v="dra">
+    	<l>dra<s n="verb"/></l>
+    	<r>jååʹtted, vueʹlǧǧed, ǩiẹʹssed</r>
+    </w>
+    <w v="dra">
+    	<l>dra<s n="verb"/></l>
+    	<r>vueʹlǧǧed, jååʹtted, ǩiẹʹssed</r>
+    </w>
+    <w v="dra">
+    	<l>dra<s n="verb"/></l>
+    	<r>ǩiẹʹssed, jååʹtted, vueʹlǧǧed</r>
+    </w>
+   </n>
+     <n v="drepe">
+      <w v="drepe">
+      	<l>drepe<s n="verb"/></l>
+      	<r>kåʹdded</r>
+      </w>
+     </n>
+     <n v="drive">
+      <w v="drive">
+      	<l>drive<s n="verb"/></l>
+      	<r>uuʹrčted</r>
+      </w>
+     </n>
+      <n v="drikke">
+       <w v="drikke">
+       	<l>drikke<s n="verb"/></l>
+       	<r>juukkâd</r>
+       </w>
+            <n v="drikke kaffe">
+             <w v="drikke kaffe">
+             	<l>drikke kaffe<s n="verb"/></l>
+             	<r>kaaʹfstõõllâd</r>
+             </w>
+            </n>
+      </n>
+   <n v="egg">
+    <w v="egg">
+    	<l>egg<s n="subst."/></l>
+    	<r>mââʹnn</r>
+    </w>
+   </n>
+     <n v="einer">
+      <w v="einer">
+      	<l>einer<s n="subst."/></l>
+      	<r>kõõskâs</r>
+      </w>
+     </n>
+        <n v="ektemann">
+         <w v="ektemann">
+         	<l>ektemann<s n="subst."/></l>
+         	<r>kuõjj</r>
+         </w>
+        </n>
+     <n v="eller">
+      <w v="eller">
+      	<l>eller<s n="konj."/></l>
+      	<r>avi</r>
+      </w>
+      <n v="ellers">
+       <w v="ellers">
+       	<l>ellers<s n="adv."/></l>
+       	<r>muđoi</r>
+       </w>
+      </n>
+     </n>
+   <n v="elv">
+    <w v="elv">
+    	<l>elv<s n="subst."/></l>
+    	<r>jokk</r>
+    </w>
+   </n>
+        <n v="en smule">
+         <w v="en smule">
+         	<l>en smule<s n="adv."/></l>
+         	<r>occanj, occnja, simmna, siõmmna</r>
+         </w>
+         <w v="en smule">
+         	<l>en smule<s n="adv."/></l>
+         	<r>occnja, occanj, simmna, siõmmna</r>
+         </w>
+         <w v="en smule">
+         	<l>en smule<s n="adv."/></l>
+         	<r>simmna, occanj, occnja, siõmmna</r>
+         </w>
+         <w v="en smule">
+         	<l>en smule<s n="adv."/></l>
+         	<r>siõmmna, occanj, occnja, simmna</r>
+         </w>
+        </n>
+     <n v="entré">
+      <w v="entré">
+      	<l>entré<s n="subst."/></l>
+      	<r>käʹrdd</r>
+      </w>
+     </n>
+    <n v="erme">
+     <w v="erme">
+     	<l>erme<s n="subst."/></l>
+     	<r>suäjj</r>
+     </w>
+    </n>
+     <n v="etter">
+      <w v="etter">
+      	<l>etter<s n=""/></l>
+      	<r>mâŋŋa</r>
+      </w>
+           <n v="etterspørre">
+            <w v="etterspørre">
+            	<l>etterspørre<s n="verb"/></l>
+            	<r>kõõjjeed</r>
+            </w>
+           </n>
+         <n v="etternavn">
+          <w v="etternavn">
+          	<l>etternavn<s n="subst."/></l>
+          	<r>faʹmilja</r>
+          </w>
+         </n>
+     </n>
+        <n v="ederkopp">
+         <w v="ederkopp">
+         	<l>ederkopp<s n="subst."/></l>
+         	<r>eeunaž</r>
+         </w>
+        </n>
+    <n v="ånde">
+     <w v="ånde">
+     	<l>ånde<s n="verb"/></l>
+     	<r>vuõiŋŋâd</r>
+     </w>
+    </n>
+    <n v="åpne">
+     <w v="åpne">
+     	<l>åpne<s n="verb"/></l>
+     	<r>ääʹveed</r>
+     </w>
+    </n>
+  <n v="år">
+   <w v="år">
+   	<l>år<s n="subst."/></l>
+   	<r>eeʹǩǩ</r>
+   </w>
+        <n v="årefeste">
+         <w v="årefeste">
+         	<l>årefeste<s n="subst."/></l>
+         	<r>ääŋŋ</r>
+         </w>
+        </n>
+  </n>
+     <n v="fødes">
+      <w v="fødes">
+      	<l>fødes<s n="verb"/></l>
+      	<r>šõddâd</r>
+      </w>
+     </n>
+          <n v="fødselsdag">
+           <w v="fødselsdag">
+           	<l>fødselsdag<s n="subst."/></l>
+           	<r>šõddâmpeiʹvv</r>
+           </w>
+          </n>
+     <n v="følge">
+      <w v="følge">
+      	<l>følge<s n="verb"/></l>
+      	<r>čuâvvad</r>
+      </w>
+     </n>
+    <n v="fisk">
+     <w v="fisk">
+     	<l>fisk<s n="subst."/></l>
+     	<r>kueʹll</r>
+     </w>
+    </n>
+        <n v="fyre bål">
+         <w v="fyre bål">
+         	<l>fyre bål<s n="verb"/></l>
+         	<r>tollstõõllâd</r>
+         </w>
+        </n>
+     <n v="fjell">
+      <w v="fjell">
+      	<l>fjell<s n="subst."/></l>
+      	<r>tuõddâr, vääʹrr</r>
+      </w>
+      <w v="fjell">
+      	<l>fjell<s n="subst."/></l>
+      	<r>vääʹrr, tuõddâr</r>
+      </w>
+     </n>
+    <n v="fjær">
+     <w v="fjær">
+     	<l>fjær<s n="subst."/></l>
+     	<r>poʒʒ</r>
+     </w>
+    </n>
+       <n v="flittig">
+        <w v="flittig">
+        	<l>flittig<s n="adv."/></l>
+        	<r>viiššlânji</r>
+        </w>
+       </n>
+   <n v="fly">
+    <w v="fly">
+    	<l>fly<s n="verb"/></l>
+    	<r>ǩeʹrdded</r>
+    </w>
+   </n>
+     <n v="flokk">
+      <w v="flokk">
+      	<l>flokk<s n="subst."/></l>
+      	<r>čiõǥǥâr</r>
+      </w>
+     </n>
+    <n v="flue">
+     <w v="flue">
+     	<l>flue<s n="subst."/></l>
+     	<r>čuâr</r>
+     </w>
+    </n>
+     <n v="forbi">
+      <w v="forbi">
+      	<l>forbi<s n="adv."/></l>
+      	<r>kuâŋˈŋad</r>
+      </w>
+     </n>
+      <n v="forstå">
+       <w v="forstå">
+       	<l>forstå<s n="verb"/></l>
+       	<r>fiʹttjed</r>
+       </w>
+      </n>
+     <n v="fordi">
+      <w v="fordi">
+      	<l>fordi<s n="subj."/></l>
+      	<r>ko, tõʹnt</r>
+      </w>
+      <w v="fordi">
+      	<l>fordi<s n="subj."/></l>
+      	<r>tõʹnt, ko</r>
+      </w>
+     </n>
+        <n v="forelder">
+         <w v="forelder">
+         	<l>forelder<s n="subst."/></l>
+         	<r>puäʹres</r>
+         </w>
+        </n>
+         <n v="forvirret">
+          <w v="forvirret">
+          	<l>forvirret<s n="adj."/></l>
+          	<r>vääžž</r>
+          </w>
+         </n>
+        <n v="forfølge">
+         <w v="forfølge">
+         	<l>forfølge<s n="verb"/></l>
+         	<r>vuẹjted</r>
+         </w>
+        </n>
+   <n v="fot">
+    <w v="fot">
+    	<l>fot<s n="subst."/></l>
+    	<r>jueʹlǧǧ</r>
+    </w>
+   </n>
+     <n v="falle">
+      <w v="falle">
+      	<l>falle<s n="verb"/></l>
+      	<r>kõččâd</r>
+      </w>
+     </n>
+       <n v="faktisk">
+        <w v="faktisk">
+        	<l>faktisk<s n="adv."/></l>
+        	<r>tuõđi</r>
+        </w>
+       </n>
+         <n v="fange inn">
+          <w v="fange inn">
+          	<l>fange inn<s n="verb"/></l>
+          	<r>tääʹvted ǩidd, tääʹvted</r>
+          </w>
+          <w v="fange inn">
+          	<l>fange inn<s n="verb"/></l>
+          	<r>tääʹvted, tääʹvted ǩidd</r>
+          </w>
+         </n>
+       <n v="familie">
+        <w v="familie">
+        	<l>familie<s n="subst."/></l>
+        	<r>piâr</r>
+        </w>
+       </n>
+   <n v="far">
+    <w v="far">
+    	<l>far<s n="subst."/></l>
+    	<r>eʹčč</r>
+    </w>
+     <n v="farge">
+      <w v="farge">
+      	<l>farge<s n="subst."/></l>
+      	<r>euʹnn</r>
+      </w>
+     </n>
+   </n>
+   <n v="fra">
+    <w v="fra">
+    	<l>fra<s n=""/></l>
+    	<r>âʹlnn, åʹrnn</r>
+    </w>
+    <w v="fra">
+    	<l>fra<s n=""/></l>
+    	<r>åʹrnn, âʹlnn</r>
+    </w>
+             <n v="fra noensteds">
+              <w v="fra noensteds">
+              	<l>fra noensteds<s n="adv."/></l>
+              	<r>koʹst-ne</r>
+              </w>
+             </n>
+   </n>
+          <n v="fremre lår">
+           <w v="fremre lår">
+           	<l>fremre lår<s n="subst."/></l>
+           	<r>ruõidd</r>
+           </w>
+          </n>
+     <n v="fryse">
+      <w v="fryse">
+      	<l>fryse<s n="verb"/></l>
+      	<r>jiõŋŋâd, kâʹlmmed, kâʹlmstõõllâd</r>
+      </w>
+      <w v="fryse">
+      	<l>fryse<s n="verb"/></l>
+      	<r>kâʹlmmed, jiõŋŋâd, kâʹlmstõõllâd</r>
+      </w>
+      <w v="fryse">
+      	<l>fryse<s n="verb"/></l>
+      	<r>kâʹlmstõõllâd, jiõŋŋâd, kâʹlmmed</r>
+      </w>
+     </n>
+      <n v="frykte">
+       <w v="frykte">
+       	<l>frykte<s n="verb"/></l>
+       	<r>põõllâd</r>
+       </w>
+      </n>
+   <n v="frø">
+    <w v="frø">
+    	<l>frø<s n="subst."/></l>
+    	<r>sieʹm</r>
+    </w>
+   </n>
+    <n v="fugl">
+     <w v="fugl">
+     	<l>fugl<s n="subst."/></l>
+     	<r>låʹdd</r>
+     </w>
+    </n>
+    <n v="full">
+     <w v="full">
+     	<l>full<s n="adj."/></l>
+     	<r>tiiudâs</r>
+     </w>
+    </n>
+     <n v="feber">
+      <w v="feber">
+      	<l>feber<s n="subst."/></l>
+      	<r>žaar</r>
+      </w>
+     </n>
+    <n v="fett">
+     <w v="fett">
+     	<l>fett<s n="adj."/></l>
+     	<r>pueidak</r>
+     </w>
+     <w v="fett">
+     	<l>fett<s n="subst."/></l>
+     	<r>pueiʹdd, vuõjj</r>
+     </w>
+     <w v="fett">
+     	<l>fett<s n="subst."/></l>
+     	<r>vuõjj, pueiʹdd</r>
+     </w>
+    </n>
+  <n v="få">
+   <w v="få">
+   	<l>få<s n="verb"/></l>
+   	<r>vuäǯǯad</r>
+   </w>
+  </n>
+  <n v="gi">
+   <w v="gi">
+   	<l>gi<s n="verb"/></l>
+   	<r>uʹvdded</r>
+   </w>
+     <n v="gifte">
+      <w v="gifte">
+      	<l>gifte<s n="verb"/></l>
+      	<r>veäncceed</r>
+      </w>
+     </n>
+  </n>
+      <n v="gjerde">
+       <w v="gjerde">
+       	<l>gjerde<s n="subst."/></l>
+       	<r>äiʹdd</r>
+       </w>
+      </n>
+     <n v="gjest">
+      <w v="gjest">
+      	<l>gjest<s n="subst."/></l>
+      	<r>kueʹss</r>
+      </w>
+     </n>
+      <n v="gjemme">
+       <w v="gjemme">
+       	<l>gjemme<s n="verb"/></l>
+       	<r>peiʹtted, čiõkkâd</r>
+       </w>
+      </n>
+        <n v="gledelig">
+         <w v="gledelig">
+         	<l>gledelig<s n="adv."/></l>
+         	<r>kuärǥast</r>
+         </w>
+        </n>
+     <n v="glatt">
+      <w v="glatt">
+      	<l>glatt<s n="adj."/></l>
+      	<r>šõllâd</r>
+      </w>
+     </n>
+   <n v="gni">
+    <w v="gni">
+    	<l>gni<s n="verb"/></l>
+    	<r>ruʹvvjed</r>
+    </w>
+   </n>
+   <n v="god">
+    <w v="god">
+    	<l>god<s n="adj."/></l>
+    	<r>pueʹrr</r>
+    </w>
+   </n>
+      <n v="gammel">
+       <w v="gammel">
+       	<l>gammel<s n="adj."/></l>
+       	<r>puäʹres, vuäʹmes</r>
+       </w>
+       <w v="gammel">
+       	<l>gammel<s n="adj."/></l>
+       	<r>vuäʹmes, puäʹres</r>
+       </w>
+      </n>
+     <n v="grave">
+      <w v="grave">
+      	<l>grave<s n="verb"/></l>
+      	<r>kuäivvad, rääppad</r>
+      </w>
+      <w v="grave">
+      	<l>grave<s n="verb"/></l>
+      	<r>rääppad, kuäivvad</r>
+      </w>
+     </n>
+    <n v="gras">
+     <w v="gras">
+     	<l>gras<s n="subst."/></l>
+     	<r>rääʹss</r>
+     </w>
+    </n>
+     <n v="gråte">
+      <w v="gråte">
+      	<l>gråte<s n="verb"/></l>
+      	<r>reäkkâd</r>
+      </w>
+     </n>
+     <n v="grønn">
+      <w v="grønn">
+      	<l>grønn<s n="adj."/></l>
+      	<r>ruânn, ruõnâs</r>
+      </w>
+      <w v="grønn">
+      	<l>grønn<s n="adj."/></l>
+      	<r>ruõnâs, ruânn</r>
+      </w>
+     </n>
+    <n v="gutt">
+     <w v="gutt">
+     	<l>gutt<s n="subst."/></l>
+     	<r>päʹrnn</r>
+     </w>
+    </n>
+            <n v="gudstjeneste">
+             <w v="gudstjeneste">
+             	<l>gudstjeneste<s n="subst."/></l>
+             	<r>sluuʹžb</r>
+             </w>
+            </n>
+   <n v="gul">
+    <w v="gul">
+    	<l>gul<s n="adj."/></l>
+    	<r>viskkâd</r>
+    </w>
+    <n v="gulv">
+     <w v="gulv">
+     	<l>gulv<s n="subst."/></l>
+     	<r>šâʹldd</r>
+     </w>
+    </n>
+   </n>
+  <n v="gå">
+   <w v="gå">
+   	<l>gå<s n="verb"/></l>
+   	<r>mõõnnâd, väʹʒʒed</r>
+   </w>
+   <w v="gå">
+   	<l>gå<s n="verb"/></l>
+   	<r>väʹʒʒed, mõõnnâd</r>
+   </w>
+           <n v="gå og hente">
+            <w v="gå og hente">
+            	<l>gå og hente<s n="verb"/></l>
+            	<r>viǯǯâd</r>
+            </w>
+           </n>
+          <n v="gårdsplass">
+           <w v="gårdsplass">
+           	<l>gårdsplass<s n="subst."/></l>
+           	<r>šellj</r>
+           </w>
+          </n>
+  </n>
+    <n v="høst">
+     <w v="høst">
+     	<l>høst<s n="subst."/></l>
+     	<r>čõhčč</r>
+     </w>
+    </n>
+    <n v="høre">
+     <w v="høre">
+     	<l>høre<s n="verb"/></l>
+     	<r>kuullâd</r>
+     </w>
+    </n>
+     <n v="høgre">
+      <w v="høgre">
+      	<l>høgre<s n="adj."/></l>
+      	<r>vuäʹljs-</r>
+      </w>
+     </n>
+   <n v="hit">
+    <w v="hit">
+    	<l>hit<s n="adv."/></l>
+    	<r>tiiʹǩ</r>
+    </w>
+   </n>
+     <n v="hilse">
+      <w v="hilse">
+      	<l>hilse<s n="verb"/></l>
+      	<r>tiõrvted</r>
+      </w>
+     </n>
+     <n v="hinne">
+      <w v="hinne">
+      	<l>hinne<s n="verb"/></l>
+      	<r>õsttâd</r>
+      </w>
+     </n>
+      <n v="himmel">
+       <w v="himmel">
+       	<l>himmel<s n="subst."/></l>
+       	<r>âʹlmm</r>
+       </w>
+      </n>
+    <n v="hjem">
+     <w v="hjem">
+     	<l>hjem<s n="adv."/></l>
+     	<r>domoi</r>
+     </w>
+    </n>
+      <n v="hjerte">
+       <w v="hjerte">
+       	<l>hjerte<s n="subst."/></l>
+       	<r>čââʹđ</r>
+       </w>
+      </n>
+    <n v="hjul">
+     <w v="hjul">
+     	<l>hjul<s n="subst."/></l>
+     	<r>kååʹlez</r>
+     </w>
+    </n>
+          <n v="holde fast">
+           <w v="holde fast">
+           	<l>holde fast<s n="verb"/></l>
+           	<r>tuõʹlˈlʼjed</r>
+           </w>
+          </n>
+    <n v="horn">
+     <w v="horn">
+     	<l>horn<s n="subst."/></l>
+     	<r>čuäʹrvv</r>
+     </w>
+    </n>
+    <n v="hode">
+     <w v="hode">
+     	<l>hode<s n="subst."/></l>
+     	<r>vueiʹvv</r>
+     </w>
+    </n>
+   <n v="hos">
+    <w v="hos">
+    	<l>hos<s n=""/></l>
+    	<r>åʹrnn</r>
+    </w>
+   </n>
+    <n v="hals">
+     <w v="hals">
+     	<l>hals<s n="subst."/></l>
+     	<r>čeäppat</r>
+     </w>
+    </n>
+    <n v="halv">
+     <w v="halv">
+     	<l>halv<s n="subst."/></l>
+     	<r>pieʹll</r>
+     </w>
+    </n>
+   <n v="han">
+    <w v="han">
+    	<l>han<s n=""/></l>
+    	<r>son</r>
+    </w>
+    <n v="hann">
+     <w v="hann">
+     	<l>hann<s n="subst."/></l>
+     	<r>ååʹres</r>
+     </w>
+    </n>
+    <n v="hand">
+     <w v="hand">
+     	<l>hand<s n="subst."/></l>
+     	<r>ǩiõtt</r>
+     </w>
+    </n>
+   </n>
+       <n v="ha lyst">
+        <w v="ha lyst">
+        	<l>ha lyst<s n="verb"/></l>
+        	<r>viiššâd</r>
+        </w>
+       </n>
+        <n v="ha diaré">
+         <w v="ha diaré">
+         	<l>ha diaré<s n="verb"/></l>
+         	<r>loojjted</r>
+         </w>
+        </n>
+    <n v="hard">
+     <w v="hard">
+     	<l>hard<s n="adj."/></l>
+     	<r>kõõrâs</r>
+     </w>
+    </n>
+     <n v="haste">
+      <w v="haste">
+      	<l>haste<s n="verb"/></l>
+      	<r>ǩiirted</r>
+      </w>
+     </n>
+   <n v="hav">
+    <w v="hav">
+    	<l>hav<s n="subst."/></l>
+    	<r>miârr</r>
+    </w>
+   </n>
+     <n v="hente">
+      <w v="hente">
+      	<l>hente<s n="verb"/></l>
+      	<r>ooccâd</r>
+      </w>
+     </n>
+   <n v="her">
+    <w v="her">
+    	<l>her<s n="adv."/></l>
+    	<r>tääiʹb, tääiʹben, täʹst, täʹst</r>
+    </w>
+    <w v="her">
+    	<l>her<s n="adv."/></l>
+    	<r>tääiʹben, tääiʹb, täʹst, täʹst</r>
+    </w>
+    <w v="her">
+    	<l>her<s n="adv."/></l>
+    	<r>täʹst, tääiʹb, tääiʹben</r>
+    </w>
+    <w v="her">
+    	<l>her<s n="adv."/></l>
+    	<r>täʹst, tääiʹb, tääiʹben</r>
+    </w>
+      <n v="herfra">
+       <w v="herfra">
+       	<l>herfra<s n="adv."/></l>
+       	<r>tääiʹb, tääiʹben</r>
+       </w>
+       <w v="herfra">
+       	<l>herfra<s n="adv."/></l>
+       	<r>tääiʹben, tääiʹb</r>
+       </w>
+      </n>
+       <n v="herifra">
+        <w v="herifra">
+        	<l>herifra<s n="adv."/></l>
+        	<r>täʹst</r>
+        </w>
+       </n>
+   </n>
+   <n v="het">
+    <w v="het">
+    	<l>het<s n="adj."/></l>
+    	<r>puõʹlˈli</r>
+    </w>
+   </n>
+   <n v="hei">
+    <w v="hei">
+    	<l>hei<s n=""/></l>
+    	<r>tiõrv</r>
+    </w>
+   </n>
+     <n v="helle">
+      <w v="helle">
+      	<l>helle<s n="verb"/></l>
+      	<r>väällad</r>
+      </w>
+     </n>
+    <n v="hund">
+     <w v="hund">
+     	<l>hund<s n="subst."/></l>
+     	<r>piânnai</r>
+     </w>
+    </n>
+   <n v="hud">
+    <w v="hud">
+    	<l>hud<s n="subst."/></l>
+    	<r>leʹšǩǩ</r>
+    </w>
+   </n>
+   <n v="hus">
+    <w v="hus">
+    	<l>hus<s n="subst."/></l>
+    	<r>põrtt</r>
+    </w>
+     <n v="huske">
+      <w v="huske">
+      	<l>huske<s n="verb"/></l>
+      	<r>muʹštted</r>
+      </w>
+     </n>
+   </n>
+   <n v="hår">
+    <w v="hår">
+    	<l>hår<s n="subst."/></l>
+    	<r>vuõptt</r>
+    </w>
+   </n>
+    <n v="hvor">
+     <w v="hvor">
+     	<l>hvor<s n="adv."/></l>
+     	<r>koozz, koʹst</r>
+     </w>
+     <w v="hvor">
+     	<l>hvor<s n="adv."/></l>
+     	<r>koʹst, koozz</r>
+     </w>
+       <n v="hvordan">
+        <w v="hvordan">
+        	<l>hvordan<s n="adv."/></l>
+        	<r>mäʹhtt</r>
+        </w>
+       </n>
+       <n v="hvorfor">
+        <w v="hvorfor">
+        	<l>hvorfor<s n="adv."/></l>
+        	<r>mõõzz, mõõn diõtt</r>
+        </w>
+        <w v="hvorfor">
+        	<l>hvorfor<s n="adv."/></l>
+        	<r>mõõn diõtt, mõõzz</r>
+        </w>
+       </n>
+        <n v="hvor fra">
+         <w v="hvor fra">
+         	<l>hvor fra<s n="adv."/></l>
+         	<r>koʹst</r>
+         </w>
+        </n>
+    </n>
+   <n v="hva">
+    <w v="hva">
+    	<l>hva<s n=""/></l>
+    	<r>mii</r>
+    </w>
+   </n>
+    <n v="hvem">
+     <w v="hvem">
+     	<l>hvem<s n=""/></l>
+     	<r>ǩii</r>
+     </w>
+    </n>
+    <n v="hvit">
+     <w v="hvit">
+     	<l>hvit<s n="adj."/></l>
+     	<r>viõlggâd</r>
+     </w>
+        <n v="hvitbrød">
+         <w v="hvitbrød">
+         	<l>hvitbrød<s n="subst."/></l>
+         	<r>viõʹlǧǧesleiʹbb</r>
+         </w>
+        </n>
+    </n>
+    <n v="hvis">
+     <w v="hvis">
+     	<l>hvis<s n="subj."/></l>
+     	<r>jos</r>
+     </w>
+    </n>
+    <n v="ikke">
+     <w v="ikke">
+     	<l>ikke<s n="adv."/></l>
+     	<r>ni</r>
+     </w>
+     <w v="ikke">
+     	<l>ikke<s n="part."/></l>
+     	<r>ij</r>
+     </w>
+           <n v="ikke heller">
+            <w v="ikke heller">
+            	<l>ikke heller<s n="adv."/></l>
+            	<r>ij-ǥa</r>
+            </w>
+           </n>
+        <n v="ikke noe">
+         <w v="ikke noe">
+         	<l>ikke noe<s n=""/></l>
+         	<r>ni mâiʹd</r>
+         </w>
+         <n v="ikke noen">
+          <w v="ikke noen">
+          	<l>ikke noen<s n=""/></l>
+          	<r>ni ǩeän</r>
+          </w>
+         </n>
+        </n>
+        <n v="ikke mer">
+         <w v="ikke mer">
+         	<l>ikke mer<s n="adv."/></l>
+         	<r>teänab</r>
+         </w>
+        </n>
+    </n>
+   <n v="ild">
+    <w v="ild">
+    	<l>ild<s n="subst."/></l>
+    	<r>toll</r>
+    </w>
+   </n>
+     <n v="imøte">
+      <w v="imøte">
+      	<l>imøte<s n=""/></l>
+      	<r>ouddâl</r>
+      </w>
+     </n>
+        <n v="invitere">
+         <w v="invitere">
+         	<l>invitere<s n="verb"/></l>
+         	<r>kåččad</r>
+         </w>
+        </n>
+   <n v="inn">
+    <w v="inn">
+    	<l>inn<s n="adv."/></l>
+    	<r>sizz</r>
+    </w>
+    <n v="inne">
+     <w v="inne">
+     	<l>inne<s n="adv."/></l>
+     	<r>seʹst</r>
+     </w>
+    </n>
+   </n>
+        <n v="i morgen">
+         <w v="i morgen">
+         	<l>i morgen<s n="adv."/></l>
+         	<r>jâđđa</r>
+         </w>
+        </n>
+            <n v="i begynnelse">
+             <w v="i begynnelse">
+             	<l>i begynnelse<s n="adv."/></l>
+             	<r>vuõššân</r>
+             </w>
+            </n>
+     <n v="i dag">
+      <w v="i dag">
+      	<l>i dag<s n="adv."/></l>
+      	<r>täʹbbe</r>
+      </w>
+     </n>
+  <n v="is">
+   <w v="is">
+   	<l>is<s n="subst."/></l>
+   	<r>jiõŋŋ</r>
+   </w>
+  </n>
+    <n v="igår">
+     <w v="igår">
+     	<l>igår<s n="adv."/></l>
+     	<r>jåhtta</r>
+     </w>
+    </n>
+     <n v="igjen">
+      <w v="igjen">
+      	<l>igjen<s n="adv."/></l>
+      	<r>eʹpet</r>
+      </w>
+     </n>
+      <n v="jo, da">
+       <w v="jo, da">
+       	<l>jo, da<s n="part."/></l>
+       	<r>-tâma</r>
+       </w>
+      </n>
+    <n v="jord">
+     <w v="jord">
+     	<l>jord<s n="subst."/></l>
+     	<r>jânnam</r>
+     </w>
+    </n>
+  <n v="ja">
+   <w v="ja">
+   	<l>ja<s n=""/></l>
+   	<r>kâʹl, tuõtt</r>
+   </w>
+   <w v="ja">
+   	<l>ja<s n=""/></l>
+   	<r>tuõtt, kâʹl</r>
+   </w>
+    <n v="jage">
+     <w v="jage">
+     	<l>jage<s n="verb"/></l>
+     	<r>miẹʹcsted</r>
+     </w>
+              <n v="jage med lasso">
+               <w v="jage med lasso">
+               	<l>jage med lasso<s n="verb"/></l>
+               	<r>njuärsted</r>
+               </w>
+              </n>
+    </n>
+     <n v="jakke">
+      <w v="jakke">
+      	<l>jakke<s n="subst."/></l>
+      	<r>kähttan</r>
+      </w>
+     </n>
+  </n>
+     <n v="jente">
+      <w v="jente">
+      	<l>jente<s n="subst."/></l>
+      	<r>nijdd</r>
+      </w>
+     </n>
+    <n v="jevn">
+     <w v="jevn">
+     	<l>jevn<s n="adj."/></l>
+     	<r>lääʹttes</r>
+     </w>
+    </n>
+    <n v="jeep">
+     <w v="jeep">
+     	<l>jeep<s n="subst."/></l>
+     	<r>luâđastvuejjamautt</r>
+     </w>
+    </n>
+   <n v="jeg">
+    <w v="jeg">
+    	<l>jeg<s n=""/></l>
+    	<r>mon</r>
+    </w>
+   </n>
+   <n v="jur">
+    <w v="jur">
+    	<l>jur<s n="subst."/></l>
+    	<r>ruʹhss</r>
+    </w>
+   </n>
+      <n v="klatre">
+       <w v="klatre">
+       	<l>klatre<s n="verb"/></l>
+       	<r>kuärŋŋad</r>
+       </w>
+      </n>
+      <n v="kløyve">
+       <w v="kløyve">
+       	<l>kløyve<s n="verb"/></l>
+       	<r>luõʹdˈdjed</r>
+       </w>
+      </n>
+   <n v="kne">
+    <w v="kne">
+    	<l>kne<s n="subst."/></l>
+    	<r>puõlvv</r>
+    </w>
+   </n>
+    <n v="kokk">
+     <w v="kokk">
+     	<l>kokk<s n="subst."/></l>
+     	<r>pävvar</r>
+     </w>
+    </n>
+    <n v="koke">
+     <w v="koke">
+     	<l>koke<s n="verb"/></l>
+     	<r>ǩeʹtted</r>
+     </w>
+    </n>
+     <n v="komme">
+      <w v="komme">
+      	<l>komme<s n="verb"/></l>
+      	<r>pueʹtted</r>
+      </w>
+     </n>
+    <n v="kone">
+     <w v="kone">
+     	<l>kone<s n="subst."/></l>
+     	<r>kaav</r>
+     </w>
+    </n>
+    <n v="kopp">
+     <w v="kopp">
+     	<l>kopp<s n="subst."/></l>
+     	<r>kopp</r>
+     </w>
+    </n>
+    <n v="kort">
+     <w v="kort">
+     	<l>kort<s n="adj."/></l>
+     	<r>vuäʹniǩ</r>
+     </w>
+    </n>
+     <n v="kaffe">
+      <w v="kaffe">
+      	<l>kaffe<s n="subst."/></l>
+      	<r>kaaʹff</r>
+      </w>
+         <n v="kaffebord">
+          <w v="kaffebord">
+          	<l>kaffebord<s n="subst."/></l>
+          	<r>kaaʹffpåʹrdd</r>
+          </w>
+         </n>
+     </n>
+    <n v="kalv">
+     <w v="kalv">
+     	<l>kalv<s n="subst."/></l>
+     	<r>vueʹss</r>
+     </w>
+    </n>
+    <n v="kall">
+     <w v="kall">
+     	<l>kall<s n="adj."/></l>
+     	<r>čuẹʹcǩes</r>
+     </w>
+    </n>
+    <n v="kald">
+     <w v="kald">
+     	<l>kald<s n="adj."/></l>
+     	<r>kõõumâs</r>
+     </w>
+    </n>
+     <n v="kaste">
+      <w v="kaste">
+      	<l>kaste<s n="verb"/></l>
+      	<r>laʹǧǧsted, vueʹlǧǧeed</r>
+      </w>
+      <w v="kaste">
+      	<l>kaste<s n="verb"/></l>
+      	<r>vueʹlǧǧeed, laʹǧǧsted</r>
+      </w>
+         <n v="kaste opp">
+          <w v="kaste opp">
+          	<l>kaste opp<s n="verb"/></l>
+          	<r>vueʹhssed</r>
+          </w>
+         </n>
+         <n v="kaste ned">
+          <w v="kaste ned">
+          	<l>kaste ned<s n="verb"/></l>
+          	<r>ponjsted</r>
+          </w>
+         </n>
+     </n>
+    <n v="katt">
+     <w v="katt">
+     	<l>katt<s n="subst."/></l>
+     	<r>kaass</r>
+     </w>
+    </n>
+       <n v="kringle">
+        <w v="kringle">
+        	<l>kringle<s n="subst."/></l>
+        	<r>kuäʹlˈlec</r>
+        </w>
+       </n>
+     <n v="krone">
+      <w v="krone">
+      	<l>krone<s n="subst."/></l>
+      	<r>mäʹrǩǩ</r>
+      </w>
+     </n>
+  <n v="ku">
+   <w v="ku">
+   	<l>ku<s n="subst."/></l>
+   	<r>kuss</r>
+   </w>
+     <n v="kunne">
+      <w v="kunne">
+      	<l>kunne<s n="verb"/></l>
+      	<r>siltteed, vueiʹtted</r>
+      </w>
+      <w v="kunne">
+      	<l>kunne<s n="verb"/></l>
+      	<r>vueiʹtted, siltteed</r>
+      </w>
+     </n>
+  </n>
+     <n v="kvass">
+      <w v="kvass">
+      	<l>kvass<s n="adj."/></l>
+      	<r>pâʹsttel</r>
+      </w>
+     </n>
+     <n v="kveld">
+      <w v="kveld">
+      	<l>kveld<s n="subst."/></l>
+      	<r>jeäʹǩǩääž</r>
+      </w>
+     </n>
+      <n v="kveste">
+       <w v="kveste">
+       	<l>kveste<s n="verb"/></l>
+       	<r>täävvad</r>
+       </w>
+      </n>
+      <n v="kvinne">
+       <w v="kvinne">
+       	<l>kvinne<s n="subst."/></l>
+       	<r>neezzan</r>
+       </w>
+      </n>
+     <n v="kvist">
+      <w v="kvist">
+      	<l>kvist<s n="subst."/></l>
+      	<r>tõõŋâs</r>
+      </w>
+     </n>
+     <n v="kirke">
+      <w v="kirke">
+      	<l>kirke<s n="subst."/></l>
+      	<r>ceerkav</r>
+      </w>
+     </n>
+      <n v="kjempe">
+       <w v="kjempe">
+       	<l>kjempe<s n="verb"/></l>
+       	<r>tuärrad</r>
+       </w>
+      </n>
+     <n v="kjepp">
+      <w v="kjepp">
+      	<l>kjepp<s n="subst."/></l>
+      	<r>säʹǧǧ</r>
+      </w>
+     </n>
+        <n v="kjerring">
+         <w v="kjerring">
+         	<l>kjerring<s n="subst."/></l>
+         	<r>äʹǩǩ</r>
+         </w>
+        </n>
+       <n v="kjøkken">
+        <w v="kjøkken">
+        	<l>kjøkken<s n="subst."/></l>
+        	<r>ǩeʹttempõrtt</r>
+        </w>
+       </n>
+     <n v="kjøpe">
+      <w v="kjøpe">
+      	<l>kjøpe<s n="verb"/></l>
+      	<r>vuäʹstted</r>
+      </w>
+     </n>
+     <n v="kjøtt">
+      <w v="kjøtt">
+      	<l>kjøtt<s n="subst."/></l>
+      	<r>vuäʹǯˈǯ</r>
+      </w>
+          <n v="kjøttsuppe">
+           <w v="kjøttsuppe">
+           	<l>kjøttsuppe<s n="subst."/></l>
+           	<r>vuäʹǯˈǯveärr</r>
+           </w>
+          </n>
+     </n>
+     <n v="kjøre">
+      <w v="kjøre">
+      	<l>kjøre<s n="verb"/></l>
+      	<r>vuejjad, vuẹjjad</r>
+      </w>
+      <w v="kjøre">
+      	<l>kjøre<s n="verb"/></l>
+      	<r>vuẹjjad, vuejjad</r>
+      </w>
+     </n>
+     <n v="lavvo">
+      <w v="lavvo">
+      	<l>lavvo<s n="subst."/></l>
+      	<r>kååvas</r>
+      </w>
+     </n>
+        <n v="lage lyd">
+         <w v="lage lyd">
+         	<l>lage lyd<s n="verb"/></l>
+         	<r>preuggad</r>
+         </w>
+        </n>
+     <n v="lagre">
+      <w v="lagre">
+      	<l>lagre<s n="verb"/></l>
+      	<r>raajjâd</r>
+      </w>
+     </n>
+    <n v="laks">
+     <w v="laks">
+     	<l>laks<s n="subst."/></l>
+     	<r>luõss</r>
+     </w>
+             <n v="laksestengsel">
+              <w v="laksestengsel">
+              	<l>laksestengsel<s n="subst."/></l>
+              	<r>zääbbar</r>
+              </w>
+             </n>
+    </n>
+    <n v="lang">
+     <w v="lang">
+     	<l>lang<s n="adj."/></l>
+     	<r>kuʹǩǩ</r>
+     </w>
+     <n v="langt">
+      <w v="langt">
+      	<l>langt<s n="adv."/></l>
+      	<r>kuʹǩǩen</r>
+      </w>
+     </n>
+        <n v="lang tid">
+         <w v="lang tid">
+         	<l>lang tid<s n="adv."/></l>
+         	<r>kuuʹǩǩ</r>
+         </w>
+        </n>
+    </n>
+  <n v="le">
+   <w v="le">
+   	<l>le<s n="verb"/></l>
+   	<r>påǥsted, ruâkksed</r>
+   </w>
+   <w v="le">
+   	<l>le<s n="verb"/></l>
+   	<r>ruâkksed, påǥsted</r>
+   </w>
+    <n v="leir">
+     <w v="leir">
+     	<l>leir<s n="subst."/></l>
+     	<r>ǩeâmpp</r>
+     </w>
+    </n>
+     <n v="leike">
+      <w v="leike">
+      	<l>leike<s n="verb"/></l>
+      	<r>siõrrâd</r>
+      </w>
+     </n>
+     <n v="lekke">
+      <w v="lekke">
+      	<l>lekke<s n="verb"/></l>
+      	<r>âʹvveed</r>
+      </w>
+     </n>
+    <n v="leve">
+     <w v="leve">
+     	<l>leve<s n="verb"/></l>
+     	<r>jiẹʹlled, jälsted</r>
+     </w>
+     <n v="lever">
+      <w v="lever">
+      	<l>lever<s n="subst."/></l>
+      	<r>vuõivâs</r>
+      </w>
+     </n>
+    </n>
+    <n v="lege">
+     <w v="lege">
+     	<l>lege<s n="subst."/></l>
+     	<r>dåhttar</r>
+     </w>
+    </n>
+  </n>
+    <n v="lukt">
+     <w v="lukt">
+     	<l>lukt<s n="subst."/></l>
+     	<r>õpss</r>
+     </w>
+     <n v="lukte">
+      <w v="lukte">
+      	<l>lukte<s n="verb"/></l>
+      	<r>âʹpssed</r>
+      </w>
+      <w v="lukte">
+      	<l>lukte<s n="verb"/></l>
+      	<r>âʹpssed</r>
+      </w>
+     </n>
+    </n>
+   <n v="lus">
+    <w v="lus">
+    	<l>lus<s n="subst."/></l>
+    	<r>teʹǩǩ</r>
+    </w>
+   </n>
+   <n v="lår">
+    <w v="lår">
+    	<l>lår<s n="subst."/></l>
+    	<r>čeʹbb</r>
+    </w>
+   </n>
+      <n v="lørdag">
+       <w v="lørdag">
+       	<l>lørdag<s n="subst."/></l>
+       	<r>sueʹvet</r>
+       </w>
+      </n>
+     <n v="liten">
+      <w v="liten">
+      	<l>liten<s n="adj."/></l>
+      	<r>occkaž, siõm, smaavâs, uʹcc, siõmm</r>
+      </w>
+      <w v="liten">
+      	<l>liten<s n="adj."/></l>
+      	<r>siõm, occkaž, smaavâs, uʹcc, siõmm</r>
+      </w>
+      <w v="liten">
+      	<l>liten<s n="adj."/></l>
+      	<r>smaavâs, occkaž, siõm, uʹcc, siõmm</r>
+      </w>
+      <w v="liten">
+      	<l>liten<s n="adj."/></l>
+      	<r>uʹcc, occkaž, siõm, smaavâs, siõmm</r>
+      </w>
+      <w v="liten">
+      	<l>liten<s n="adj."/></l>
+      	<r>siõmm, occkaž, siõm, smaavâs, uʹcc</r>
+      </w>
+     </n>
+     <n v="ligge">
+      <w v="ligge">
+      	<l>ligge<s n="verb"/></l>
+      	<r>liâššâd</r>
+      </w>
+         <n v="ligge ner">
+          <w v="ligge ner">
+          	<l>ligge ner<s n="verb"/></l>
+          	<r>lieʹnˈnjsted</r>
+          </w>
+         </n>
+     </n>
+   <n v="lyd">
+    <w v="lyd">
+    	<l>lyd<s n="subst."/></l>
+    	<r>jiõnn</r>
+    </w>
+   </n>
+   <n v="mor">
+    <w v="mor">
+    	<l>mor<s n="subst."/></l>
+    	<r>jeäʹnˈn, jieʹnn</r>
+    </w>
+    <w v="mor">
+    	<l>mor<s n="subst."/></l>
+    	<r>jieʹnn, jeäʹnˈn</r>
+    </w>
+      <n v="morgon">
+       <w v="morgon">
+       	<l>morgon<s n="subst."/></l>
+       	<r>tueʹlääž</r>
+       </w>
+      </n>
+      <n v="morken">
+       <w v="morken">
+       	<l>morken<s n="adj."/></l>
+       	<r>läähh</r>
+       </w>
+      </n>
+   </n>
+    <n v="maur">
+     <w v="maur">
+     	<l>maur<s n="subst."/></l>
+     	<r>kotkk</r>
+     </w>
+    </n>
+   <n v="mat">
+    <w v="mat">
+    	<l>mat<s n="subst."/></l>
+    	<r>porrmõš</r>
+    </w>
+   </n>
+    <n v="mage">
+     <w v="mage">
+     	<l>mage<s n="subst."/></l>
+     	<r>čåuʹjj</r>
+     </w>
+    </n>
+    <n v="male">
+     <w v="male">
+     	<l>male<s n="verb"/></l>
+     	<r>maaʹlˈjed</r>
+     </w>
+    </n>
+    <n v="mann">
+     <w v="mann">
+     	<l>mann<s n="subst."/></l>
+     	<r>ooumaž, åål, åålmai</r>
+     </w>
+     <w v="mann">
+     	<l>mann<s n="subst."/></l>
+     	<r>åål, ooumaž, åålmai</r>
+     </w>
+     <w v="mann">
+     	<l>mann<s n="subst."/></l>
+     	<r>åålmai, ooumaž, åål</r>
+     </w>
+    </n>
+      <n v="mandag">
+       <w v="mandag">
+       	<l>mandag<s n="subst."/></l>
+       	<r>vuõsˈsargg</r>
+       </w>
+      </n>
+     <n v="mange">
+      <w v="mange">
+      	<l>mange<s n="adj."/></l>
+      	<r>jiânnai</r>
+      </w>
+      <w v="mange">
+      	<l>mange<s n="num."/></l>
+      	<r>mäŋgg</r>
+      </w>
+     </n>
+       <n v="markere">
+        <w v="markere">
+        	<l>markere<s n="verb"/></l>
+        	<r>meärkkad</r>
+        </w>
+       </n>
+    <n v="meis">
+     <w v="meis">
+     	<l>meis<s n="subst."/></l>
+     	<r>ceeʒʒaž</r>
+     </w>
+    </n>
+    <n v="melk">
+     <w v="melk">
+     	<l>melk<s n="subst."/></l>
+     	<r>mieʹlǩǩ</r>
+     </w>
+    </n>
+   <n v="men">
+    <w v="men">
+    	<l>men<s n="konj."/></l>
+    	<r>a</r>
+    </w>
+        <n v="menneske">
+         <w v="menneske">
+         	<l>menneske<s n="subst."/></l>
+         	<r>õummooumaž</r>
+         </w>
+        </n>
+   </n>
+   <n v="mer">
+    <w v="mer">
+    	<l>mer<s n="adv."/></l>
+    	<r>võl, jäänab</r>
+    </w>
+    <w v="mer">
+    	<l>mer<s n="adv."/></l>
+    	<r>jäänab, võl</r>
+    </w>
+     <n v="merke">
+      <w v="merke">
+      	<l>merke<s n="subst."/></l>
+      	<r>miârkk</r>
+      </w>
+     </n>
+   </n>
+   <n v="med">
+    <w v="med">
+    	<l>med<s n=""/></l>
+    	<r>mieʹldd</r>
+    </w>
+             <n v="med fire hjul">
+              <w v="med fire hjul">
+              	<l>med fire hjul<s n=""/></l>
+              	<r>neellji kååʹlzivuiʹm</r>
+              </w>
+             </n>
+         <n v="med tiden">
+          <w v="med tiden">
+          	<l>med tiden<s n=""/></l>
+          	<r>ääiʹj ǩeeʹjjest</r>
+          </w>
+         </n>
+       <n v="medisin">
+        <w v="medisin">
+        	<l>medisin<s n="subst."/></l>
+        	<r>taalkâs</r>
+        </w>
+       </n>
+   </n>
+        <n v="multebær">
+         <w v="multebær">
+         	<l>multebær<s n="subst."/></l>
+         	<r>lueʹm</r>
+         </w>
+        </n>
+    <n v="munn">
+     <w v="munn">
+     	<l>munn<s n="subst."/></l>
+     	<r>njäʹlmm</r>
+     </w>
+    </n>
+    <n v="måne">
+     <w v="måne">
+     	<l>måne<s n="subst."/></l>
+     	<r>mään</r>
+     </w>
+    </n>
+     <n v="månad">
+      <w v="månad">
+      	<l>månad<s n="subst."/></l>
+      	<r>mään</r>
+      </w>
+     </n>
+   <n v="mye">
+    <w v="mye">
+    	<l>mye<s n="adv."/></l>
+    	<r>jiânnai, sami, čuuʹt</r>
+    </w>
+    <w v="mye">
+    	<l>mye<s n="adv."/></l>
+    	<r>sami, jiânnai, čuuʹt</r>
+    </w>
+    <w v="mye">
+    	<l>mye<s n="adv."/></l>
+    	<r>čuuʹt, jiânnai, sami</r>
+    </w>
+   </n>
+            <n v="mjukhetstegn">
+             <w v="mjukhetstegn">
+             	<l>mjukhetstegn<s n="subst."/></l>
+             	<r>teeʹmestiõtt</r>
+             </w>
+            </n>
+            <n v="nordfirfisle">
+             <w v="nordfirfisle">
+             	<l>nordfirfisle<s n="subst."/></l>
+             	<r>smäʹtt</r>
+             </w>
+            </n>
+         <n v="noensteds">
+          <w v="noensteds">
+          	<l>noensteds<s n="adv."/></l>
+          	<r>koʹst-ne</r>
+          </w>
+         </n>
+    <n v="natt">
+     <w v="natt">
+     	<l>natt<s n="subst."/></l>
+     	<r>inn</r>
+     </w>
+    </n>
+    <n v="navn">
+     <w v="navn">
+     	<l>navn<s n="subst."/></l>
+     	<r>nõmm</r>
+     </w>
+    </n>
+     <n v="navle">
+      <w v="navle">
+      	<l>navle<s n="subst."/></l>
+      	<r>nääʹpp</r>
+      </w>
+     </n>
+     <n v="nakke">
+      <w v="nakke">
+      	<l>nakke<s n="subst."/></l>
+      	<r>njiʹšǩǩmaadd</r>
+      </w>
+     </n>
+    <n v="negl">
+     <w v="negl">
+     	<l>negl<s n="subst."/></l>
+     	<r>kõʒʒ</r>
+     </w>
+    </n>
+   <n v="ned">
+    <w v="ned">
+    	<l>ned<s n="adv."/></l>
+    	<r>vuâlla</r>
+    </w>
+   </n>
+   <n v="nes">
+    <w v="nes">
+    	<l>nes<s n="subst."/></l>
+    	<r>njarǥǥ</r>
+    </w>
+    <n v="nese">
+     <w v="nese">
+     	<l>nese<s n="subst."/></l>
+     	<r>njuuʹnn</r>
+     </w>
+    </n>
+   </n>
+  <n v="nå">
+   <w v="nå">
+   	<l>nå<s n="adv."/></l>
+   	<r>ååʹn</r>
+   </w>
+   <w v="nå">
+   	<l>nå<s n="verb"/></l>
+   	<r>piâssâd</r>
+   </w>
+   <n v="når">
+    <w v="når">
+    	<l>når<s n="adv."/></l>
+    	<r>kuäʹss</r>
+    </w>
+   </n>
+  </n>
+      <n v="nummer">
+       <w v="nummer">
+       	<l>nummer<s n="subst."/></l>
+       	<r>nââmar</r>
+       </w>
+      </n>
+   <n v="nær">
+    <w v="nær">
+    	<l>nær<s n="adv."/></l>
+    	<r>luʹnn</r>
+    </w>
+   </n>
+  <n v="ny">
+   <w v="ny">
+   	<l>ny<s n="adj."/></l>
+   	<r>oođâs</r>
+   </w>
+  </n>
+   <n v="orm">
+    <w v="orm">
+    	<l>orm<s n="subst."/></l>
+    	<r>kuʹvdd</r>
+    </w>
+   </n>
+       <n v="oransje">
+        <w v="oransje">
+        	<l>oransje<s n="adj."/></l>
+        	<r>maʹlinovi ruõpssâd</r>
+        </w>
+       </n>
+    <n v="ofte">
+     <w v="ofte">
+     	<l>ofte<s n="adv."/></l>
+     	<r>täujja</r>
+     </w>
+    </n>
+  <n v="og">
+   <w v="og">
+   	<l>og<s n="konj."/></l>
+   	<r>da, ja</r>
+   </w>
+   <w v="og">
+   	<l>og<s n="konj."/></l>
+   	<r>ja, da</r>
+   </w>
+    <n v="også">
+     <w v="også">
+     	<l>også<s n="part."/></l>
+     	<r>še</r>
+     </w>
+    </n>
+  </n>
+         <n v="omgivelse">
+          <w v="omgivelse">
+          	<l>omgivelse<s n="subst."/></l>
+          	<r>pirrõs</r>
+          </w>
+         </n>
+   <n v="ond">
+    <w v="ond">
+    	<l>ond<s n="adj."/></l>
+    	<r>vâjjeei</r>
+    </w>
+   </n>
+     <n v="onkel">
+      <w v="onkel">
+      	<l>onkel<s n="subst."/></l>
+      	<r>jieʹǩǩ, jään, čieʹcc</r>
+      </w>
+      <w v="onkel">
+      	<l>onkel<s n="subst."/></l>
+      	<r>jään, jieʹǩǩ, čieʹcc</r>
+      </w>
+      <w v="onkel">
+      	<l>onkel<s n="subst."/></l>
+      	<r>čieʹcc, jieʹǩǩ, jään</r>
+      </w>
+     </n>
+      <n v="presse">
+       <w v="presse">
+       	<l>presse<s n="verb"/></l>
+       	<r>čärvvad</r>
+       </w>
+      </n>
+     <n v="prøve">
+      <w v="prøve">
+      	<l>prøve<s n="verb"/></l>
+      	<r>ǩiččlõddâd</r>
+      </w>
+     </n>
+  <n v="på">
+   <w v="på">
+   	<l>på<s n=""/></l>
+   	<r>âʹlnn</r>
+   </w>
+  </n>
+    <n v="pels">
+     <w v="pels">
+     	<l>pels<s n="subst."/></l>
+     	<r>sõõus</r>
+     </w>
+    </n>
+      <n v="person">
+       <w v="person">
+       	<l>person<s n="subst."/></l>
+       	<r>ooumaž, åål, åålmai</r>
+       </w>
+       <w v="person">
+       	<l>person<s n="subst."/></l>
+       	<r>åål, ooumaž, åålmai</r>
+       </w>
+       <w v="person">
+       	<l>person<s n="subst."/></l>
+       	<r>åålmai, ooumaž, åål</r>
+       </w>
+      </n>
+     <n v="plagg">
+      <w v="plagg">
+      	<l>plagg<s n="subst."/></l>
+      	<r>piiutâs</r>
+      </w>
+     </n>
+     <n v="plass">
+      <w v="plass">
+      	<l>plass<s n="subst."/></l>
+      	<r>päiʹǩǩ</r>
+      </w>
+     </n>
+     <n v="potet">
+      <w v="potet">
+      	<l>potet<s n="subst."/></l>
+      	<r>pååʹttaǩ</r>
+      </w>
+     </n>
+      <n v="russer">
+       <w v="russer">
+       	<l>russer<s n="subst."/></l>
+       	<r>ruõšˈšlaž</r>
+       </w>
+      </n>
+    <n v="rund">
+     <w v="rund">
+     	<l>rund<s n="adj."/></l>
+     	<r>joorbâs</r>
+     </w>
+             <n v="rundt omkring">
+              <w v="rundt omkring">
+              	<l>rundt omkring<s n=""/></l>
+              	<r>pirr</r>
+              </w>
+             </n>
+    </n>
+      <n v="råtten">
+       <w v="råtten">
+       	<l>råtten<s n="adj."/></l>
+       	<r>kuõcc</r>
+       </w>
+      </n>
+    <n v="rett">
+     <w v="rett">
+     	<l>rett<s n="adj."/></l>
+     	<r>vuõiggâd</r>
+     </w>
+     <w v="rett">
+     	<l>rett<s n="subst."/></l>
+     	<r>tuõtt</r>
+     </w>
+    </n>
+    <n v="regn">
+     <w v="regn">
+     	<l>regn<s n="subst."/></l>
+     	<r>âʹbrr</r>
+     </w>
+     <n v="regne">
+      <w v="regne">
+      	<l>regne<s n="verb"/></l>
+      	<r>rekknâʹstted</r>
+      </w>
+     </n>
+    </n>
+     <n v="reise">
+      <w v="reise">
+      	<l>reise<s n="subst."/></l>
+      	<r>mäʹtǩǩ</r>
+      </w>
+     </n>
+        <n v="reineier">
+         <w v="reineier">
+         	<l>reineier<s n="subst."/></l>
+         	<r>puäʒʒooumaž, puäʒʒoummu</r>
+         </w>
+         <w v="reineier">
+         	<l>reineier<s n="subst."/></l>
+         	<r>puäʒʒoummu, puäʒʒooumaž</r>
+         </w>
+        </n>
+         <n v="reindrift">
+          <w v="reindrift">
+          	<l>reindrift<s n="subst."/></l>
+          	<r>puäʒʒhåmm</r>
+          </w>
+         </n>
+        <n v="reinsdyr">
+         <w v="reinsdyr">
+         	<l>reinsdyr<s n="subst."/></l>
+         	<r>puäʒʒ</r>
+         </w>
+        </n>
+           <n v="reinsamling">
+            <w v="reinsamling">
+            	<l>reinsamling<s n="subst."/></l>
+            	<r>pikalõs</r>
+            </w>
+                  <n v="reinsamlingsstelle">
+                   <w v="reinsamlingsstelle">
+                   	<l>reinsamlingsstelle<s n="subst."/></l>
+                   	<r>pikalõspäiʹǩǩ</r>
+                   </w>
+                  </n>
+                  <n v="reinsamlingsgjerde">
+                   <w v="reinsamlingsgjerde">
+                   	<l>reinsamlingsgjerde<s n="subst."/></l>
+                   	<r>pikalõsäiʹdd</r>
+                   </w>
+                  </n>
+           </n>
+    <n v="røyk">
+     <w v="røyk">
+     	<l>røyk<s n="subst."/></l>
+     	<r>suõvv</r>
+     </w>
+    </n>
+   <n v="rød">
+    <w v="rød">
+    	<l>rød<s n="adj."/></l>
+    	<r>ruõpssâd</r>
+    </w>
+     <n v="rødme">
+      <w v="rødme">
+      	<l>rødme<s n="verb"/></l>
+      	<r>ruâpseed</r>
+      </w>
+     </n>
+   </n>
+    <n v="rygg">
+     <w v="rygg">
+     	<l>rygg<s n="subst."/></l>
+     	<r>seäʹlǧǧ</r>
+     </w>
+       <n v="ryggrad">
+        <w v="ryggrad">
+        	<l>ryggrad<s n="subst."/></l>
+        	<r>čiõʹlj</r>
+        </w>
+       </n>
+    </n>
+     <n v="ringe">
+      <w v="ringe">
+      	<l>ringe<s n="verb"/></l>
+      	<r>soiʹttjed</r>
+      </w>
+     </n>
+    <n v="rive">
+     <w v="rive">
+     	<l>rive<s n="verb"/></l>
+     	<r>ruõtˈtâd</r>
+     </w>
+    </n>
+  <n v="ro">
+   <w v="ro">
+   	<l>ro<s n="verb"/></l>
+   	<r>suukkâd</r>
+   </w>
+   <n v="rom">
+    <w v="rom">
+    	<l>rom<s n="subst."/></l>
+    	<r>lõnnj</r>
+    </w>
+   </n>
+   <n v="rot">
+    <w v="rot">
+    	<l>rot<s n="subst."/></l>
+    	<r>vuẹʹddes</r>
+    </w>
+   </n>
+  </n>
+     <n v="raskt">
+      <w v="raskt">
+      	<l>raskt<s n="adv."/></l>
+      	<r>jåʹttlõnji</r>
+      </w>
+     </n>
+    <n v="rase">
+     <w v="rase">
+     	<l>rase<s n="verb"/></l>
+     	<r>tiârrâd</r>
+     </w>
+    </n>
+   <n v="rak">
+    <w v="rak">
+    	<l>rak<s n="adj."/></l>
+    	<r>vuõiggâd</r>
+    </w>
+   </n>
+       <n v="strømme">
+        <w v="strømme">
+        	<l>strømme<s n="verb"/></l>
+        	<r>kolggâd</r>
+        </w>
+       </n>
+      <n v="straks">
+       <w v="straks">
+       	<l>straks<s n="adv."/></l>
+       	<r>sõrgg</r>
+       </w>
+      </n>
+       <n v="strikke">
+        <w v="strikke">
+        	<l>strikke<s n="verb"/></l>
+        	<r>kuärrad</r>
+        </w>
+       </n>
+    <n v="stue">
+     <w v="stue">
+     	<l>stue<s n="subst."/></l>
+     	<r>jälstemlõnnj</r>
+     </w>
+    </n>
+           <n v="stekt kjøtt">
+            <w v="stekt kjøtt">
+            	<l>stekt kjøtt<s n="subst."/></l>
+            	<r>ǩeäʹrstõs</r>
+            </w>
+           </n>
+     <n v="stein">
+      <w v="stein">
+      	<l>stein<s n="subst."/></l>
+      	<r>ǩeäʹdǧǧ</r>
+      </w>
+     </n>
+      <n v="steike">
+       <w v="steike">
+       	<l>steike<s n="verb"/></l>
+       	<r>päʹštted</r>
+       </w>
+      </n>
+          <n v="stearinlys">
+           <w v="stearinlys">
+           	<l>stearinlys<s n="subst."/></l>
+           	<r>tuõvâs</r>
+           </w>
+          </n>
+   <n v="stå">
+    <w v="stå">
+    	<l>stå<s n="verb"/></l>
+    	<r>čuẹǯʼǯad</r>
+    </w>
+   </n>
+    <n v="støv">
+     <w v="støv">
+     	<l>støv<s n="subst."/></l>
+     	<r>põõʹl</r>
+     </w>
+    </n>
+       <n v="stjerne">
+        <w v="stjerne">
+        	<l>stjerne<s n="subst."/></l>
+        	<r>täʹsnn</r>
+        </w>
+       </n>
+      <n v="stikke">
+       <w v="stikke">
+       	<l>stikke<s n="verb"/></l>
+       	<r>čuõʹǧǧeed</r>
+       </w>
+      </n>
+    <n v="stig">
+     <w v="stig">
+     	<l>stig<s n="subst."/></l>
+     	<r>pääʹljes</r>
+     </w>
+    </n>
+    <n v="stor">
+     <w v="stor">
+     	<l>stor<s n="adj."/></l>
+     	<r>šurr, jõnn</r>
+     </w>
+    </n>
+      <n v="stoppe">
+       <w v="stoppe">
+       	<l>stoppe<s n="verb"/></l>
+       	<r>årsted</r>
+       </w>
+      </n>
+    <n v="stol">
+     <w v="stol">
+     	<l>stol<s n="subst."/></l>
+     	<r>stuuʹl</r>
+     </w>
+    </n>
+     <n v="stokk">
+      <w v="stokk">
+      	<l>stokk<s n="subst."/></l>
+      	<r>suäʹbˈb</r>
+      </w>
+     </n>
+    <n v="suge">
+     <w v="suge">
+     	<l>suge<s n="verb"/></l>
+     	<r>njiimmâd</r>
+     </w>
+    </n>
+    <n v="sunt">
+     <w v="sunt">
+     	<l>sunt<s n="adv."/></l>
+     	<r>tiõrvân</r>
+     </w>
+    </n>
+     <n v="suppe">
+      <w v="suppe">
+      	<l>suppe<s n="subst."/></l>
+      	<r>veärr</r>
+      </w>
+     </n>
+      <n v="svulme">
+       <w v="svulme">
+       	<l>svulme<s n="verb"/></l>
+       	<r>pååssad</r>
+       </w>
+      </n>
+      <n v="svømme">
+       <w v="svømme">
+       	<l>svømme<s n="subst."/></l>
+       	<r>kåbllad</r>
+       </w>
+       <w v="svømme">
+       	<l>svømme<s n="verb"/></l>
+       	<r>vuõjjâd</r>
+       </w>
+       <w v="svømme">
+       	<l>svømme<s n="verb"/></l>
+       	<r>vuõjjâd</r>
+       </w>
+      </n>
+     <n v="svare">
+      <w v="svare">
+      	<l>svare<s n="verb"/></l>
+      	<r>vaʹstteed</r>
+      </w>
+     </n>
+     <n v="svans">
+      <w v="svans">
+      	<l>svans<s n="subst."/></l>
+      	<r>seiʹbb</r>
+      </w>
+     </n>
+     <n v="svane">
+      <w v="svane">
+      	<l>svane<s n="subst."/></l>
+      	<r>njuhčč</r>
+      </w>
+     </n>
+    <n v="svak">
+     <w v="svak">
+     	<l>svak<s n="adj."/></l>
+     	<r>viõǥǥteʹm</r>
+     </w>
+    </n>
+   <n v="søt">
+    <w v="søt">
+    	<l>søt<s n="adj."/></l>
+    	<r>njääʹljes</r>
+    </w>
+   </n>
+      <n v="søster">
+       <w v="søster">
+       	<l>søster<s n="subst."/></l>
+       	<r>vuäʹbb</r>
+       </w>
+      </n>
+  <n v="sy">
+   <w v="sy">
+   	<l>sy<s n="verb"/></l>
+   	<r>kuärrad</r>
+   </w>
+   <n v="syk">
+    <w v="syk">
+    	<l>syk<s n="adj."/></l>
+    	<r>puõcci</r>
+    </w>
+       <n v="sykehus">
+        <w v="sykehus">
+        	<l>sykehus<s n="subst."/></l>
+        	<r>tiõrvâsvuõttpõrtt</r>
+        </w>
+       </n>
+   </n>
+     <n v="synge">
+      <w v="synge">
+      	<l>synge<s n="verb"/></l>
+      	<r>laullad</r>
+      </w>
+     </n>
+  </n>
+    <n v="sand">
+     <w v="sand">
+     	<l>sand<s n="subst."/></l>
+     	<r>vuõddâs</r>
+     </w>
+    </n>
+   <n v="sau">
+    <w v="sau">
+    	<l>sau<s n="subst."/></l>
+    	<r>sauʒʒ</r>
+    </w>
+     <n v="sauna">
+      <w v="sauna">
+      	<l>sauna<s n="subst."/></l>
+      	<r>säuʹnn</r>
+      </w>
+     </n>
+   </n>
+   <n v="sak">
+    <w v="sak">
+    	<l>sak<s n="subst."/></l>
+    	<r>äʹšš</r>
+    </w>
+   </n>
+     <n v="samle">
+      <w v="samle">
+      	<l>samle<s n="verb"/></l>
+      	<r>noorrâd</r>
+      </w>
+     </n>
+     <n v="samme">
+      <w v="samme">
+      	<l>samme<s n="adj."/></l>
+      	<r>seämma</r>
+      </w>
+     </n>
+    <n v="salt">
+     <w v="salt">
+     	<l>salt<s n="subst."/></l>
+     	<r>säʹltt</r>
+     </w>
+    </n>
+  <n v="se">
+   <w v="se">
+   	<l>se<s n="verb"/></l>
+   	<r>vueiʹnned, ǩiiččeed, ǩiõččâd</r>
+   </w>
+   <w v="se">
+   	<l>se<s n="verb"/></l>
+   	<r>ǩiiččeed, vueiʹnned, ǩiõččâd</r>
+   </w>
+     <n v="sette">
+      <w v="sette">
+      	<l>sette<s n="verb"/></l>
+      	<r>piijjâd</r>
+      </w>
+     </n>
+           <n v="seg imellom">
+            <w v="seg imellom">
+            	<l>seg imellom<s n="adv."/></l>
+            	<r>kõskkneez</r>
+            </w>
+           </n>
+    <n v="selv">
+     <w v="selv">
+     	<l>selv<s n=""/></l>
+     	<r>jiõčč</r>
+     </w>
+       <n v="selv om">
+        <w v="selv om">
+        	<l>selv om<s n="subj."/></l>
+        	<r>håʹt</r>
+        </w>
+       </n>
+            <n v="selvfølgelig">
+             <w v="selvfølgelig">
+             	<l>selvfølgelig<s n="adv."/></l>
+             	<r>tiõttlõs</r>
+             </w>
+            </n>
+    </n>
+    <n v="seng">
+     <w v="seng">
+     	<l>seng<s n="subst."/></l>
+     	<r>siâŋgg</r>
+     </w>
+    </n>
+         <n v="september">
+          <w v="september">
+          	<l>september<s n="subst."/></l>
+          	<r>čõhččmään</r>
+          </w>
+         </n>
+                      <n v="separat del av gjerdet">
+                       <w v="separat del av gjerdet">
+                       	<l>separat del av gjerdet<s n="subst."/></l>
+                       	<r>ǩeârnn</r>
+                       </w>
+                      </n>
+  </n>
+  <n v="så">
+   <w v="så">
+   	<l>så<s n="part."/></l>
+   	<r>nuʹtt</r>
+   </w>
+    <n v="sånn">
+     <w v="sånn">
+     	<l>sånn<s n="part."/></l>
+     	<r>naa</r>
+     </w>
+    </n>
+  </n>
+  <n v="si">
+   <w v="si">
+   	<l>si<s n="verb"/></l>
+   	<r>ceäʹlǩǩed</r>
+   </w>
+   <n v="sik">
+    <w v="sik">
+    	<l>sik<s n="subst."/></l>
+    	<r>šapšš</r>
+    </w>
+       <n v="sikkert">
+        <w v="sikkert">
+        	<l>sikkert<s n="adv."/></l>
+        	<r>vuâsti</r>
+        </w>
+       </n>
+   </n>
+     <n v="simle">
+      <w v="simle">
+      	<l>simle<s n="subst."/></l>
+      	<r>råånn</r>
+      </w>
+     </n>
+     <n v="sitte">
+      <w v="sitte">
+      	<l>sitte<s n="verb"/></l>
+      	<r>išttâd</r>
+      </w>
+     </n>
+  </n>
+   <n v="sjø">
+    <w v="sjø">
+    	<l>sjø<s n="subst."/></l>
+    	<r>jäuʹrr</r>
+    </w>
+   </n>
+       <n v="skitten">
+        <w v="skitten">
+        	<l>skitten<s n="adj."/></l>
+        	<r>sähssai</r>
+        </w>
+       </n>
+   <n v="sky">
+    <w v="sky">
+    	<l>sky<s n="subst."/></l>
+    	<r>põlvv</r>
+    </w>
+     <n v="skyve">
+      <w v="skyve">
+      	<l>skyve<s n="verb"/></l>
+      	<r>oiʹǧǧeed</r>
+      </w>
+     </n>
+      <n v="skygge">
+       <w v="skygge">
+       	<l>skygge<s n="subst."/></l>
+       	<r>ǩeeuʹniǩ</r>
+       </w>
+      </n>
+   </n>
+      <n v="skjørt">
+       <w v="skjørt">
+       	<l>skjørt<s n="subst."/></l>
+       	<r>kåhtt</r>
+       </w>
+      </n>
+      <n v="skjule">
+       <w v="skjule">
+       	<l>skjule<s n="verb"/></l>
+       	<r>čiõkkâd, peiʹtted</r>
+       </w>
+      </n>
+       <n v="skjorte">
+        <w v="skjorte">
+        	<l>skjorte<s n="subst."/></l>
+        	<r>päiʹdd</r>
+        </w>
+       </n>
+     <n v="skole">
+      <w v="skole">
+      	<l>skole<s n="subst."/></l>
+      	<r>škooul</r>
+      </w>
+     </n>
+    <n v="skog">
+     <w v="skog">
+     	<l>skog<s n="subst."/></l>
+     	<r>meäʹcˈc</r>
+     </w>
+        <n v="skogsvei">
+         <w v="skogsvei">
+         	<l>skogsvei<s n="subst."/></l>
+         	<r>meäʹcˈc-čuâǥǥas</r>
+         </w>
+        </n>
+    </n>
+    <n v="skap">
+     <w v="skap">
+     	<l>skap<s n="subst."/></l>
+     	<r>škaapp</r>
+     </w>
+    </n>
+     <n v="skatt">
+      <w v="skatt">
+      	<l>skatt<s n="subst."/></l>
+      	<r>piiđ</r>
+      </w>
+     </n>
+      <n v="skrike">
+       <w v="skrike">
+       	<l>skrike<s n="verb"/></l>
+       	<r>čuârvvad</r>
+       </w>
+      </n>
+     <n v="slipe">
+      <w v="slipe">
+      	<l>slipe<s n="verb"/></l>
+      	<r>sââjjad</r>
+      </w>
+     </n>
+    <n v="slik">
+     <w v="slik">
+     	<l>slik<s n=""/></l>
+     	<r>nåkkam</r>
+     </w>
+    </n>
+     <n v="slekt">
+      <w v="slekt">
+      	<l>slekt<s n="subst."/></l>
+      	<r>sokk</r>
+      </w>
+        <n v="slekting">
+         <w v="slekting">
+         	<l>slekting<s n="subst."/></l>
+         	<r>ruått</r>
+         </w>
+        </n>
+     </n>
+   <n v="slå">
+    <w v="slå">
+    	<l>slå<s n="verb"/></l>
+    	<r>västtled, čâʹcǩǩed</r>
+    </w>
+    <w v="slå">
+    	<l>slå<s n="verb"/></l>
+    	<r>čâʹcǩǩed, västtled</r>
+    </w>
+   </n>
+    <n v="sløv">
+     <w v="sløv">
+     	<l>sløv<s n="adj."/></l>
+     	<r>tåʹlcc</r>
+     </w>
+    </n>
+         <n v="smake bra">
+          <w v="smake bra">
+          	<l>smake bra<s n="verb"/></l>
+          	<r>njääʹljsted</r>
+          </w>
+         </n>
+     <n v="smile">
+      <w v="smile">
+      	<l>smile<s n="verb"/></l>
+      	<r>mååjjmed</r>
+      </w>
+     </n>
+    <n v="smør">
+     <w v="smør">
+     	<l>smør<s n="subst."/></l>
+     	<r>vuõjj</r>
+     </w>
+    </n>
+      <n v="snakke">
+       <w v="snakke">
+       	<l>snakke<s n="verb"/></l>
+       	<r>mainsted, ceäʹlǩǩed</r>
+       </w>
+      </n>
+       <n v="snarere">
+        <w v="snarere">
+        	<l>snarere<s n="adv."/></l>
+        	<r>miâlggâd</r>
+        </w>
+       </n>
+      <n v="snabel">
+       <w v="snabel">
+       	<l>snabel<s n="subst."/></l>
+       	<r>njuuʹnn</r>
+       </w>
+      </n>
+   <n v="sne">
+    <w v="sne">
+    	<l>sne<s n="subst."/></l>
+    	<r>muõtt</r>
+    </w>
+   </n>
+   <n v="snu">
+    <w v="snu">
+    	<l>snu<s n="verb"/></l>
+    	<r>jåårǥled</r>
+    </w>
+    <n v="snue">
+     <w v="snue">
+     	<l>snue<s n="subst."/></l>
+     	<r>nuõpp</r>
+     </w>
+    </n>
+   </n>
+          <n v="snøscooter">
+           <w v="snøscooter">
+           	<l>snøscooter<s n="subst."/></l>
+           	<r>motorǩeâlkk</r>
+           </w>
+          </n>
+   <n v="som">
+    <w v="som">
+    	<l>som<s n="subj."/></l>
+    	<r>kååʹtt</r>
+    </w>
+   </n>
+   <n v="sol">
+    <w v="sol">
+    	<l>sol<s n="subst."/></l>
+    	<r>peiʹvv</r>
+    </w>
+   </n>
+   <n v="son">
+    <w v="son">
+    	<l>son<s n="subst."/></l>
+    	<r>âʹlǧǧ</r>
+    </w>
+   </n>
+    <n v="sove">
+     <w v="sove">
+     	<l>sove<s n="verb"/></l>
+     	<r>vuẹʹđđed</r>
+     </w>
+       <n v="soverom">
+        <w v="soverom">
+        	<l>soverom<s n="subst."/></l>
+        	<r>käämmar, vueʹđđemkäämmar</r>
+        </w>
+        <w v="soverom">
+        	<l>soverom<s n="subst."/></l>
+        	<r>vueʹđđemkäämmar, käämmar</r>
+        </w>
+       </n>
+    </n>
+      <n v="sokker">
+       <w v="sokker">
+       	<l>sokker<s n="subst."/></l>
+       	<r>säähhar</r>
+       </w>
+      </n>
+     <n v="spore">
+      <w v="spore">
+      	<l>spore<s n="verb"/></l>
+      	<r>njuʹnnʼjed</r>
+      </w>
+     </n>
+       <n v="springe">
+        <w v="springe">
+        	<l>springe<s n="verb"/></l>
+        	<r>urččâd</r>
+        </w>
+       </n>
+      <n v="spørre">
+       <w v="spørre">
+       	<l>spørre<s n="verb"/></l>
+       	<r>kõõččâd</r>
+       </w>
+      </n>
+     <n v="spise">
+      <w v="spise">
+      	<l>spise<s n="verb"/></l>
+      	<r>poorrâd</r>
+      </w>
+     </n>
+      <n v="spytte">
+       <w v="spytte">
+       	<l>spytte<s n="verb"/></l>
+       	<r>čolggâd</r>
+       </w>
+      </n>
+    <n v="tung">
+     <w v="tung">
+     	<l>tung<s n="adj."/></l>
+     	<r>lossâd</r>
+     </w>
+     <n v="tunge">
+      <w v="tunge">
+      	<l>tunge<s n="subst."/></l>
+      	<r>njuhččâm</r>
+      </w>
+     </n>
+    </n>
+    <n v="tåke">
+     <w v="tåke">
+     	<l>tåke<s n="subst."/></l>
+     	<r>suâlnõk</r>
+     </w>
+    </n>
+     <n v="tegne">
+      <w v="tegne">
+      	<l>tegne<s n="verb"/></l>
+      	<r>čouggâd</r>
+      </w>
+     </n>
+     <n v="telle">
+      <w v="telle">
+      	<l>telle<s n="verb"/></l>
+      	<r>laʹsǩǩeed</r>
+      </w>
+     </n>
+     <n v="teppe">
+      <w v="teppe">
+      	<l>teppe<s n="subst."/></l>
+      	<r>šâʹlddräänn</r>
+      </w>
+     </n>
+  <n v="tv">
+   <w v="tv">
+   	<l>tv<s n="subst."/></l>
+   	<r>teʹlvisia</r>
+   </w>
+      <n v="tvette">
+       <w v="tvette">
+       	<l>tvette<s n="verb"/></l>
+       	<r>põõssâd</r>
+       </w>
+      </n>
+  </n>
+    <n v="tørr">
+     <w v="tørr">
+     	<l>tørr<s n="adj."/></l>
+     	<r>kååʹšǩes</r>
+     </w>
+    </n>
+    <n v="tykk">
+     <w v="tykk">
+     	<l>tykk<s n="adj."/></l>
+     	<r>kõssâd</r>
+     </w>
+    </n>
+    <n v="tynn">
+     <w v="tynn">
+     	<l>tynn<s n="adj."/></l>
+     	<r>ââʹzzteʹm</r>
+     </w>
+    </n>
+        <n v="tyttebær">
+         <w v="tyttebær">
+         	<l>tyttebær<s n="subst."/></l>
+         	<r>joŋŋ</r>
+         </w>
+        </n>
+   <n v="til">
+    <w v="til">
+    	<l>til<s n=""/></l>
+    	<r>ool, luzz, årra</r>
+    </w>
+    <w v="til">
+    	<l>til<s n=""/></l>
+    	<r>luzz, ool, årra</r>
+    </w>
+    <w v="til">
+    	<l>til<s n=""/></l>
+    	<r>årra, ool, luzz</r>
+    </w>
+       <n v="tillegg">
+        <w v="tillegg">
+        	<l>tillegg<s n="subst."/></l>
+        	<r>lââʹss</r>
+        </w>
+       </n>
+       <n v="tilbake">
+        <w v="tilbake">
+        	<l>tilbake<s n=""/></l>
+        	<r>tueʹǩǩen</r>
+        </w>
+       </n>
+   </n>
+    <n v="time">
+     <w v="time">
+     	<l>time<s n="subst."/></l>
+     	<r>čiâss</r>
+     </w>
+    </n>
+   <n v="tid">
+    <w v="tid">
+    	<l>tid<s n="subst."/></l>
+    	<r>äiʹǧǧ</r>
+    </w>
+   </n>
+                  <n v="to og en halv time">
+                   <w v="to og en halv time">
+                   	<l>to og en halv time<s n="subst."/></l>
+                   	<r>kueʹhtt čiâss pieʹlin</r>
+                   </w>
+                  </n>
+       <n v="toalett">
+        <w v="toalett">
+        	<l>toalett<s n="subst."/></l>
+        	<r>nuuʹžniǩ</r>
+        </w>
+       </n>
+  <n v="ta">
+   <w v="ta">
+   	<l>ta<s n="verb"/></l>
+   	<r>väʹldded</r>
+   </w>
+     <n v="tante">
+      <w v="tante">
+      	<l>tante<s n="subst."/></l>
+      	<r>mueʹđđ</r>
+      </w>
+     </n>
+    <n v="tann">
+     <w v="tann">
+     	<l>tann<s n="subst."/></l>
+     	<r>pääʹnn</r>
+     </w>
+    </n>
+        <n v="taburett">
+         <w v="taburett">
+         	<l>taburett<s n="subst."/></l>
+         	<r>stuälaž</r>
+         </w>
+        </n>
+    <n v="tarm">
+     <w v="tarm">
+     	<l>tarm<s n="subst."/></l>
+     	<r>čuẹʹll</r>
+     </w>
+    </n>
+   <n v="tau">
+    <w v="tau">
+    	<l>tau<s n="subst."/></l>
+    	<r>trooss</r>
+    </w>
+   </n>
+    <n v="takk">
+     <w v="takk">
+     	<l>takk<s n="subst."/></l>
+     	<r>späʹsseb</r>
+     </w>
+    </n>
+  </n>
+   <n v="tro">
+    <w v="tro">
+    	<l>tro<s n="subst."/></l>
+    	<r>åskk</r>
+    </w>
+    <w v="tro">
+    	<l>tro<s n="verb"/></l>
+    	<r>juʹrdded</r>
+    </w>
+   </n>
+     <n v="trang">
+      <w v="trang">
+      	<l>trang<s n="adj."/></l>
+      	<r>seäʹǧˈǧ, korččai</r>
+      </w>
+      <w v="trang">
+      	<l>trang<s n="adj."/></l>
+      	<r>korččai, seäʹǧˈǧ</r>
+      </w>
+     </n>
+   <n v="tre">
+    <w v="tre">
+    	<l>tre<s n="subst."/></l>
+    	<r>muõrr</r>
+    </w>
+      <n v="trenge">
+       <w v="trenge">
+       	<l>trenge<s n="verb"/></l>
+       	<r>feʹrttjed, taarbšed, õlggâd</r>
+       </w>
+       <w v="trenge">
+       	<l>trenge<s n="verb"/></l>
+       	<r>taarbšed, feʹrttjed, õlggâd</r>
+       </w>
+       <w v="trenge">
+       	<l>trenge<s n="verb"/></l>
+       	<r>õlggâd, feʹrttjed, taarbšed</r>
+       </w>
+      </n>
+      <n v="trekke">
+       <w v="trekke">
+       	<l>trekke<s n="verb"/></l>
+       	<r>njeʹʒʒed, ǩiẹʹssed</r>
+       </w>
+      </n>
+         <n v="trestubbe">
+          <w v="trestubbe">
+          	<l>trestubbe<s n="subst."/></l>
+          	<r>čockk</r>
+          </w>
+         </n>
+   </n>
+   <n v="tru">
+    <w v="tru">
+    	<l>tru<s n="verb"/></l>
+    	<r>åskkad</r>
+    </w>
+   </n>
+        <n v="triangel">
+         <w v="triangel">
+         	<l>triangel<s n="subst."/></l>
+         	<r>triâŋgg</r>
+         </w>
+        </n>
+          <n v="trives bra">
+           <w v="trives bra">
+           	<l>trives bra<s n="verb"/></l>
+           	<r>maaššâd</r>
+           </w>
+          </n>
+    <n v="uvær">
+     <w v="uvær">
+     	<l>uvær<s n="subst."/></l>
+     	<r>poǥoda</r>
+     </w>
+    </n>
+   <n v="uke">
+    <w v="uke">
+    	<l>uke<s n="subst."/></l>
+    	<r>neäʹttel</r>
+    </w>
+   </n>
+           <n v="umiddelbart">
+            <w v="umiddelbart">
+            	<l>umiddelbart<s n="adv."/></l>
+            	<r>tâʹlles</r>
+            </w>
+            <w v="umiddelbart">
+            	<l>umiddelbart<s n="adv."/></l>
+            	<r>tâʹlles</r>
+            </w>
+           </n>
+         <n v="undersøke">
+          <w v="undersøke">
+          	<l>undersøke<s n="verb"/></l>
+          	<r>tuʹtǩǩeed</r>
+          </w>
+         </n>
+  <n v="ut">
+   <w v="ut">
+   	<l>ut<s n="adv."/></l>
+   	<r>seʹst</r>
+   </w>
+   <n v="ute">
+    <w v="ute">
+    	<l>ute<s n="adv."/></l>
+    	<r>ålggan</r>
+    </w>
+   </n>
+  </n>
+   <n v="vær">
+    <w v="vær">
+    	<l>vær<s n="subst."/></l>
+    	<r>šõŋŋ</r>
+    </w>
+    <n v="være">
+     <w v="være">
+     	<l>være<s n="verb"/></l>
+     	<r>leeʹd</r>
+     </w>
+           <n v="være hørbar">
+            <w v="være hørbar">
+            	<l>være hørbar<s n="verb"/></l>
+            	<r>kollʹjed</r>
+            </w>
+           </n>
+             <n v="være med barn">
+              <w v="være med barn">
+              	<l>være med barn<s n="adj."/></l>
+              	<r>päärnai vuâstta</r>
+              </w>
+             </n>
+           <n v="være sulten">
+            <w v="være sulten">
+            	<l>være sulten<s n="verb"/></l>
+            	<r>neälggad</r>
+            </w>
+           </n>
+        <n v="være syk">
+         <w v="være syk">
+         	<l>være syk<s n="verb"/></l>
+         	<r>čueʹcced</r>
+         </w>
+        </n>
+    </n>
+   </n>
+  <n v="vi">
+   <w v="vi">
+   	<l>vi<s n=""/></l>
+   	<r>mij</r>
+   </w>
+    <n v="vite">
+     <w v="vite">
+     	<l>vite<s n="verb"/></l>
+     	<r>tieʹtted, tobddâd</r>
+     </w>
+     <w v="vite">
+     	<l>vite<s n="verb"/></l>
+     	<r>tobddâd, tieʹtted</r>
+     </w>
+    </n>
+    <n v="vise">
+     <w v="vise">
+     	<l>vise<s n="verb"/></l>
+     	<r>čuäʹjted</r>
+     </w>
+    </n>
+     <n v="viske">
+      <w v="viske">
+      	<l>viske<s n="verb"/></l>
+      	<r>sekkad</r>
+      </w>
+     </n>
+     <n v="ville">
+      <w v="ville">
+      	<l>ville<s n="verb"/></l>
+      	<r>äiggad</r>
+      </w>
+     </n>
+     <n v="vinge">
+      <w v="vinge">
+      	<l>vinge<s n="subst."/></l>
+      	<r>suäjj</r>
+      </w>
+     </n>
+    <n v="vind">
+     <w v="vind">
+     	<l>vind<s n="subst."/></l>
+     	<r>piõgˈg</r>
+     </w>
+    </n>
+      <n v="vinter">
+       <w v="vinter">
+       	<l>vinter<s n="subst."/></l>
+       	<r>täʹlvv</r>
+       </w>
+      </n>
+          <n v="vi trenger">
+           <w v="vi trenger">
+           	<l>vi trenger<s n="verb"/></l>
+           	<r>meeʹst feʹrttai</r>
+           </w>
+          </n>
+  </n>
+    <n v="vott">
+     <w v="vott">
+     	<l>vott<s n="subst."/></l>
+     	<r>vacc</r>
+     </w>
+    </n>
+    <n v="vann">
+     <w v="vann">
+     	<l>vann<s n="subst."/></l>
+     	<r>čääʹcc</r>
+     </w>
+    </n>
+    <n v="varm">
+     <w v="varm">
+     	<l>varm<s n="adj."/></l>
+     	<r>liõggâs, paakkâs</r>
+     </w>
+     <w v="varm">
+     	<l>varm<s n="adj."/></l>
+     	<r>paakkâs, liõggâs</r>
+     </w>
+    </n>
+    <n v="vare">
+     <w v="vare">
+     	<l>vare<s n="verb"/></l>
+     	<r>peʹštted</r>
+     </w>
+    </n>
+     <n v="vaske">
+      <w v="vaske">
+      	<l>vaske<s n="verb"/></l>
+      	<r>põõssâd</r>
+      </w>
+     </n>
+   <n v="vår">
+    <w v="vår">
+    	<l>vår<s n="subst."/></l>
+    	<r>ǩiđđ</r>
+    </w>
+   </n>
+   <n v="våt">
+    <w v="våt">
+    	<l>våt<s n="adj."/></l>
+    	<r>njuõckâs</r>
+    </w>
+   </n>
+    <n v="vert">
+     <w v="vert">
+     	<l>vert<s n="subst."/></l>
+     	<r>eeʹžžed</r>
+     </w>
+    </n>
+         <n v="ved siden">
+          <w v="ved siden">
+          	<l>ved siden<s n="adv."/></l>
+          	<r>paaldâst</r>
+          </w>
+         </n>
+   <n v="vej">
+    <w v="vej">
+    	<l>vej<s n="subst."/></l>
+    	<r>čuâǥǥas, ǩeäinn</r>
+    </w>
+    <w v="vej">
+    	<l>vej<s n="subst."/></l>
+    	<r>ǩeäinn, čuâǥǥas</r>
+    </w>
+   </n>
+     <n v="velte">
+      <w v="velte">
+      	<l>velte<s n="verb"/></l>
+      	<r>kââmted</r>
+      </w>
+     </n>
+     <n v="vekst">
+      <w v="vekst">
+      	<l>vekst<s n="subst."/></l>
+      	<r>rääʹss</r>
+      </w>
+     </n>
+     <n v="vente">
+      <w v="vente">
+      	<l>vente<s n="verb"/></l>
+      	<r>vueʹrdded</r>
+      </w>
+     </n>
+       <n v="venstre">
+        <w v="venstre">
+        	<l>venstre<s n="adj."/></l>
+        	<r>čiʹǯǯ-</r>
+        </w>
+       </n>
+   <n v="øye">
+    <w v="øye">
+    	<l>øye<s n="subst."/></l>
+    	<r>čâʹlmm</r>
+    </w>
+   </n>
+     <n v="ønske">
+      <w v="ønske">
+      	<l>ønske<s n="verb"/></l>
+      	<r>tättad</r>
+      </w>
+     </n>
+   <n v="øre">
+    <w v="øre">
+    	<l>øre<s n="subst."/></l>
+    	<r>peʹllj</r>
+    </w>
+   </n>
+    <n v="øgle">
+     <w v="øgle">
+     	<l>øgle<s n="subst."/></l>
+     	<r>smäʹtt</r>
+     </w>
+    </n>
+</root>
+

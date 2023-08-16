@@ -1,0 +1,3456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root v="">
+   <n v="Ann">
+    <w v="Ann">
+    	<l>Ann<s n=""/></l>
+    	<r>Äʹnn</r>
+    </w>
+    <n v="Anna">
+     <w v="Anna">
+     	<l>Anna<s n=""/></l>
+     	<r>Äännaž</r>
+     </w>
+    </n>
+   </n>
+     <n v="Basil">
+      <w v="Basil">
+      	<l>Basil<s n=""/></l>
+      	<r>Väʹsǩǩ</r>
+      </w>
+     </n>
+       <n v="Cyprian">
+        <w v="Cyprian">
+        	<l>Cyprian<s n=""/></l>
+        	<r>Ǩiuʹrrel</r>
+        </w>
+       </n>
+        <n v="December">
+         <w v="December">
+         	<l>December<s n="subst."/></l>
+         	<r>rosttovmään</r>
+         </w>
+        </n>
+       <n v="England">
+        <w v="England">
+        	<l>England<s n=""/></l>
+        	<r>Eŋgglõs</r>
+        </w>
+       </n>
+       <n v="Finland">
+        <w v="Finland">
+        	<l>Finland<s n=""/></l>
+        	<r>Lääʹddjânnam</r>
+        </w>
+       </n>
+       <n v="Germany">
+        <w v="Germany">
+        	<l>Germany<s n=""/></l>
+        	<r>Sakssajânnam</r>
+        </w>
+       </n>
+ <n v="I">
+  <w v="I">
+  	<l>I<s n=""/></l>
+  	<r>mon</r>
+  </w>
+     <n v="Inari">
+      <w v="Inari">
+      	<l>Inari<s n=""/></l>
+      	<r>Aanar</r>
+      </w>
+     </n>
+    <n v="Ivan">
+     <w v="Ivan">
+     	<l>Ivan<s n=""/></l>
+     	<r>Evvan</r>
+     </w>
+    </n>
+     <n v="Ivalo">
+      <w v="Ivalo">
+      	<l>Ivalo<s n=""/></l>
+      	<r>Âʹvvel</r>
+      </w>
+     </n>
+ </n>
+      <n v="Monday">
+       <w v="Monday">
+       	<l>Monday<s n="subst."/></l>
+       	<r>vuõsˈsargg</r>
+       </w>
+      </n>
+    <n v="Mary">
+     <w v="Mary">
+     	<l>Mary<s n=""/></l>
+     	<r>Mäʹrjj</r>
+     </w>
+    </n>
+      <n v="Norway">
+       <w v="Norway">
+       	<l>Norway<s n=""/></l>
+       	<r>Taarrjânnam</r>
+       </w>
+      </n>
+          <n v="Nitsijärvi">
+           <w v="Nitsijärvi">
+           	<l>Nitsijärvi<s n=""/></l>
+           	<r>Njeʹǯǯjäuʹrr</r>
+           </w>
+          </n>
+      <n v="Russia">
+       <w v="Russia">
+       	<l>Russia<s n=""/></l>
+       	<r>Ruõššjânnam</r>
+       </w>
+      </n>
+         <n v="Rovaniemi">
+          <w v="Rovaniemi">
+          	<l>Rovaniemi<s n=""/></l>
+          	<r>Ruäʹvnjargg</r>
+          </w>
+         </n>
+   <n v="SUV">
+    <w v="SUV">
+    	<l>SUV<s n="subst."/></l>
+    	<r>luâđastvuejjamautt</r>
+    </w>
+   </n>
+            <n v="Sevettijärvi">
+             <w v="Sevettijärvi">
+             	<l>Sevettijärvi<s n=""/></l>
+             	<r>Čeʹvetjäuʹrr</r>
+             </w>
+             <w v="Sevettijärvi">
+             	<l>Sevettijärvi<s n=""/></l>
+             	<r>Čeʹvetjäuʹrr</r>
+             </w>
+            </n>
+         <n v="September">
+          <w v="September">
+          	<l>September<s n="subst."/></l>
+          	<r>čõhččmään</r>
+          </w>
+         </n>
+      <n v="Sweden">
+       <w v="Sweden">
+       	<l>Sweden<s n=""/></l>
+       	<r>Ruõcˈc</r>
+       </w>
+      </n>
+        <n v="Saturday">
+         <w v="Saturday">
+         	<l>Saturday<s n="subst."/></l>
+         	<r>sueʹvet</r>
+         </w>
+        </n>
+  <n v="TV">
+   <w v="TV">
+   	<l>TV<s n="subst."/></l>
+   	<r>teʹlvisia</r>
+   </w>
+  </n>
+     <n v="Tyyne">
+      <w v="Tyyne">
+      	<l>Tyyne<s n=""/></l>
+      	<r>Dåʹmnn</r>
+      </w>
+     </n>
+       <n v="arrange">
+        <w v="arrange">
+        	<l>arrange<s n="verb"/></l>
+        	<r>suåppâd</r>
+        </w>
+       </n>
+   <n v="arm">
+    <w v="arm">
+    	<l>arm<s n="subst."/></l>
+    	<r>ǩiõtt</r>
+    </w>
+   </n>
+      <n v="around">
+       <w v="around">
+       	<l>around<s n=""/></l>
+       	<r>pirr</r>
+       </w>
+      </n>
+   <n v="ash">
+    <w v="ash">
+    	<l>ash<s n="subst."/></l>
+    	<r>kunn</r>
+    </w>
+   </n>
+   <n v="ask">
+    <w v="ask">
+    	<l>ask<s n="verb"/></l>
+    	<r>kõõččâd</r>
+    </w>
+   </n>
+  <n v="at">
+   <w v="at">
+   	<l>at<s n=""/></l>
+   	<r>åʹrnn</r>
+   </w>
+  </n>
+        <n v="addition">
+         <w v="addition">
+         	<l>addition<s n="subst."/></l>
+         	<r>lââʹss</r>
+         </w>
+        </n>
+    <n v="aunt">
+     <w v="aunt">
+     	<l>aunt<s n="subst."/></l>
+     	<r>mueʹđđ</r>
+     </w>
+    </n>
+     <n v="after">
+      <w v="after">
+      	<l>after<s n=""/></l>
+      	<r>mâŋŋa</r>
+      </w>
+     </n>
+     <n v="again">
+      <w v="again">
+      	<l>again<s n="adv."/></l>
+      	<r>eʹpet</r>
+      </w>
+     </n>
+   <n v="age">
+    <w v="age">
+    	<l>age<s n="subst."/></l>
+    	<r>ââʹǩǩ</r>
+    </w>
+   </n>
+   <n v="all">
+    <w v="all">
+    	<l>all<s n=""/></l>
+    	<r>puk</r>
+    </w>
+       <n v="allergy">
+        <w v="allergy">
+        	<l>allergy<s n="subst."/></l>
+        	<r>alleerǥ</r>
+        </w>
+       </n>
+   </n>
+     <n v="alone">
+      <w v="alone">
+      	<l>alone<s n="adv."/></l>
+      	<r>õhttu</r>
+      </w>
+     </n>
+       <n v="already">
+        <w v="already">
+        	<l>already<s n="adv."/></l>
+        	<r>juʹn</r>
+        </w>
+       </n>
+    <n v="also">
+     <w v="also">
+     	<l>also<s n="part."/></l>
+     	<r>še</r>
+     </w>
+    </n>
+      <n v="always">
+       <w v="always">
+       	<l>always<s n="adv."/></l>
+       	<r>pâi</r>
+       </w>
+      </n>
+   <n v="and">
+    <w v="and">
+    	<l>and<s n="konj."/></l>
+    	<r>da, ja</r>
+    </w>
+    <w v="and">
+    	<l>and<s n="konj."/></l>
+    	<r>ja, da</r>
+    </w>
+   </n>
+   <n v="ant">
+    <w v="ant">
+    	<l>ant<s n="subst."/></l>
+    	<r>kotkk</r>
+    </w>
+              <n v="anterior thigh">
+               <w v="anterior thigh">
+               	<l>anterior thigh<s n="subst."/></l>
+               	<r>ruõidd</r>
+               </w>
+              </n>
+   </n>
+      <n v="answer">
+       <w v="answer">
+       	<l>answer<s n="verb"/></l>
+       	<r>vaʹstteed</r>
+       </w>
+      </n>
+      <n v="animal">
+       <w v="animal">
+       	<l>animal<s n="subst."/></l>
+       	<r>jieʹlli</r>
+       </w>
+      </n>
+     <n v="ankle">
+      <w v="ankle">
+      	<l>ankle<s n="subst."/></l>
+      	<r>ǩizldõk</r>
+      </w>
+     </n>
+            <n v="a little bit">
+             <w v="a little bit">
+             	<l>a little bit<s n="adv."/></l>
+             	<r>occanj, occnja, simmna, siõmmna</r>
+             </w>
+             <w v="a little bit">
+             	<l>a little bit<s n="adv."/></l>
+             	<r>occnja, occanj, simmna, siõmmna</r>
+             </w>
+             <w v="a little bit">
+             	<l>a little bit<s n="adv."/></l>
+             	<r>simmna, occanj, occnja, siõmmna</r>
+             </w>
+             <w v="a little bit">
+             	<l>a little bit<s n="adv."/></l>
+             	<r>siõmmna, occanj, occnja, simmna</r>
+             </w>
+            </n>
+      <n v="appear">
+       <w v="appear">
+       	<l>appear<s n="verb"/></l>
+       	<r>šõddâd</r>
+       </w>
+      </n>
+     <n v="bread">
+      <w v="bread">
+      	<l>bread<s n="subst."/></l>
+      	<r>leiʹbb</r>
+      </w>
+           <n v="bread plate">
+            <w v="bread plate">
+            	<l>bread plate<s n="subst."/></l>
+            	<r>leiʹbbtiskk</r>
+            </w>
+           </n>
+     </n>
+       <n v="breathe">
+        <w v="breathe">
+        	<l>breathe<s n="verb"/></l>
+        	<r>vuõiŋŋâd</r>
+        </w>
+       </n>
+      <n v="breast">
+       <w v="breast">
+       	<l>breast<s n="subst."/></l>
+       	<r>râʹdd</r>
+       </w>
+      </n>
+     <n v="bride">
+      <w v="bride">
+      	<l>bride<s n="subst."/></l>
+      	<r>kaavsõs</r>
+      </w>
+     </n>
+     <n v="bring">
+      <w v="bring">
+      	<l>bring<s n="verb"/></l>
+      	<r>puʹhtted</r>
+      </w>
+     </n>
+     <n v="brown">
+      <w v="brown">
+      	<l>brown<s n="adj."/></l>
+      	<r>ručkkâd</r>
+      </w>
+     </n>
+       <n v="brother">
+        <w v="brother">
+        	<l>brother<s n="subst."/></l>
+        	<r>viʹllj</r>
+        </w>
+       </n>
+  <n v="be">
+   <w v="be">
+   	<l>be<s n="verb"/></l>
+   	<r>leeʹd</r>
+   </w>
+   <n v="bed">
+    <w v="bed">
+    	<l>bed<s n="subst."/></l>
+    	<r>siâŋgg</r>
+    </w>
+       <n v="bedroom">
+        <w v="bedroom">
+        	<l>bedroom<s n="subst."/></l>
+        	<r>käämmar</r>
+        </w>
+       </n>
+   </n>
+       <n v="because">
+        <w v="because">
+        	<l>because<s n="subj."/></l>
+        	<r>tõʹnt</r>
+        </w>
+       </n>
+      <n v="before">
+       <w v="before">
+       	<l>before<s n=""/></l>
+       	<r>ouddâl</r>
+       </w>
+      </n>
+    <n v="belt">
+     <w v="belt">
+     	<l>belt<s n="subst."/></l>
+     	<r>puäǥǥanj</r>
+     </w>
+    </n>
+     <n v="belly">
+      <w v="belly">
+      	<l>belly<s n="subst."/></l>
+      	<r>čåuʹjj</r>
+      </w>
+     </n>
+       <n v="believe">
+        <w v="believe">
+        	<l>believe<s n="subst."/></l>
+        	<r>åskk</r>
+        </w>
+        <w v="believe">
+        	<l>believe<s n="verb"/></l>
+        	<r>juʹrdded, åskkad</r>
+        </w>
+        <w v="believe">
+        	<l>believe<s n="verb"/></l>
+        	<r>åskkad, juʹrdded</r>
+        </w>
+       </n>
+     <n v="bench">
+      <w v="bench">
+      	<l>bench<s n="subst."/></l>
+      	<r>stuuʹl</r>
+      </w>
+     </n>
+      <n v="be ill">
+       <w v="be ill">
+       	<l>be ill<s n="verb"/></l>
+       	<r>čueʹcced</r>
+       </w>
+      </n>
+         <n v="be hungry">
+          <w v="be hungry">
+          	<l>be hungry<s n="verb"/></l>
+          	<r>neälggad</r>
+          </w>
+         </n>
+              <n v="be embarrassed">
+               <w v="be embarrassed">
+               	<l>be embarrassed<s n="verb"/></l>
+               	<r>käinnad</r>
+               </w>
+              </n>
+           <n v="be situated">
+            <w v="be situated">
+            	<l>be situated<s n="verb"/></l>
+            	<r>kaunnâd</r>
+            </w>
+           </n>
+       <n v="be cold">
+        <w v="be cold">
+        	<l>be cold<s n="verb"/></l>
+        	<r>kâʹlmstõõllâd</r>
+        </w>
+       </n>
+        <n v="be tasty">
+         <w v="be tasty">
+         	<l>be tasty<s n="verb"/></l>
+         	<r>njääʹljsted</r>
+         </w>
+        </n>
+     <n v="berry">
+      <w v="berry">
+      	<l>berry<s n="subst."/></l>
+      	<r>mueʹrjj</r>
+      </w>
+          <n v="berry soup">
+           <w v="berry soup">
+           	<l>berry soup<s n="subst."/></l>
+           	<r>mueʹrjjsäʹpp</r>
+           </w>
+          </n>
+     </n>
+    <n v="beak">
+     <w v="beak">
+     	<l>beak<s n="subst."/></l>
+     	<r>njuuʹnn</r>
+     </w>
+    </n>
+  </n>
+   <n v="but">
+    <w v="but">
+    	<l>but<s n="konj."/></l>
+    	<r>a</r>
+    </w>
+      <n v="butter">
+       <w v="butter">
+       	<l>butter<s n="subst."/></l>
+       	<r>vuõjj</r>
+       </w>
+      </n>
+   </n>
+    <n v="burn">
+     <w v="burn">
+     	<l>burn<s n="verb"/></l>
+     	<r>pueʹlled</r>
+     </w>
+    </n>
+   <n v="big">
+    <w v="big">
+    	<l>big<s n="adj."/></l>
+    	<r>šurr, jõnn</r>
+    </w>
+   </n>
+     <n v="birch">
+      <w v="birch">
+      	<l>birch<s n="subst."/></l>
+      	<r>sueʹǩǩ, suẹʹǩǩ</r>
+      </w>
+      <w v="birch">
+      	<l>birch<s n="subst."/></l>
+      	<r>suẹʹǩǩ, sueʹǩǩ</r>
+      </w>
+     </n>
+    <n v="bird">
+     <w v="bird">
+     	<l>bird<s n="subst."/></l>
+     	<r>låʹdd</r>
+     </w>
+    </n>
+        <n v="birthday">
+         <w v="birthday">
+         	<l>birthday<s n="subst."/></l>
+         	<r>šõddâmpeiʹvv</r>
+         </w>
+        </n>
+    <n v="bite">
+     <w v="bite">
+     	<l>bite<s n="verb"/></l>
+     	<r>käʹcǩǩed</r>
+     </w>
+    </n>
+      <n v="bitter">
+       <w v="bitter">
+       	<l>bitter<s n="adj."/></l>
+       	<r>peʹčǩǩer, šuõrš-</r>
+       </w>
+       <w v="bitter">
+       	<l>bitter<s n="adj."/></l>
+       	<r>šuõrš-, peʹčǩǩer</r>
+       </w>
+      </n>
+       <n v="biscuit">
+        <w v="biscuit">
+        	<l>biscuit<s n="subst."/></l>
+        	<r>viõʹlǧǧesleiʹbb</r>
+        </w>
+       </n>
+             <n v="by themselves">
+              <w v="by themselves">
+              	<l>by themselves<s n="adv."/></l>
+              	<r>kõskkneez</r>
+              </w>
+             </n>
+     <n v="blood">
+      <w v="blood">
+      	<l>blood<s n="subst."/></l>
+      	<r>võrr</r>
+      </w>
+     </n>
+    <n v="blow">
+     <w v="blow">
+     	<l>blow<s n="verb"/></l>
+     	<r>pååssad</r>
+     </w>
+    </n>
+      <n v="blouse">
+       <w v="blouse">
+       	<l>blouse<s n="subst."/></l>
+       	<r>kuurta</r>
+       </w>
+      </n>
+     <n v="black">
+      <w v="black">
+      	<l>black<s n="adj."/></l>
+      	<r>čappâd</r>
+      </w>
+     </n>
+         <n v="blueberry">
+          <w v="blueberry">
+          	<l>blueberry<s n="subst."/></l>
+          	<r>sââʹrr</r>
+          </w>
+         </n>
+    <n v="bone">
+     <w v="bone">
+     	<l>bone<s n="subst."/></l>
+     	<r>täʹhtt</r>
+     </w>
+    </n>
+    <n v="book">
+     <w v="book">
+     	<l>book<s n="subst."/></l>
+     	<r>ǩeʹrjj</r>
+     </w>
+         <n v="bookshelf">
+          <w v="bookshelf">
+          	<l>bookshelf<s n="subst."/></l>
+          	<r>ǩeʹrjjiʹlddi</r>
+          </w>
+         </n>
+    </n>
+                <n v="bog whortleberry">
+                 <w v="bog whortleberry">
+                 	<l>bog whortleberry<s n="subst."/></l>
+                 	<r>jeättmõš</r>
+                 </w>
+                </n>
+   <n v="boy">
+    <w v="boy">
+    	<l>boy<s n="subst."/></l>
+    	<r>päʹrnn, âʹlǧǧ</r>
+    </w>
+    <w v="boy">
+    	<l>boy<s n="subst."/></l>
+    	<r>âʹlǧǧ, päʹrnn</r>
+    </w>
+   </n>
+        <n v="barbecue">
+         <w v="barbecue">
+         	<l>barbecue<s n="subst."/></l>
+         	<r>ǩeäʹrstõs</r>
+         </w>
+        </n>
+    <n v="bark">
+     <w v="bark">
+     	<l>bark<s n="subst."/></l>
+     	<r>pärkk, kõrr</r>
+     </w>
+    </n>
+   <n v="bad">
+    <w v="bad">
+    	<l>bad<s n="adj."/></l>
+    	<r>neuʹrr, vâjjeei</r>
+    </w>
+    <w v="bad">
+    	<l>bad<s n="adj."/></l>
+    	<r>vâjjeei, neuʹrr</r>
+    </w>
+   </n>
+    <n v="back">
+     <w v="back">
+     	<l>back<s n=""/></l>
+     	<r>tueʹǩǩen</r>
+     </w>
+     <w v="back">
+     	<l>back<s n="subst."/></l>
+     	<r>seäʹlǧǧ</r>
+     </w>
+    </n>
+    <n v="bake">
+     <w v="bake">
+     	<l>bake<s n="verb"/></l>
+     	<r>vääʹlʼjed</r>
+     </w>
+    </n>
+    <n v="cure">
+     <w v="cure">
+     	<l>cure<s n="verb"/></l>
+     	<r>hoiʹddjed</r>
+     </w>
+    </n>
+   <n v="cut">
+    <w v="cut">
+    	<l>cut<s n="verb"/></l>
+    	<r>čuõpˈpâd</r>
+    </w>
+   </n>
+   <n v="cup">
+    <w v="cup">
+    	<l>cup<s n="subst."/></l>
+    	<r>kopp</r>
+    </w>
+   </n>
+                     <n v="celection of reindeer">
+                      <w v="celection of reindeer">
+                      	<l>celection of reindeer<s n="subst."/></l>
+                      	<r>pikalõs</r>
+                      </w>
+                     </n>
+      <n v="church">
+       <w v="church">
+       	<l>church<s n="subst."/></l>
+       	<r>ceerkav</r>
+       </w>
+              <n v="church service">
+               <w v="church service">
+               	<l>church service<s n="subst."/></l>
+               	<r>sluuʹžb</r>
+               </w>
+              </n>
+      </n>
+     <n v="child">
+      <w v="child">
+      	<l>child<s n="subst."/></l>
+      	<r>päʹrnn</r>
+      </w>
+     </n>
+     <n v="chair">
+      <w v="chair">
+      	<l>chair<s n="subst."/></l>
+      	<r>stuuʹl</r>
+      </w>
+     </n>
+     <n v="climb">
+      <w v="climb">
+      	<l>climb<s n="verb"/></l>
+      	<r>kuärŋŋad</r>
+      </w>
+     </n>
+     <n v="cloth">
+      <w v="cloth">
+      	<l>cloth<s n="subst."/></l>
+      	<r>piiutâs</r>
+      </w>
+     </n>
+     <n v="cloud">
+      <w v="cloud">
+      	<l>cloud<s n="subst."/></l>
+      	<r>põlvv</r>
+      </w>
+     </n>
+    <n v="claw">
+     <w v="claw">
+     	<l>claw<s n="subst."/></l>
+     	<r>kõʒʒ</r>
+     </w>
+    </n>
+    <n v="come">
+     <w v="come">
+     	<l>come<s n="verb"/></l>
+     	<r>pueʹtted</r>
+     </w>
+    </n>
+       <n v="collect">
+        <w v="collect">
+        	<l>collect<s n="verb"/></l>
+        	<r>noorrâd</r>
+        </w>
+       </n>
+    <n v="cold">
+     <w v="cold">
+     	<l>cold<s n="adj."/></l>
+     	<r>kõõumâs, čuẹʹcǩes</r>
+     </w>
+     <w v="cold">
+     	<l>cold<s n="adj."/></l>
+     	<r>čuẹʹcǩes, kõõumâs</r>
+     </w>
+    </n>
+    <n v="cook">
+     <w v="cook">
+     	<l>cook<s n="verb"/></l>
+     	<r>ǩeʹtted</r>
+     </w>
+    </n>
+      <n v="corral">
+       <w v="corral">
+       	<l>corral<s n="subst."/></l>
+       	<r>äiʹdd</r>
+       </w>
+      </n>
+       <n v="correct">
+        <w v="correct">
+        	<l>correct<s n="adj."/></l>
+        	<r>vuõiggâd</r>
+        </w>
+       </n>
+         <n v="courtyard">
+          <w v="courtyard">
+          	<l>courtyard<s n="subst."/></l>
+          	<r>šellj</r>
+          </w>
+         </n>
+     <n v="count">
+      <w v="count">
+      	<l>count<s n="verb"/></l>
+      	<r>laʹsǩǩeed, rekknâʹstted</r>
+      </w>
+     </n>
+   <n v="cow">
+    <w v="cow">
+    	<l>cow<s n="subst."/></l>
+    	<r>kuss</r>
+    </w>
+   </n>
+      <n v="coffee">
+       <w v="coffee">
+       	<l>coffee<s n="subst."/></l>
+       	<r>kaaʹff</r>
+       </w>
+            <n v="coffee table">
+             <w v="coffee table">
+             	<l>coffee table<s n="subst."/></l>
+             	<r>kaaʹffpåʹrdd</r>
+             </w>
+            </n>
+      </n>
+     <n v="cover">
+      <w v="cover">
+      	<l>cover<s n="verb"/></l>
+      	<r>tuʹvdded</r>
+      </w>
+     </n>
+   <n v="can">
+    <w v="can">
+    	<l>can<s n="verb"/></l>
+    	<r>vueiʹtted, vuäǯǯad</r>
+    </w>
+    <w v="can">
+    	<l>can<s n="verb"/></l>
+    	<r>vuäǯǯad, vueiʹtted</r>
+    </w>
+      <n v="candle">
+       <w v="candle">
+       	<l>candle<s n="subst."/></l>
+       	<r>tuõvâs</r>
+       </w>
+      </n>
+   </n>
+       <n v="capture">
+        <w v="capture">
+        	<l>capture<s n="verb"/></l>
+        	<r>tääʹvted ǩidd</r>
+        </w>
+       </n>
+    <n v="case">
+     <w v="case">
+     	<l>case<s n="subst."/></l>
+     	<r>äʹšš</r>
+     </w>
+    </n>
+   <n v="car">
+    <w v="car">
+    	<l>car<s n="subst."/></l>
+    	<r>autt</r>
+    </w>
+     <n v="carry">
+      <w v="carry">
+      	<l>carry<s n="verb"/></l>
+      	<r>kueʹdˈded</r>
+      </w>
+     </n>
+      <n v="carpet">
+       <w v="carpet">
+       	<l>carpet<s n="subst."/></l>
+       	<r>šâʹlddräänn</r>
+       </w>
+      </n>
+   </n>
+   <n v="cat">
+    <w v="cat">
+    	<l>cat<s n="subst."/></l>
+    	<r>kaass</r>
+    </w>
+                  <n v="catch with a lasso">
+                   <w v="catch with a lasso">
+                   	<l>catch with a lasso<s n="verb"/></l>
+                   	<r>njuärsted</r>
+                   </w>
+                  </n>
+   </n>
+    <n v="camp">
+     <w v="camp">
+     	<l>camp<s n="subst."/></l>
+     	<r>ǩeâmpp</r>
+     </w>
+    </n>
+    <n v="call">
+     <w v="call">
+     	<l>call<s n="verb"/></l>
+     	<r>soiʹttjed</r>
+     </w>
+    </n>
+    <n v="calf">
+     <w v="calf">
+     	<l>calf<s n="subst."/></l>
+     	<r>vueʹss</r>
+     </w>
+    </n>
+         <n v="calculate">
+          <w v="calculate">
+          	<l>calculate<s n="verb"/></l>
+          	<r>rekknâʹstted</r>
+          </w>
+         </n>
+         <n v="crowberry">
+          <w v="crowberry">
+          	<l>crowberry<s n="subst."/></l>
+          	<r>čuõʹmmjõš</r>
+          </w>
+         </n>
+      <n v="crashe">
+       <w v="crashe">
+       	<l>crashe<s n="verb"/></l>
+       	<r>kââmted</r>
+       </w>
+      </n>
+   <n v="cry">
+    <w v="cry">
+    	<l>cry<s n="verb"/></l>
+    	<r>reäkkâd</r>
+    </w>
+   </n>
+    <n v="dust">
+     <w v="dust">
+     	<l>dust<s n="subst."/></l>
+     	<r>põõʹl</r>
+     </w>
+    </n>
+    <n v="dull">
+     <w v="dull">
+     	<l>dull<s n="adj."/></l>
+     	<r>tåʹlcc</r>
+     </w>
+    </n>
+          <n v="decoration">
+           <w v="decoration">
+           	<l>decoration<s n="subst."/></l>
+           	<r>heäʹrvvkäuʹnn</r>
+           </w>
+          </n>
+           <n v="dwarf birch">
+            <w v="dwarf birch">
+            	<l>dwarf birch<s n="subst."/></l>
+            	<r>jeäʹǧǧreʹss</r>
+            </w>
+           </n>
+         <n v="different">
+          <w v="different">
+          	<l>different<s n="adj."/></l>
+          	<r>juõʹǩǩnallšem, jeeʹres</r>
+          </w>
+         </n>
+   <n v="die">
+    <w v="die">
+    	<l>die<s n="verb"/></l>
+    	<r>jääʹmmed</r>
+    </w>
+   </n>
+   <n v="dig">
+    <w v="dig">
+    	<l>dig<s n="verb"/></l>
+    	<r>kuäivvad, rääppad</r>
+    </w>
+    <w v="dig">
+    	<l>dig<s n="verb"/></l>
+    	<r>rääppad, kuäivvad</r>
+    </w>
+   </n>
+          <n v="diligently">
+           <w v="diligently">
+           	<l>diligently<s n="adv."/></l>
+           	<r>viiššlânji</r>
+           </w>
+          </n>
+     <n v="dirty">
+      <w v="dirty">
+      	<l>dirty<s n="adj."/></l>
+      	<r>sähssai</r>
+      </w>
+     </n>
+        <n v="distinct">
+         <w v="distinct">
+         	<l>distinct<s n="adj."/></l>
+         	<r>jeeʹresnallšem</r>
+         </w>
+        </n>
+    <n v="door">
+     <w v="door">
+     	<l>door<s n="subst."/></l>
+     	<r>uhss</r>
+     </w>
+    </n>
+   <n v="dog">
+    <w v="dog">
+    	<l>dog<s n="subst."/></l>
+    	<r>piânnai</r>
+    </w>
+   </n>
+     <n v="dance">
+      <w v="dance">
+      	<l>dance<s n="verb"/></l>
+      	<r>pleässjed</r>
+      </w>
+     </n>
+        <n v="daughter">
+         <w v="daughter">
+         	<l>daughter<s n="subst."/></l>
+         	<r>nijdd</r>
+         </w>
+        </n>
+   <n v="day">
+    <w v="day">
+    	<l>day<s n="subst."/></l>
+    	<r>peiʹvv</r>
+    </w>
+   </n>
+    <n v="draw">
+     <w v="draw">
+     	<l>draw<s n="verb"/></l>
+     	<r>čouggâd</r>
+     </w>
+    </n>
+   <n v="dry">
+    <w v="dry">
+    	<l>dry<s n="adj."/></l>
+    	<r>kååʹšǩes</r>
+    </w>
+   </n>
+     <n v="drive">
+      <w v="drive">
+      	<l>drive<s n="verb"/></l>
+      	<r>jååʹtted, uuʹrčted, vuejjad, vuẹjjad</r>
+      </w>
+      <w v="drive">
+      	<l>drive<s n="verb"/></l>
+      	<r>uuʹrčted, jååʹtted, vuejjad, vuẹjjad</r>
+      </w>
+      <w v="drive">
+      	<l>drive<s n="verb"/></l>
+      	<r>vuejjad, jååʹtted, uuʹrčted, vuẹjjad</r>
+      </w>
+      <w v="drive">
+      	<l>drive<s n="verb"/></l>
+      	<r>vuẹjjad, jååʹtted, uuʹrčted, vuejjad</r>
+      </w>
+     </n>
+     <n v="drink">
+      <w v="drink">
+      	<l>drink<s n="verb"/></l>
+      	<r>juukkâd</r>
+      </w>
+            <n v="drink coffee">
+             <w v="drink coffee">
+             	<l>drink coffee<s n="verb"/></l>
+             	<r>kaaʹfstõõllâd</r>
+             </w>
+            </n>
+     </n>
+    <n v="even">
+     <w v="even">
+     	<l>even<s n="adj."/></l>
+     	<r>lääʹttes</r>
+     </w>
+           <n v="even though">
+            <w v="even though">
+            	<l>even though<s n="subj."/></l>
+            	<r>håʹt</r>
+            </w>
+           </n>
+       <n v="evening">
+        <w v="evening">
+        	<l>evening<s n="subst."/></l>
+        	<r>jeäʹǩǩääž</r>
+        </w>
+       </n>
+    </n>
+   <n v="egg">
+    <w v="egg">
+    	<l>egg<s n="subst."/></l>
+    	<r>mââʹnn</r>
+    </w>
+   </n>
+   <n v="eye">
+    <w v="eye">
+    	<l>eye<s n="subst."/></l>
+    	<r>čâʹlmm</r>
+    </w>
+   </n>
+    <n v="else">
+     <w v="else">
+     	<l>else<s n="adv."/></l>
+     	<r>muđoi</r>
+     </w>
+    </n>
+   <n v="ear">
+    <w v="ear">
+    	<l>ear<s n="subst."/></l>
+    	<r>peʹllj</r>
+    </w>
+     <n v="earth">
+      <w v="earth">
+      	<l>earth<s n="subst."/></l>
+      	<r>jânnam</r>
+      </w>
+     </n>
+   </n>
+   <n v="eat">
+    <w v="eat">
+    	<l>eat<s n="verb"/></l>
+    	<r>poorrâd</r>
+    </w>
+   </n>
+    <n v="fish">
+     <w v="fish">
+     	<l>fish<s n="subst."/></l>
+     	<r>kueʹll</r>
+     </w>
+    </n>
+     <n v="fight">
+      <w v="fight">
+      	<l>fight<s n="verb"/></l>
+      	<r>tuärrad</r>
+      </w>
+     </n>
+    <n v="find">
+     <w v="find">
+     	<l>find<s n="verb"/></l>
+     	<r>ooccâd</r>
+     </w>
+    </n>
+    <n v="fire">
+     <w v="fire">
+     	<l>fire<s n="subst."/></l>
+     	<r>toll</r>
+     </w>
+    </n>
+     <n v="first">
+      <w v="first">
+      	<l>first<s n="adv."/></l>
+      	<r>vuõššân</r>
+      </w>
+     </n>
+   <n v="fly">
+    <w v="fly">
+    	<l>fly<s n="subst."/></l>
+    	<r>čuâr</r>
+    </w>
+    <w v="fly">
+    	<l>fly<s n="verb"/></l>
+    	<r>ǩeʹrdded</r>
+    </w>
+   </n>
+     <n v="floor">
+      <w v="floor">
+      	<l>floor<s n="subst."/></l>
+      	<r>šâʹldd</r>
+      </w>
+     </n>
+     <n v="float">
+      <w v="float">
+      	<l>float<s n="verb"/></l>
+      	<r>kåbllad</r>
+      </w>
+     </n>
+     <n v="flock">
+      <w v="flock">
+      	<l>flock<s n="subst."/></l>
+      	<r>čiõǥǥâr</r>
+      </w>
+     </n>
+    <n v="flow">
+     <w v="flow">
+     	<l>flow<s n="verb"/></l>
+     	<r>kolggâd</r>
+     </w>
+      <n v="flower">
+       <w v="flower">
+       	<l>flower<s n="subst."/></l>
+       	<r>heäʹrvvrääʹss, rääʹss</r>
+       </w>
+       <w v="flower">
+       	<l>flower<s n="subst."/></l>
+       	<r>rääʹss, heäʹrvvrääʹss</r>
+       </w>
+      </n>
+    </n>
+     <n v="flush">
+      <w v="flush">
+      	<l>flush<s n="verb"/></l>
+      	<r>ruâpseed</r>
+      </w>
+     </n>
+      <n v="follow">
+       <w v="follow">
+       	<l>follow<s n="verb"/></l>
+       	<r>čuâvvad</r>
+       </w>
+      </n>
+    <n v="foot">
+     <w v="foot">
+     	<l>foot<s n="subst."/></l>
+     	<r>jueʹlǧǧ</r>
+     </w>
+    </n>
+               <n v="for that reason">
+                <w v="for that reason">
+                	<l>for that reason<s n="adv."/></l>
+                	<r>tõndiõtt</r>
+                </w>
+               </n>
+       <n v="forrest">
+        <w v="forrest">
+        	<l>forrest<s n="subst."/></l>
+        	<r>meäʹcˈc</r>
+        </w>
+       </n>
+   <n v="fog">
+    <w v="fog">
+    	<l>fog<s n="subst."/></l>
+    	<r>suâlnõk</r>
+    </w>
+   </n>
+    <n v="fall">
+     <w v="fall">
+     	<l>fall<s n="subst."/></l>
+     	<r>čõhčč</r>
+     </w>
+     <w v="fall">
+     	<l>fall<s n="verb"/></l>
+     	<r>kõččâd</r>
+     </w>
+    </n>
+      <n v="family">
+       <w v="family">
+       	<l>family<s n="subst."/></l>
+       	<r>piâr</r>
+       </w>
+      </n>
+   <n v="far">
+    <w v="far">
+    	<l>far<s n="adv."/></l>
+    	<r>kuʹǩǩen</r>
+    </w>
+   </n>
+   <n v="fat">
+    <w v="fat">
+    	<l>fat<s n="subst."/></l>
+    	<r>pueiʹdd, vuõjj</r>
+    </w>
+    <w v="fat">
+    	<l>fat<s n="subst."/></l>
+    	<r>vuõjj, pueiʹdd</r>
+    </w>
+      <n v="father">
+       <w v="father">
+       	<l>father<s n="subst."/></l>
+       	<r>eʹčč</r>
+       </w>
+      </n>
+   </n>
+    <n v="from">
+     <w v="from">
+     	<l>from<s n=""/></l>
+     	<r>âʹlnn, åʹrnn</r>
+     </w>
+     <w v="from">
+     	<l>from<s n=""/></l>
+     	<r>åʹrnn, âʹlnn</r>
+     </w>
+              <n v="from somewhere">
+               <w v="from somewhere">
+               	<l>from somewhere<s n="adv."/></l>
+               	<r>koʹst-ne</r>
+               </w>
+              </n>
+          <n v="from there">
+           <w v="from there">
+           	<l>from there<s n="adv."/></l>
+           	<r>tåʹben</r>
+           </w>
+          </n>
+         <n v="from here">
+          <w v="from here">
+          	<l>from here<s n="adv."/></l>
+          	<r>tääiʹb, tääiʹben, täʹst</r>
+          </w>
+          <w v="from here">
+          	<l>from here<s n="adv."/></l>
+          	<r>tääiʹben, tääiʹb, täʹst</r>
+          </w>
+          <w v="from here">
+          	<l>from here<s n="adv."/></l>
+          	<r>täʹst, tääiʹb, tääiʹben</r>
+          </w>
+         </n>
+    </n>
+      <n v="freeze">
+       <w v="freeze">
+       	<l>freeze<s n="verb"/></l>
+       	<r>jiõŋŋâd, kâʹlmmed</r>
+       </w>
+       <w v="freeze">
+       	<l>freeze<s n="verb"/></l>
+       	<r>kâʹlmmed, jiõŋŋâd</r>
+       </w>
+      </n>
+   <n v="fur">
+    <w v="fur">
+    	<l>fur<s n="subst."/></l>
+    	<r>sõõus</r>
+    </w>
+   </n>
+    <n v="full">
+     <w v="full">
+     	<l>full<s n="adj."/></l>
+     	<r>tiiudâs</r>
+     </w>
+    </n>
+   <n v="fun">
+    <w v="fun">
+    	<l>fun<s n="subst."/></l>
+    	<r>hääʹsǩ</r>
+    </w>
+   </n>
+       <n v="feather">
+        <w v="feather">
+        	<l>feather<s n="subst."/></l>
+        	<r>poʒʒ</r>
+        </w>
+       </n>
+    <n v="fear">
+     <w v="fear">
+     	<l>fear<s n="verb"/></l>
+     	<r>põõllâd</r>
+     </w>
+    </n>
+          <n v="fetch down">
+           <w v="fetch down">
+           	<l>fetch down<s n="verb"/></l>
+           	<r>ponjsted</r>
+           </w>
+          </n>
+         <n v="feel good">
+          <w v="feel good">
+          	<l>feel good<s n="verb"/></l>
+          	<r>maaššâd</r>
+          </w>
+         </n>
+         <n v="feel like">
+          <w v="feel like">
+          	<l>feel like<s n="verb"/></l>
+          	<r>viiššâd</r>
+          </w>
+         </n>
+    <n v="girl">
+     <w v="girl">
+     	<l>girl<s n="subst."/></l>
+     	<r>nijdd</r>
+     </w>
+    </n>
+    <n v="give">
+     <w v="give">
+     	<l>give<s n="verb"/></l>
+     	<r>uʹvdded</r>
+     </w>
+    </n>
+    <n v="glad">
+     <w v="glad">
+     	<l>glad<s n="adj."/></l>
+     	<r>miõlstes</r>
+     </w>
+          <n v="gladsomely">
+           <w v="gladsomely">
+           	<l>gladsomely<s n="adv."/></l>
+           	<r>kuärǥast</r>
+           </w>
+          </n>
+    </n>
+  <n v="go">
+   <w v="go">
+   	<l>go<s n="verb"/></l>
+   	<r>mõõnnâd</r>
+   </w>
+    <n v="good">
+     <w v="good">
+     	<l>good<s n="adj."/></l>
+     	<r>pueʹrr, šiõǥǥ</r>
+     </w>
+     <w v="good">
+     	<l>good<s n="adj."/></l>
+     	<r>šiõǥǥ, pueʹrr</r>
+     </w>
+    </n>
+            <n v="go and bring">
+             <w v="go and bring">
+             	<l>go and bring<s n="verb"/></l>
+             	<r>viǯǯâd</r>
+             </w>
+            </n>
+  </n>
+       <n v="grandma">
+        <w v="grandma">
+        	<l>grandma<s n="subst."/></l>
+        	<r>äʹǩǩ</r>
+        </w>
+       </n>
+     <n v="grass">
+      <w v="grass">
+      	<l>grass<s n="subst."/></l>
+      	<r>rääʹss</r>
+      </w>
+     </n>
+      <n v="greasy">
+       <w v="greasy">
+       	<l>greasy<s n="adj."/></l>
+       	<r>pueidak</r>
+       </w>
+      </n>
+     <n v="green">
+      <w v="green">
+      	<l>green<s n="adj."/></l>
+      	<r>ruânn, ruõnâs</r>
+      </w>
+      <w v="green">
+      	<l>green<s n="adj."/></l>
+      	<r>ruõnâs, ruânn</r>
+      </w>
+     </n>
+     <n v="greet">
+      <w v="greet">
+      	<l>greet<s n="verb"/></l>
+      	<r>tiõrvted</r>
+      </w>
+     </n>
+     <n v="grind">
+      <w v="grind">
+      	<l>grind<s n="verb"/></l>
+      	<r>maaʹlˈjed, sââjjad</r>
+      </w>
+      <w v="grind">
+      	<l>grind<s n="verb"/></l>
+      	<r>sââjjad, maaʹlˈjed</r>
+      </w>
+     </n>
+     <n v="guest">
+      <w v="guest">
+      	<l>guest<s n="subst."/></l>
+      	<r>kueʹss</r>
+      </w>
+     </n>
+   <n v="gut">
+    <w v="gut">
+    	<l>gut<s n="subst."/></l>
+    	<r>čuẹʹll</r>
+    </w>
+   </n>
+    <n v="hide">
+     <w v="hide">
+     	<l>hide<s n="verb"/></l>
+     	<r>peiʹtted, čiõkkâd</r>
+     </w>
+     <w v="hide">
+     	<l>hide<s n="verb"/></l>
+     	<r>čiõkkâd, peiʹtted</r>
+     </w>
+    </n>
+   <n v="hit">
+    <w v="hit">
+    	<l>hit<s n="verb"/></l>
+    	<r>čâʹcǩǩed</r>
+    </w>
+   </n>
+   <n v="how">
+    <w v="how">
+    	<l>how<s n="adv."/></l>
+    	<r>mäʹhtt</r>
+    </w>
+   </n>
+          <n v="hold tight">
+           <w v="hold tight">
+           	<l>hold tight<s n="verb"/></l>
+           	<r>tuõʹlˈlʼjed</r>
+           </w>
+          </n>
+    <n v="home">
+     <w v="home">
+     	<l>home<s n="adv."/></l>
+     	<r>domoi</r>
+     </w>
+    </n>
+    <n v="horn">
+     <w v="horn">
+     	<l>horn<s n="subst."/></l>
+     	<r>čuäʹrvv</r>
+     </w>
+    </n>
+   <n v="hot">
+    <w v="hot">
+    	<l>hot<s n="adj."/></l>
+    	<r>puõʹlˈli</r>
+    </w>
+   </n>
+    <n v="host">
+     <w v="host">
+     	<l>host<s n="subst."/></l>
+     	<r>eeʹžžed</r>
+     </w>
+    </n>
+    <n v="hour">
+     <w v="hour">
+     	<l>hour<s n="subst."/></l>
+     	<r>čiâss</r>
+     </w>
+    </n>
+     <n v="house">
+      <w v="house">
+      	<l>house<s n="subst."/></l>
+      	<r>põrtt</r>
+      </w>
+     </n>
+    <n v="hair">
+     <w v="hair">
+     	<l>hair<s n="subst."/></l>
+     	<r>vuõptt</r>
+     </w>
+    </n>
+    <n v="half">
+     <w v="half">
+     	<l>half<s n="subst."/></l>
+     	<r>pieʹll</r>
+     </w>
+    </n>
+     <n v="hallo">
+      <w v="hallo">
+      	<l>hallo<s n=""/></l>
+      	<r>tiõrv</r>
+      </w>
+     </n>
+       <n v="hallway">
+        <w v="hallway">
+        	<l>hallway<s n="subst."/></l>
+        	<r>käʹrdd</r>
+        </w>
+       </n>
+    <n v="hand">
+     <w v="hand">
+     	<l>hand<s n="subst."/></l>
+     	<r>ǩiõtt</r>
+     </w>
+    </n>
+    <n v="hard">
+     <w v="hard">
+     	<l>hard<s n="adj."/></l>
+     	<r>kõõrâs</r>
+     </w>
+    </n>
+             <n v="have diarrhea">
+              <w v="have diarrhea">
+              	<l>have diarrhea<s n="verb"/></l>
+              	<r>loojjted</r>
+              </w>
+             </n>
+               <n v="having campfire">
+                <w v="having campfire">
+                	<l>having campfire<s n="verb"/></l>
+                	<r>tollstõõllâd</r>
+                </w>
+               </n>
+  <n v="he">
+   <w v="he">
+   	<l>he<s n=""/></l>
+   	<r>son</r>
+   </w>
+    <n v="here">
+     <w v="here">
+     	<l>here<s n="adv."/></l>
+     	<r>tiiʹǩ, tääiʹb, tääiʹben, täʹst, täʹst</r>
+     </w>
+     <w v="here">
+     	<l>here<s n="adv."/></l>
+     	<r>tääiʹb, tiiʹǩ, tääiʹben, täʹst, täʹst</r>
+     </w>
+     <w v="here">
+     	<l>here<s n="adv."/></l>
+     	<r>tääiʹben, tiiʹǩ, tääiʹb, täʹst, täʹst</r>
+     </w>
+     <w v="here">
+     	<l>here<s n="adv."/></l>
+     	<r>täʹst, tiiʹǩ, tääiʹb, tääiʹben</r>
+     </w>
+     <w v="here">
+     	<l>here<s n="adv."/></l>
+     	<r>täʹst, tiiʹǩ, tääiʹb, tääiʹben</r>
+     </w>
+    </n>
+    <n v="head">
+     <w v="head">
+     	<l>head<s n="subst."/></l>
+     	<r>vueiʹvv</r>
+     </w>
+    </n>
+     <n v="heavy">
+      <w v="heavy">
+      	<l>heavy<s n="adj."/></l>
+      	<r>lossâd</r>
+      </w>
+     </n>
+    <n v="hear">
+     <w v="hear">
+     	<l>hear<s n="verb"/></l>
+     	<r>kuullâd</r>
+     </w>
+     <n v="heart">
+      <w v="heart">
+      	<l>heart<s n="subst."/></l>
+      	<r>čââʹđ</r>
+      </w>
+     </n>
+    </n>
+      <n v="heifer">
+       <w v="heifer">
+       	<l>heifer<s n="subst."/></l>
+       	<r>råånn</r>
+       </w>
+      </n>
+  </n>
+    <n v="hunt">
+     <w v="hunt">
+     	<l>hunt<s n="verb"/></l>
+     	<r>miẹʹcsted</r>
+     </w>
+    </n>
+     <n v="human">
+      <w v="human">
+      	<l>human<s n="subst."/></l>
+      	<r>õummooumaž, åål, åålmai</r>
+      </w>
+     </n>
+     <n v="hurry">
+      <w v="hurry">
+      	<l>hurry<s n="verb"/></l>
+      	<r>ǩiirted</r>
+      </w>
+     </n>
+       <n v="husband">
+        <w v="husband">
+        	<l>husband<s n="subst."/></l>
+        	<r>kuõjj</r>
+        </w>
+       </n>
+           <n v="immediately">
+            <w v="immediately">
+            	<l>immediately<s n="adv."/></l>
+            	<r>tâʹlles</r>
+            </w>
+            <w v="immediately">
+            	<l>immediately<s n="adv."/></l>
+            	<r>tâʹlles</r>
+            </w>
+           </n>
+  <n v="in">
+   <w v="in">
+   	<l>in<s n="adv."/></l>
+   	<r>seʹst</r>
+   </w>
+           <n v="investigate">
+            <w v="investigate">
+            	<l>investigate<s n="verb"/></l>
+            	<r>tuʹtǩǩeed</r>
+            </w>
+           </n>
+      <n v="invite">
+       <w v="invite">
+       	<l>invite<s n="verb"/></l>
+       	<r>kåččad</r>
+       </w>
+      </n>
+                  <n v="in process of time">
+                   <w v="in process of time">
+                   	<l>in process of time<s n=""/></l>
+                   	<r>ääiʹj ǩeeʹjjest</r>
+                   </w>
+                  </n>
+       <n v="in fact">
+        <w v="in fact">
+        	<l>in fact<s n="adv."/></l>
+        	<r>tuõđi</r>
+        </w>
+       </n>
+       <n v="inquire">
+        <w v="inquire">
+        	<l>inquire<s n="verb"/></l>
+        	<r>kõõjjeed</r>
+        </w>
+       </n>
+      <n v="inside">
+       <w v="inside">
+       	<l>inside<s n="adv."/></l>
+       	<r>sizz, seʹst</r>
+       </w>
+      </n>
+  </n>
+   <n v="ice">
+    <w v="ice">
+    	<l>ice<s n="subst."/></l>
+    	<r>jiõŋŋ</r>
+    </w>
+   </n>
+          <n v="is audible">
+           <w v="is audible">
+           	<l>is audible<s n="verb"/></l>
+           	<r>kollʹjed</r>
+           </w>
+          </n>
+  <n v="if">
+   <w v="if">
+   	<l>if<s n="subj."/></l>
+   	<r>jos</r>
+   </w>
+  </n>
+      <n v="jacket">
+       <w v="jacket">
+       	<l>jacket<s n="subst."/></l>
+       	<r>kähttan</r>
+       </w>
+      </n>
+       <n v="juniper">
+        <w v="juniper">
+        	<l>juniper<s n="subst."/></l>
+        	<r>kõõskâs</r>
+        </w>
+       </n>
+    <n v="knee">
+     <w v="knee">
+     	<l>knee<s n="subst."/></l>
+     	<r>puõlvv</r>
+     </w>
+    </n>
+    <n v="knit">
+     <w v="knit">
+     	<l>knit<s n="verb"/></l>
+     	<r>kuärrad</r>
+     </w>
+    </n>
+        <n v="knocking">
+         <w v="knocking">
+         	<l>knocking<s n="subst."/></l>
+         	<r>kuälktem</r>
+         </w>
+        </n>
+    <n v="know">
+     <w v="know">
+     	<l>know<s n="verb"/></l>
+     	<r>tieʹtted, tobddâd</r>
+     </w>
+     <w v="know">
+     	<l>know<s n="verb"/></l>
+     	<r>tobddâd, tieʹtted</r>
+     </w>
+    </n>
+       <n v="kitchen">
+        <w v="kitchen">
+        	<l>kitchen<s n="subst."/></l>
+        	<r>ǩeʹttempõrtt</r>
+        </w>
+       </n>
+    <n v="kill">
+     <w v="kill">
+     	<l>kill<s n="verb"/></l>
+     	<r>kåʹdded</r>
+     </w>
+    </n>
+     <n v="louse">
+      <w v="louse">
+      	<l>louse<s n="subst."/></l>
+      	<r>teʹǩǩ</r>
+      </w>
+     </n>
+            <n v="logging road">
+             <w v="logging road">
+             	<l>logging road<s n="subst."/></l>
+             	<r>meäʹcˈc-čuâǥǥas</r>
+             </w>
+            </n>
+    <n v="long">
+     <w v="long">
+     	<l>long<s n="adj."/></l>
+     	<r>kuʹǩǩ</r>
+     </w>
+         <n v="long time">
+          <w v="long time">
+          	<l>long time<s n="adv."/></l>
+          	<r>kuuʹǩǩ</r>
+          </w>
+         </n>
+    </n>
+     <n v="laugh">
+      <w v="laugh">
+      	<l>laugh<s n="verb"/></l>
+      	<r>påǥsted, ruâkksed</r>
+      </w>
+      <w v="laugh">
+      	<l>laugh<s n="verb"/></l>
+      	<r>ruâkksed, påǥsted</r>
+      </w>
+     </n>
+       <n v="launder">
+        <w v="launder">
+        	<l>launder<s n="verb"/></l>
+        	<r>põõssâd</r>
+        </w>
+       </n>
+    <n v="lake">
+     <w v="lake">
+     	<l>lake<s n="subst."/></l>
+     	<r>jäuʹrr</r>
+     </w>
+    </n>
+    <n v="last">
+     <w v="last">
+     	<l>last<s n="verb"/></l>
+     	<r>peʹštted</r>
+     </w>
+    </n>
+    <n v="leak">
+     <w v="leak">
+     	<l>leak<s n="verb"/></l>
+     	<r>âʹvveed</r>
+     </w>
+    </n>
+      <n v="letter">
+       <w v="letter">
+       	<l>letter<s n="subst."/></l>
+       	<r>ǩeʹrjj</r>
+       </w>
+      </n>
+    <n v="left">
+     <w v="left">
+     	<l>left<s n="adj."/></l>
+     	<r>čiʹǯǯ-</r>
+     </w>
+    </n>
+   <n v="leg">
+    <w v="leg">
+    	<l>leg<s n="subst."/></l>
+    	<r>jueʹlǧǧ</r>
+    </w>
+   </n>
+           <n v="lingonberry">
+            <w v="lingonberry">
+            	<l>lingonberry<s n="subst."/></l>
+            	<r>joŋŋ</r>
+            </w>
+           </n>
+           <n v="living room">
+            <w v="living room">
+            	<l>living room<s n="subst."/></l>
+            	<r>jälstemlõnnj</r>
+            </w>
+           </n>
+    <n v="live">
+     <w v="live">
+     	<l>live<s n="verb"/></l>
+     	<r>jiẹʹlled, jälsted</r>
+     </w>
+     <w v="live">
+     	<l>live<s n="verb"/></l>
+     	<r>jälsted, jiẹʹlled</r>
+     </w>
+     <n v="liver">
+      <w v="liver">
+      	<l>liver<s n="subst."/></l>
+      	<r>vuõivâs</r>
+      </w>
+     </n>
+    </n>
+        <n v="lie down">
+         <w v="lie down">
+         	<l>lie down<s n="verb"/></l>
+         	<r>lieʹnˈnjsted, liâššâd</r>
+         </w>
+         <w v="lie down">
+         	<l>lie down<s n="verb"/></l>
+         	<r>liâššâd, lieʹnˈnjsted</r>
+         </w>
+        </n>
+     <n v="light">
+      <w v="light">
+      	<l>light<s n="adj."/></l>
+      	<r>čuõvvâd</r>
+      </w>
+     </n>
+      <n v="lizard">
+       <w v="lizard">
+       	<l>lizard<s n="subst."/></l>
+       	<r>smäʹtt</r>
+       </w>
+      </n>
+    <n v="more">
+     <w v="more">
+     	<l>more<s n="adv."/></l>
+     	<r>võl, jäänab</r>
+     </w>
+     <w v="more">
+     	<l>more<s n="adv."/></l>
+     	<r>jäänab, võl</r>
+     </w>
+    </n>
+       <n v="morning">
+        <w v="morning">
+        	<l>morning<s n="subst."/></l>
+        	<r>tueʹlääž</r>
+        </w>
+       </n>
+     <n v="mouth">
+      <w v="mouth">
+      	<l>mouth<s n="subst."/></l>
+      	<r>njäʹlmm</r>
+      </w>
+     </n>
+        <n v="mountain">
+         <w v="mountain">
+         	<l>mountain<s n="subst."/></l>
+         	<r>vääʹrr</r>
+         </w>
+        </n>
+      <n v="mother">
+       <w v="mother">
+       	<l>mother<s n="subst."/></l>
+       	<r>jeäʹnˈn, jieʹnn</r>
+       </w>
+       <w v="mother">
+       	<l>mother<s n="subst."/></l>
+       	<r>jieʹnn, jeäʹnˈn</r>
+       </w>
+      </n>
+    <n v="moon">
+     <w v="moon">
+     	<l>moon<s n="subst."/></l>
+     	<r>mään</r>
+     </w>
+    </n>
+     <n v="month">
+      <w v="month">
+      	<l>month<s n="subst."/></l>
+      	<r>mään</r>
+      </w>
+     </n>
+          <n v="make sound">
+           <w v="make sound">
+           	<l>make sound<s n="verb"/></l>
+           	<r>preuggad</r>
+           </w>
+          </n>
+    <n v="many">
+     <w v="many">
+     	<l>many<s n="adj."/></l>
+     	<r>jiânnai</r>
+     </w>
+     <w v="many">
+     	<l>many<s n="num."/></l>
+     	<r>mäŋgg</r>
+     </w>
+    </n>
+     <n v="marry">
+      <w v="marry">
+      	<l>marry<s n="verb"/></l>
+      	<r>veäncceed</r>
+      </w>
+     </n>
+    <n v="mark">
+     <w v="mark">
+     	<l>mark<s n="subst."/></l>
+     	<r>miârkk</r>
+     </w>
+     <w v="mark">
+     	<l>mark<s n="verb"/></l>
+     	<r>meärkkad</r>
+     </w>
+    </n>
+    <n v="much">
+     <w v="much">
+     	<l>much<s n="adv."/></l>
+     	<r>jiânnai</r>
+     </w>
+    </n>
+    <n v="meat">
+     <w v="meat">
+     	<l>meat<s n="subst."/></l>
+     	<r>vuäʹǯˈǯ</r>
+     </w>
+         <n v="meat soup">
+          <w v="meat soup">
+          	<l>meat soup<s n="subst."/></l>
+          	<r>vuäʹǯˈǯveärr</r>
+          </w>
+         </n>
+    </n>
+    <n v="milk">
+     <w v="milk">
+     	<l>milk<s n="subst."/></l>
+     	<r>mieʹlǩǩ</r>
+     </w>
+    </n>
+    <n v="mind">
+     <w v="mind">
+     	<l>mind<s n="verb"/></l>
+     	<r>vaarõõttâd</r>
+     </w>
+    </n>
+      <n v="mitten">
+       <w v="mitten">
+       	<l>mitten<s n="subst."/></l>
+       	<r>vacc</r>
+       </w>
+      </n>
+      <n v="nobody">
+       <w v="nobody">
+       	<l>nobody<s n=""/></l>
+       	<r>ni ǩeän</r>
+       </w>
+      </n>
+   <n v="not">
+    <w v="not">
+    	<l>not<s n="adv."/></l>
+    	<r>ni</r>
+    </w>
+    <w v="not">
+    	<l>not<s n="part."/></l>
+    	<r>ij</r>
+    </w>
+       <n v="nothing">
+        <w v="nothing">
+        	<l>nothing<s n=""/></l>
+        	<r>ni mâiʹd</r>
+        </w>
+       </n>
+        <n v="not more">
+         <w v="not more">
+         	<l>not more<s n="adv."/></l>
+         	<r>teänab</r>
+         </w>
+        </n>
+   </n>
+    <n v="nose">
+     <w v="nose">
+     	<l>nose<s n="subst."/></l>
+     	<r>njuuʹnn</r>
+     </w>
+    </n>
+   <n v="now">
+    <w v="now">
+    	<l>now<s n="adv."/></l>
+    	<r>ååʹn</r>
+    </w>
+   </n>
+     <n v="navel">
+      <w v="navel">
+      	<l>navel<s n="subst."/></l>
+      	<r>nääʹpp</r>
+      </w>
+     </n>
+    <n v="name">
+     <w v="name">
+     	<l>name<s n="subst."/></l>
+     	<r>nõmm</r>
+     </w>
+    </n>
+      <n v="narrow">
+       <w v="narrow">
+       	<l>narrow<s n="adj."/></l>
+       	<r>seäʹǧˈǧ, korččai</r>
+       </w>
+       <w v="narrow">
+       	<l>narrow<s n="adj."/></l>
+       	<r>korččai, seäʹǧˈǧ</r>
+       </w>
+      </n>
+       <n v="next to">
+        <w v="next to">
+        	<l>next to<s n="adv."/></l>
+        	<r>paaldâst</r>
+        </w>
+       </n>
+   <n v="new">
+    <w v="new">
+    	<l>new<s n="adj."/></l>
+    	<r>oođâs</r>
+    </w>
+   </n>
+       <n v="neither">
+        <w v="neither">
+        	<l>neither<s n="adv."/></l>
+        	<r>ij-ǥa</r>
+        </w>
+       </n>
+    <n v="near">
+     <w v="near">
+     	<l>near<s n="adv."/></l>
+     	<r>luʹnn, ââlda</r>
+     </w>
+     <w v="near">
+     	<l>near<s n="adv."/></l>
+     	<r>ââlda, luʹnn</r>
+     </w>
+    </n>
+    <n v="neck">
+     <w v="neck">
+     	<l>neck<s n="subst."/></l>
+     	<r>njiʹšǩǩmaadd, čeäppat</r>
+     </w>
+     <w v="neck">
+     	<l>neck<s n="subst."/></l>
+     	<r>čeäppat, njiʹšǩǩmaadd</r>
+     </w>
+    </n>
+    <n v="need">
+     <w v="need">
+     	<l>need<s n="verb"/></l>
+     	<r>feʹrttjed, taarbšed</r>
+     </w>
+     <w v="need">
+     	<l>need<s n="verb"/></l>
+     	<r>taarbšed, feʹrttjed</r>
+     </w>
+    </n>
+      <n v="number">
+       <w v="number">
+       	<l>number<s n="subst."/></l>
+       	<r>nââmar</r>
+       </w>
+      </n>
+     <n v="night">
+      <w v="night">
+      	<l>night<s n="subst."/></l>
+      	<r>inn</r>
+      </w>
+     </n>
+    <n v="open">
+     <w v="open">
+     	<l>open<s n="verb"/></l>
+     	<r>ääʹveed</r>
+     </w>
+    </n>
+  <n v="or">
+   <w v="or">
+   	<l>or<s n="konj."/></l>
+   	<r>avi</r>
+   </w>
+     <n v="order">
+      <w v="order">
+      	<l>order<s n="verb"/></l>
+      	<r>päkkad</r>
+      </w>
+     </n>
+      <n v="orange">
+       <w v="orange">
+       	<l>orange<s n="adj."/></l>
+       	<r>maʹlinovi ruõpssâd</r>
+       </w>
+      </n>
+  </n>
+     <n v="other">
+      <w v="other">
+      	<l>other<s n="adj."/></l>
+      	<r>jeeʹres</r>
+      </w>
+     </n>
+       <n v="outside">
+        <w v="outside">
+        	<l>outside<s n="adv."/></l>
+        	<r>ålggan</r>
+        </w>
+       </n>
+     <n v="often">
+      <w v="often">
+      	<l>often<s n="adv."/></l>
+      	<r>täujja</r>
+      </w>
+     </n>
+   <n v="old">
+    <w v="old">
+    	<l>old<s n="adj."/></l>
+    	<r>puäʹres, vuäʹmes</r>
+    </w>
+    <w v="old">
+    	<l>old<s n="adj."/></l>
+    	<r>vuäʹmes, puäʹres</r>
+    </w>
+   </n>
+  <n v="on">
+   <w v="on">
+   	<l>on<s n=""/></l>
+   	<r>âʹlnn</r>
+   </w>
+             <n v="on four weels">
+              <w v="on four weels">
+              	<l>on four weels<s n=""/></l>
+              	<r>neellji kååʹlzivuiʹm</r>
+              </w>
+             </n>
+      <n v="one of">
+       <w v="one of">
+       	<l>one of<s n=""/></l>
+       	<r>måttam</r>
+       </w>
+      </n>
+    <n v="only">
+     <w v="only">
+     	<l>only<s n="adv."/></l>
+     	<r>oʹdinakai</r>
+     </w>
+    </n>
+  </n>
+      <n v="parent">
+       <w v="parent">
+       	<l>parent<s n="subst."/></l>
+       	<r>puäʹres</r>
+       </w>
+      </n>
+    <n v="path">
+     <w v="path">
+     	<l>path<s n="subst."/></l>
+     	<r>pääʹljes</r>
+     </w>
+    </n>
+        <n v="pregnant">
+         <w v="pregnant">
+         	<l>pregnant<s n="adj."/></l>
+         	<r>päärnai vuâstta</r>
+         </w>
+        </n>
+        <n v="prepared">
+         <w v="prepared">
+         	<l>prepared<s n="verb"/></l>
+         	<r>vaalmâš</r>
+         </w>
+        </n>
+       <n v="produce">
+        <w v="produce">
+        	<l>produce<s n="verb"/></l>
+        	<r>raajjâd, tuẹjˈjeed</r>
+        </w>
+       </n>
+      <n v="person">
+       <w v="person">
+       	<l>person<s n="subst."/></l>
+       	<r>ooumaž, åål, åålmai</r>
+       </w>
+      </n>
+    <n v="pull">
+     <w v="pull">
+     	<l>pull<s n="verb"/></l>
+     	<r>ǩiẹʹssed</r>
+     </w>
+    </n>
+   <n v="put">
+    <w v="put">
+    	<l>put<s n="verb"/></l>
+    	<r>piijjâd</r>
+    </w>
+   </n>
+    <n v="push">
+     <w v="push">
+     	<l>push<s n="verb"/></l>
+     	<r>oiʹǧǧeed</r>
+     </w>
+    </n>
+         <n v="physician">
+          <w v="physician">
+          	<l>physician<s n="subst."/></l>
+          	<r>dåhttar</r>
+          </w>
+         </n>
+    <n v="play">
+     <w v="play">
+     	<l>play<s n="verb"/></l>
+     	<r>siõrrâd</r>
+     </w>
+    </n>
+     <n v="place">
+      <w v="place">
+      	<l>place<s n="subst."/></l>
+      	<r>päiʹǩǩ</r>
+      </w>
+                             <n v="place for collecting reindeer">
+                              <w v="place for collecting reindeer">
+                              	<l>place for collecting reindeer<s n="subst."/></l>
+                              	<r>pikalõspäiʹǩǩ</r>
+                              </w>
+                             </n>
+     </n>
+    <n v="plan">
+     <w v="plan">
+     	<l>plan<s n="verb"/></l>
+     	<r>äiggad</r>
+     </w>
+     <n v="plant">
+      <w v="plant">
+      	<l>plant<s n="subst."/></l>
+      	<r>rääʹss</r>
+      </w>
+     </n>
+    </n>
+      <n v="potato">
+       <w v="potato">
+       	<l>potato<s n="subst."/></l>
+       	<r>pååʹttaǩ</r>
+       </w>
+      </n>
+    <n v="pour">
+     <w v="pour">
+     	<l>pour<s n="verb"/></l>
+     	<r>väällad</r>
+     </w>
+    </n>
+         <n v="powerless">
+          <w v="powerless">
+          	<l>powerless<s n="adj."/></l>
+          	<r>viõǥǥteʹm</r>
+          </w>
+         </n>
+       <n v="quickly">
+        <w v="quickly">
+        	<l>quickly<s n="adv."/></l>
+        	<r>jåʹttlõnji</r>
+        </w>
+       </n>
+   <n v="red">
+    <w v="red">
+    	<l>red<s n="adj."/></l>
+    	<r>ruõpssâd</r>
+    </w>
+   </n>
+               <n v="reindeer corral">
+                <w v="reindeer corral">
+                	<l>reindeer corral<s n="subst."/></l>
+                	<r>pikalõsäiʹdd</r>
+                </w>
+               </n>
+               <n v="reindeer herder">
+                <w v="reindeer herder">
+                	<l>reindeer herder<s n="subst."/></l>
+                	<r>puäʒʒoummu</r>
+                </w>
+               </n>
+                <n v="reindeer herding">
+                 <w v="reindeer herding">
+                 	<l>reindeer herding<s n="subst."/></l>
+                 	<r>puäʒʒhåmm</r>
+                 </w>
+                </n>
+        <n v="relative">
+         <w v="relative">
+         	<l>relative<s n="subst."/></l>
+         	<r>ruått</r>
+         </w>
+        </n>
+        <n v="remember">
+         <w v="remember">
+         	<l>remember<s n="verb"/></l>
+         	<r>muʹštted</r>
+         </w>
+        </n>
+     <n v="reach">
+      <w v="reach">
+      	<l>reach<s n="verb"/></l>
+      	<r>piâssâd</r>
+      </w>
+     </n>
+   <n v="run">
+    <w v="run">
+    	<l>run<s n="verb"/></l>
+    	<r>tiârrâd, urččâd</r>
+    </w>
+    <w v="run">
+    	<l>run<s n="verb"/></l>
+    	<r>urččâd, tiârrâd</r>
+    </w>
+   </n>
+   <n v="rub">
+    <w v="rub">
+    	<l>rub<s n="verb"/></l>
+    	<r>ruʹvvjed</r>
+    </w>
+   </n>
+     <n v="right">
+      <w v="right">
+      	<l>right<s n="adj."/></l>
+      	<r>vuäʹljs-, vuõiggâd, tuõtt</r>
+      </w>
+      <w v="right">
+      	<l>right<s n="adj."/></l>
+      	<r>tuõtt, vuõiggâd, vuäʹljs-</r>
+      </w>
+      <w v="right">
+      	<l>right<s n="subst."/></l>
+      	<r>tuõtt</r>
+      </w>
+     </n>
+     <n v="river">
+      <w v="river">
+      	<l>river<s n="subst."/></l>
+      	<r>jokk</r>
+      </w>
+     </n>
+    <n v="rope">
+     <w v="rope">
+     	<l>rope<s n="subst."/></l>
+     	<r>trooss</r>
+     </w>
+    </n>
+    <n v="root">
+     <w v="root">
+     	<l>root<s n="subst."/></l>
+     	<r>vuẹʹddes</r>
+     </w>
+    </n>
+    <n v="room">
+     <w v="room">
+     	<l>room<s n="subst."/></l>
+     	<r>lõnnj</r>
+     </w>
+    </n>
+    <n v="road">
+     <w v="road">
+     	<l>road<s n="subst."/></l>
+     	<r>čuâǥǥas, ǩeäinn</r>
+     </w>
+     <w v="road">
+     	<l>road<s n="subst."/></l>
+     	<r>ǩeäinn, čuâǥǥas</r>
+     </w>
+    </n>
+     <n v="roast">
+      <w v="roast">
+      	<l>roast<s n="verb"/></l>
+      	<r>päʹštted</r>
+      </w>
+     </n>
+      <n v="rotted">
+       <w v="rotted">
+       	<l>rotted<s n="adj."/></l>
+       	<r>kuõcc</r>
+       </w>
+      </n>
+      <n v="rotten">
+       <w v="rotten">
+       	<l>rotten<s n="adj."/></l>
+       	<r>läähh</r>
+       </w>
+      </n>
+     <n v="round">
+      <w v="round">
+      	<l>round<s n="adj."/></l>
+      	<r>joorbâs</r>
+      </w>
+     </n>
+    <n v="rain">
+     <w v="rain">
+     	<l>rain<s n="subst."/></l>
+     	<r>âʹbrr</r>
+     </w>
+    </n>
+        <n v="straight">
+         <w v="straight">
+         	<l>straight<s n="adj."/></l>
+         	<r>vuõiggâd</r>
+         </w>
+        </n>
+     <n v="strap">
+      <w v="strap">
+      	<l>strap<s n="subst."/></l>
+      	<r>läʹbǯǯ</r>
+      </w>
+     </n>
+    <n v="star">
+     <w v="star">
+     	<l>star<s n="subst."/></l>
+     	<r>täʹsnn</r>
+     </w>
+     <n v="start">
+      <w v="start">
+      	<l>start<s n="verb"/></l>
+      	<r>äʹlǧǧed</r>
+      </w>
+     </n>
+    </n>
+    <n v="stab">
+     <w v="stab">
+     	<l>stab<s n="verb"/></l>
+     	<r>čuõʹǧǧeed</r>
+     </w>
+    </n>
+     <n v="stand">
+      <w v="stand">
+      	<l>stand<s n="verb"/></l>
+      	<r>čuẹǯʼǯad</r>
+      </w>
+     </n>
+     <n v="stick">
+      <w v="stick">
+      	<l>stick<s n="subst."/></l>
+      	<r>suäʹbˈb, säʹǧǧ</r>
+      </w>
+      <w v="stick">
+      	<l>stick<s n="subst."/></l>
+      	<r>säʹǧǧ, suäʹbˈb</r>
+      </w>
+     </n>
+    <n v="stop">
+     <w v="stop">
+     	<l>stop<s n="verb"/></l>
+     	<r>årsted</r>
+     </w>
+    </n>
+     <n v="stone">
+      <w v="stone">
+      	<l>stone<s n="subst."/></l>
+      	<r>ǩeäʹdǧǧ</r>
+      </w>
+     </n>
+     <n v="stool">
+      <w v="stool">
+      	<l>stool<s n="subst."/></l>
+      	<r>stuälaž</r>
+      </w>
+     </n>
+    <n v="such">
+     <w v="such">
+     	<l>such<s n=""/></l>
+     	<r>nåkkam</r>
+     </w>
+    </n>
+    <n v="suck">
+     <w v="suck">
+     	<l>suck<s n="verb"/></l>
+     	<r>njiimmâd</r>
+     </w>
+    </n>
+    <n v="sure">
+     <w v="sure">
+     	<l>sure<s n="adj."/></l>
+     	<r>-tâma</r>
+     </w>
+    </n>
+           <n v="surrounding">
+            <w v="surrounding">
+            	<l>surrounding<s n="subst."/></l>
+            	<r>pirrõs</r>
+            </w>
+           </n>
+     <n v="sugar">
+      <w v="sugar">
+      	<l>sugar<s n="subst."/></l>
+      	<r>säähhar</r>
+      </w>
+     </n>
+   <n v="sun">
+    <w v="sun">
+    	<l>sun<s n="subst."/></l>
+    	<r>peiʹvv</r>
+    </w>
+   </n>
+     <n v="sweet">
+      <w v="sweet">
+      	<l>sweet<s n="adj."/></l>
+      	<r>njääʹljes</r>
+      </w>
+     </n>
+     <n v="swell">
+      <w v="swell">
+      	<l>swell<s n="verb"/></l>
+      	<r>pååssad</r>
+      </w>
+     </n>
+     <n v="swipe">
+      <w v="swipe">
+      	<l>swipe<s n="verb"/></l>
+      	<r>västtled</r>
+      </w>
+     </n>
+    <n v="swim">
+     <w v="swim">
+     	<l>swim<s n="verb"/></l>
+     	<r>vuõjjâd</r>
+     </w>
+     <w v="swim">
+     	<l>swim<s n="verb"/></l>
+     	<r>vuõjjâd</r>
+     </w>
+    </n>
+    <n v="swan">
+     <w v="swan">
+     	<l>swan<s n="subst."/></l>
+     	<r>njuhčč</r>
+     </w>
+    </n>
+    <n v="sand">
+     <w v="sand">
+     	<l>sand<s n="subst."/></l>
+     	<r>vuõddâs</r>
+     </w>
+    </n>
+     <n v="sauna">
+      <w v="sauna">
+      	<l>sauna<s n="subst."/></l>
+      	<r>säuʹnn</r>
+      </w>
+     </n>
+   <n v="say">
+    <w v="say">
+    	<l>say<s n="verb"/></l>
+    	<r>ceäʹlǩǩed</r>
+    </w>
+   </n>
+    <n v="salt">
+     <w v="salt">
+     	<l>salt<s n="subst."/></l>
+     	<r>säʹltt</r>
+     </w>
+    </n>
+      <n v="salmon">
+       <w v="salmon">
+       	<l>salmon<s n="subst."/></l>
+       	<r>luõss</r>
+       </w>
+      </n>
+      <n v="scream">
+       <w v="scream">
+       	<l>scream<s n="verb"/></l>
+       	<r>čuârvvad</r>
+       </w>
+      </n>
+       <n v="scratch">
+        <w v="scratch">
+        	<l>scratch<s n="verb"/></l>
+        	<r>ruõtˈtâd</r>
+        </w>
+       </n>
+     <n v="scent">
+      <w v="scent">
+      	<l>scent<s n="verb"/></l>
+      	<r>njuʹnnʼjed</r>
+      </w>
+     </n>
+      <n v="school">
+       <w v="school">
+       	<l>school<s n="subst."/></l>
+       	<r>škooul</r>
+       </w>
+      </n>
+      <n v="second">
+       <w v="second">
+       	<l>second<s n="num."/></l>
+       	<r>nuʹbb</r>
+       </w>
+      </n>
+   <n v="see">
+    <w v="see">
+    	<l>see<s n="verb"/></l>
+    	<r>vueiʹnned, ǩiiččeed, ǩiõččâd</r>
+    </w>
+    <w v="see">
+    	<l>see<s n="verb"/></l>
+    	<r>ǩiiččeed, vueiʹnned, ǩiõččâd</r>
+    </w>
+    <w v="see">
+    	<l>see<s n="verb"/></l>
+    	<r>ǩiõččâd, vueiʹnned, ǩiiččeed</r>
+    </w>
+    <n v="seed">
+     <w v="seed">
+     	<l>seed<s n="subst."/></l>
+     	<r>sieʹm</r>
+     </w>
+    </n>
+   </n>
+   <n v="sew">
+    <w v="sew">
+    	<l>sew<s n="verb"/></l>
+    	<r>kuärrad</r>
+    </w>
+   </n>
+    <n v="self">
+     <w v="self">
+     	<l>self<s n=""/></l>
+     	<r>jiõčč</r>
+     </w>
+              <n v="self-evidently">
+               <w v="self-evidently">
+               	<l>self-evidently<s n="adv."/></l>
+               	<r>tiõttlõs</r>
+               </w>
+              </n>
+    </n>
+   <n v="sea">
+    <w v="sea">
+    	<l>sea<s n="subst."/></l>
+    	<r>miârr</r>
+    </w>
+   </n>
+     <n v="sheep">
+      <w v="sheep">
+      	<l>sheep<s n="subst."/></l>
+      	<r>sauʒʒ</r>
+      </w>
+     </n>
+     <n v="shirt">
+      <w v="shirt">
+      	<l>shirt<s n="subst."/></l>
+      	<r>päiʹdd</r>
+      </w>
+     </n>
+    <n v="show">
+     <w v="show">
+     	<l>show<s n="verb"/></l>
+     	<r>čuäʹjted</r>
+     </w>
+    </n>
+     <n v="short">
+      <w v="short">
+      	<l>short<s n="adj."/></l>
+      	<r>vuäʹniǩ</r>
+      </w>
+     </n>
+     <n v="sharp">
+      <w v="sharp">
+      	<l>sharp<s n="adj."/></l>
+      	<r>pâʹsttel</r>
+      </w>
+     </n>
+      <n v="shadow">
+       <w v="shadow">
+       	<l>shadow<s n="subst."/></l>
+       	<r>ǩeeuʹniǩ</r>
+       </w>
+      </n>
+    <n v="sing">
+     <w v="sing">
+     	<l>sing<s n="verb"/></l>
+     	<r>laullad</r>
+     </w>
+    </n>
+    <n v="sick">
+     <w v="sick">
+     	<l>sick<s n="adj."/></l>
+     	<r>puõcci</r>
+     </w>
+    </n>
+      <n v="sister">
+       <w v="sister">
+       	<l>sister<s n="subst."/></l>
+       	<r>vuäʹbb</r>
+       </w>
+      </n>
+   <n v="sit">
+    <w v="sit">
+    	<l>sit<s n="verb"/></l>
+    	<r>išttâd</r>
+    </w>
+   </n>
+     <n v="skirt">
+      <w v="skirt">
+      	<l>skirt<s n="subst."/></l>
+      	<r>kåhtt</r>
+      </w>
+     </n>
+    <n v="skin">
+     <w v="skin">
+     	<l>skin<s n="subst."/></l>
+     	<r>leʹšǩǩ, kõrr</r>
+     </w>
+    </n>
+        <n v="skillful">
+         <w v="skillful">
+         	<l>skillful<s n="adj."/></l>
+         	<r>čeäʹp'p</r>
+         </w>
+        </n>
+   <n v="sky">
+    <w v="sky">
+    	<l>sky<s n="subst."/></l>
+    	<r>âʹlmm</r>
+    </w>
+   </n>
+     <n v="sleep">
+      <w v="sleep">
+      	<l>sleep<s n="verb"/></l>
+      	<r>vuẹʹđđed</r>
+      </w>
+             <n v="sleeping room">
+              <w v="sleeping room">
+              	<l>sleeping room<s n="subst."/></l>
+              	<r>vueʹđđemkäämmar</r>
+              </w>
+             </n>
+     </n>
+      <n v="sleeve">
+       <w v="sleeve">
+       	<l>sleeve<s n="subst."/></l>
+       	<r>suäjj</r>
+       </w>
+      </n>
+     <n v="smoke">
+      <w v="smoke">
+      	<l>smoke<s n="subst."/></l>
+      	<r>suõvv</r>
+      </w>
+     </n>
+      <n v="smooth">
+       <w v="smooth">
+       	<l>smooth<s n="adj."/></l>
+       	<r>šõllâd</r>
+       </w>
+      </n>
+     <n v="small">
+      <w v="small">
+      	<l>small<s n="adj."/></l>
+      	<r>occkaž, siõm, smaavâs, uʹcc, siõmm</r>
+      </w>
+      <w v="small">
+      	<l>small<s n="adj."/></l>
+      	<r>siõm, occkaž, smaavâs, uʹcc, siõmm</r>
+      </w>
+      <w v="small">
+      	<l>small<s n="adj."/></l>
+      	<r>smaavâs, occkaž, siõm, uʹcc, siõmm</r>
+      </w>
+     </n>
+     <n v="smell">
+      <w v="smell">
+      	<l>smell<s n="subst."/></l>
+      	<r>õpss</r>
+      </w>
+      <w v="smell">
+      	<l>smell<s n="verb"/></l>
+      	<r>âʹpssed</r>
+      </w>
+      <w v="smell">
+      	<l>smell<s n="verb"/></l>
+      	<r>âʹpssed</r>
+      </w>
+     </n>
+     <n v="smile">
+      <w v="smile">
+      	<l>smile<s n="verb"/></l>
+      	<r>mååjjmed</r>
+      </w>
+     </n>
+    <n v="snow">
+     <w v="snow">
+     	<l>snow<s n="subst."/></l>
+     	<r>muõtt</r>
+     </w>
+          <n v="snowmobile">
+           <w v="snowmobile">
+           	<l>snowmobile<s n="subst."/></l>
+           	<r>motorǩeâlkk</r>
+           </w>
+          </n>
+    </n>
+     <n v="snake">
+      <w v="snake">
+      	<l>snake<s n="subst."/></l>
+      	<r>kuʹvdd</r>
+      </w>
+     </n>
+        <n v="sniffles">
+         <w v="sniffles">
+         	<l>sniffles<s n="subst."/></l>
+         	<r>nuõpp</r>
+         </w>
+        </n>
+         <n v="somewhere">
+          <w v="somewhere">
+          	<l>somewhere<s n="adv."/></l>
+          	<r>koʹst-ne</r>
+          </w>
+         </n>
+    <n v="soon">
+     <w v="soon">
+     	<l>soon<s n="adv."/></l>
+     	<r>sõrgg</r>
+     </w>
+    </n>
+   <n v="son">
+    <w v="son">
+    	<l>son<s n="subst."/></l>
+    	<r>âʹlǧǧ</r>
+    </w>
+   </n>
+    <n v="soup">
+     <w v="soup">
+     	<l>soup<s n="subst."/></l>
+     	<r>veärr</r>
+     </w>
+    </n>
+         <n v="soft sign">
+          <w v="soft sign">
+          	<l>soft sign<s n="subst."/></l>
+          	<r>teeʹmestiõtt</r>
+          </w>
+         </n>
+      <n v="spring">
+       <w v="spring">
+       	<l>spring<s n="subst."/></l>
+       	<r>ǩiđđ</r>
+       </w>
+      </n>
+     <n v="spine">
+      <w v="spine">
+      	<l>spine<s n="subst."/></l>
+      	<r>čiõʹlj</r>
+      </w>
+     </n>
+      <n v="spider">
+       <w v="spider">
+       	<l>spider<s n="subst."/></l>
+       	<r>eeunaž</r>
+       </w>
+      </n>
+    <n v="spit">
+     <w v="spit">
+     	<l>spit<s n="verb"/></l>
+     	<r>čolggâd</r>
+     </w>
+    </n>
+     <n v="split">
+      <w v="split">
+      	<l>split<s n="verb"/></l>
+      	<r>luõʹdˈdjed</r>
+      </w>
+     </n>
+       <n v="squeeze">
+        <w v="squeeze">
+        	<l>squeeze<s n="verb"/></l>
+        	<r>täävvad, čärvvad</r>
+        </w>
+        <w v="squeeze">
+        	<l>squeeze<s n="verb"/></l>
+        	<r>čärvvad, täävvad</r>
+        </w>
+       </n>
+    <n v="test">
+     <w v="test">
+     	<l>test<s n="verb"/></l>
+     	<r>ǩiččlõddâd</r>
+     </w>
+    </n>
+    <n v="tell">
+     <w v="tell">
+     	<l>tell<s n="verb"/></l>
+     	<r>mainsted</r>
+     </w>
+    </n>
+     <n v="tepee">
+      <w v="tepee">
+      	<l>tepee<s n="subst."/></l>
+      	<r>kååvas</r>
+      </w>
+     </n>
+    <n v="turn">
+     <w v="turn">
+     	<l>turn<s n="verb"/></l>
+     	<r>jåårǥled</r>
+     </w>
+    </n>
+    <n v="twig">
+     <w v="twig">
+     	<l>twig<s n="subst."/></l>
+     	<r>tõõŋâs</r>
+     </w>
+    </n>
+                   <n v="two and half an our">
+                    <w v="two and half an our">
+                    	<l>two and half an our<s n="subst."/></l>
+                    	<r>kueʹhtt čiâss pieʹlin</r>
+                    </w>
+                   </n>
+     <n v="there">
+      <w v="there">
+      	<l>there<s n="adv."/></l>
+      	<r>toʹben, tok, tåʹben, tõʹst</r>
+      </w>
+      <w v="there">
+      	<l>there<s n="adv."/></l>
+      	<r>tåʹben, tok, toʹben, tõʹst</r>
+      </w>
+      <w v="there">
+      	<l>there<s n="adv."/></l>
+      	<r>tõʹst, tok, toʹben, tåʹben</r>
+      </w>
+     </n>
+    <n v="then">
+     <w v="then">
+     	<l>then<s n="adv."/></l>
+     	<r>de, teʹl</r>
+     </w>
+     <w v="then">
+     	<l>then<s n="adv."/></l>
+     	<r>teʹl, de</r>
+     </w>
+    </n>
+    <n v="they">
+     <w v="they">
+     	<l>they<s n=""/></l>
+     	<r>sij</r>
+     </w>
+    </n>
+     <n v="thigh">
+      <w v="thigh">
+      	<l>thigh<s n="subst."/></l>
+      	<r>čeʹbb</r>
+      </w>
+     </n>
+     <n v="thick">
+      <w v="thick">
+      	<l>thick<s n="adj."/></l>
+      	<r>kõssâd</r>
+      </w>
+     </n>
+    <n v="this">
+     <w v="this">
+     	<l>this<s n=""/></l>
+     	<r>tät, tõt</r>
+     </w>
+     <w v="this">
+     	<l>this<s n=""/></l>
+     	<r>tõt, tät</r>
+     </w>
+    </n>
+    <n v="thin">
+     <w v="thin">
+     	<l>thin<s n="adj."/></l>
+     	<r>ââʹzzteʹm</r>
+     </w>
+     <n v="think">
+      <w v="think">
+      	<l>think<s n="verb"/></l>
+      	<r>juurdčed</r>
+      </w>
+     </n>
+    </n>
+    <n v="that">
+     <w v="that">
+     	<l>that<s n="subj."/></l>
+     	<r>kååʹtt, što</r>
+     </w>
+     <w v="that">
+     	<l>that<s n="subj."/></l>
+     	<r>što, kååʹtt</r>
+     </w>
+     <w v="that">
+     	<l>that<s n=""/></l>
+     	<r>tut</r>
+     </w>
+    </n>
+      <n v="thanks">
+       <w v="thanks">
+       	<l>thanks<s n="subst."/></l>
+       	<r>späʹsseb</r>
+       </w>
+      </n>
+     <n v="throw">
+      <w v="throw">
+      	<l>throw<s n="verb"/></l>
+      	<r>laʹǧǧsted, vueʹlǧǧeed</r>
+      </w>
+      <w v="throw">
+      	<l>throw<s n="verb"/></l>
+      	<r>vueʹlǧǧeed, laʹǧǧsted</r>
+      </w>
+     </n>
+   <n v="tie">
+    <w v="tie">
+    	<l>tie<s n="verb"/></l>
+    	<r>čõõnnâd</r>
+    </w>
+   </n>
+    <n v="time">
+     <w v="time">
+     	<l>time<s n="subst."/></l>
+     	<r>äiʹǧǧ</r>
+     </w>
+    </n>
+        <n v="titmouse">
+         <w v="titmouse">
+         	<l>titmouse<s n="subst."/></l>
+         	<r>ceeʒʒaž</r>
+         </w>
+        </n>
+  <n v="to">
+   <w v="to">
+   	<l>to<s n=""/></l>
+   	<r>ool, luzz</r>
+   </w>
+   <w v="to">
+   	<l>to<s n=""/></l>
+   	<r>luzz, ool</r>
+   </w>
+      <n v="tongue">
+       <w v="tongue">
+       	<l>tongue<s n="subst."/></l>
+       	<r>njuhččâm</r>
+       </w>
+      </n>
+        <n v="tomorrow">
+         <w v="tomorrow">
+         	<l>tomorrow<s n="adv."/></l>
+         	<r>jâđđa</r>
+         </w>
+        </n>
+        <n v="to there">
+         <w v="to there">
+         	<l>to there<s n="adv."/></l>
+         	<r>tok</r>
+         </w>
+        </n>
+     <n v="tooth">
+      <w v="tooth">
+      	<l>tooth<s n="subst."/></l>
+      	<r>pääʹnn</r>
+      </w>
+     </n>
+     <n v="today">
+      <w v="today">
+      	<l>today<s n="adv."/></l>
+      	<r>täʹbbe</r>
+      </w>
+     </n>
+      <n v="toilet">
+       <w v="toilet">
+       	<l>toilet<s n="subst."/></l>
+       	<r>nuuʹžniǩ</r>
+       </w>
+      </n>
+  </n>
+     <n v="table">
+      <w v="table">
+      	<l>table<s n="subst."/></l>
+      	<r>påʹrdd</r>
+      </w>
+     </n>
+   <n v="tax">
+    <w v="tax">
+    	<l>tax<s n="subst."/></l>
+    	<r>piiđ</r>
+    </w>
+   </n>
+    <n v="tail">
+     <w v="tail">
+     	<l>tail<s n="subst."/></l>
+     	<r>seiʹbb</r>
+     </w>
+      <n v="tailor">
+       <w v="tailor">
+       	<l>tailor<s n="subst."/></l>
+       	<r>kuärrai</r>
+       </w>
+      </n>
+    </n>
+    <n v="take">
+     <w v="take">
+     	<l>take<s n="verb"/></l>
+     	<r>väʹldded</r>
+     </w>
+    </n>
+     <n v="trail">
+      <w v="trail">
+      	<l>trail<s n="verb"/></l>
+      	<r>vuẹjted</r>
+      </w>
+     </n>
+          <n v="tree stumb">
+           <w v="tree stumb">
+           	<l>tree stumb<s n="subst."/></l>
+           	<r>čockk</r>
+           </w>
+          </n>
+        <n v="triangle">
+         <w v="triangle">
+         	<l>triangle<s n="subst."/></l>
+         	<r>triâŋgg</r>
+         </w>
+        </n>
+     <n v="under">
+      <w v="under">
+      	<l>under<s n="adv."/></l>
+      	<r>vuâlla</r>
+      </w>
+          <n v="understand">
+           <w v="understand">
+           	<l>understand<s n="verb"/></l>
+           	<r>fiʹttjed</r>
+           </w>
+          </n>
+     </n>
+     <n v="uncle">
+      <w v="uncle">
+      	<l>uncle<s n="subst."/></l>
+      	<r>jieʹǩǩ, jään, čieʹcc</r>
+      </w>
+      <w v="uncle">
+      	<l>uncle<s n="subst."/></l>
+      	<r>jään, jieʹǩǩ, čieʹcc</r>
+      </w>
+      <w v="uncle">
+      	<l>uncle<s n="subst."/></l>
+      	<r>čieʹcc, jieʹǩǩ, jään</r>
+      </w>
+     </n>
+     <n v="udder">
+      <w v="udder">
+      	<l>udder<s n="subst."/></l>
+      	<r>ruʹhss</r>
+      </w>
+     </n>
+                 <n v="viviparous lizard">
+                  <w v="viviparous lizard">
+                  	<l>viviparous lizard<s n="subst."/></l>
+                  	<r>smäʹtt</r>
+                  </w>
+                 </n>
+     <n v="voice">
+      <w v="voice">
+      	<l>voice<s n="subst."/></l>
+      	<r>jiõnn</r>
+      </w>
+     </n>
+     <n v="vomit">
+      <w v="vomit">
+      	<l>vomit<s n="verb"/></l>
+      	<r>vueʹhssed</r>
+      </w>
+     </n>
+         <n v="very much">
+          <w v="very much">
+          	<l>very much<s n="adv."/></l>
+          	<r>čuuʹt</r>
+          </w>
+         </n>
+    <n v="what">
+     <w v="what">
+     	<l>what<s n=""/></l>
+     	<r>mii</r>
+     </w>
+    </n>
+     <n v="wheel">
+      <w v="wheel">
+      	<l>wheel<s n="subst."/></l>
+      	<r>kååʹlez</r>
+      </w>
+     </n>
+     <n v="where">
+      <w v="where">
+      	<l>where<s n="adv."/></l>
+      	<r>koozz, koʹst</r>
+      </w>
+      <w v="where">
+      	<l>where<s n="adv."/></l>
+      	<r>koʹst, koozz</r>
+      </w>
+         <n v="wherefrom">
+          <w v="wherefrom">
+          	<l>wherefrom<s n="adv."/></l>
+          	<r>koʹst</r>
+          </w>
+         </n>
+     </n>
+    <n v="when">
+     <w v="when">
+     	<l>when<s n="adv."/></l>
+     	<r>kuäʹss</r>
+     </w>
+    </n>
+     <n v="white">
+      <w v="white">
+      	<l>white<s n="adj."/></l>
+      	<r>viõlggâd</r>
+      </w>
+         <n v="whitefish">
+          <w v="whitefish">
+          	<l>whitefish<s n="subst."/></l>
+          	<r>šapšš</r>
+          </w>
+         </n>
+     </n>
+   <n v="why">
+    <w v="why">
+    	<l>why<s n="adv."/></l>
+    	<r>mõõzz, mõõn diõtt</r>
+    </w>
+    <w v="why">
+    	<l>why<s n="adv."/></l>
+    	<r>mõõn diõtt, mõõzz</r>
+    </w>
+   </n>
+   <n v="who">
+    <w v="who">
+    	<l>who<s n=""/></l>
+    	<r>ǩii</r>
+    </w>
+   </n>
+    <n v="wish">
+     <w v="wish">
+     	<l>wish<s n="verb"/></l>
+     	<r>tättad</r>
+     </w>
+    </n>
+    <n v="wide">
+     <w v="wide">
+     	<l>wide<s n="adj."/></l>
+     	<r>kobddi</r>
+     </w>
+    </n>
+    <n v="with">
+     <w v="with">
+     	<l>with<s n=""/></l>
+     	<r>mieʹldd</r>
+     </w>
+    </n>
+    <n v="wife">
+     <w v="wife">
+     	<l>wife<s n="subst."/></l>
+     	<r>kaav</r>
+     </w>
+    </n>
+    <n v="wing">
+     <w v="wing">
+     	<l>wing<s n="subst."/></l>
+     	<r>suäjj</r>
+     </w>
+    </n>
+    <n v="wind">
+     <w v="wind">
+     	<l>wind<s n="subst."/></l>
+     	<r>piõgˈg</r>
+     </w>
+    </n>
+      <n v="winter">
+       <w v="winter">
+       	<l>winter<s n="subst."/></l>
+       	<r>täʹlvv</r>
+       </w>
+      </n>
+    <n v="wipe">
+     <w v="wipe">
+     	<l>wipe<s n="verb"/></l>
+     	<r>sekkad</r>
+     </w>
+    </n>
+     <n v="woman">
+      <w v="woman">
+      	<l>woman<s n="subst."/></l>
+      	<r>neezzan</r>
+      </w>
+     </n>
+    <n v="walk">
+     <w v="walk">
+     	<l>walk<s n="verb"/></l>
+     	<r>väʹʒʒed</r>
+     </w>
+    </n>
+    <n v="wash">
+     <w v="wash">
+     	<l>wash<s n="verb"/></l>
+     	<r>põõssâd</r>
+     </w>
+    </n>
+    <n v="warm">
+     <w v="warm">
+     	<l>warm<s n="adj."/></l>
+     	<r>liõggâs, paakkâs</r>
+     </w>
+     <w v="warm">
+     	<l>warm<s n="adj."/></l>
+     	<r>paakkâs, liõggâs</r>
+     </w>
+    </n>
+     <n v="water">
+      <w v="water">
+      	<l>water<s n="subst."/></l>
+      	<r>čääʹcc</r>
+      </w>
+     </n>
+    <n v="wait">
+     <w v="wait">
+     	<l>wait<s n="verb"/></l>
+     	<r>vueʹrdded</r>
+     </w>
+    </n>
+  <n v="we">
+   <w v="we">
+   	<l>we<s n=""/></l>
+   	<r>mij</r>
+   </w>
+       <n v="we need">
+        <w v="we need">
+        	<l>we need<s n="verb"/></l>
+        	<r>meeʹst feʹrttai</r>
+        </w>
+       </n>
+    <n v="week">
+     <w v="week">
+     	<l>week<s n="subst."/></l>
+     	<r>neäʹttel</r>
+     </w>
+    </n>
+   <n v="wet">
+    <w v="wet">
+    	<l>wet<s n="adj."/></l>
+    	<r>njuõckâs</r>
+    </w>
+   </n>
+    <n v="well">
+     <w v="well">
+     	<l>well<s n="adv."/></l>
+     	<r>puârast</r>
+     </w>
+    </n>
+  </n>
+   <n v="you">
+    <w v="you">
+    	<l>you<s n=""/></l>
+    	<r>ton, tij</r>
+    </w>
+    <w v="you">
+    	<l>you<s n=""/></l>
+    	<r>tij, ton</r>
+    </w>
+               <n v="you are welcome">
+                <w v="you are welcome">
+                	<l>you are welcome<s n=""/></l>
+                	<r>tiõrvvsa</r>
+                </w>
+               </n>
+   </n>
+      <n v="yellow">
+       <w v="yellow">
+       	<l>yellow<s n="adj."/></l>
+       	<r>viskkâd</r>
+       </w>
+      </n>
+    <n v="year">
+     <w v="year">
+     	<l>year<s n="subst."/></l>
+     	<r>eeʹǩǩ</r>
+     </w>
+    </n>
+   <n v="yes">
+    <w v="yes">
+    	<l>yes<s n=""/></l>
+    	<r>kâʹl</r>
+    </w>
+    <w v="yes">
+    	<l>yes<s n="part."/></l>
+    	<r>naa</r>
+    </w>
+         <n v="yesterday">
+          <w v="yesterday">
+          	<l>yesterday<s n="adv."/></l>
+          	<r>jåhtta</r>
+          </w>
+         </n>
+   </n>
+</root>
+

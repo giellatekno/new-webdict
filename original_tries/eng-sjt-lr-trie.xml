@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root v="">
+   <n v="fly">
+    <w v="fly">
+    	<l>fly<s n="v"/></l>
+    	<r>1. kɨrr'ted [кыррьтэд];</r>
+    </w>
+   </n>
+    <n v="fish">
+     <w v="fish">
+     	<l>fish<s n="n"/></l>
+     	<r>1. kɨll'e [кылле];</r>
+     </w>
+    </n>
+          <n v="fingernail">
+           <w v="fingernail">
+           	<l>fingernail<s n="n"/></l>
+           	<r>1. kannc [каннц];</r>
+           </w>
+          </n>
+    <n v="fire">
+     <w v="fire">
+     	<l>fire<s n="n"/></l>
+     	<r>1. toll [толл];</r>
+     </w>
+    </n>
+   <n v="fat">
+    <w v="fat">
+    	<l>fat<s n="n"/></l>
+    	<r>1. vɨjj [выйй];</r>
+    </w>
+   </n>
+    <n v="foot">
+     <w v="foot">
+     	<l>foot<s n="n"/></l>
+     	<r>1. jill'ke [йиллькэ];</r>
+     </w>
+    </n>
+       <n v="feather">
+        <w v="feather">
+        	<l>feather<s n="n"/></l>
+        	<r>1. ponnc [поннц];</r>
+        </w>
+       </n>
+    <n v="give">
+     <w v="give">
+     	<l>give<s n="v"/></l>
+     	<r>1. ann'ted [анньтэд];</r>
+     </w>
+    </n>
+    <n v="good">
+     <w v="good">
+     	<l>good<s n="a"/></l>
+     	<r>1. šuvv [шувв];</r>
+     </w>
+    </n>
+   <n v="day">
+    <w v="day">
+    	<l>day<s n="n"/></l>
+    	<r>1. peivv'e [пэйвве];</r>
+    </w>
+   </n>
+   <n v="die">
+    <w v="die">
+    	<l>die<s n="v"/></l>
+    	<r>1. jamm'ed [яммед];</r>
+    </w>
+   </n>
+   <n v="dog">
+    <w v="dog">
+    	<l>dog<s n="n"/></l>
+    	<r>1. pienɨj [пе̄ный];</r>
+    </w>
+   </n>
+     <n v="drink">
+      <w v="drink">
+      	<l>drink<s n="v"/></l>
+      	<r>1. jugkid [югкид];</r>
+      </w>
+     </n>
+   <n v="dry">
+    <w v="dry">
+    	<l>dry<s n="a"/></l>
+    	<r>1. koš'kes' [кошькэсь];</r>
+    </w>
+   </n>
+   <n v="egg">
+    <w v="egg">
+    	<l>egg<s n="n"/></l>
+    	<r>1. mann'e [манне];</r>
+    </w>
+   </n>
+   <n v="ear">
+    <w v="ear">
+    	<l>ear<s n="n"/></l>
+    	<r>1. piellje [пе̄лльйе];</r>
+    </w>
+     <n v="earth">
+      <w v="earth">
+      	<l>earth<s n="n"/></l>
+      	<r>1. jemm'ne [йеммьнэ];</r>
+      </w>
+     </n>
+   </n>
+   <n v="eat">
+    <w v="eat">
+    	<l>eat<s n="v"/></l>
+    	<r>1. porrɨd [поррыд];</r>
+    </w>
+   </n>
+    <n v="bone">
+     <w v="bone">
+     	<l>bone<s n="n"/></l>
+     	<r>1. takta [такта];</r>
+     </w>
+    </n>
+     <n v="black">
+      <w v="black">
+      	<l>black<s n="a"/></l>
+      	<r>1. čahpɨs' [чаһпысь];</r>
+      </w>
+     </n>
+     <n v="blood">
+      <w v="blood">
+      	<l>blood<s n="n"/></l>
+      	<r>1. varr [варр];</r>
+      </w>
+     </n>
+    <n v="bite">
+     <w v="bite">
+     	<l>bite<s n="v"/></l>
+     	<r>1. kadc'ked [кадцькэд];</r>
+     </w>
+    </n>
+    <n v="bird">
+     <w v="bird">
+     	<l>bird<s n="n"/></l>
+     	<r>1. lonn't [лонньт];</r>
+     </w>
+    </n>
+   <n v="big">
+    <w v="big">
+    	<l>big<s n="a"/></l>
+    	<r>1. šurr [шурр];</r>
+    </w>
+   </n>
+      <n v="breast">
+       <w v="breast">
+       	<l>breast<s n="n"/></l>
+       	<r>1. rann'te [ранньтэ];</r>
+       </w>
+      </n>
+    <n v="burn">
+     <w v="burn">
+     	<l>burn<s n="v"/></l>
+     	<r>1. pɨell'ted [пыэлльтэд];</r>
+     </w>
+    </n>
+      <n v="butter">
+       <w v="butter">
+       	<l>butter<s n="n"/></l>
+       	<r>1. vɨjj [выйй];</r>
+       </w>
+      </n>
+    <n v="beak">
+     <w v="beak">
+     	<l>beak<s n="n"/></l>
+     	<r>1. niunn' [ню̄ннь];</r>
+     </w>
+    </n>
+     <n v="belly">
+      <w v="belly">
+      	<l>belly<s n="n"/></l>
+      	<r>1. čiejjve [че̄ййве];</r>
+      </w>
+     </n>
+    <n v="cold">
+     <w v="cold">
+     	<l>cold<s n="a"/></l>
+     	<r>1. kallm [каллм];</r>
+     </w>
+    </n>
+    <n v="come">
+     <w v="come">
+     	<l>come<s n="v"/></l>
+     	<r>1. pɨedted [пыэдтэд];</r>
+     </w>
+    </n>
+   <n v="all">
+    <w v="all">
+    	<l>all<s n="pro"/></l>
+    	<r>1. pɨgk [пыгк];</r>
+    </w>
+   </n>
+   <n v="ash">
+    <w v="ash">
+    	<l>ash<s n="n"/></l>
+    	<r>1. kunn [кунн];</r>
+    </w>
+   </n>
+   <n v="arm">
+    <w v="arm">
+    	<l>arm<s n="n"/></l>
+    	<r>1. kidt [кидт];</r>
+    </w>
+   </n>
+    <n v="name">
+     <w v="name">
+     	<l>name<s n="n"/></l>
+     	<r>1. namm [намм];</r>
+     </w>
+    </n>
+    <n v="nose">
+     <w v="nose">
+     	<l>nose<s n="n"/></l>
+     	<r>1. niunn' [ню̄ннь];</r>
+     </w>
+    </n>
+   <n v="new">
+    <w v="new">
+    	<l>new<s n="a"/></l>
+    	<r>1. odt [одт];</r>
+    </w>
+   </n>
+    <n v="neck">
+     <w v="neck">
+     	<l>neck<s n="n"/></l>
+     	<r>1. niškamant [нишкамант];</r>
+     </w>
+    </n>
+     <n v="night">
+      <w v="night">
+      	<l>night<s n="n"/></l>
+      	<r>1. jɨjj [йыйй];</r>
+      </w>
+     </n>
+   <n v="one">
+    <w v="one">
+    	<l>one<s n="num"/></l>
+    	<r>1. akt [акт];</r>
+    </w>
+   </n>
+    <n v="long">
+     <w v="long">
+     	<l>long<s n="a"/></l>
+     	<r>1. kugkɨs' [кугкысь];</r>
+     </w>
+    </n>
+     <n v="liver">
+      <w v="liver">
+      	<l>liver<s n="n"/></l>
+      	<r>1. vɨjvvs [выйввс];</r>
+      </w>
+     </n>
+   <n v="lie">
+    <w v="lie">
+    	<l>lie<s n="v"/></l>
+    	<r>1. lieššɨd [ле̄шшыд];</r>
+    </w>
+   </n>
+   <n v="leg">
+    <w v="leg">
+    	<l>leg<s n="n"/></l>
+    	<r>1. jill'ke [йиллькэ];</r>
+    </w>
+   </n>
+    <n v="leaf">
+     <w v="leaf">
+     	<l>leaf<s n="n"/></l>
+     	<r>1. lasst [ласст];</r>
+     </w>
+    </n>
+        <n v="mountain">
+         <w v="mountain">
+         	<l>mountain<s n="n"/></l>
+         	<r>1. lɨehke [лыэһке];</r>
+         </w>
+        </n>
+    <n v="moon">
+     <w v="moon">
+     	<l>moon<s n="n"/></l>
+     	<r>1. manna [манна];</r>
+     </w>
+    </n>
+     <n v="month">
+      <w v="month">
+      	<l>month<s n="n"/></l>
+      	<r>1. manna [манна];</r>
+      </w>
+     </n>
+   <n v="man">
+    <w v="man">
+    	<l>man<s n="n"/></l>
+    	<r>1. erstoll'a [эрстолля];</r>
+    </w>
+   </n>
+    <n v="meat">
+     <w v="meat">
+     	<l>meat<s n="n"/></l>
+     	<r>1. vɨennče [выэннче];</r>
+     </w>
+    </n>
+ <n v="I">
+  <w v="I">
+  	<l>I<s n="pro"/></l>
+  	<r>1. monn [монн];</r>
+  </w>
+ </n>
+    <n v="kill">
+     <w v="kill">
+     	<l>kill<s n="v"/></l>
+     	<r>1. pall'ad [палляд];</r>
+     </w>
+    </n>
+    <n v="knee">
+     <w v="knee">
+     	<l>knee<s n="n"/></l>
+     	<r>1. puvvl [пуввл];</r>
+     </w>
+    </n>
+    <n v="know">
+     <w v="know">
+     	<l>know<s n="v"/></l>
+     	<r>1. tiedt'ed [те̄дтед];</r>
+     </w>
+    </n>
+    <n v="hear">
+     <w v="hear">
+     	<l>hear<s n="v"/></l>
+     	<r>1. kullɨd [куллыд];</r>
+     </w>
+     <n v="heart">
+      <w v="heart">
+      	<l>heart<s n="n"/></l>
+      	<r>1. kɨdd'ke [кыдд'кэ];</r>
+      </w>
+     </n>
+    </n>
+    <n v="head">
+     <w v="head">
+     	<l>head<s n="n"/></l>
+     	<r>1. vɨejjve [выэййвэ];</r>
+     </w>
+    </n>
+   <n v="hot">
+    <w v="hot">
+    	<l>hot<s n="a"/></l>
+    	<r>1. pakks [паккс];</r>
+    </w>
+   </n>
+    <n v="horn">
+     <w v="horn">
+     	<l>horn<s n="n"/></l>
+     	<r>1. čierr've [че̄ррьвэ];</r>
+     </w>
+    </n>
+    <n v="hand">
+     <w v="hand">
+     	<l>hand<s n="n"/></l>
+     	<r>1. kidt [кидт];</r>
+     </w>
+    </n>
+    <n v="hair">
+     <w v="hair">
+     	<l>hair<s n="n"/></l>
+     	<r>1. vɨpp [выпп];</r>
+     </w>
+    </n>
+    <n v="what">
+     <w v="what">
+     	<l>what<s n="pro"/></l>
+     	<r>1. mii [мӣ];</r>
+     </w>
+    </n>
+     <n v="white">
+      <w v="white">
+      	<l>white<s n="a"/></l>
+      	<r>1. vilgis' [вилгись];</r>
+      </w>
+     </n>
+   <n v="who">
+    <w v="who">
+    	<l>who<s n="pro"/></l>
+    	<r>1. kie [ке̄];</r>
+    </w>
+   </n>
+    <n v="wood">
+     <w v="wood">
+     	<l>wood<s n="n"/></l>
+     	<r>1. mɨrr [мырр];</r>
+     </w>
+    </n>
+     <n v="water">
+      <w v="water">
+      	<l>water<s n="n"/></l>
+      	<r>1. čadc'e [чадце];</r>
+      </w>
+     </n>
+      <n v="tongue">
+       <w v="tongue">
+       	<l>tongue<s n="n"/></l>
+       	<r>1. nɨkčɨm [ныкчым];</r>
+       </w>
+      </n>
+    <n v="tree">
+     <w v="tree">
+     	<l>tree<s n="n"/></l>
+     	<r>1. mɨrr [мырр];</r>
+     </w>
+    </n>
+   <n v="two">
+    <w v="two">
+    	<l>two<s n="n"/></l>
+    	<r>1. kɨkt [кыкт];</r>
+    </w>
+   </n>
+    <n v="tail">
+     <w v="tail">
+     	<l>tail<s n="n"/></l>
+     	<r>1. siejjp [се̄ййп];</r>
+     </w>
+    </n>
+    <n v="this">
+     <w v="this">
+     	<l>this<s n="pro"/></l>
+     	<r>1. tadta [тадта];</r>
+     </w>
+    </n>
+     <n v="sleep">
+      <w v="sleep">
+      	<l>sleep<s n="v"/></l>
+      	<r>1. vɨedted [выэдтэд];</r>
+      </w>
+     </n>
+    <n v="skin">
+     <w v="skin">
+     	<l>skin<s n="n"/></l>
+     	<r>1. lɨšš'ke [лышшькэ];</r>
+     </w>
+    </n>
+     <n v="smoke">
+      <w v="smoke">
+      	<l>smoke<s n="n"/></l>
+      	<r>1. sɨvv [сывв];</r>
+      </w>
+     </n>
+     <n v="small">
+      <w v="small">
+      	<l>small<s n="a"/></l>
+      	<r>1. udc' [удць];</r>
+      </w>
+     </n>
+    <n v="sand">
+     <w v="sand">
+     	<l>sand<s n="n"/></l>
+     	<r>1. vɨns [вынс];</r>
+     </w>
+    </n>
+   <n v="say">
+    <w v="say">
+    	<l>say<s n="v"/></l>
+    	<r>1. ciell'ked [це̄ллькэд];</r>
+    </w>
+   </n>
+   <n v="sun">
+    <w v="sun">
+    	<l>sun<s n="n"/></l>
+    	<r>1. peivv'e [пэйвве];</r>
+    </w>
+   </n>
+   <n v="see">
+    <w v="see">
+    	<l>see<s n="v"/></l>
+    	<r>1. ujjned [уййнэд];</r>
+    </w>
+   </n>
+     <n v="stand">
+      <w v="stand">
+      	<l>stand<s n="v"/></l>
+      	<r>1. čɨenn'čed [чыэнньчед];</r>
+      </w>
+     </n>
+    <n v="star">
+     <w v="star">
+     	<l>star<s n="n"/></l>
+     	<r>1. tass'ta [тассьта];</r>
+     </w>
+    </n>
+     <n v="stone">
+      <w v="stone">
+      	<l>stone<s n="n"/></l>
+      	<r>1. kiedd'ke [ке̄ддькэ];</r>
+      </w>
+     </n>
+    <n v="swim">
+     <w v="swim">
+     	<l>swim<s n="v"/></l>
+     	<r>1. vɨjjed [выййед];</r>
+     </w>
+    </n>
+   <n v="sit">
+    <w v="sit">
+    	<l>sit<s n="v"/></l>
+    	<r>1. årred [оаррэд];</r>
+    </w>
+   </n>
+    <n v="rain">
+     <w v="rain">
+     	<l>rain<s n="n"/></l>
+     	<r>1. abb're [аббьрэ];</r>
+     </w>
+    </n>
+    <n v="root">
+     <w v="root">
+     	<l>root<s n="n"/></l>
+     	<r>1. endas [эндас];</r>
+     </w>
+    </n>
+     <n v="round">
+      <w v="round">
+      	<l>round<s n="a"/></l>
+      	<r>1. jorbɨs' [ёрбысь];</r>
+      </w>
+     </n>
+   <n v="red">
+    <w v="red">
+    	<l>red<s n="a"/></l>
+    	<r>1. roškes' [рошкэсь];</r>
+    </w>
+   </n>
+      <n v="person">
+       <w v="person">
+       	<l>person<s n="n"/></l>
+       	<r>1. olmɨj [олмый];</r>
+       </w>
+      </n>
+      <n v="yellow">
+       <w v="yellow">
+       	<l>yellow<s n="a"/></l>
+       	<r>1. ruč'kes' [ручькесь];</r>
+       </w>
+      </n>
+   <n v="you">
+    <w v="you">
+    	<l>you<s n="pro"/></l>
+    	<r>1. tonn [тонн];</r>
+    </w>
+   </n>
+</root>
+

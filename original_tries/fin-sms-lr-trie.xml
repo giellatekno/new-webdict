@@ -1,0 +1,3710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root v="">
+    <n v="Anni">
+     <w v="Anni">
+     	<l>Anni<s n=""/></l>
+     	<r>Äʹnn, Äännaž</r>
+     </w>
+       <n v="Annikki">
+        <w v="Annikki">
+        	<l>Annikki<s n=""/></l>
+        	<r>Äännaž</r>
+        </w>
+       </n>
+    </n>
+     <n v="Domna">
+      <w v="Domna">
+      	<l>Domna<s n=""/></l>
+      	<r>Dåʹmnn</r>
+      </w>
+     </n>
+        <n v="Englanti">
+         <w v="Englanti">
+         	<l>Englanti<s n=""/></l>
+         	<r>Eŋgglõs</r>
+         </w>
+        </n>
+     <n v="Inari">
+      <w v="Inari">
+      	<l>Inari<s n=""/></l>
+      	<r>Aanar</r>
+      </w>
+     </n>
+     <n v="Ivalo">
+      <w v="Ivalo">
+      	<l>Ivalo<s n=""/></l>
+      	<r>Âʹvvel</r>
+      </w>
+     </n>
+     <n v="Marja">
+      <w v="Marja">
+      	<l>Marja<s n=""/></l>
+      	<r>Mäʹrjj</r>
+      </w>
+     </n>
+     <n v="Norja">
+      <w v="Norja">
+      	<l>Norja<s n=""/></l>
+      	<r>Taarrjânnam</r>
+      </w>
+     </n>
+          <n v="Nitsijärvi">
+           <w v="Nitsijärvi">
+           	<l>Nitsijärvi<s n=""/></l>
+           	<r>Njeʹǯǯjäuʹrr</r>
+           </w>
+          </n>
+      <n v="Ruotsi">
+       <w v="Ruotsi">
+       	<l>Ruotsi<s n=""/></l>
+       	<r>Ruõcˈc</r>
+       </w>
+      </n>
+         <n v="Rovaniemi">
+          <w v="Rovaniemi">
+          	<l>Rovaniemi<s n=""/></l>
+          	<r>Ruäʹvnjargg</r>
+          </w>
+         </n>
+     <n v="Suomi">
+      <w v="Suomi">
+      	<l>Suomi<s n=""/></l>
+      	<r>Lääʹddjânnam</r>
+      </w>
+     </n>
+            <n v="Sevettijärvi">
+             <w v="Sevettijärvi">
+             	<l>Sevettijärvi<s n=""/></l>
+             	<r>Čeʹvetjäuʹrr</r>
+             </w>
+             <w v="Sevettijärvi">
+             	<l>Sevettijärvi<s n=""/></l>
+             	<r>Čeʹvetjäuʹrr</r>
+             </w>
+            </n>
+     <n v="Saksa">
+      <w v="Saksa">
+      	<l>Saksa<s n=""/></l>
+      	<r>Sakssajânnam</r>
+      </w>
+     </n>
+     <n v="Vasko">
+      <w v="Vasko">
+      	<l>Vasko<s n=""/></l>
+      	<r>Väʹsǩǩ</r>
+      </w>
+     </n>
+      <n v="Venäjä">
+       <w v="Venäjä">
+       	<l>Venäjä<s n=""/></l>
+       	<r>Ruõššjânnam</r>
+       </w>
+      </n>
+    <n v="aamu">
+     <w v="aamu">
+     	<l>aamu<s n="subst."/></l>
+     	<r>tueʹlääž</r>
+     </w>
+    </n>
+    <n v="asua">
+     <w v="asua">
+     	<l>asua<s n="verb"/></l>
+     	<r>jälsted</r>
+     </w>
+    </n>
+    <n v="asia">
+     <w v="asia">
+     	<l>asia<s n="subst."/></l>
+     	<r>äʹšš</r>
+     </w>
+    </n>
+    <n v="auto">
+     <w v="auto">
+     	<l>auto<s n="subst."/></l>
+     	<r>autt</r>
+     </w>
+    </n>
+       <n v="aurinko">
+        <w v="aurinko">
+        	<l>aurinko<s n="subst."/></l>
+        	<r>peiʹvv</r>
+        </w>
+       </n>
+        <n v="aviomies">
+         <w v="aviomies">
+         	<l>aviomies<s n="subst."/></l>
+         	<r>kuõjj</r>
+         </w>
+        </n>
+     <n v="avata">
+      <w v="avata">
+      	<l>avata<s n="verb"/></l>
+      	<r>ääʹveed</r>
+      </w>
+     </n>
+         <n v="ahkerasti">
+          <w v="ahkerasti">
+          	<l>ahkerasti<s n="adv."/></l>
+          	<r>viiššlânji</r>
+          </w>
+         </n>
+     <n v="aikoa">
+      <w v="aikoa">
+      	<l>aikoa<s n="verb"/></l>
+      	<r>äiggad</r>
+      </w>
+     </n>
+    <n v="aika">
+     <w v="aika">
+     	<l>aika<s n="subst."/></l>
+     	<r>äiʹǧǧ</r>
+     </w>
+    </n>
+     <n v="ainoa">
+      <w v="ainoa">
+      	<l>ainoa<s n="adv."/></l>
+      	<r>oʹdinakai</r>
+      </w>
+     </n>
+    <n v="aita">
+     <w v="aita">
+     	<l>aita<s n="subst."/></l>
+     	<r>äiʹdd</r>
+     </w>
+    </n>
+       <n v="ajattaa">
+        <w v="ajattaa">
+        	<l>ajattaa<s n="verb"/></l>
+        	<r>vuẹjted</r>
+        </w>
+       </n>
+        <n v="ajatella">
+         <w v="ajatella">
+         	<l>ajatella<s n="verb"/></l>
+         	<r>juurdčed</r>
+         </w>
+        </n>
+    <n v="ajaa">
+     <w v="ajaa">
+     	<l>ajaa<s n="verb"/></l>
+     	<r>vuejjad, vuẹjjad</r>
+     </w>
+     <w v="ajaa">
+     	<l>ajaa<s n="verb"/></l>
+     	<r>vuẹjjad, vuejjad</r>
+     </w>
+    </n>
+             <n v="ajan kuluttua">
+              <w v="ajan kuluttua">
+              	<l>ajan kuluttua<s n=""/></l>
+              	<r>ääiʹj ǩeeʹjjest</r>
+              </w>
+             </n>
+       <n v="ajettua">
+        <w v="ajettua">
+        	<l>ajettua<s n="verb"/></l>
+        	<r>pååssad</r>
+        </w>
+       </n>
+    <n v="alle">
+     <w v="alle">
+     	<l>alle<s n="adv."/></l>
+     	<r>vuâlla</r>
+     </w>
+        <n v="allergia">
+         <w v="allergia">
+         	<l>allergia<s n="subst."/></l>
+         	<r>alleerǥ</r>
+         </w>
+        </n>
+    </n>
+     <n v="alkaa">
+      <w v="alkaa">
+      	<l>alkaa<s n="verb"/></l>
+      	<r>äʹlǧǧed</r>
+      </w>
+     </n>
+     <n v="antaa">
+      <w v="antaa">
+      	<l>antaa<s n="verb"/></l>
+      	<r>uʹvdded</r>
+      </w>
+     </n>
+    <n v="ääni">
+     <w v="ääni">
+     	<l>ääni<s n="subst."/></l>
+     	<r>jiõnn</r>
+     </w>
+    </n>
+    <n v="äiti">
+     <w v="äiti">
+     	<l>äiti<s n="subst."/></l>
+     	<r>jeäʹnˈn, jieʹnn</r>
+     </w>
+     <w v="äiti">
+     	<l>äiti<s n="subst."/></l>
+     	<r>jieʹnn, jeäʹnˈn</r>
+     </w>
+    </n>
+    <n v="euro">
+     <w v="euro">
+     	<l>euro<s n="subst."/></l>
+     	<r>mäʹrǩǩ</r>
+     </w>
+    </n>
+     <n v="ehtiä">
+      <w v="ehtiä">
+      	<l>ehtiä<s n="verb"/></l>
+      	<r>õsttâd</r>
+      </w>
+     </n>
+  <n v="ei">
+   <w v="ei">
+   	<l>ei<s n="verb"/></l>
+   	<r>ij, ni</r>
+   </w>
+    <n v="eikä">
+     <w v="eikä">
+     	<l>eikä<s n="adv."/></l>
+     	<r>ij-ǥa</r>
+     </w>
+    </n>
+     <n v="eilen">
+      <w v="eilen">
+      	<l>eilen<s n="adv."/></l>
+      	<r>jåhtta</r>
+      </w>
+     </n>
+  </n>
+     <n v="eläin">
+      <w v="eläin">
+      	<l>eläin<s n="subst."/></l>
+      	<r>jieʹlli</r>
+      </w>
+     </n>
+    <n v="elää">
+     <w v="elää">
+     	<l>elää<s n="verb"/></l>
+     	<r>jiẹʹlled</r>
+     </w>
+    </n>
+     <n v="ennen">
+      <w v="ennen">
+      	<l>ennen<s n=""/></l>
+      	<r>ouddâl</r>
+      </w>
+     </n>
+   <n v="eno">
+    <w v="eno">
+    	<l>eno<s n="subst."/></l>
+    	<r>jään</r>
+    </w>
+   </n>
+    <n v="enää">
+     <w v="enää">
+     	<l>enää<s n="adv."/></l>
+     	<r>teänab</r>
+     </w>
+    </n>
+       <n v="enemmän">
+        <w v="enemmän">
+        	<l>enemmän<s n="adv."/></l>
+        	<r>jäänab</r>
+        </w>
+       </n>
+      <n v="erotus">
+       <w v="erotus">
+       	<l>erotus<s n="subst."/></l>
+       	<r>pikalõs</r>
+       </w>
+            <n v="erotuspaikka">
+             <w v="erotuspaikka">
+             	<l>erotuspaikka<s n="subst."/></l>
+             	<r>pikalõspäiʹǩǩ</r>
+             </w>
+            </n>
+          <n v="erotusaita">
+           <w v="erotusaita">
+           	<l>erotusaita<s n="subst."/></l>
+           	<r>pikalõsäiʹdd</r>
+           </w>
+          </n>
+      </n>
+         <n v="erilainen">
+          <w v="erilainen">
+          	<l>erilainen<s n="adj."/></l>
+          	<r>jeeʹresnallšem</r>
+          </w>
+         </n>
+    <n v="että">
+     <w v="että">
+     	<l>että<s n="subj."/></l>
+     	<r>što</r>
+     </w>
+    </n>
+       <n v="eteinen">
+        <w v="eteinen">
+        	<l>eteinen<s n="subst."/></l>
+        	<r>käʹrdd</r>
+        </w>
+       </n>
+     <n v="hyvin">
+      <w v="hyvin">
+      	<l>hyvin<s n="adv."/></l>
+      	<r>puârast, sami</r>
+      </w>
+     </n>
+    <n v="hyvä">
+     <w v="hyvä">
+     	<l>hyvä<s n="adj."/></l>
+     	<r>pueʹrr, šiõǥǥ</r>
+     </w>
+     <w v="hyvä">
+     	<l>hyvä<s n="adj."/></l>
+     	<r>šiõǥǥ, pueʹrr</r>
+     </w>
+    </n>
+        <n v="hymyillä">
+         <w v="hymyillä">
+         	<l>hymyillä<s n="verb"/></l>
+         	<r>mååjjmed</r>
+         </w>
+        </n>
+      <n v="hiekka">
+       <w v="hiekka">
+       	<l>hiekka<s n="subst."/></l>
+       	<r>vuõddâs</r>
+       </w>
+      </n>
+      <n v="hieroa">
+       <w v="hieroa">
+       	<l>hieroa<s n="verb"/></l>
+       	<r>ruʹvvjed</r>
+       </w>
+      </n>
+     <n v="hihna">
+      <w v="hihna">
+      	<l>hihna<s n="subst."/></l>
+      	<r>läʹbǯǯ</r>
+      </w>
+     </n>
+    <n v="hiha">
+     <w v="hiha">
+     	<l>hiha<s n="subst."/></l>
+     	<r>suäjj</r>
+     </w>
+    </n>
+    <n v="hioa">
+     <w v="hioa">
+     	<l>hioa<s n="verb"/></l>
+     	<r>sââjjad</r>
+     </w>
+    </n>
+         <n v="hiomakivi">
+          <w v="hiomakivi">
+          	<l>hiomakivi<s n="subst."/></l>
+          	<r>taabǯâs</r>
+          </w>
+         </n>
+      <n v="hoitaa">
+       <w v="hoitaa">
+       	<l>hoitaa<s n="verb"/></l>
+       	<r>hoiʹddjed</r>
+       </w>
+      </n>
+      <n v="hoikka">
+       <w v="hoikka">
+       	<l>hoikka<s n="adj."/></l>
+       	<r>seäʹǧˈǧ</r>
+       </w>
+      </n>
+      <n v="housut">
+       <w v="housut">
+       	<l>housut<s n="subst."/></l>
+       	<r>puus</r>
+       </w>
+      </n>
+    <n v="haju">
+     <w v="haju">
+     	<l>haju<s n="subst."/></l>
+     	<r>õpss</r>
+     </w>
+    </n>
+      <n v="haista">
+       <w v="haista">
+       	<l>haista<s n="verb"/></l>
+       	<r>âʹpssed</r>
+       </w>
+       <n v="haistaa">
+        <w v="haistaa">
+        	<l>haistaa<s n="verb"/></l>
+        	<r>âʹpssed</r>
+        </w>
+       </n>
+      </n>
+         <n v="halkaista">
+          <w v="halkaista">
+          	<l>halkaista<s n="verb"/></l>
+          	<r>luõʹdˈdjed</r>
+          </w>
+         </n>
+      <n v="halata">
+       <w v="halata">
+       	<l>halata<s n="verb"/></l>
+       	<r>âskkeed</r>
+       </w>
+      </n>
+     <n v="hakea">
+      <w v="hakea">
+      	<l>hakea<s n="verb"/></l>
+      	<r>ooccâd</r>
+      </w>
+     </n>
+       <n v="hankain">
+        <w v="hankain">
+        	<l>hankain<s n="subst."/></l>
+        	<r>ääŋŋ</r>
+        </w>
+       </n>
+    <n v="hame">
+     <w v="hame">
+     	<l>hame<s n="subst."/></l>
+     	<r>kåhtt</r>
+     </w>
+    </n>
+      <n v="hammas">
+       <w v="hammas">
+       	<l>hammas<s n="subst."/></l>
+       	<r>pääʹnn</r>
+       </w>
+      </n>
+      <n v="hauska">
+       <w v="hauska">
+       	<l>hauska<s n="adj."/></l>
+       	<r>hääʹsǩ</r>
+       </w>
+      </n>
+         <n v="hämähäkki">
+          <w v="hämähäkki">
+          	<l>hämähäkki<s n="subst."/></l>
+          	<r>eeunaž</r>
+          </w>
+         </n>
+   <n v="hän">
+    <w v="hän">
+    	<l>hän<s n=""/></l>
+    	<r>son</r>
+    </w>
+     <n v="häntä">
+      <w v="häntä">
+      	<l>häntä<s n="subst."/></l>
+      	<r>seiʹbb</r>
+      </w>
+     </n>
+   </n>
+     <n v="härkä">
+      <w v="härkä">
+      	<l>härkä<s n="subst."/></l>
+      	<r>jeäʹrǧǧ</r>
+      </w>
+     </n>
+        <n v="huomenna">
+         <w v="huomenna">
+         	<l>huomenna<s n="adv."/></l>
+         	<r>jâđđa</r>
+         </w>
+        </n>
+     <n v="huono">
+      <w v="huono">
+      	<l>huono<s n="adj."/></l>
+      	<r>neuʹrr</r>
+      </w>
+     </n>
+     <n v="huone">
+      <w v="huone">
+      	<l>huone<s n="subst."/></l>
+      	<r>lõnnj</r>
+      </w>
+     </n>
+      <n v="huutaa">
+       <w v="huutaa">
+       	<l>huutaa<s n="verb"/></l>
+       	<r>čuârvvad</r>
+       </w>
+      </n>
+         <n v="huitaista">
+          <w v="huitaista">
+          	<l>huitaista<s n="verb"/></l>
+          	<r>västtled</r>
+          </w>
+         </n>
+  <n v="he">
+   <w v="he">
+   	<l>he<s n=""/></l>
+   	<r>sij</r>
+   </w>
+         <n v="hengittää">
+          <w v="hengittää">
+          	<l>hengittää<s n="verb"/></l>
+          	<r>vuõiŋŋâd</r>
+          </w>
+         </n>
+       <n v="henkilö">
+        <w v="henkilö">
+        	<l>henkilö<s n="subst."/></l>
+        	<r>ooumaž, åål, åålmai</r>
+        </w>
+       </n>
+    <n v="heti">
+     <w v="heti">
+     	<l>heti<s n="adv."/></l>
+     	<r>tâʹlles</r>
+     </w>
+     <w v="heti">
+     	<l>heti<s n="adv."/></l>
+     	<r>tâʹlles</r>
+     </w>
+    </n>
+       <n v="heittää">
+        <w v="heittää">
+        	<l>heittää<s n="verb"/></l>
+        	<r>laʹǧǧsted, vueʹlǧǧeed</r>
+        </w>
+                   <n v="heittää suopungilla">
+                    <w v="heittää suopungilla">
+                    	<l>heittää suopungilla<s n="verb"/></l>
+                    	<r>njuärsted</r>
+                    </w>
+                   </n>
+       </n>
+  </n>
+      <n v="höyhen">
+       <w v="höyhen">
+       	<l>höyhen<s n="subst."/></l>
+       	<r>poʒʒ</r>
+       </w>
+      </n>
+   <n v="ikä">
+    <w v="ikä">
+    	<l>ikä<s n="subst."/></l>
+    	<r>ââʹǩǩ</r>
+    </w>
+   </n>
+    <n v="ilta">
+     <w v="ilta">
+     	<l>ilta<s n="subst."/></l>
+     	<r>jeäʹǩǩääž</r>
+     </w>
+    </n>
+         <n v="iloisesti">
+          <w v="iloisesti">
+          	<l>iloisesti<s n="adv."/></l>
+          	<r>kuärǥast</r>
+          </w>
+         </n>
+    <n v="imeä">
+     <w v="imeä">
+     	<l>imeä<s n="verb"/></l>
+     	<r>njiimmâd</r>
+     </w>
+    </n>
+   <n v="isä">
+    <w v="isä">
+    	<l>isä<s n="subst."/></l>
+    	<r>eʹčč</r>
+    </w>
+      <n v="isäntä">
+       <w v="isäntä">
+       	<l>isäntä<s n="subst."/></l>
+       	<r>eeʹžžed</r>
+       </w>
+      </n>
+   </n>
+     <n v="istua">
+      <w v="istua">
+      	<l>istua<s n="verb"/></l>
+      	<r>išttâd</r>
+      </w>
+     </n>
+     <n v="itkeä">
+      <w v="itkeä">
+      	<l>itkeä<s n="verb"/></l>
+      	<r>reäkkâd</r>
+      </w>
+     </n>
+    <n v="itse">
+     <w v="itse">
+     	<l>itse<s n=""/></l>
+     	<r>jiõčč</r>
+     </w>
+    </n>
+   <n v="iho">
+    <w v="iho">
+    	<l>iho<s n="subst."/></l>
+    	<r>leʹšǩǩ</r>
+    </w>
+   </n>
+       <n v="ihminen">
+        <w v="ihminen">
+        	<l>ihminen<s n="subst."/></l>
+        	<r>õummooumaž, ooumaž, åål, åålmai</r>
+        </w>
+       </n>
+  <n v="jo">
+   <w v="jo">
+   	<l>jo<s n="adv."/></l>
+   	<r>juʹn</r>
+   </w>
+       <n v="joutsen">
+        <w v="joutsen">
+        	<l>joutsen<s n="subst."/></l>
+        	<r>njuhčč</r>
+        </w>
+       </n>
+        <n v="joulukuu">
+         <w v="joulukuu">
+         	<l>joulukuu<s n="subst."/></l>
+         	<r>rosttovmään</r>
+         </w>
+        </n>
+    <n v="joki">
+     <w v="joki">
+     	<l>joki<s n="subst."/></l>
+     	<r>jokk</r>
+     </w>
+    </n>
+    <n v="joka">
+     <w v="joka">
+     	<l>joka<s n="subj."/></l>
+     	<r>kååʹtt</r>
+     </w>
+    </n>
+   <n v="jos">
+    <w v="jos">
+    	<l>jos<s n="subj."/></l>
+    	<r>jos</r>
+    </w>
+       <n v="jossain">
+        <w v="jossain">
+        	<l>jossain<s n="adv."/></l>
+        	<r>koʹst-ne</r>
+        </w>
+        <w v="jossain">
+        	<l>jossain<s n="adv."/></l>
+        	<r>koʹst-ne</r>
+        </w>
+       </n>
+   </n>
+  </n>
+  <n v="ja">
+   <w v="ja">
+   	<l>ja<s n="konj."/></l>
+   	<r>da, ja</r>
+   </w>
+   <w v="ja">
+   	<l>ja<s n="konj."/></l>
+   	<r>ja, da</r>
+   </w>
+     <n v="jalka">
+      <w v="jalka">
+      	<l>jalka<s n="subst."/></l>
+      	<r>jueʹlǧǧ</r>
+      </w>
+      <w v="jalka">
+      	<l>jalka<s n="subst."/></l>
+      	<r>jueʹlǧǧ</r>
+      </w>
+     </n>
+      <n v="jauhaa">
+       <w v="jauhaa">
+       	<l>jauhaa<s n="verb"/></l>
+       	<r>maaʹlˈjed</r>
+       </w>
+      </n>
+  </n>
+       <n v="jälkeen">
+        <w v="jälkeen">
+        	<l>jälkeen<s n=""/></l>
+        	<r>mâŋŋa</r>
+        </w>
+       </n>
+     <n v="järvi">
+      <w v="järvi">
+      	<l>järvi<s n="subst."/></l>
+      	<r>jäuʹrr</r>
+      </w>
+     </n>
+   <n v="jää">
+    <w v="jää">
+    	<l>jää<s n="subst."/></l>
+    	<r>jiõŋŋ</r>
+    </w>
+      <n v="jäätyä">
+       <w v="jäätyä">
+       	<l>jäätyä<s n="verb"/></l>
+       	<r>jiõŋŋâd, kâʹlmmed</r>
+       </w>
+       <w v="jäätyä">
+       	<l>jäätyä<s n="verb"/></l>
+       	<r>kâʹlmmed, jiõŋŋâd</r>
+       </w>
+      </n>
+   </n>
+     <n v="juoda">
+      <w v="juoda">
+      	<l>juoda<s n="verb"/></l>
+      	<r>juukkâd</r>
+      </w>
+     </n>
+          <n v="juoksuttaa">
+           <w v="juoksuttaa">
+           	<l>juoksuttaa<s n="verb"/></l>
+           	<r>uuʹrčted</r>
+           </w>
+          </n>
+        <n v="juolukka">
+         <w v="juolukka">
+         	<l>juolukka<s n="subst."/></l>
+         	<r>jeättmõš</r>
+         </w>
+        </n>
+      <n v="juosta">
+       <w v="juosta">
+       	<l>juosta<s n="verb"/></l>
+       	<r>urččâd</r>
+       </w>
+      </n>
+     <n v="juuri">
+      <w v="juuri">
+      	<l>juuri<s n="subst."/></l>
+      	<r>vuẹʹddes</r>
+      </w>
+     </n>
+     <n v="koulu">
+      <w v="koulu">
+      	<l>koulu<s n="subst."/></l>
+      	<r>škooul</r>
+      </w>
+     </n>
+        <n v="koetella">
+         <w v="koetella">
+         	<l>koetella<s n="verb"/></l>
+         	<r>ǩiččlõddâd</r>
+         </w>
+        </n>
+      <n v="kotiin">
+       <w v="kotiin">
+       	<l>kotiin<s n="adv."/></l>
+       	<r>domoi</r>
+       </w>
+      </n>
+     <n v="kovin">
+      <w v="kovin">
+      	<l>kovin<s n="adv."/></l>
+      	<r>čuuʹt</r>
+      </w>
+     </n>
+    <n v="kova">
+     <w v="kova">
+     	<l>kova<s n="adj."/></l>
+     	<r>kõõrâs</r>
+     </w>
+    </n>
+     <n v="koivu">
+      <w v="koivu">
+      	<l>koivu<s n="subst."/></l>
+      	<r>sueʹǩǩ, suẹʹǩǩ</r>
+      </w>
+      <w v="koivu">
+      	<l>koivu<s n="subst."/></l>
+      	<r>suẹʹǩǩ, sueʹǩǩ</r>
+      </w>
+     </n>
+     <n v="koira">
+      <w v="koira">
+      	<l>koira<s n="subst."/></l>
+      	<r>piânnai</r>
+      </w>
+     </n>
+     <n v="kokki">
+      <w v="kokki">
+      	<l>kokki<s n="subst."/></l>
+      	<r>pävvar</r>
+      </w>
+     </n>
+      <n v="kokous">
+       <w v="kokous">
+       	<l>kokous<s n="subst."/></l>
+       	<r>sååbbar</r>
+       </w>
+      </n>
+        <n v="kolkutus">
+         <w v="kolkutus">
+         	<l>kolkutus<s n="subst."/></l>
+         	<r>kuälktem</r>
+         </w>
+        </n>
+     <n v="koska">
+      <w v="koska">
+      	<l>koska<s n="subj."/></l>
+      	<r>tõʹnt, ko</r>
+      </w>
+     </n>
+             <n v="koriste-esine">
+              <w v="koriste-esine">
+              	<l>koriste-esine<s n="subst."/></l>
+              	<r>heäʹrvvkäuʹnn</r>
+              </w>
+             </n>
+     <n v="korva">
+      <w v="korva">
+      	<l>korva<s n="subst."/></l>
+      	<r>peʹllj</r>
+      </w>
+     </n>
+      <n v="kaivaa">
+       <w v="kaivaa">
+       	<l>kaivaa<s n="verb"/></l>
+       	<r>kuäivvad</r>
+       </w>
+      </n>
+      <n v="kaikki">
+       <w v="kaikki">
+       	<l>kaikki<s n=""/></l>
+       	<r>puk</r>
+       </w>
+      </n>
+            <n v="kaikenlainen">
+             <w v="kaikenlainen">
+             	<l>kaikenlainen<s n="adj."/></l>
+             	<r>juõʹǩǩnallšem</r>
+             </w>
+            </n>
+     <n v="kahvi">
+      <w v="kahvi">
+      	<l>kahvi<s n="subst."/></l>
+      	<r>kaaʹff</r>
+      </w>
+           <n v="kahvistella">
+            <w v="kahvistella">
+            	<l>kahvistella<s n="verb"/></l>
+            	<r>kaaʹfstõõllâd</r>
+            </w>
+           </n>
+          <n v="kahvipöytä">
+           <w v="kahvipöytä">
+           	<l>kahvipöytä<s n="subst."/></l>
+           	<r>kaaʹffpåʹrdd</r>
+           </w>
+          </n>
+     </n>
+                     <n v="kaksi ja puoli tuntia">
+                      <w v="kaksi ja puoli tuntia">
+                      	<l>kaksi ja puoli tuntia<s n="subst."/></l>
+                      	<r>kueʹhtt čiâss pieʹlin</r>
+                      </w>
+                     </n>
+    <n v="kala">
+     <w v="kala">
+     	<l>kala<s n="subst."/></l>
+     	<r>kueʹll</r>
+     </w>
+    </n>
+      <n v="kantaa">
+       <w v="kantaa">
+       	<l>kantaa<s n="verb"/></l>
+       	<r>kueʹdˈded</r>
+       </w>
+      </n>
+      <n v="kaarna">
+       <w v="kaarna">
+       	<l>kaarna<s n="subst."/></l>
+       	<r>kõrr, pärkk</r>
+       </w>
+       <w v="kaarna">
+       	<l>kaarna<s n="subst."/></l>
+       	<r>pärkk, kõrr</r>
+       </w>
+      </n>
+      <n v="kaappi">
+       <w v="kaappi">
+       	<l>kaappi<s n="subst."/></l>
+       	<r>škaapp</r>
+       </w>
+      </n>
+      <n v="kaataa">
+       <w v="kaataa">
+       	<l>kaataa<s n="verb"/></l>
+       	<r>väällad</r>
+       </w>
+      </n>
+     <n v="kapea">
+      <w v="kapea">
+      	<l>kapea<s n="adj."/></l>
+      	<r>korččai, seäʹǧˈǧ</r>
+      </w>
+     </n>
+     <n v="kasvi">
+      <w v="kasvi">
+      	<l>kasvi<s n="subst."/></l>
+      	<r>rääʹss</r>
+      </w>
+     </n>
+     <n v="karva">
+      <w v="karva">
+      	<l>karva<s n="subst."/></l>
+      	<r>sõõus, vuõptt</r>
+      </w>
+     </n>
+     <n v="kauan">
+      <w v="kauan">
+      	<l>kauan<s n="adv."/></l>
+      	<r>kuuʹǩǩ</r>
+      </w>
+     </n>
+      <n v="kauppa">
+       <w v="kauppa">
+       	<l>kauppa<s n="subst."/></l>
+       	<r>kaupp</r>
+       </w>
+      </n>
+      <n v="kaunis">
+       <w v="kaunis">
+       	<l>kaunis<s n="adj."/></l>
+       	<r>mooččâs</r>
+       </w>
+      </n>
+       <n v="kaukana">
+        <w v="kaukana">
+        	<l>kaukana<s n="adv."/></l>
+        	<r>kuʹǩǩen</r>
+        </w>
+       </n>
+     <n v="kaula">
+      <w v="kaula">
+      	<l>kaula<s n="subst."/></l>
+      	<r>čeäppat</r>
+      </w>
+     </n>
+      <n v="kataja">
+       <w v="kataja">
+       	<l>kataja<s n="subst."/></l>
+       	<r>kõõskâs</r>
+       </w>
+      </n>
+        <n v="katsella">
+         <w v="katsella">
+         	<l>katsella<s n="verb"/></l>
+         	<r>ǩiiččeed</r>
+         </w>
+        </n>
+      <n v="kämppä">
+       <w v="kämppä">
+       	<l>kämppä<s n="subst."/></l>
+       	<r>ǩeâmpp</r>
+       </w>
+      </n>
+        <n v="kärpänen">
+         <w v="kärpänen">
+         	<l>kärpänen<s n="subst."/></l>
+         	<r>čuâr</r>
+         </w>
+        </n>
+        <n v="käristys">
+         <w v="käristys">
+         	<l>käristys<s n="subst."/></l>
+         	<r>ǩeäʹrstõs</r>
+         </w>
+        </n>
+      <n v="käärme">
+       <w v="käärme">
+       	<l>käärme<s n="subst."/></l>
+       	<r>kuʹvdd</r>
+       </w>
+      </n>
+       <n v="kääntyä">
+        <w v="kääntyä">
+        	<l>kääntyä<s n="verb"/></l>
+        	<r>jåårǥled</r>
+        </w>
+       </n>
+      <n v="käskeä">
+       <w v="käskeä">
+       	<l>käskeä<s n="verb"/></l>
+       	<r>päkkad</r>
+       </w>
+      </n>
+    <n v="käsi">
+     <w v="käsi">
+     	<l>käsi<s n="subst."/></l>
+     	<r>ǩiõtt</r>
+     </w>
+     <w v="käsi">
+     	<l>käsi<s n="subst."/></l>
+     	<r>ǩiõtt</r>
+     </w>
+    </n>
+       <n v="kävellä">
+        <w v="kävellä">
+        	<l>kävellä<s n="verb"/></l>
+        	<r>väʹʒʒed</r>
+        </w>
+       </n>
+         <n v="keltainen">
+          <w v="keltainen">
+          	<l>keltainen<s n="adj."/></l>
+          	<r>viskkâd</r>
+          </w>
+         </n>
+      <n v="kellua">
+       <w v="kellua">
+       	<l>kellua<s n="subst."/></l>
+       	<r>kåbllad</r>
+       </w>
+      </n>
+     <n v="keppi">
+      <w v="keppi">
+      	<l>keppi<s n="subst."/></l>
+      	<r>suäʹbˈb</r>
+      </w>
+     </n>
+         <n v="keskenään">
+          <w v="keskenään">
+          	<l>keskenään<s n="adv."/></l>
+          	<r>kõskkneez</r>
+          </w>
+         </n>
+      <n v="kestää">
+       <w v="kestää">
+       	<l>kestää<s n="verb"/></l>
+       	<r>peʹštted</r>
+       </w>
+      </n>
+      <n v="kerätä">
+       <w v="kerätä">
+       	<l>kerätä<s n="verb"/></l>
+       	<r>noorrâd</r>
+       </w>
+      </n>
+      <n v="ketään">
+       <w v="ketään">
+       	<l>ketään<s n=""/></l>
+       	<r>ni ǩeän</r>
+       </w>
+      </n>
+     <n v="kevät">
+      <w v="kevät">
+      	<l>kevät<s n="subst."/></l>
+      	<r>ǩiđđ</r>
+      </w>
+     </n>
+       <n v="keittää">
+        <w v="keittää">
+        	<l>keittää<s n="verb"/></l>
+        	<r>ǩeʹtted</r>
+        </w>
+       </n>
+      <n v="keitto">
+       <w v="keitto">
+       	<l>keitto<s n="subst."/></l>
+       	<r>veärr</r>
+       </w>
+      </n>
+       <n v="keittiö">
+        <w v="keittiö">
+        	<l>keittiö<s n="subst."/></l>
+        	<r>ǩeʹttempõrtt</r>
+        </w>
+       </n>
+    <n v="kuka">
+     <w v="kuka">
+     	<l>kuka<s n=""/></l>
+     	<r>ǩii</r>
+     </w>
+    </n>
+     <n v="kukka">
+      <w v="kukka">
+      	<l>kukka<s n="subst."/></l>
+      	<r>heäʹrvvrääʹss, rääʹss</r>
+      </w>
+      <w v="kukka">
+      	<l>kukka<s n="subst."/></l>
+      	<r>rääʹss, heäʹrvvrääʹss</r>
+      </w>
+     </n>
+      <n v="kulkea">
+       <w v="kulkea">
+       	<l>kulkea<s n="verb"/></l>
+       	<r>jååʹtted</r>
+       </w>
+      </n>
+      <n v="kuolla">
+       <w v="kuolla">
+       	<l>kuolla<s n="verb"/></l>
+       	<r>jääʹmmed</r>
+       </w>
+      </n>
+      <n v="kuopia">
+       <w v="kuopia">
+       	<l>kuopia<s n="verb"/></l>
+       	<r>rääppad</r>
+       </w>
+      </n>
+     <n v="kuppi">
+      <w v="kuppi">
+      	<l>kuppi<s n="subst."/></l>
+      	<r>kopp</r>
+      </w>
+     </n>
+   <n v="kuu">
+    <w v="kuu">
+    	<l>kuu<s n="subst."/></l>
+    	<r>mään</r>
+    </w>
+     <n v="kuuma">
+      <w v="kuuma">
+      	<l>kuuma<s n="adj."/></l>
+      	<r>puõʹlˈli</r>
+      </w>
+     </n>
+     <n v="kuume">
+      <w v="kuume">
+      	<l>kuume<s n="subst."/></l>
+      	<r>žaar</r>
+      </w>
+     </n>
+      <n v="kuulla">
+       <w v="kuulla">
+       	<l>kuulla<s n="verb"/></l>
+       	<r>kuullâd</r>
+       </w>
+      </n>
+      <n v="kuulua">
+       <w v="kuulua">
+       	<l>kuulua<s n="verb"/></l>
+       	<r>kollʹjed</r>
+       </w>
+      </n>
+   </n>
+      <n v="kutsua">
+       <w v="kutsua">
+       	<l>kutsua<s n="verb"/></l>
+       	<r>kåččad</r>
+       </w>
+      </n>
+     <n v="kuiva">
+      <w v="kuiva">
+      	<l>kuiva<s n="adj."/></l>
+      	<r>kååʹšǩes</r>
+      </w>
+     </n>
+     <n v="köysi">
+      <w v="köysi">
+      	<l>köysi<s n="subst."/></l>
+      	<r>trooss</r>
+      </w>
+     </n>
+     <n v="kynsi">
+      <w v="kynsi">
+      	<l>kynsi<s n="subst."/></l>
+      	<r>kõʒʒ</r>
+      </w>
+      <w v="kynsi">
+      	<l>kynsi<s n="subst."/></l>
+      	<r>kõʒʒ</r>
+      </w>
+     </n>
+        <n v="kynttilä">
+         <w v="kynttilä">
+         	<l>kynttilä<s n="subst."/></l>
+         	<r>tuõvâs</r>
+         </w>
+        </n>
+       <n v="kysellä">
+        <w v="kysellä">
+        	<l>kysellä<s n="verb"/></l>
+        	<r>kõõjjeed</r>
+        </w>
+       </n>
+     <n v="kysyä">
+      <w v="kysyä">
+      	<l>kysyä<s n="verb"/></l>
+      	<r>kõõččâd</r>
+      </w>
+     </n>
+    <n v="kylä">
+     <w v="kylä">
+     	<l>kylä<s n="subst."/></l>
+     	<r>sijdd</r>
+     </w>
+    </n>
+     <n v="kyllä">
+      <w v="kyllä">
+      	<l>kyllä<s n=""/></l>
+      	<r>kâʹl</r>
+      </w>
+      <w v="kyllä">
+      	<l>kyllä<s n="part."/></l>
+      	<r>naa</r>
+      </w>
+     </n>
+     <n v="kylmä">
+      <w v="kylmä">
+      	<l>kylmä<s n="adj."/></l>
+      	<r>kõõumâs, čuẹʹcǩes</r>
+      </w>
+      <w v="kylmä">
+      	<l>kylmä<s n="adj."/></l>
+      	<r>čuẹʹcǩes, kõõumâs</r>
+      </w>
+     </n>
+      <n v="kiskoa">
+       <w v="kiskoa">
+       	<l>kiskoa<s n="verb"/></l>
+       	<r>njeʹʒʒed</r>
+       </w>
+      </n>
+     <n v="kissa">
+      <w v="kissa">
+      	<l>kissa<s n="subst."/></l>
+      	<r>kaass</r>
+      </w>
+     </n>
+     <n v="kirje">
+      <w v="kirje">
+      	<l>kirje<s n="subst."/></l>
+      	<r>ǩeʹrjj</r>
+      </w>
+     </n>
+     <n v="kirja">
+      <w v="kirja">
+      	<l>kirja<s n="subst."/></l>
+      	<r>ǩeʹrjj</r>
+      </w>
+          <n v="kirjahylly">
+           <w v="kirjahylly">
+           	<l>kirjahylly<s n="subst."/></l>
+           	<r>ǩeʹrjjiʹlddi</r>
+           </w>
+          </n>
+     </n>
+      <n v="kirkko">
+       <w v="kirkko">
+       	<l>kirkko<s n="subst."/></l>
+       	<r>ceerkav</r>
+       </w>
+      </n>
+     <n v="kirnu">
+      <w v="kirnu">
+      	<l>kirnu<s n="subst."/></l>
+      	<r>ǩeârnn</r>
+      </w>
+     </n>
+     <n v="kieli">
+      <w v="kieli">
+      	<l>kieli<s n="subst."/></l>
+      	<r>njuhččâm</r>
+      </w>
+     </n>
+       <n v="kitkerä">
+        <w v="kitkerä">
+        	<l>kitkerä<s n="adj."/></l>
+        	<r>peʹčǩǩer, šuõrš-</r>
+        </w>
+       </n>
+    <n v="kivi">
+     <w v="kivi">
+     	<l>kivi<s n="subst."/></l>
+     	<r>ǩeäʹdǧǧ</r>
+     </w>
+    </n>
+         <n v="kiirehtiä">
+          <w v="kiirehtiä">
+          	<l>kiirehtiä<s n="verb"/></l>
+          	<r>ǩiirted</r>
+          </w>
+         </n>
+       <n v="kiivetä">
+        <w v="kiivetä">
+        	<l>kiivetä<s n="verb"/></l>
+        	<r>kuärŋŋad</r>
+        </w>
+       </n>
+      <n v="kiitos">
+       <w v="kiitos">
+       	<l>kiitos<s n="subst."/></l>
+       	<r>späʹsseb</r>
+       </w>
+      </n>
+    <n v="lohi">
+     <w v="lohi">
+     	<l>lohi<s n="subst."/></l>
+     	<r>luõss</r>
+     </w>
+        <n v="lohipato">
+         <w v="lohipato">
+         	<l>lohipato<s n="subst."/></l>
+         	<r>zääbbar</r>
+         </w>
+        </n>
+    </n>
+        <n v="lauantai">
+         <w v="lauantai">
+         	<l>lauantai<s n="subst."/></l>
+         	<r>sueʹvet</r>
+         </w>
+        </n>
+       <n v="laukkoa">
+        <w v="laukkoa">
+        	<l>laukkoa<s n="verb"/></l>
+        	<r>tiârrâd</r>
+        </w>
+       </n>
+      <n v="laulaa">
+       <w v="laulaa">
+       	<l>laulaa<s n="verb"/></l>
+       	<r>laullad</r>
+       </w>
+      </n>
+    <n v="laho">
+     <w v="laho">
+     	<l>laho<s n="adj."/></l>
+     	<r>läähh</r>
+     </w>
+    </n>
+      <n v="lammas">
+       <w v="lammas">
+       	<l>lammas<s n="subst."/></l>
+       	<r>sauʒʒ</r>
+       </w>
+      </n>
+     <n v="lapsi">
+      <w v="lapsi">
+      	<l>lapsi<s n="subst."/></l>
+      	<r>päʹrnn</r>
+      </w>
+     </n>
+     <n v="laavu">
+      <w v="laavu">
+      	<l>laavu<s n="subst."/></l>
+      	<r>kååvas</r>
+      </w>
+     </n>
+      <n v="lattia">
+       <w v="lattia">
+       	<l>lattia<s n="subst."/></l>
+       	<r>šâʹldd</r>
+       </w>
+      </n>
+      <n v="laskea">
+       <w v="laskea">
+       	<l>laskea<s n="verb"/></l>
+       	<r>laʹsǩǩeed, rekknâʹstted</r>
+       </w>
+       <w v="laskea">
+       	<l>laskea<s n="verb"/></l>
+       	<r>rekknâʹstted, laʹsǩǩeed</r>
+       </w>
+      </n>
+      <n v="lähteä">
+       <w v="lähteä">
+       	<l>lähteä<s n="verb"/></l>
+       	<r>vueʹlǧǧed</r>
+       </w>
+      </n>
+       <n v="lähellä">
+        <w v="lähellä">
+        	<l>lähellä<s n="adv."/></l>
+        	<r>luʹnn, ââlda</r>
+        </w>
+        <w v="lähellä">
+        	<l>lähellä<s n="adv."/></l>
+        	<r>ââlda, luʹnn</r>
+        </w>
+       </n>
+      <n v="lämmin">
+       <w v="lämmin">
+       	<l>lämmin<s n="adj."/></l>
+       	<r>liõggâs, paakkâs</r>
+       </w>
+       <w v="lämmin">
+       	<l>lämmin<s n="adj."/></l>
+       	<r>paakkâs, liõggâs</r>
+       </w>
+      </n>
+       <n v="lääkäri">
+        <w v="lääkäri">
+        	<l>lääkäri<s n="subst."/></l>
+        	<r>dåhttar</r>
+        </w>
+       </n>
+     <n v="lääke">
+      <w v="lääke">
+      	<l>lääke<s n="subst."/></l>
+      	<r>taalkâs</r>
+      </w>
+     </n>
+     <n v="leipä">
+      <w v="leipä">
+      	<l>leipä<s n="subst."/></l>
+      	<r>leiʹbb</r>
+      </w>
+         <n v="leipävati">
+          <w v="leipävati">
+          	<l>leipävati<s n="subst."/></l>
+          	<r>leiʹbbtiskk</r>
+          </w>
+         </n>
+     </n>
+      <n v="leipoa">
+       <w v="leipoa">
+       	<l>leipoa<s n="verb"/></l>
+       	<r>vääʹlʼjed</r>
+       </w>
+      </n>
+       <n v="leikkiä">
+        <w v="leikkiä">
+        	<l>leikkiä<s n="verb"/></l>
+        	<r>siõrrâd</r>
+        </w>
+       </n>
+       <n v="leikata">
+        <w v="leikata">
+        	<l>leikata<s n="verb"/></l>
+        	<r>čuõpˈpâd</r>
+        </w>
+       </n>
+      <n v="lentää">
+       <w v="lentää">
+       	<l>lentää<s n="verb"/></l>
+       	<r>ǩeʹrdded</r>
+       </w>
+      </n>
+     <n v="leveä">
+      <w v="leveä">
+      	<l>leveä<s n="adj."/></l>
+      	<r>kobddi</r>
+      </w>
+     </n>
+     <n v="lehti">
+      <w v="lehti">
+      	<l>lehti<s n="subst."/></l>
+      	<r>lõstt</r>
+      </w>
+     </n>
+    <n v="lumi">
+     <w v="lumi">
+     	<l>lumi<s n="subst."/></l>
+     	<r>muõtt</r>
+     </w>
+    </n>
+   <n v="luo">
+    <w v="luo">
+    	<l>luo<s n=""/></l>
+    	<r>luzz, årra</r>
+    </w>
+      <n v="luokse">
+       <w v="luokse">
+       	<l>luokse<s n=""/></l>
+       	<r>årra</r>
+       </w>
+      </n>
+     <n v="luona">
+      <w v="luona">
+      	<l>luona<s n=""/></l>
+      	<r>åʹrnn</r>
+      </w>
+     </n>
+     <n v="luota">
+      <w v="luota">
+      	<l>luota<s n=""/></l>
+      	<r>åʹrnn</r>
+      </w>
+     </n>
+   </n>
+   <n v="luu">
+    <w v="luu">
+    	<l>luu<s n="subst."/></l>
+    	<r>täʹhtt</r>
+    </w>
+      <n v="luulla">
+       <w v="luulla">
+       	<l>luulla<s n="verb"/></l>
+       	<r>juʹrdded</r>
+       </w>
+      </n>
+   </n>
+      <n v="löytää">
+       <w v="löytää">
+       	<l>löytää<s n="verb"/></l>
+       	<r>kaunnâd</r>
+       </w>
+      </n>
+     <n v="lyödä">
+      <w v="lyödä">
+      	<l>lyödä<s n="verb"/></l>
+      	<r>čâʹcǩǩed</r>
+      </w>
+     </n>
+     <n v="lyhyt">
+      <w v="lyhyt">
+      	<l>lyhyt<s n="adj."/></l>
+      	<r>vuäʹniǩ</r>
+      </w>
+     </n>
+     <n v="lintu">
+      <w v="lintu">
+      	<l>lintu<s n="subst."/></l>
+      	<r>låʹdd</r>
+      </w>
+     </n>
+     <n v="lisko">
+      <w v="lisko">
+      	<l>lisko<s n="subst."/></l>
+      	<r>smäʹtt</r>
+      </w>
+     </n>
+    <n v="lisä">
+     <w v="lisä">
+     	<l>lisä<s n="subst."/></l>
+     	<r>lââʹss</r>
+     </w>
+    </n>
+    <n v="liha">
+     <w v="liha">
+     	<l>liha<s n="subst."/></l>
+     	<r>vuäʹǯˈǯ</r>
+     </w>
+      <n v="lihava">
+       <w v="lihava">
+       	<l>lihava<s n="adj."/></l>
+       	<r>pueidak</r>
+       </w>
+      </n>
+          <n v="lihakeitto">
+           <w v="lihakeitto">
+           	<l>lihakeitto<s n="subst."/></l>
+           	<r>vuäʹǯˈǯveärr</r>
+           </w>
+          </n>
+    </n>
+        <n v="likainen">
+         <w v="likainen">
+         	<l>likainen<s n="adj."/></l>
+         	<r>sähssai</r>
+         </w>
+        </n>
+       <n v="morsian">
+        <w v="morsian">
+        	<l>morsian<s n="subst."/></l>
+        	<r>kaavsõs</r>
+        </w>
+       </n>
+              <n v="moottorikelkka">
+               <w v="moottorikelkka">
+               	<l>moottorikelkka<s n="subst."/></l>
+               	<r>motorǩeâlkk</r>
+               </w>
+              </n>
+     <n v="matto">
+      <w v="matto">
+      	<l>matto<s n="subst."/></l>
+      	<r>šâʹlddräänn</r>
+      </w>
+     </n>
+     <n v="matka">
+      <w v="matka">
+      	<l>matka<s n="subst."/></l>
+      	<r>mäʹtǩǩ</r>
+      </w>
+     </n>
+     <n v="maito">
+      <w v="maito">
+      	<l>maito<s n="subst."/></l>
+      	<r>mieʹlǩǩ</r>
+      </w>
+     </n>
+               <n v="maistua hyvältä">
+                <w v="maistua hyvältä">
+                	<l>maistua hyvältä<s n="verb"/></l>
+                	<r>njääʹljsted</r>
+                </w>
+               </n>
+         <n v="mahatauti">
+          <w v="mahatauti">
+          	<l>mahatauti<s n="subst."/></l>
+          	<r>čåuʹjjkõpp</r>
+          </w>
+         </n>
+     <n v="makea">
+      <w v="makea">
+      	<l>makea<s n="adj."/></l>
+      	<r>njääʹljes</r>
+      </w>
+     </n>
+          <n v="makuuhuone">
+           <w v="makuuhuone">
+           	<l>makuuhuone<s n="subst."/></l>
+           	<r>vueʹđđemkäämmar</r>
+           </w>
+            <n v="makuuhuoneet">
+             <w v="makuuhuoneet">
+             	<l>makuuhuoneet<s n="subst."/></l>
+             	<r>käämmar</r>
+             </w>
+            </n>
+          </n>
+     <n v="maksa">
+      <w v="maksa">
+      	<l>maksa<s n="subst."/></l>
+      	<r>vuõivâs</r>
+      </w>
+     </n>
+   <n v="maa">
+    <w v="maa">
+    	<l>maa<s n="subst."/></l>
+    	<r>jânnam</r>
+    </w>
+         <n v="maanantai">
+          <w v="maanantai">
+          	<l>maanantai<s n="subst."/></l>
+          	<r>vuõsˈsargg</r>
+          </w>
+         </n>
+     <n v="maata">
+      <w v="maata">
+      	<l>maata<s n="verb"/></l>
+      	<r>lieʹnˈnjsted, liâššâd</r>
+      </w>
+      <w v="maata">
+      	<l>maata<s n="verb"/></l>
+      	<r>liâššâd, lieʹnˈnjsted</r>
+      </w>
+     </n>
+             <n v="maastoautolla">
+              <w v="maastoautolla">
+              	<l>maastoautolla<s n="subst."/></l>
+              	<r>luâđastvuejjamautt</r>
+              </w>
+             </n>
+   </n>
+     <n v="marja">
+      <w v="marja">
+      	<l>marja<s n="subst."/></l>
+      	<r>mueʹrjj</r>
+      </w>
+         <n v="marjamehu">
+          <w v="marjamehu">
+          	<l>marjamehu<s n="subst."/></l>
+          	<r>mueʹrjjsäʹpp</r>
+          </w>
+         </n>
+     </n>
+     <n v="märkä">
+      <w v="märkä">
+      	<l>märkä<s n="adj."/></l>
+      	<r>njuõckâs</r>
+      </w>
+     </n>
+    <n v="mätä">
+     <w v="mätä">
+     	<l>mätä<s n="adj."/></l>
+     	<r>kuõcc</r>
+     </w>
+    </n>
+       <n v="muistaa">
+        <w v="muistaa">
+        	<l>muistaa<s n="verb"/></l>
+        	<r>muʹštted</r>
+        </w>
+       </n>
+      <n v="mukana">
+       <w v="mukana">
+       	<l>mukana<s n=""/></l>
+       	<r>mieʹldd</r>
+       </w>
+      </n>
+     <n v="muori">
+      <w v="muori">
+      	<l>muori<s n="subst."/></l>
+      	<r>äʹǩǩ</r>
+      </w>
+     </n>
+    <n v="muna">
+     <w v="muna">
+     	<l>muna<s n="subst."/></l>
+     	<r>mââʹnn</r>
+     </w>
+    </n>
+        <n v="mustikka">
+         <w v="mustikka">
+         	<l>mustikka<s n="subst."/></l>
+         	<r>sââʹrr</r>
+         </w>
+        </n>
+     <n v="musta">
+      <w v="musta">
+      	<l>musta<s n="adj."/></l>
+      	<r>čappâd</r>
+      </w>
+     </n>
+   <n v="muu">
+    <w v="muu">
+    	<l>muu<s n="adj."/></l>
+    	<r>jeeʹres</r>
+    </w>
+      <n v="muuten">
+       <w v="muuten">
+       	<l>muuten<s n="adv."/></l>
+       	<r>muđoi</r>
+       </w>
+      </n>
+           <n v="muurahainen">
+            <w v="muurahainen">
+            	<l>muurahainen<s n="subst."/></l>
+            	<r>kotkk</r>
+            </w>
+           </n>
+   </n>
+  <n v="me">
+   <w v="me">
+   	<l>me<s n=""/></l>
+   	<r>mij</r>
+   </w>
+             <n v="meidän täytyy">
+              <w v="meidän täytyy">
+              	<l>meidän täytyy<s n="verb"/></l>
+              	<r>meeʹst feʹrttai</r>
+              </w>
+             </n>
+     <n v="mennä">
+      <w v="mennä">
+      	<l>mennä<s n="verb"/></l>
+      	<r>mõõnnâd</r>
+      </w>
+     </n>
+      <n v="merkki">
+       <w v="merkki">
+       	<l>merkki<s n="subst."/></l>
+       	<r>miârkk</r>
+       </w>
+      </n>
+       <n v="merkitä">
+        <w v="merkitä">
+        	<l>merkitä<s n="verb"/></l>
+        	<r>meärkkad</r>
+        </w>
+       </n>
+    <n v="meri">
+     <w v="meri">
+     	<l>meri<s n="subst."/></l>
+     	<r>miârr</r>
+     </w>
+    </n>
+     <n v="metsä">
+      <w v="metsä">
+      	<l>metsä<s n="subst."/></l>
+      	<r>meäʹcˈc</r>
+      </w>
+         <n v="metsästää">
+          <w v="metsästää">
+          	<l>metsästää<s n="verb"/></l>
+          	<r>miẹʹcsted</r>
+          </w>
+         </n>
+        <n v="metsätie">
+         <w v="metsätie">
+         	<l>metsätie<s n="subst."/></l>
+         	<r>meäʹcˈc-čuâǥǥas</r>
+         </w>
+        </n>
+     </n>
+  </n>
+       <n v="milloin">
+        <w v="milloin">
+        	<l>milloin<s n="adv."/></l>
+        	<r>kuäʹss</r>
+        </w>
+       </n>
+    <n v="minä">
+     <w v="minä">
+     	<l>minä<s n=""/></l>
+     	<r>mon</r>
+     </w>
+    </n>
+     <n v="mistä">
+      <w v="mistä">
+      	<l>mistä<s n="adv."/></l>
+      	<r>koʹst</r>
+      </w>
+     </n>
+     <n v="missä">
+      <w v="missä">
+      	<l>missä<s n="adv."/></l>
+      	<r>koʹst</r>
+      </w>
+     </n>
+    <n v="mies">
+     <w v="mies">
+     	<l>mies<s n="subst."/></l>
+     	<r>ooumaž, åål, åålmai</r>
+     </w>
+     <w v="mies">
+     	<l>mies<s n="subst."/></l>
+     	<r>åål, ooumaž, åålmai</r>
+     </w>
+     <w v="mies">
+     	<l>mies<s n="subst."/></l>
+     	<r>åålmai, ooumaž, åål</r>
+     </w>
+    </n>
+      <n v="mitään">
+       <w v="mitään">
+       	<l>mitään<s n=""/></l>
+       	<r>ni mâiʹd</r>
+       </w>
+      </n>
+     <n v="mihin">
+      <w v="mihin">
+      	<l>mihin<s n="adv."/></l>
+      	<r>koozz</r>
+      </w>
+     </n>
+    <n v="mikä">
+     <w v="mikä">
+     	<l>mikä<s n=""/></l>
+     	<r>mii</r>
+     </w>
+    </n>
+     <n v="miksi">
+      <w v="miksi">
+      	<l>miksi<s n="adv."/></l>
+      	<r>mõõzz, mõõn diõtt</r>
+      </w>
+     </n>
+         <n v="myrskysää">
+          <w v="myrskysää">
+          	<l>myrskysää<s n="subst."/></l>
+          	<r>poǥoda</r>
+          </w>
+         </n>
+      <n v="noutaa">
+       <w v="noutaa">
+       	<l>noutaa<s n="verb"/></l>
+       	<r>viǯǯâd</r>
+       </w>
+      </n>
+     <n v="nokka">
+      <w v="nokka">
+      	<l>nokka<s n="subst."/></l>
+      	<r>njuuʹnn</r>
+      </w>
+     </n>
+        <n v="nopeasti">
+         <w v="nopeasti">
+         	<l>nopeasti<s n="adv."/></l>
+         	<r>jåʹttlõnji</r>
+         </w>
+        </n>
+      <n v="nauraa">
+       <w v="nauraa">
+       	<l>nauraa<s n="verb"/></l>
+       	<r>påǥsted</r>
+       </w>
+      </n>
+         <n v="naurahtaa">
+          <w v="naurahtaa">
+          	<l>naurahtaa<s n="verb"/></l>
+          	<r>ruâkksed</r>
+          </w>
+         </n>
+      <n v="nainen">
+       <w v="nainen">
+       	<l>nainen<s n="subst."/></l>
+       	<r>neezzan</r>
+       </w>
+      </n>
+      <n v="nakata">
+       <w v="nakata">
+       	<l>nakata<s n="verb"/></l>
+       	<r>vueʹlǧǧeed</r>
+       </w>
+      </n>
+    <n v="napa">
+     <w v="napa">
+     	<l>napa<s n="subst."/></l>
+     	<r>nääʹpp</r>
+     </w>
+    </n>
+       <n v="näyttää">
+        <w v="näyttää">
+        	<l>näyttää<s n="verb"/></l>
+        	<r>čuäʹjted</r>
+        </w>
+       </n>
+     <n v="nähdä">
+      <w v="nähdä">
+      	<l>nähdä<s n="verb"/></l>
+      	<r>vueiʹnned</r>
+      </w>
+     </n>
+          <n v="nälkiintyä">
+           <w v="nälkiintyä">
+           	<l>nälkiintyä<s n="verb"/></l>
+           	<r>neälggad</r>
+           </w>
+          </n>
+                 <n v="neljällä pyörällä">
+                  <w v="neljällä pyörällä">
+                  	<l>neljällä pyörällä<s n="subst."/></l>
+                  	<r>neellji kååʹlzivuiʹm</r>
+                  </w>
+                 </n>
+    <n v="nenä">
+     <w v="nenä">
+     	<l>nenä<s n="subst."/></l>
+     	<r>njuuʹnn</r>
+     </w>
+    </n>
+      <n v="neuloa">
+       <w v="neuloa">
+       	<l>neuloa<s n="verb"/></l>
+       	<r>kuärrad</r>
+       </w>
+      </n>
+    <n v="nuha">
+     <w v="nuha">
+     	<l>nuha<s n="subst."/></l>
+     	<r>nuõpp</r>
+     </w>
+    </n>
+      <n v="nukkua">
+       <w v="nukkua">
+       	<l>nukkua<s n="verb"/></l>
+       	<r>vuẹʹđđed</r>
+       </w>
+      </n>
+      <n v="numero">
+       <w v="numero">
+       	<l>numero<s n="subst."/></l>
+       	<r>nââmar</r>
+       </w>
+      </n>
+   <n v="nyt">
+    <w v="nyt">
+    	<l>nyt<s n="adv."/></l>
+    	<r>ååʹn</r>
+    </w>
+   </n>
+      <n v="nilkka">
+       <w v="nilkka">
+       	<l>nilkka<s n="subst."/></l>
+       	<r>ǩizldõk</r>
+       </w>
+      </n>
+    <n v="nimi">
+     <w v="nimi">
+     	<l>nimi<s n="subst."/></l>
+     	<r>nõmm</r>
+     </w>
+    </n>
+     <n v="niska">
+      <w v="niska">
+      	<l>niska<s n="subst."/></l>
+      	<r>njiʹšǩǩmaadd</r>
+      </w>
+     </n>
+     <n v="niemi">
+      <w v="niemi">
+      	<l>niemi<s n="subst."/></l>
+      	<r>njarǥǥ</r>
+      </w>
+     </n>
+    <n v="niin">
+     <w v="niin">
+     	<l>niin<s n="part."/></l>
+     	<r>nuʹtt</r>
+     </w>
+    </n>
+       <n v="oranssi">
+        <w v="oranssi">
+        	<l>oranssi<s n="adj."/></l>
+        	<r>maʹlinovi ruõpssâd</r>
+        </w>
+       </n>
+     <n v="ostaa">
+      <w v="ostaa">
+      	<l>ostaa<s n="verb"/></l>
+      	<r>vuäʹstted</r>
+      </w>
+     </n>
+     <n v="osata">
+      <w v="osata">
+      	<l>osata<s n="verb"/></l>
+      	<r>siltteed</r>
+      </w>
+     </n>
+     <n v="ottaa">
+      <w v="ottaa">
+      	<l>ottaa<s n="verb"/></l>
+      	<r>väʹldded</r>
+      </w>
+            <n v="ottaa kiinni">
+             <w v="ottaa kiinni">
+             	<l>ottaa kiinni<s n="verb"/></l>
+             	<r>tääʹvted ǩidd</r>
+             </w>
+            </n>
+     </n>
+       <n v="odottaa">
+        <w v="odottaa">
+        	<l>odottaa<s n="verb"/></l>
+        	<r>vueʹrdded</r>
+        </w>
+       </n>
+   <n v="ovi">
+    <w v="ovi">
+    	<l>ovi<s n="subst."/></l>
+    	<r>uhss</r>
+    </w>
+   </n>
+    <n v="ohut">
+     <w v="ohut">
+     	<l>ohut<s n="adj."/></l>
+     	<r>ââʹzzteʹm</r>
+     </w>
+    </n>
+     <n v="oikea">
+      <w v="oikea">
+      	<l>oikea<s n="adj."/></l>
+      	<r>vuõiggâd, vuäʹljs-</r>
+      </w>
+      <w v="oikea">
+      	<l>oikea<s n="adj."/></l>
+      	<r>vuäʹljs-, vuõiggâd</r>
+      </w>
+     </n>
+        <n v="oksentaa">
+         <w v="oksentaa">
+         	<l>oksentaa<s n="verb"/></l>
+         	<r>vueʹhssed</r>
+         </w>
+        </n>
+        <n v="olohuone">
+         <w v="olohuone">
+         	<l>olohuone<s n="subst."/></l>
+         	<r>jälstemlõnnj</r>
+         </w>
+        </n>
+        <n v="ole hyvä">
+         <w v="ole hyvä">
+         	<l>ole hyvä<s n=""/></l>
+         	<r>tiõrvvsa</r>
+         </w>
+        </n>
+    <n v="olla">
+     <w v="olla">
+     	<l>olla<s n="verb"/></l>
+     	<r>leeʹd</r>
+     </w>
+              <n v="olla ripulissa">
+               <w v="olla ripulissa">
+               	<l>olla ripulissa<s n="verb"/></l>
+               	<r>loojjted</r>
+               </w>
+              </n>
+    </n>
+         <n v="ompeleeko">
+          <w v="ompeleeko">
+          	<l>ompeleeko<s n="subst."/></l>
+          	<r>kuärrai</r>
+          </w>
+         </n>
+       <n v="ommella">
+        <w v="ommella">
+        	<l>ommella<s n="verb"/></l>
+        	<r>kuärrad</r>
+        </w>
+       </n>
+            <n v="pahanhajunen">
+             <w v="pahanhajunen">
+             	<l>pahanhajunen<s n="adj."/></l>
+             	<r>šuõrš-</r>
+             </w>
+            </n>
+       <n v="painava">
+        <w v="painava">
+        	<l>painava<s n="adj."/></l>
+        	<r>lossâd</r>
+        </w>
+       </n>
+      <n v="paikka">
+       <w v="paikka">
+       	<l>paikka<s n="subst."/></l>
+       	<r>päiʹǩǩ</r>
+       </w>
+      </n>
+     <n v="paita">
+      <w v="paita">
+      	<l>paita<s n="subst."/></l>
+      	<r>päiʹdd</r>
+      </w>
+     </n>
+       <n v="paistaa">
+        <w v="paistaa">
+        	<l>paistaa<s n="verb"/></l>
+        	<r>päʹštted</r>
+        </w>
+       </n>
+     <n v="palaa">
+      <w v="palaa">
+      	<l>palaa<s n="verb"/></l>
+      	<r>pueʹlled</r>
+      </w>
+     </n>
+      <n v="paljon">
+       <w v="paljon">
+       	<l>paljon<s n="adj."/></l>
+       	<r>jiânnai</r>
+       </w>
+       <w v="paljon">
+       	<l>paljon<s n="adv."/></l>
+       	<r>jiânnai</r>
+       </w>
+      </n>
+       <n v="palella">
+        <w v="palella">
+        	<l>palella<s n="verb"/></l>
+        	<r>kâʹlmstõõllâd</r>
+        </w>
+       </n>
+     <n v="paksu">
+      <w v="paksu">
+      	<l>paksu<s n="adj."/></l>
+      	<r>kõssâd</r>
+      </w>
+     </n>
+     <n v="panna">
+      <w v="panna">
+      	<l>panna<s n="verb"/></l>
+      	<r>piijjâd</r>
+      </w>
+     </n>
+   <n v="pää">
+    <w v="pää">
+    	<l>pää<s n="subst."/></l>
+    	<r>vueiʹvv</r>
+    </w>
+      <n v="päästä">
+       <w v="päästä">
+       	<l>päästä<s n="verb"/></l>
+       	<r>piâssâd</r>
+       </w>
+      </n>
+      <n v="päällä">
+       <w v="päällä">
+       	<l>päällä<s n=""/></l>
+       	<r>âʹlnn</r>
+       </w>
+       <w v="päällä">
+       	<l>päällä<s n=""/></l>
+       	<r>âʹlnn</r>
+       </w>
+      </n>
+      <n v="päälle">
+       <w v="päälle">
+       	<l>päälle<s n=""/></l>
+       	<r>ool</r>
+       </w>
+      </n>
+   </n>
+     <n v="päivä">
+      <w v="päivä">
+      	<l>päivä<s n="subst."/></l>
+      	<r>peiʹvv</r>
+      </w>
+     </n>
+   <n v="puu">
+    <w v="puu">
+    	<l>puu<s n="subst."/></l>
+    	<r>muõrr</r>
+    </w>
+   </n>
+        <n v="puhaltaa">
+         <w v="puhaltaa">
+         	<l>puhaltaa<s n="verb"/></l>
+         	<r>pååssad</r>
+         </w>
+        </n>
+      <n v="puikko">
+       <w v="puikko">
+       	<l>puikko<s n="subst."/></l>
+       	<r>säʹǧǧ</r>
+       </w>
+      </n>
+     <n v="pulla">
+      <w v="pulla">
+      	<l>pulla<s n="subst."/></l>
+      	<r>viõʹlǧǧesleiʹbb</r>
+      </w>
+     </n>
+        <n v="punainen">
+         <w v="punainen">
+         	<l>punainen<s n="adj."/></l>
+         	<r>ruõpssâd</r>
+         </w>
+        </n>
+        <n v="punastua">
+         <w v="punastua">
+         	<l>punastua<s n="verb"/></l>
+         	<r>ruâpseed</r>
+         </w>
+        </n>
+        <n v="puolukka">
+         <w v="puolukka">
+         	<l>puolukka<s n="subst."/></l>
+         	<r>joŋŋ</r>
+         </w>
+        </n>
+     <n v="puoli">
+      <w v="puoli">
+      	<l>puoli<s n="subst."/></l>
+      	<r>pieʹll</r>
+      </w>
+     </n>
+     <n v="purra">
+      <w v="purra">
+      	<l>purra<s n="verb"/></l>
+      	<r>käʹcǩǩed</r>
+      </w>
+     </n>
+        <n v="puristaa">
+         <w v="puristaa">
+         	<l>puristaa<s n="verb"/></l>
+         	<r>täävvad, čärvvad</r>
+         </w>
+         <w v="puristaa">
+         	<l>puristaa<s n="verb"/></l>
+         	<r>čärvvad, täävvad</r>
+         </w>
+        </n>
+      <n v="pudota">
+       <w v="pudota">
+       	<l>pudota<s n="verb"/></l>
+       	<r>kõččâd</r>
+       </w>
+      </n>
+      <n v="pusero">
+       <w v="pusero">
+       	<l>pusero<s n="subst."/></l>
+       	<r>kuurta</r>
+       </w>
+      </n>
+               <n v="pehmennysmerkki">
+                <w v="pehmennysmerkki">
+                	<l>pehmennysmerkki<s n="subst."/></l>
+                	<r>teeʹmestiõtt</r>
+                </w>
+               </n>
+        <n v="peitellä">
+         <w v="peitellä">
+         	<l>peitellä<s n="verb"/></l>
+         	<r>tuʹvdded</r>
+         </w>
+        </n>
+      <n v="pelätä">
+       <w v="pelätä">
+       	<l>pelätä<s n="verb"/></l>
+       	<r>põõllâd</r>
+       </w>
+      </n>
+      <n v="penkki">
+       <w v="penkki">
+       	<l>penkki<s n="subst."/></l>
+       	<r>stuuʹl</r>
+       </w>
+      </n>
+           <n v="peruskurssi">
+            <w v="peruskurssi">
+            	<l>peruskurssi<s n="subst."/></l>
+            	<r>vuâđđkurss</r>
+            </w>
+           </n>
+      <n v="peruna">
+       <w v="peruna">
+       	<l>peruna<s n="subst."/></l>
+       	<r>pååʹttaǩ</r>
+       </w>
+      </n>
+     <n v="perhe">
+      <w v="perhe">
+      	<l>perhe<s n="subst."/></l>
+      	<r>piâr</r>
+      </w>
+     </n>
+     <n v="pestä">
+      <w v="pestä">
+      	<l>pestä<s n="verb"/></l>
+      	<r>põõssâd</r>
+      </w>
+      <w v="pestä">
+      	<l>pestä<s n="verb"/></l>
+      	<r>põõssâd</r>
+      </w>
+     </n>
+     <n v="pöytä">
+      <w v="pöytä">
+      	<l>pöytä<s n="subst."/></l>
+      	<r>påʹrdd</r>
+      </w>
+        <n v="pöytänen">
+         <w v="pöytänen">
+         	<l>pöytänen<s n="subst."/></l>
+         	<r>stuälaž</r>
+         </w>
+        </n>
+     </n>
+      <n v="pölkky">
+       <w v="pölkky">
+       	<l>pölkky<s n="subst."/></l>
+       	<r>čockk</r>
+       </w>
+      </n>
+    <n v="pöly">
+     <w v="pöly">
+     	<l>pöly<s n="subst."/></l>
+     	<r>põõʹl</r>
+     </w>
+    </n>
+       <n v="pyyhkiä">
+        <w v="pyyhkiä">
+        	<l>pyyhkiä<s n="verb"/></l>
+        	<r>sekkad</r>
+        </w>
+       </n>
+        <n v="pysähtyä">
+         <w v="pysähtyä">
+         	<l>pysähtyä<s n="verb"/></l>
+         	<r>årsted</r>
+         </w>
+        </n>
+      <n v="pyöreä">
+       <w v="pyöreä">
+       	<l>pyöreä<s n="adj."/></l>
+       	<r>joorbâs</r>
+       </w>
+      </n>
+     <n v="pyörä">
+      <w v="pyörä">
+      	<l>pyörä<s n="subst."/></l>
+      	<r>kååʹlez</r>
+      </w>
+     </n>
+         <n v="piilottaa">
+          <w v="piilottaa">
+          	<l>piilottaa<s n="verb"/></l>
+          	<r>peiʹtted, čiõkkâd</r>
+          </w>
+          <w v="piilottaa">
+          	<l>piilottaa<s n="verb"/></l>
+          	<r>čiõkkâd, peiʹtted</r>
+          </w>
+         </n>
+     <n v="pilvi">
+      <w v="pilvi">
+      	<l>pilvi<s n="subst."/></l>
+      	<r>põlvv</r>
+      </w>
+     </n>
+         <n v="pikkuinen">
+          <w v="pikkuinen">
+          	<l>pikkuinen<s n="adj."/></l>
+          	<r>siõmm</r>
+          </w>
+         </n>
+    <n v="pian">
+     <w v="pian">
+     	<l>pian<s n="adv."/></l>
+     	<r>sõrgg</r>
+     </w>
+    </n>
+     <n v="pitkä">
+      <w v="pitkä">
+      	<l>pitkä<s n="adj."/></l>
+      	<r>kuʹǩǩ</r>
+      </w>
+     </n>
+            <n v="pitää kiinni">
+             <w v="pitää kiinni">
+             	<l>pitää kiinni<s n="verb"/></l>
+             	<r>tuõʹlˈlʼjed</r>
+             </w>
+            </n>
+      <n v="pistää">
+       <w v="pistää">
+       	<l>pistää<s n="verb"/></l>
+       	<r>čuõʹǧǧeed</r>
+       </w>
+      </n>
+     <n v="pieni">
+      <w v="pieni">
+      	<l>pieni<s n="adj."/></l>
+      	<r>occkaž, siõm, smaavâs, uʹcc, siõmm</r>
+      </w>
+      <w v="pieni">
+      	<l>pieni<s n="adj."/></l>
+      	<r>siõm, occkaž, smaavâs, uʹcc, siõmm</r>
+      </w>
+      <w v="pieni">
+      	<l>pieni<s n="adj."/></l>
+      	<r>smaavâs, occkaž, siõm, uʹcc, siõmm</r>
+      </w>
+      <w v="pieni">
+      	<l>pieni<s n="adj."/></l>
+      	<r>uʹcc, occkaž, siõm, smaavâs, siõmm</r>
+      </w>
+     </n>
+    <n v="piha">
+     <w v="piha">
+     	<l>piha<s n="subst."/></l>
+     	<r>šellj</r>
+     </w>
+    </n>
+    <n v="poro">
+     <w v="poro">
+     	<l>poro<s n="subst."/></l>
+     	<r>puäʒʒ</r>
+     </w>
+         <n v="porohomma">
+          <w v="porohomma">
+          	<l>porohomma<s n="subst."/></l>
+          	<r>puäʒʒhåmm</r>
+          </w>
+         </n>
+        <n v="poromies">
+         <w v="poromies">
+         	<l>poromies<s n="subst."/></l>
+         	<r>puäʒʒooumaž, puäʒʒoummu</r>
+         </w>
+         <w v="poromies">
+         	<l>poromies<s n="subst."/></l>
+         	<r>puäʒʒoummu, puäʒʒooumaž</r>
+         </w>
+        </n>
+    </n>
+     <n v="poika">
+      <w v="poika">
+      	<l>poika<s n="subst."/></l>
+      	<r>päʹrnn, âʹlǧǧ, âʹlǧǧ</r>
+      </w>
+      <w v="poika">
+      	<l>poika<s n="subst."/></l>
+      	<r>âʹlǧǧ, päʹrnn</r>
+      </w>
+      <w v="poika">
+      	<l>poika<s n="subst."/></l>
+      	<r>âʹlǧǧ, päʹrnn</r>
+      </w>
+     </n>
+     <n v="polku">
+      <w v="polku">
+      	<l>polku<s n="subst."/></l>
+      	<r>pääʹljes</r>
+      </w>
+     </n>
+     <n v="polvi">
+      <w v="polvi">
+      	<l>polvi<s n="subst."/></l>
+      	<r>puõlvv</r>
+      </w>
+     </n>
+      <n v="ruskea">
+       <w v="ruskea">
+       	<l>ruskea<s n="adj."/></l>
+       	<r>ručkkâd</r>
+       </w>
+      </n>
+          <n v="runovaadin">
+           <w v="runovaadin">
+           	<l>runovaadin<s n="subst."/></l>
+           	<r>råånn</r>
+           </w>
+          </n>
+     <n v="ruoho">
+      <w v="ruoho">
+      	<l>ruoho<s n="subst."/></l>
+      	<r>rääʹss</r>
+      </w>
+     </n>
+     <n v="ruoka">
+      <w v="ruoka">
+      	<l>ruoka<s n="subst."/></l>
+      	<r>porrmõš</r>
+      </w>
+     </n>
+     <n v="reisi">
+      <w v="reisi">
+      	<l>reisi<s n="subst."/></l>
+      	<r>čeʹbb</r>
+      </w>
+     </n>
+               <n v="reiden etupuoli">
+                <w v="reiden etupuoli">
+                	<l>reiden etupuoli<s n="subst."/></l>
+                	<r>ruõidd</r>
+                </w>
+               </n>
+     <n v="renki">
+      <w v="renki">
+      	<l>renki<s n="subst."/></l>
+      	<r>triâŋgg</r>
+      </w>
+     </n>
+       <n v="rinkeli">
+        <w v="rinkeli">
+        	<l>rinkeli<s n="subst."/></l>
+        	<r>kuäʹlˈlec</r>
+        </w>
+       </n>
+     <n v="rinta">
+      <w v="rinta">
+      	<l>rinta<s n="subst."/></l>
+      	<r>râʹdd</r>
+      </w>
+     </n>
+        <n v="romahtaa">
+         <w v="romahtaa">
+         	<l>romahtaa<s n="verb"/></l>
+         	<r>kââmted</r>
+         </w>
+        </n>
+      <n v="roukua">
+       <w v="roukua">
+       	<l>roukua<s n="verb"/></l>
+       	<r>preuggad</r>
+       </w>
+      </n>
+      <n v="raapia">
+       <w v="raapia">
+       	<l>raapia<s n="verb"/></l>
+       	<r>ruõtˈtâd</r>
+       </w>
+      </n>
+        <n v="raskaana">
+         <w v="raskaana">
+         	<l>raskaana<s n="adj."/></l>
+         	<r>päärnai vuâstta</r>
+         </w>
+        </n>
+     <n v="rasva">
+      <w v="rasva">
+      	<l>rasva<s n="subst."/></l>
+      	<r>pueiʹdd, vuõjj</r>
+      </w>
+      <w v="rasva">
+      	<l>rasva<s n="subst."/></l>
+      	<r>vuõjj, pueiʹdd</r>
+      </w>
+     </n>
+      <n v="särkeä">
+       <w v="särkeä">
+       	<l>särkeä<s n="verb"/></l>
+       	<r>čueʹcced</r>
+       </w>
+      </n>
+   <n v="sää">
+    <w v="sää">
+    	<l>sää<s n="subst."/></l>
+    	<r>šõŋŋ</r>
+    </w>
+   </n>
+     <n v="sänky">
+      <w v="sänky">
+      	<l>sänky<s n="subst."/></l>
+      	<r>siâŋgg</r>
+      </w>
+     </n>
+   <n v="suu">
+    <w v="suu">
+    	<l>suu<s n="subst."/></l>
+    	<r>njäʹlmm</r>
+    </w>
+     <n v="suuri">
+      <w v="suuri">
+      	<l>suuri<s n="adj."/></l>
+      	<r>šurr, jõnn</r>
+      </w>
+     </n>
+   </n>
+    <n v="suku">
+     <w v="suku">
+     	<l>suku<s n="subst."/></l>
+     	<r>sokk</r>
+     </w>
+        <n v="sukunimi">
+         <w v="sukunimi">
+         	<l>sukunimi<s n="subst."/></l>
+         	<r>faʹmilja</r>
+         </w>
+        </n>
+          <n v="sukulainen">
+           <w v="sukulainen">
+           	<l>sukulainen<s n="subst."/></l>
+           	<r>ruått</r>
+           </w>
+          </n>
+    </n>
+    <n v="sumu">
+     <w v="sumu">
+     	<l>sumu<s n="subst."/></l>
+     	<r>suâlnõk</r>
+     </w>
+    </n>
+     <n v="suora">
+      <w v="suora">
+      	<l>suora<s n="adj."/></l>
+      	<r>vuõiggâd</r>
+      </w>
+     </n>
+     <n v="suoli">
+      <w v="suoli">
+      	<l>suoli<s n="subst."/></l>
+      	<r>čuẹʹll</r>
+      </w>
+     </n>
+     <n v="suola">
+      <w v="suola">
+      	<l>suola<s n="subst."/></l>
+      	<r>säʹltt</r>
+      </w>
+     </n>
+  <n v="se">
+   <w v="se">
+   	<l>se<s n=""/></l>
+   	<r>tõt</r>
+   </w>
+       <n v="seurata">
+        <w v="seurata">
+        	<l>seurata<s n="verb"/></l>
+        	<r>čuâvvad</r>
+        </w>
+       </n>
+    <n v="setä">
+     <w v="setä">
+     	<l>setä<s n="subst."/></l>
+     	<r>jieʹǩǩ, čieʹcc</r>
+     </w>
+     <w v="setä">
+     	<l>setä<s n="subst."/></l>
+     	<r>čieʹcc, jieʹǩǩ</r>
+     </w>
+    </n>
+      <n v="seistä">
+       <w v="seistä">
+       	<l>seistä<s n="verb"/></l>
+       	<r>čuẹǯʼǯad</r>
+       </w>
+      </n>
+     <n v="selkä">
+      <w v="selkä">
+      	<l>selkä<s n="subst."/></l>
+      	<r>seäʹlǧǧ</r>
+      </w>
+          <n v="selkäranka">
+           <w v="selkäranka">
+           	<l>selkäranka<s n="subst."/></l>
+           	<r>čiõʹlj</r>
+           </w>
+          </n>
+     </n>
+         <n v="sellainen">
+          <w v="sellainen">
+          	<l>sellainen<s n=""/></l>
+          	<r>nåkkam</r>
+          </w>
+         </n>
+         <n v="sen takia">
+          <w v="sen takia">
+          	<l>sen takia<s n="adv."/></l>
+          	<r>tõndiõtt</r>
+          </w>
+         </n>
+  </n>
+     <n v="siipi">
+      <w v="siipi">
+      	<l>siipi<s n="subst."/></l>
+      	<r>suäjj</r>
+      </w>
+     </n>
+     <n v="siika">
+      <w v="siika">
+      	<l>siika<s n="subst."/></l>
+      	<r>šapšš</r>
+      </w>
+     </n>
+     <n v="siinä">
+      <w v="siinä">
+      	<l>siinä<s n="adv."/></l>
+      	<r>tõʹst</r>
+      </w>
+     </n>
+     <n v="silmä">
+      <w v="silmä">
+      	<l>silmä<s n="subst."/></l>
+      	<r>čâʹlmm</r>
+      </w>
+     </n>
+     <n v="sille">
+      <w v="sille">
+      	<l>sille<s n="adv."/></l>
+      	<r>tõõzz</r>
+      </w>
+     </n>
+     <n v="sileä">
+      <w v="sileä">
+      	<l>sileä<s n="adj."/></l>
+      	<r>šõllâd, lääʹttes</r>
+      </w>
+     </n>
+     <n v="sinne">
+      <w v="sinne">
+      	<l>sinne<s n="adv."/></l>
+      	<r>tok</r>
+      </w>
+     </n>
+    <n v="sinä">
+     <w v="sinä">
+     	<l>sinä<s n=""/></l>
+     	<r>ton</r>
+     </w>
+    </n>
+     <n v="sisar">
+      <w v="sisar">
+      	<l>sisar<s n="subst."/></l>
+      	<r>vuäʹbb</r>
+      </w>
+     </n>
+       <n v="sisältä">
+        <w v="sisältä">
+        	<l>sisältä<s n="adv."/></l>
+        	<r>seʹst</r>
+        </w>
+       </n>
+       <n v="sisällä">
+        <w v="sisällä">
+        	<l>sisällä<s n="adv."/></l>
+        	<r>seʹst</r>
+        </w>
+       </n>
+         <n v="sisilisko">
+          <w v="sisilisko">
+          	<l>sisilisko<s n="subst."/></l>
+          	<r>smäʹtt</r>
+          </w>
+         </n>
+      <n v="sieltä">
+       <w v="sieltä">
+       	<l>sieltä<s n="adv."/></l>
+       	<r>tåʹben</r>
+       </w>
+      </n>
+      <n v="siellä">
+       <w v="siellä">
+       	<l>siellä<s n="adv."/></l>
+       	<r>toʹben, tåʹben</r>
+       </w>
+       <w v="siellä">
+       	<l>siellä<s n="adv."/></l>
+       	<r>tåʹben, toʹben</r>
+       </w>
+      </n>
+      <n v="siemen">
+       <w v="siemen">
+       	<l>siemen<s n="subst."/></l>
+       	<r>sieʹm</r>
+       </w>
+      </n>
+      <n v="sitten">
+       <w v="sitten">
+       	<l>sitten<s n="adv."/></l>
+       	<r>de, teʹl</r>
+       </w>
+      </n>
+     <n v="sitoa">
+      <w v="sitoa">
+      	<l>sitoa<s n="verb"/></l>
+      	<r>čõõnnâd</r>
+      </w>
+     </n>
+     <n v="syödä">
+      <w v="syödä">
+      	<l>syödä<s n="verb"/></l>
+      	<r>poorrâd</r>
+      </w>
+     </n>
+       <n v="syyskuu">
+        <w v="syyskuu">
+        	<l>syyskuu<s n="subst."/></l>
+        	<r>čõhččmään</r>
+        </w>
+       </n>
+     <n v="syksy">
+      <w v="syksy">
+      	<l>syksy<s n="subst."/></l>
+      	<r>čõhčč</r>
+      </w>
+     </n>
+      <n v="sylkeä">
+       <w v="sylkeä">
+       	<l>sylkeä<s n="verb"/></l>
+       	<r>čolggâd</r>
+       </w>
+      </n>
+            <n v="syntymäpäivä">
+             <w v="syntymäpäivä">
+             	<l>syntymäpäivä<s n="subst."/></l>
+             	<r>šõddâmpeiʹvv</r>
+             </w>
+            </n>
+     <n v="sydän">
+      <w v="sydän">
+      	<l>sydän<s n="subst."/></l>
+      	<r>čââʹđ</r>
+      </w>
+     </n>
+     <n v="sopia">
+      <w v="sopia">
+      	<l>sopia<s n="verb"/></l>
+      	<r>suåppâd</r>
+      </w>
+     </n>
+      <n v="soutaa">
+       <w v="soutaa">
+       	<l>soutaa<s n="verb"/></l>
+       	<r>suukkâd</r>
+       </w>
+      </n>
+       <n v="soittaa">
+        <w v="soittaa">
+        	<l>soittaa<s n="verb"/></l>
+        	<r>soiʹttjed</r>
+        </w>
+       </n>
+      <n v="sokeri">
+       <w v="sokeri">
+       	<l>sokeri<s n="subst."/></l>
+       	<r>säähhar</r>
+       </w>
+      </n>
+     <n v="sanoa">
+      <w v="sanoa">
+      	<l>sanoa<s n="verb"/></l>
+      	<r>ceäʹlǩǩed</r>
+      </w>
+     </n>
+       <n v="saattaa">
+        <w v="saattaa">
+        	<l>saattaa<s n="verb"/></l>
+        	<r>säʹtted</r>
+        </w>
+       </n>
+     <n v="saada">
+      <w v="saada">
+      	<l>saada<s n="verb"/></l>
+      	<r>vuäǯǯad</r>
+      </w>
+     </n>
+     <n v="sarvi">
+      <w v="sarvi">
+      	<l>sarvi<s n="subst."/></l>
+      	<r>čuäʹrvv</r>
+      </w>
+     </n>
+     <n v="sauna">
+      <w v="sauna">
+      	<l>sauna<s n="subst."/></l>
+      	<r>säuʹnn</r>
+      </w>
+     </n>
+    <n v="sade">
+     <w v="sade">
+     	<l>sade<s n="subst."/></l>
+     	<r>âʹbrr</r>
+     </w>
+    </n>
+    <n v="savu">
+     <w v="savu">
+     	<l>savu<s n="subst."/></l>
+     	<r>suõvv</r>
+     </w>
+    </n>
+      <n v="sairas">
+       <w v="sairas">
+       	<l>sairas<s n="adj."/></l>
+       	<r>puõcci</r>
+       </w>
+      </n>
+     <n v="tässä">
+      <w v="tässä">
+      	<l>tässä<s n="adv."/></l>
+      	<r>täʹst</r>
+      </w>
+      <w v="tässä">
+      	<l>tässä<s n=""/></l>
+      	<r>täʹst</r>
+      </w>
+     </n>
+     <n v="tästä">
+      <w v="tästä">
+      	<l>tästä<s n=""/></l>
+      	<r>täʹst</r>
+      </w>
+     </n>
+      <n v="täältä">
+       <w v="täältä">
+       	<l>täältä<s n="adv."/></l>
+       	<r>tääiʹb, tääiʹben</r>
+       </w>
+       <w v="täältä">
+       	<l>täältä<s n="adv."/></l>
+       	<r>tääiʹben, tääiʹb</r>
+       </w>
+      </n>
+      <n v="täällä">
+       <w v="täällä">
+       	<l>täällä<s n="adv."/></l>
+       	<r>tääiʹb, tääiʹben</r>
+       </w>
+       <w v="täällä">
+       	<l>täällä<s n="adv."/></l>
+       	<r>tääiʹben, tääiʹb</r>
+       </w>
+      </n>
+    <n v="täti">
+     <w v="täti">
+     	<l>täti<s n="subst."/></l>
+     	<r>mueʹđđ</r>
+     </w>
+    </n>
+     <n v="täysi">
+      <w v="täysi">
+      	<l>täysi<s n="adj."/></l>
+      	<r>tiiudâs</r>
+      </w>
+     </n>
+      <n v="täytyä">
+       <w v="täytyä">
+       	<l>täytyä<s n="verb"/></l>
+       	<r>feʹrttjed, õlggâd</r>
+       </w>
+      </n>
+   <n v="täi">
+    <w v="täi">
+    	<l>täi<s n="subst."/></l>
+    	<r>teʹǩǩ</r>
+    </w>
+   </n>
+     <n v="tähti">
+      <w v="tähti">
+      	<l>tähti<s n="subst."/></l>
+      	<r>täʹsnn</r>
+      </w>
+     </n>
+    <n v="tämä">
+     <w v="tämä">
+     	<l>tämä<s n=""/></l>
+     	<r>tät</r>
+     </w>
+    </n>
+     <n v="tänne">
+      <w v="tänne">
+      	<l>tänne<s n="adv."/></l>
+      	<r>tiiʹǩ</r>
+      </w>
+     </n>
+      <n v="tänään">
+       <w v="tänään">
+       	<l>tänään<s n="adv."/></l>
+       	<r>täʹbbe</r>
+       </w>
+      </n>
+  <n v="te">
+   <w v="te">
+   	<l>te<s n=""/></l>
+   	<r>tij</r>
+   </w>
+     <n v="terve">
+      <w v="terve">
+      	<l>terve<s n=""/></l>
+      	<r>tiõrv</r>
+      </w>
+        <n v="terveenä">
+         <w v="terveenä">
+         	<l>terveenä<s n="adv."/></l>
+         	<r>tiõrvân</r>
+         </w>
+        </n>
+           <n v="terveystalo">
+            <w v="terveystalo">
+            	<l>terveystalo<s n="subst."/></l>
+            	<r>tiõrvâsvuõttpõrtt</r>
+            </w>
+           </n>
+         <n v="tervehtiä">
+          <w v="tervehtiä">
+          	<l>tervehtiä<s n="verb"/></l>
+          	<r>tiõrvted</r>
+          </w>
+         </n>
+     </n>
+      <n v="terävä">
+       <w v="terävä">
+       	<l>terävä<s n="adj."/></l>
+       	<r>pâʹsttel</r>
+       </w>
+      </n>
+     <n v="tehdä">
+      <w v="tehdä">
+      	<l>tehdä<s n="verb"/></l>
+      	<r>tuẹjˈjeed, raajjâd</r>
+      </w>
+     </n>
+         <n v="televisio">
+          <w v="televisio">
+          	<l>televisio<s n="subst."/></l>
+          	<r>teʹlvisia</r>
+          </w>
+         </n>
+  </n>
+      <n v="tutkia">
+       <w v="tutkia">
+       	<l>tutkia<s n="verb"/></l>
+       	<r>tuʹtǩǩeed</r>
+       </w>
+      </n>
+     <n v="tuuli">
+      <w v="tuuli">
+      	<l>tuuli<s n="subst."/></l>
+      	<r>piõgˈg</r>
+      </w>
+     </n>
+     <n v="tuhka">
+      <w v="tuhka">
+      	<l>tuhka<s n="subst."/></l>
+      	<r>kunn</r>
+      </w>
+     </n>
+     <n v="tulla">
+      <w v="tulla">
+      	<l>tulla<s n="verb"/></l>
+      	<r>pueʹtted, šõddâd</r>
+      </w>
+      <w v="tulla">
+      	<l>tulla<s n="verb"/></l>
+      	<r>šõddâd, pueʹtted</r>
+      </w>
+     </n>
+    <n v="tuli">
+     <w v="tuli">
+     	<l>tuli<s n="subst."/></l>
+     	<r>toll</r>
+     </w>
+          <n v="tulistella">
+           <w v="tulistella">
+           	<l>tulistella<s n="verb"/></l>
+           	<r>tollstõõllâd</r>
+           </w>
+          </n>
+    </n>
+     <n v="tukka">
+      <w v="tukka">
+      	<l>tukka<s n="subst."/></l>
+      	<r>vuõptt</r>
+      </w>
+     </n>
+       <n v="tunturi">
+        <w v="tunturi">
+        	<l>tunturi<s n="subst."/></l>
+        	<r>tuõddâr</r>
+        </w>
+       </n>
+      <n v="tuntea">
+       <w v="tuntea">
+       	<l>tuntea<s n="verb"/></l>
+       	<r>tobddâd</r>
+       </w>
+      </n>
+     <n v="tunti">
+      <w v="tunti">
+      	<l>tunti<s n="subst."/></l>
+      	<r>čiâss</r>
+      </w>
+     </n>
+   <n v="tuo">
+    <w v="tuo">
+    	<l>tuo<s n=""/></l>
+    	<r>tut</r>
+    </w>
+     <n v="tuoda">
+      <w v="tuoda">
+      	<l>tuoda<s n="verb"/></l>
+      	<r>puʹhtted</r>
+      </w>
+     </n>
+       <n v="tuottaa">
+        <w v="tuottaa">
+        	<l>tuottaa<s n="verb"/></l>
+        	<r>raajjâd</r>
+        </w>
+       </n>
+     <n v="tuoli">
+      <w v="tuoli">
+      	<l>tuoli<s n="subst."/></l>
+      	<r>stuuʹl</r>
+      </w>
+     </n>
+   </n>
+   <n v="työ">
+    <w v="työ">
+    	<l>työ<s n="subst."/></l>
+    	<r>reâugg, tuẹjj</r>
+    </w>
+    <w v="työ">
+    	<l>työ<s n="subst."/></l>
+    	<r>tuẹjj, reâugg</r>
+    </w>
+       <n v="työntää">
+        <w v="työntää">
+        	<l>työntää<s n="verb"/></l>
+        	<r>oiʹǧǧeed</r>
+        </w>
+       </n>
+   </n>
+           <n v="tyytyväinen">
+            <w v="tyytyväinen">
+            	<l>tyytyväinen<s n="adj."/></l>
+            	<r>miõlstes</r>
+            </w>
+           </n>
+     <n v="tylsä">
+      <w v="tylsä">
+      	<l>tylsä<s n="adj."/></l>
+      	<r>tåʹlcc</r>
+      </w>
+     </n>
+     <n v="tytär">
+      <w v="tytär">
+      	<l>tytär<s n="subst."/></l>
+      	<r>nijdd</r>
+      </w>
+     </n>
+     <n v="tyttö">
+      <w v="tyttö">
+      	<l>tyttö<s n="subst."/></l>
+      	<r>nijdd</r>
+      </w>
+     </n>
+   <n v="tie">
+    <w v="tie">
+    	<l>tie<s n="subst."/></l>
+    	<r>čuâǥǥas, ǩeäinn</r>
+    </w>
+    <w v="tie">
+    	<l>tie<s n="subst."/></l>
+    	<r>ǩeäinn, čuâǥǥas</r>
+    </w>
+         <n v="tietenkin">
+          <w v="tietenkin">
+          	<l>tietenkin<s n="adv."/></l>
+          	<r>tiõttlõs</r>
+          </w>
+         </n>
+      <n v="tietää">
+       <w v="tietää">
+       	<l>tietää<s n="verb"/></l>
+       	<r>tieʹtted</r>
+       </w>
+      </n>
+   </n>
+       <n v="tiainen">
+        <w v="tiainen">
+        	<l>tiainen<s n="subst."/></l>
+        	<r>ceeʒʒaž</r>
+        </w>
+       </n>
+     <n v="tokka">
+      <w v="tokka">
+      	<l>tokka<s n="subst."/></l>
+      	<r>čiõǥǥâr</r>
+      </w>
+     </n>
+     <n v="totta">
+      <w v="totta">
+      	<l>totta<s n="subst."/></l>
+      	<r>tuõtt</r>
+      </w>
+     </n>
+    <n v="tosi">
+     <w v="tosi">
+     	<l>tosi<s n="subst."/></l>
+     	<r>tuõtt</r>
+     </w>
+    </n>
+      <n v="toinen">
+       <w v="toinen">
+       	<l>toinen<s n="num."/></l>
+       	<r>nuʹbb</r>
+       </w>
+      </n>
+       <n v="tanssia">
+        <w v="tanssia">
+        	<l>tanssia<s n="verb"/></l>
+        	<r>pleässjed</r>
+        </w>
+       </n>
+       <n v="tapella">
+        <w v="tapella">
+        	<l>tapella<s n="verb"/></l>
+        	<r>tuärrad</r>
+        </w>
+       </n>
+      <n v="tappaa">
+       <w v="tappaa">
+       	<l>tappaa<s n="verb"/></l>
+       	<r>kåʹdded</r>
+       </w>
+      </n>
+       <n v="tarvita">
+        <w v="tarvita">
+        	<l>tarvita<s n="verb"/></l>
+        	<r>taarbšed</r>
+        </w>
+       </n>
+    <n v="taas">
+     <w v="taas">
+     	<l>taas<s n="adv."/></l>
+     	<r>eʹpet</r>
+     </w>
+    </n>
+        <n v="tasainen">
+         <w v="tasainen">
+         	<l>tasainen<s n="adj."/></l>
+         	<r>lääʹttes</r>
+         </w>
+        </n>
+         <n v="tavoittaa">
+          <w v="tavoittaa">
+          	<l>tavoittaa<s n="verb"/></l>
+          	<r>tääʹvted</r>
+          </w>
+         </n>
+      <n v="tahtoa">
+       <w v="tahtoa">
+       	<l>tahtoa<s n="verb"/></l>
+       	<r>tättad</r>
+       </w>
+      </n>
+      <n v="taimen">
+       <w v="taimen">
+       	<l>taimen<s n="subst."/></l>
+       	<r>kuʹvǯǯ</r>
+       </w>
+      </n>
+      <n v="taivas">
+       <w v="taivas">
+       	<l>taivas<s n="subst."/></l>
+       	<r>âʹlmm</r>
+       </w>
+      </n>
+       <n v="taitava">
+        <w v="taitava">
+        	<l>taitava<s n="adj."/></l>
+        	<r>čeäʹp'p</r>
+        </w>
+       </n>
+     <n v="talvi">
+      <w v="talvi">
+      	<l>talvi<s n="subst."/></l>
+      	<r>täʹlvv</r>
+      </w>
+     </n>
+    <n v="talo">
+     <w v="talo">
+     	<l>talo<s n="subst."/></l>
+     	<r>põrtt</r>
+     </w>
+    </n>
+      <n v="takana">
+       <w v="takana">
+       	<l>takana<s n=""/></l>
+       	<r>tueʹǩǩen</r>
+       </w>
+      </n>
+     <n v="takki">
+      <w v="takki">
+      	<l>takki<s n="subst."/></l>
+      	<r>kähttan</r>
+      </w>
+     </n>
+    <n v="uusi">
+     <w v="uusi">
+     	<l>uusi<s n="adj."/></l>
+     	<r>oođâs</r>
+     </w>
+    </n>
+    <n v="uida">
+     <w v="uida">
+     	<l>uida<s n="verb"/></l>
+     	<r>vuõjjâd</r>
+     </w>
+     <w v="uida">
+     	<l>uida<s n="verb"/></l>
+     	<r>vuõjjâd</r>
+     </w>
+    </n>
+         <n v="ujostella">
+          <w v="ujostella">
+          	<l>ujostella<s n="verb"/></l>
+          	<r>käinnad</r>
+          </w>
+         </n>
+      <n v="ulkona">
+       <w v="ulkona">
+       	<l>ulkona<s n="adv."/></l>
+       	<r>ålggan</r>
+       </w>
+      </n>
+    <n v="uros">
+     <w v="uros">
+     	<l>uros<s n="subst."/></l>
+     	<r>ååʹres</r>
+     </w>
+    </n>
+     <n v="usein">
+      <w v="usein">
+      	<l>usein<s n="adv."/></l>
+      	<r>täujja</r>
+      </w>
+     </n>
+    <n v="usko">
+     <w v="usko">
+     	<l>usko<s n="subst."/></l>
+     	<r>åskk</r>
+     </w>
+     <n v="uskoa">
+      <w v="uskoa">
+      	<l>uskoa<s n="verb"/></l>
+      	<r>åskkad</r>
+      </w>
+     </n>
+    </n>
+     <n v="utare">
+      <w v="utare">
+      	<l>utare<s n="subst."/></l>
+      	<r>ruʹhss</r>
+      </w>
+     </n>
+      <n v="vieras">
+       <w v="vieras">
+       	<l>vieras<s n="subst."/></l>
+       	<r>kueʹss</r>
+       </w>
+      </n>
+        <n v="vieressä">
+         <w v="vieressä">
+         	<l>vieressä<s n="adv."/></l>
+         	<r>paaldâst</r>
+         </w>
+        </n>
+     <n v="vielä">
+      <w v="vielä">
+      	<l>vielä<s n="adv."/></l>
+      	<r>võl</r>
+      </w>
+     </n>
+      <n v="vihkiä">
+       <w v="vihkiä">
+       	<l>vihkiä<s n="verb"/></l>
+       	<r>veäncceed</r>
+       </w>
+      </n>
+      <n v="vihreä">
+       <w v="vihreä">
+       	<l>vihreä<s n="adj."/></l>
+       	<r>ruânn, ruõnâs</r>
+       </w>
+      </n>
+       <n v="vihanta">
+        <w v="vihanta">
+        	<l>vihanta<s n="adj."/></l>
+        	<r>ruõnâs</r>
+        </w>
+       </n>
+        <n v="vihainen">
+         <w v="vihainen">
+         	<l>vihainen<s n="adj."/></l>
+         	<r>vâjjeei</r>
+         </w>
+        </n>
+      <n v="viikko">
+       <w v="viikko">
+       	<l>viikko<s n="subst."/></l>
+       	<r>neäʹttel</r>
+       </w>
+      </n>
+       <n v="viihtyä">
+        <w v="viihtyä">
+        	<l>viihtyä<s n="verb"/></l>
+        	<r>maaššâd</r>
+        </w>
+       </n>
+       <n v="viitsiä">
+        <w v="viitsiä">
+        	<l>viitsiä<s n="verb"/></l>
+        	<r>viiššâd</r>
+        </w>
+       </n>
+       <n v="virrata">
+        <w v="virrata">
+        	<l>virrata<s n="verb"/></l>
+        	<r>kolggâd</r>
+        </w>
+       </n>
+   <n v="vyö">
+    <w v="vyö">
+    	<l>vyö<s n="subst."/></l>
+    	<r>puäǥǥanj</r>
+    </w>
+   </n>
+   <n v="voi">
+    <w v="voi">
+    	<l>voi<s n="subst."/></l>
+    	<r>vuõjj</r>
+    </w>
+        <n v="voimaton">
+         <w v="voimaton">
+         	<l>voimaton<s n="adj."/></l>
+         	<r>viõǥǥteʹm</r>
+         </w>
+        </n>
+   </n>
+      <n v="valmis">
+       <w v="valmis">
+       	<l>valmis<s n="adj."/></l>
+       	<r>vaalmâš</r>
+       </w>
+      </n>
+         <n v="valkoinen">
+          <w v="valkoinen">
+          	<l>valkoinen<s n="adj."/></l>
+          	<r>viõlggâd</r>
+          </w>
+         </n>
+     <n v="vanha">
+      <w v="vanha">
+      	<l>vanha<s n="adj."/></l>
+      	<r>puäʹres, vuäʹmes</r>
+      </w>
+      <w v="vanha">
+      	<l>vanha<s n="adj."/></l>
+      	<r>vuäʹmes, puäʹres</r>
+      </w>
+     </n>
+         <n v="vanhemmat">
+          <w v="vanhemmat">
+          	<l>vanhemmat<s n="subst."/></l>
+          	<r>puäʹres</r>
+          </w>
+         </n>
+      <n v="vantus">
+       <w v="vantus">
+       	<l>vantus<s n="subst."/></l>
+       	<r>vacc</r>
+       </w>
+      </n>
+     <n v="varjo">
+      <w v="varjo">
+      	<l>varjo<s n="subst."/></l>
+      	<r>ǩeeuʹniǩ</r>
+      </w>
+     </n>
+     <n v="varpu">
+      <w v="varpu">
+      	<l>varpu<s n="subst."/></l>
+      	<r>tõõŋâs</r>
+      </w>
+     </n>
+     <n v="varoa">
+      <w v="varoa">
+      	<l>varoa<s n="verb"/></l>
+      	<r>vaarõõttâd</r>
+      </w>
+     </n>
+     <n v="vaate">
+      <w v="vaate">
+      	<l>vaate<s n="subst."/></l>
+      	<r>piiutâs</r>
+      </w>
+     </n>
+     <n v="vaara">
+      <w v="vaara">
+      	<l>vaara<s n="subst."/></l>
+      	<r>vääʹrr</r>
+      </w>
+     </n>
+     <n v="vasen">
+      <w v="vasen">
+      	<l>vasen<s n="adj."/></l>
+      	<r>čiʹǯǯ-</r>
+      </w>
+     </n>
+       <n v="vastata">
+        <w v="vastata">
+        	<l>vastata<s n="verb"/></l>
+        	<r>vaʹstteed</r>
+        </w>
+       </n>
+    <n v="vasa">
+     <w v="vasa">
+     	<l>vasa<s n="subst."/></l>
+     	<r>vueʹss</r>
+     </w>
+    </n>
+       <n v="vainuta">
+        <w v="vainuta">
+        	<l>vainuta<s n="verb"/></l>
+        	<r>njuʹnnʼjed</r>
+        </w>
+       </n>
+     <n v="vaimo">
+      <w v="vaimo">
+      	<l>vaimo<s n="subst."/></l>
+      	<r>kaav</r>
+      </w>
+     </n>
+      <n v="vaikka">
+       <w v="vaikka">
+       	<l>vaikka<s n="subj."/></l>
+       	<r>håʹt</r>
+       </w>
+      </n>
+            <n v="vaivaiskoivu">
+             <w v="vaivaiskoivu">
+             	<l>vaivaiskoivu<s n="subst."/></l>
+             	<r>jeäʹǧǧreʹss</r>
+             </w>
+            </n>
+    <n v="väri">
+     <w v="väri">
+     	<l>väri<s n="subst."/></l>
+     	<r>euʹnn</r>
+     </w>
+    </n>
+            <n v="väännähyttää">
+             <w v="väännähyttää">
+             	<l>väännähyttää<s n="verb"/></l>
+             	<r>ponjsted</r>
+             </w>
+            </n>
+     <n v="vähän">
+      <w v="vähän">
+      	<l>vähän<s n="adv."/></l>
+      	<r>occanj, occnja, simmna, siõmmna</r>
+      </w>
+      <w v="vähän">
+      	<l>vähän<s n="adv."/></l>
+      	<r>occnja, occanj, simmna, siõmmna</r>
+      </w>
+      <w v="vähän">
+      	<l>vähän<s n="adv."/></l>
+      	<r>simmna, occanj, occnja, siõmmna</r>
+      </w>
+      <w v="vähän">
+      	<l>vähän<s n="adv."/></l>
+      	<r>siõmmna, occanj, occnja, simmna</r>
+      </w>
+     </n>
+      <n v="vuotaa">
+       <w v="vuotaa">
+       	<l>vuotaa<s n="verb"/></l>
+       	<r>âʹvveed</r>
+       </w>
+      </n>
+     <n v="vuosi">
+      <w v="vuosi">
+      	<l>vuosi<s n="subst."/></l>
+      	<r>eeʹǩǩ</r>
+      </w>
+     </n>
+    <n v="veri">
+     <w v="veri">
+     	<l>veri<s n="subst."/></l>
+     	<r>võrr</r>
+     </w>
+    </n>
+    <n v="vero">
+     <w v="vero">
+     	<l>vero<s n="subst."/></l>
+     	<r>piiđ</r>
+     </w>
+    </n>
+     <n v="vetää">
+      <w v="vetää">
+      	<l>vetää<s n="verb"/></l>
+      	<r>čouggâd, ǩiẹʹssed</r>
+      </w>
+      <w v="vetää">
+      	<l>vetää<s n="verb"/></l>
+      	<r>ǩiẹʹssed, čouggâd</r>
+      </w>
+     </n>
+    <n v="vesi">
+     <w v="vesi">
+     	<l>vesi<s n="subst."/></l>
+     	<r>čääʹcc</r>
+     </w>
+    </n>
+     <n v="vessa">
+      <w v="vessa">
+      	<l>vessa<s n="subst."/></l>
+      	<r>nuuʹžniǩ</r>
+      </w>
+     </n>
+    <n v="veli">
+     <w v="veli">
+     	<l>veli<s n="subst."/></l>
+     	<r>viʹllj</r>
+     </w>
+    </n>
+          <n v="venäläinen">
+           <w v="venäläinen">
+           	<l>venäläinen<s n="subst."/></l>
+           	<r>ruõšˈšlaž</r>
+           </w>
+          </n>
+     <n v="yksin">
+      <w v="yksin">
+      	<l>yksin<s n="adv."/></l>
+      	<r>õhttu</r>
+      </w>
+     </n>
+        <n v="ymmärtää">
+         <w v="ymmärtää">
+         	<l>ymmärtää<s n="verb"/></l>
+         	<r>fiʹttjed</r>
+         </w>
+        </n>
+         <n v="ympäristö">
+          <w v="ympäristö">
+          	<l>ympäristö<s n="subst."/></l>
+          	<r>pirrõs</r>
+          </w>
+         </n>
+  <n v="yö">
+   <w v="yö">
+   	<l>yö<s n="subst."/></l>
+   	<r>inn</r>
+   </w>
+  </n>
+</root>
+
