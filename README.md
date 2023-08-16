@@ -8,6 +8,8 @@ data, but using SvelteKit, and served on Azure.
 Install node dependencies using `pnpm i`, and make the gzipped trie files
 from the originals using `python3 generate_metas.py`.
 
+The `xmllint` program is in package `libxml2-utils` on Debian/Ubuntu.
+
 ```bash
 pnpm i
 python3 generate_metas.py
