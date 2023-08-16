@@ -102,7 +102,7 @@
     function on_mouse_click_2(lang) {
         if (selected_lang1) {
             // we want to go to 
-            goto(`${selected_lang1}-${lang}`);
+            goto(`/${selected_lang1}-${lang}`);
         } else {
             console.debug("unimplemented");
         }

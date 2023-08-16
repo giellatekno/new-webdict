@@ -1,5 +1,6 @@
 <script>
     import { onMount, onDestroy } from "svelte";
+
     import { fly } from "svelte/transition";
     import { debug_console, debug } from "$lib/debug_console.js";
     import LocaleSelector from "$components/LocaleSelector.svelte";
@@ -25,8 +26,6 @@
         console.log("routes/+layout.svelte: in browser");
     });
     */
-
-    let n = 0;
 
     function hit_zone(x, y, w, h) {
         if (y >= (3/4)*h) {
@@ -112,17 +111,12 @@
 {#if !console_hidden}
     <div
         class="console"
-        class:hidden={console_hidden}
-        on:click={() => console_hidden = true}
+        on:click|self={() => console_hidden = true}
         on:keyup={() => null}
         transition:fly={{ y: 100 }}
     >
-        <h3>dev console</h3>
-        <button on:click={ev => { debug("message: " + n++); ev.stopPropagation(); }}>Add message</button>
+        <h3 on:click={() => console_hidden = true} on:keyup={_=>0}>dev console</h3>
         <div class="inner" id="debug-console">
-            {#each Array(100).fill(0).map(_0 => "log message: something somethng()") as msg}
-                <div>{msg}</div>
-            {/each}
             {#each $debug_console as msg}
                 <div>{msg}</div>
             {/each}
@@ -138,7 +132,6 @@
         width: 100vw;
         height: 40vh;
         background-color: rgb(170, 170, 190);
-        transition: height 0.3s ease-in-out;
         display: flex;
         flex-direction: column;
         padding: 0 3vw 25px 3vw;
@@ -147,16 +140,10 @@
     }
 
     div.inner {
+        height: 100%;
         overflow-y: scroll;
-        scroll-padding: 0 0 -50px 0;
-        padding: 12px;
+        padding: 4px 12px;
         border: 1px solid black;
-    }
-
-    div.console.hidden {
-        height: 0vh;
-        padding: 0;
-        width: 0;
     }
 
     div.wrapper {
