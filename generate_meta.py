@@ -84,6 +84,7 @@ def count_words(files):
 def copy_gzipped_files(files, originals_folder):
     for file in files:
         zipped = file.with_suffix(".xml.gz")
+        Path("static/tries").mkdir(parents=True, exist_ok=True)
         copyfile(zipped, "static/tries")
 
 
