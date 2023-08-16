@@ -1,6 +1,6 @@
 <script>
     import { onMount, onDestroy } from "svelte";
-    import { debug_console } from "$lib/debug_console.js";
+    import { debug_console, debug } from "$lib/debug_console.js";
     import LocaleSelector from "$components/LocaleSelector.svelte";
     import { t } from "svelte-intl-precompile";
     // TEMP debug
@@ -24,6 +24,8 @@
         console.log("routes/+layout.svelte: in browser");
     });
     */
+
+    let n = 0;
 </script>
 
 <svelte:head>
@@ -59,10 +61,20 @@
     on:keyup={() => null}
 >
     <h3>dev console</h3>
+    <!--
+    <button on:click={ev => { debug("message: " + n++); ev.stopPropagation(); }}>Add message</button>
+    -->
     {#if !small_console}
-        {#each $debug_console as msg}
-            <div>{msg}</div>
-        {/each}
+        <div class="inner" id="debug-console">
+            <!--
+            {#each Array(100).fill(0).map(_0 => "log message: something somethng()") as msg}
+                <div>{msg}</div>
+            {/each}
+            -->
+            {#each $debug_console as msg}
+                <div>{msg}</div>
+            {/each}
+        </div>
     {/if}
 </div>
 
@@ -74,11 +86,18 @@
         width: 100vw;
         height: 40vh;
         background-color: rgb(170, 170, 190);
-        transition: height 0.4s ease-out;
+        transition: height 0.3s ease-in-out;
         display: flex;
         flex-direction: column;
-        padding: 0 5vw;
+        padding: 0 3vw 25px 3vw;
         font-family: monospace;
+        box-sizing: border-box;
+    }
+
+    div.inner {
+        overflow-y: scroll;
+        padding: 12px;
+        border: 1px solid black;
     }
 
     div.console.small {

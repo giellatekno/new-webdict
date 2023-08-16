@@ -239,7 +239,8 @@
     }
 
     div.inner-wrapper {
-        width: 50vw;
+        /*width: calc(min( 100vw, max((50vw - 16px), 300px) ));*/
+        width: 100%;
     }
 
     div.search-field {
@@ -258,6 +259,7 @@
         list-style: none;
         margin-left: 0;
         padding-left: 0;
+        line-height: 1.8;
     }
 
     p.about {

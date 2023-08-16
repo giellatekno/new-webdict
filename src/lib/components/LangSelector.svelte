@@ -16,7 +16,7 @@
 
     function arrow_click() {
         if (!can_switch) return;
-        goto(`${lang2}-${lang1}`);
+        goto(`/${lang2}-${lang1}`);
     }
 
     function onkeydown() {
@@ -25,6 +25,7 @@
     }
 
     let a_el;
+    /*
     let timer;
     onMount(() => {
         function f() {
@@ -40,6 +41,7 @@
             console.debug("clearing timer");
         }
     });
+    */
 </script>
 
 <main>
