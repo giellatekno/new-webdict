@@ -1,6 +1,7 @@
 //import { beforeNavigate } from "$app/navigation";
 import { navigating } from "$app/stores";
 import { gunzip } from "$lib/utils.js";
+import { debug } from "$lib/debug_console.js";
 
 function noop() {}
 
@@ -61,14 +62,18 @@ async function _download(
 ) {
     let response;
 
+    debug("_download(): awaiting fetch()...");
     try {
         response = await fetch(url, { signal });
     } catch (e) {
         // can't connect - server down, or no internet
         console.error(`download(): fetch() failed: ${e}`);
+        debug(`_download(): fetch() failed: ${e}`);
         on_fail(e);
         return;
     }
+
+    debug("_download(): done awaiting fetch()");
 
     // todo: is this enough to determine if we have
     // actually have data?
@@ -91,11 +96,13 @@ async function _download(
     const chunks = [];
     let size = 0;
 
+    debug("about to await for response.body...");
     for await (const chunk of response.body) {
         chunks.push(chunk);
         size += chunk.length;
         on_progress(chunk);
     }
+    debug("got response body");
 
     const buffer = new Uint8Array(size);
 
@@ -106,6 +113,7 @@ async function _download(
     }
 
     if (!auto_gzipped) {
+        debug("await gunzip(buffer)...");
         return await gunzip(buffer);
     } else {
         return buffer;
