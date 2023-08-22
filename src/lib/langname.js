@@ -24,6 +24,71 @@ const LANGNAMES = {
         sme: "Lullisámegiella",
         fin: "Eteläsaame",
     },
+    olo: {
+        eng: "Livvi",
+        nob: "Livvisk",
+        sme: "Livvi",
+    },
+    yrk: {
+        eng: "Nenets",
+        nob: "Nenetsisk",
+        sme: "Nenetsagiella",
+    },
+    otw: {
+        eng: "Odawa",
+        nob: "Odawa",
+        sme: "Odawa",
+    },
+    mns: {
+        eng: "Mansi",
+        nob: "Mansisk",
+        sme: "Mansigiella",
+    },
+    koi: {
+        eng: "Komi Permyak",
+        nob: "Komipermjakisk",
+        sme: "Komipermjakgiella",
+    },
+    liv: {
+        eng: "Liv",
+        nob: "Livisk",
+        sme: "Liivigiella",
+    },
+    hdn: {
+        eng: "Northern Haida",
+        nob: "Nordhaida",
+        sme: "Davvihaidagiella",
+    },
+    som: {
+        eng: "Somali",
+        nob: "Somalisk",
+        sme: "Somaligiella",
+    },
+    vot: {
+        eng: "Votic",
+        nob: "Votisk",
+        sme: "Vatjagiella",
+    },
+    vro: {
+        eng: "Võro",
+        nob: "Võro",
+        sme: "Võrogiella",
+    },
+    chp: {
+        eng: "Denesuline",
+        nob: "Denesuline",
+        sme: "Denesuline",
+    },
+    mrj: {
+        eng: "Hill Mari",
+        nob: "Vestmarisk",
+        sme: "Várremarigiella",
+    },
+    srs: {
+        eng: "Tsuutʼina",
+        nob: "Tsuutʼina",
+        sme: "Tsuutʼina",
+    },
     sme: {
         eng: "Northern Sami",
         nob: "Nordsamisk",
@@ -38,6 +103,11 @@ const LANGNAMES = {
         eng: "Russian",
         nob: "Russisk",
         sme: "Ruoššagiella",
+    },
+    udm: {
+        eng: "Udmurt",
+        nob: "Udmurtisk",
+        sme: "Udmurtagiella",
     },
     kom: {
         eng: "Komi",
