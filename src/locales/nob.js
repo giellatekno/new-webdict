@@ -18,6 +18,7 @@ export default {
     "offline-use-paragraph": "Offline-tilgjengelighet av ordbøkene fungerer slik at om man har besøkt en ordbok, så ligger den lagret i nettleseren, og den er tilgjengelig offline.",
     "saved-dictionaries": "Lagrede ordbøker",
     "delete": "slett",
+    "save": "lagre",
     "download": "last ned",
     //"about-dict-nob-sma": nobsma,
     "about-dict-fin-nob": finnob,

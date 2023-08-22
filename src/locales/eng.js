@@ -9,6 +9,7 @@ export default {
     "offline-use-paragraph": "The dictionaries are stored in your browser, and will be available offline, after the first time you vist them.",
     "saved-dictionaries": "Stored dictionaries",
     "delete": "delete",
+    "save": "save",
     "download": "download",
 
     "about-dict-nob-sme": nobsme,
