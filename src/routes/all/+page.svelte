@@ -12,7 +12,6 @@
     import { array_sort_subslice, array_order_in_groups } from "$lib/array_utils.js";
     import DICTMETAS from "$lib/dict_metas.js";
     import { download } from "$lib/fetcher.js";
-    import { get_meta } from "$lib/dictionary.js";
     import Progressbar from "$components/ProgressbarSmall.svelte";
 
     let saved_dicts = [];
@@ -152,7 +151,7 @@
                             class="download"
                             on:click={download_dict(h)}
                         >
-                            {nbsp($t("download"))}
+                            {nbsp($t("save"))}
                         </button>
                     {:else if status === "downloading"}
                         <Progressbar value={downloads[h].current} max={downloads[h].size} />

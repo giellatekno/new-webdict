@@ -167,6 +167,7 @@
 
 <div class="wrapper centered-column-flex">
     <LangSelector meta={data.meta} />
+    <a href="/{data.meta.l1}-{data.meta.l2}/download">Last ned</a>
 
     {#if state == "initial"}
         <!-- intentionally left blank -->
