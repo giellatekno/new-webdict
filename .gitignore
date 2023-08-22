@@ -12,3 +12,4 @@ vite.config.ts.timestamp-*
 original_tries/*.min*
 static/tries
 __pycache__/
+src/lib/dict_metas.js
