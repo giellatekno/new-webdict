@@ -1,3 +1,8 @@
+.PHONY: clean
+clean:
+	python generate_meta.py --clean
+	rm -rf build/
+
 .PHONY: image
 image:
 	python generate_meta.py
