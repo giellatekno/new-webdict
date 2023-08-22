@@ -187,11 +187,14 @@ def parse_gtxml_entry(e):
                     translations += f"({re.text}) "
                 t_elements = []
                 for t in tg.findall("t"):
-                    if t.text is None or t.text.strip() == "":
+                    if t.text is None or t.text.strip() == "" or t.text == "None":
                         # shouldn't happen, but in the dict files, it does..
                         continue
                     t_elements.append(t.text)
-                translations += ", ".join(t_elements)
+                if not t_elements:
+                    translations = ""
+                else:
+                    translations += ", ".join(t_elements)
     else:
         # numbered, so we enumerate from 1
         for n, mg in enumerate(mgs, start=1):
@@ -202,12 +205,17 @@ def parse_gtxml_entry(e):
                     translations += f"({re.text}) "
                 t_elements = []
                 for t in tg.findall("t"):
-                    if t.text is None or t.text.strip() == "":
+                    if t.text is None or t.text.strip() == "" or t.text == "None":
                         # shouldn't happen, but in the dict files, it does..
                         continue
                     t_elements.append(t.text)
-                translations += ", ".join(t_elements)
+                if not t_elements:
+                    translations = ""
+                else:
+                    translations += ", ".join(t_elements)
 
+    if not translations:
+        raise ValueError("no translations")
     return lemma, pos, translations.strip()
 
 
