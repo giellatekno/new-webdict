@@ -22,3 +22,9 @@ push-image:
 update-app:
 	az containerapp update --name new-webdict --resource-group webdict --image giellateknocontainerregistry.azurecr.io/new-webdict
 
+
+
+# for push-image, have to login to acr
+.PHONY: login-acr
+login-acr:
+	az acr login --name giellateknocontainerregistry
