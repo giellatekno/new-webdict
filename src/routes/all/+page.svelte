@@ -5,6 +5,7 @@
     import { human_filesize } from "$lib/utils.js";
     import { saved_dictionaries } from "$lib/dictionary.js";
     import { langname } from "$lib/langname.js";
+    import { debug } from "$lib/debug_console.js";
     import { t } from "svelte-intl-precompile";
     import { locale } from "$lib/locale.js";
     import { nbsp } from "$lib/utils.js";
@@ -61,6 +62,7 @@
 
     onMount(async () => {
         saved_dicts = await saved_dictionaries();
+        debug(saved_dicts);
         const saved_map = new Map((function*() {
             for (const saved of saved_dicts) {
                 yield [saved.h, { ...saved }];
@@ -71,6 +73,8 @@
             ...d,
             status: saved_map.has(d.h) ? "saved" : "unsaved"
         }));
+
+        check_duplicates();
 
         dicts = order(dicts);
 

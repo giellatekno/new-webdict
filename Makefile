@@ -1,4 +1,3 @@
-
 .PHONY: image
 image:
 	pnpm run build
@@ -13,12 +12,7 @@ push-image:
 	podman tag new-webdict giellateknocontainerregistry.azurecr.io/new-webdict
 	podman push giellateknocontainerregistry.azurecr.io/new-webdict
 
-
-#
-# After pushing a new image, we need to run this command to make the new
-# image the running one
-#az containerapp update \
-  --name <APPLICATION_NAME> \
-  --resource-group <RESOURCE_GROUP_NAME> \
-  --image <IMAGE_NAME>
+.PHONY: update-app
+update-app:
+	az containerapp update --name new-webdict --resource-group webdict --image giellateknocontainerregistry.azurecr.io/new-webdict
 

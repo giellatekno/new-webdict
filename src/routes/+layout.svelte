@@ -9,6 +9,7 @@
     import { delete_database } from "$lib/dictionary.js";
 
     let console_hidden = false;
+    function close_console() { console_hidden = true; }
     // TEMP debug
     /*
     let x = 0;
@@ -45,34 +46,30 @@
         hz_expected_next = "any";
     }
 
-    function c(ev) {
+    function check_dev_console_opening_sequence(ev) {
+        if (!console_hidden) return;
         const { clientX: x, clientY: y } = ev;
         const w = window.visualViewport.width;
         const h = window.visualViewport.height;
         const hz = hit_zone(x, y, w, h);
         if (hz === null) {
-            console.log("no hit, reset");
             hz_clear();
             return;
         }
 
         if (hz_count === 0) {
-            console.log("first hit:", hz);
             hz_expected_next = hz === "left" ? "right" : "left";
             hz_count++;
         } else {
             if (hz !== hz_expected_next) {
-                console.log("not expected, reset");
                 hz_clear();
                 return;
             }
 
             if (++hz_count >= 4) {
-                console.log("HZ COMPLETE!");
                 console_hidden = false;
             } else {
                 hz_expected_next = hz === "left" ? "right" : "left";
-                console.log(`hit #${hz_count}, next expected: ${hz_expected_next}`);
             }
         }
         //console.log(`(y=${y}, x=${x}). h=${h}, w=${w}`);
@@ -84,13 +81,7 @@
     <title>Giellatekno Webdict</title>
 </svelte:head>
 
-<svelte:window on:click={c} />
-
-<!-- TEMP debug -->
-<span class="temp">
-    <button on:click={delete_database}>del db</button>
-    <!--{x}, {y}-->
-</span>
+<svelte:window on:click={check_dev_console_opening_sequence} />
 
 <div class="wrapper">
     <div>
@@ -111,11 +102,14 @@
 {#if !console_hidden}
     <div
         class="console"
-        on:click|self={() => console_hidden = true}
+        on:click|self={close_console}
         on:keyup={() => null}
         transition:fly={{ y: 100 }}
     >
-        <h3 on:click={() => console_hidden = true} on:keyup={_=>0}>dev console</h3>
+        <div on:click={close_console} style="display: flex; justify-content: space-between;">
+            <h3 on:click={close_console} on:keyup={_=>0}>dev console</h3>
+            <button on:click={delete_database}>del db</button>
+        </div>
         <div class="inner" id="debug-console">
             {#each $debug_console as msg}
                 <div>{msg}</div>
@@ -185,11 +179,5 @@
     div.content {
         width: min(max(a, b), c);
         /*width: 50%;*/
-    }
-
-    span.temp {
-        position: fixed;
-        top: 10px;
-        right: 10px;
     }
 </style>

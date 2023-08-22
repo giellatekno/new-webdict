@@ -1,80 +1,62 @@
-// load a trie from a buffer by converting it to a string,
-// then xmlparsing that string to an xml object
-export function load_trie(buffer) {
-    const string = new TextDecoder().decode(buffer);
-    console.log("load_trie(): string starts with:");
-    console.log(string.slice(0, 30));
-    const doc = new DOMParser().parseFromString(string, "text/xml");
-    if (doc.querySelector("parsererror")) {
-        console.error("failed to parse xml! The xml data begins with:");
-        console.error(string.slice(0, 30));
-        throw new Error("failed to parse xml!");
-    } else {
-        const root = doc.childNodes[0];
-        return root;
+export class Trie {
+    constructor(opts = {}) {
+        if (Object.hasOwn(opts, "root")) {
+            this.root = opts.root;
+        }
     }
-}
 
-export function *prefix_search(node, search) {
-    const slen = search.length;
+    static from_buffer(buffer) {
+        const string = new TextDecoder().decode(buffer);
+        const root = JSON.parse(string);
+        return new Trie({ root });
+    }
 
-    for (let i = 0; i < node.childNodes.length; i++) {
-        const current = node.childNodes[i];
-        const v = current.getAttribute("v");
-        const vlen = v.length;
-        console.assert(typeof v !== "undefined");
+    *prefix_search(prefix) {
+        const node = this._find_exact_node(prefix);
+        if (node !== null) {
+            yield *this._prefix_search_from_node(node, prefix);
+        }
+    }
 
-        if (current.nodeName === "w") {
-            if (vlen >= slen) {
-                yield inner(current);
-            }
-        } else {
-            const v_lower = v.toLowerCase();
-            if (
-                (slen < vlen && v_lower.startsWith(search))
-                ||
-                (slen >= vlen && search.startsWith(v_lower))
-            ) {
-                yield *prefix_search(current, search);
+    _find_exact_node(key) {
+        let node = this.root;
+        for (let i = 0; i < key.length; i++) {
+            const char = key[i];
+            node = node[1][char];
+            if (node === undefined) {
+                return null;
             }
         }
+        return node;
+    }
+
+    *_prefix_search_from_node(node, current_string) {
+        if (has_data(node)) {
+            for (const [pos, translations] of get_data(node)) {
+                yield [current_string, pos, translations];
+            }
+        }
+
+        for (let [char, child] of children(node)) {
+            const next_string = current_string + char;
+            yield *this._prefix_search_from_node(child, current_string + char);
+        }
     }
 }
 
-// read the inner node of a node in the trie
-function inner(node) {
-    console.assert(!!node, "inner(): node wasn't anything");
-    let left, right, pos;
-    for (let i = 0; i < node.childNodes.length; i++) {
-        const current = node.childNodes[i];
-        if (current.nodeName === "l") {
-            left = inner_text(current);
-            pos = get_pos(current);
-        } else if (current.nodeName === "r") {
-            right = inner_text(current);
-        }
-    }
-
-    return `${left}${pos} → ${right}`;
+function has_data(node) {
+    return node[0] !== null;
 }
 
-function get_pos(node) {
-    for (let i = 0; i < node.childNodes.length; i++) {
-        let current = node.childNodes[i];
-        if (current.nodeName === "s") {
-            const n = current.getAttribute("n");
-            return ` <span class="green">${n}</span>`;
-        }
+function *get_data(node) {
+    for (let [pos, translations] of node[0]) {
+        yield [pos, translations];
     }
-    return "";
 }
 
-function inner_text(node) {
-    if (node === undefined) return "";
-    for (let i = 0; i < node.childNodes.length; i++) {
-        let current = node.childNodes[i];
-        if (current.nodeType == 3) {
-            return current.data;
-        }
-    }
+function children(node) {
+    // ensure that we list alphabetically
+    const entries = Object.entries(node[1]);
+    entries.sort((a, b) => a[0].localeCompare(b[0]));
+    return entries;
 }

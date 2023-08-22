@@ -12,7 +12,7 @@ export async function load({ fetch, params }) {
         throw error(404, "No such dictionary");
     }
 
-    const trie_path = `tries/${lang1}-${lang2}-lr-trie.min.xml.gz`;
+    const trie_path = `/tries/${lang1}-${lang2}.json.gz`;
 
     return { trie_path, meta };
 }

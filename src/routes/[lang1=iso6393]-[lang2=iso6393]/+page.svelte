@@ -2,7 +2,7 @@
     import { tick } from "svelte";
     import { fade } from "svelte/transition";
 
-    import { debug_console, debug } from "$lib/debug_console.js";
+    import { debug } from "$lib/debug_console.js";
     import WordInput from "$components/WordInput.svelte";
     import LangSelector from "$components/LangSelector.svelte";
     import Progressbar from "$components/Progressbar.svelte";
@@ -11,9 +11,9 @@
         get_from_indexeddb,
         save_to_indexeddb,
     } from "$lib/dictionary.js";
-    import { prefix_search, load_trie } from "$lib/trie.js";
+    import { Trie } from "$lib/trie.js";
     import { t } from "svelte-intl-precompile";
-    import { locale } from "$lib/locale.js";
+    import { locale, langtag_in_locale } from "$lib/locale.js";
     import { langname } from "$lib/langname.js";
     import { download } from "$lib/fetcher.js";
 
@@ -26,19 +26,23 @@
     let dict_lemmas = null;
     let search = "";
     let results = [];
-    let dictionary = null;
+    let trie = null;
     let show_about = false;
     let size = 1; // just initialized to 1 to prevent division by zero in the progress bar
     let recieved_bytes = 0;
     let abort_signal;
 
     $: load_dictionary(data);
-    $: results = lookup(dictionary, search);
+    $: results = lookup(trie, search);
 
-    function lookup(dictionary, search) {
-        if (dictionary === null || search.length === 0)
-            return [];
-        return Array.from(prefix_search(dictionary, search));
+    function lookup(trie, search) {
+        if (trie === null || search.length === 0) return [];
+        //window.performance.mark("prefix_search-start");
+        const arr = Array.from(trie.prefix_search(search));
+        //window.performance.mark("prefix_search-stop");
+        //const x = window.performance.measure("prefix-search", "prefix_search-start", "prefix_search-stop");
+        //debug(`search took ${x.duration} ms`);
+        return arr;
     }
 
     function on_new_input_value({ detail: value }) {
@@ -57,7 +61,7 @@
 
     async function load_dictionary(data) {
         debug("load_dictionary()");
-        dictionary = null;
+        trie = null;
         const meta = data.meta;
         dict_lemmas = meta.n;
         results = [];
@@ -68,7 +72,7 @@
 
         if (db_dict) {
             debug("dictionary found in idb");
-            dictionary = load_trie(db_dict);
+            trie = Trie.from_buffer(db_dict);
             state = "ready";
             await tick();
             return;
@@ -78,17 +82,14 @@
         state = "downloading";
         await tick();
 
-        const url = `/${data.trie_path}`; 
-        debug(`fetch url: ${url}`);
-
         size = meta.ds;
 
         debug("calling download()...");
         const {
-            signal,
+            signal: signal,
             data: downloaded_data
         } = download(
-            url,
+            data.trie_path,
             {
                 on_start: () => recieved_bytes = 0,
                 on_progress: chunk => {
@@ -103,23 +104,23 @@
         abort_signal = signal;
 
         debug("await downloaded data...");
-
         let buffer;
         try {
             buffer = await downloaded_data;
         } catch (e) {
-            // error when downloading, aborted or network fail
-            console.error(e);
+            // error when downloading: aborted or network fail
+            console.log(e);
             return;
         }
 
-        dictionary = load_trie(buffer);
+        abort_signal = null;
+        trie = Trie.from_buffer(buffer);
+
         debug("saving dictionary to idb");
         state = "ready";
         await tick();
         await save_to_indexeddb(meta, buffer);
         debug("saved dictionary to idb");
-        abort_signal = null;
     }
 
     /*
@@ -215,8 +216,8 @@
 
             {#if results && search !== ""}
                 <ul>
-                    {#each results as res}
-                        <li>{@html res}</li>
+                    {#each results as [x, y, z]}
+                        <li>{x} <span class="green">{langtag_in_locale(y, $locale)}</span> → {z}</li>
                     {:else}
                         <li><span style="font-style: italic;">{$t("no-search-hits")}</span></li>
                     {/each}
@@ -256,6 +257,7 @@
     }
 
     ul {
+        width: calc(min(100vw, max(50vw - 300px, 800px)));
         list-style: none;
         margin-left: 0;
         padding-left: 0;
@@ -268,8 +270,9 @@
         border-radius: 4px;
         border: 1px solid #7a7aea;
     }
+
     /* To color the POS in search results */
-    :global(span.green) {
+    span.green {
         color: green;
     }
 </style>

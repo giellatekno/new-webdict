@@ -1,4 +1,5 @@
 import { gzip, gunzip, min } from "$lib/utils.js";
+import { debug } from "$lib/debug_console.js";
 import { IDB } from "$lib/idb.js";
 import METAS from "$lib/dict_metas.js";
 
@@ -33,20 +34,28 @@ export async function delete_database() {
 }
 
 export async function get_from_indexeddb(meta) {
+    debug("get_from_indexeddb()");
     return await DATABASE.transaction(
         ["metas", "blobs"],
         "readonly",
         async ([metastore, blobstore]) => {
             const key = [meta.l1, meta.l2];
+            debug("  in transaction: metastore.get_all_objects()");
             const metas = await metastore.get_all_objects(key);
+            debug("  done awaiting for all objects");
             
             const meta_entry = min(metas, {
                 key: meta => Date.parse(meta.date),
                 default: null,
             });
-            if (meta_entry === null) return null;
+            if (meta_entry === null) {
+                debug("no meta entry, get_from_indexeddb() returns null");
+                return null;
+            }
 
+            debug("  blobstore.get_one()");
             const blob = await blobstore.get_one(meta_entry.h);
+            debug("returning gunzip(blob)");
             return await gunzip(blob);
         }
     );
