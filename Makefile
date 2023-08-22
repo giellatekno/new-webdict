@@ -1,5 +1,6 @@
 .PHONY: image
 image:
+	python generate_meta.py
 	pnpm run build
 	podman build -f Dockerfile -t new-webdict
 
