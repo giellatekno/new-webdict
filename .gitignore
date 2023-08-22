@@ -11,3 +11,4 @@ vite.config.ts.timestamp-*
 
 original_tries/*.min*
 static/tries
+__pycache__/
