@@ -4,7 +4,6 @@
 
     import { debug } from "$lib/debug_console.js";
     import WordInput from "$components/WordInput.svelte";
-    import LangSelector from "$components/LangSelector.svelte";
     import Progressbar from "$components/Progressbar.svelte";
     import { human_filesize } from "$lib/utils.js";
     import {
@@ -82,7 +81,7 @@
         state = "downloading";
         await tick();
 
-        size = meta.ds;
+        size = meta.cs;
 
         debug("calling download()...");
         const {
@@ -122,51 +121,9 @@
         await save_to_indexeddb(meta, buffer);
         debug("saved dictionary to idb");
     }
-
-    /*
-    // TODO TEMP
-    function temp_set_downloading() {
-        state = "downloading";
-        size = 152011;
-        recieved_bytes = 0;
-
-    }
-
-    let timer;
-    let animating = false;
-
-    function update() {
-        recieved_bytes += 1000;
-        if (recieved_bytes > size) {
-            recieved_bytes = 0;
-        }
-    }
-
-    function temp_animate() {
-        if (animating) {
-            animating = false;
-            window.clearInterval(timer);
-        } else {
-            timer = window.setInterval(update, 30);
-            animating = true;
-        }
-    }
-    */
 </script>
 
-<svelte:head>
-    <title>{lang1} - {lang2} - Giellatekno webdict</title>
-</svelte:head>
-
-<!-- TODO TEMP -->
-<!--
-<button on:click={temp_set_downloading}>
-    Set downloading
-</button>
--->
-
 <div class="wrapper centered-column-flex">
-    <LangSelector meta={data.meta} />
     <a href="/{data.meta.l1}-{data.meta.l2}/download">Last ned</a>
 
     {#if state == "initial"}
@@ -174,7 +131,6 @@
     {:else if state == "failed"}
         <p>Feil under lasting av ordbok</p>
     {:else if state == "downloading"}
-        <!--<button on:click={temp_animate}>Animate</button>-->
         <h3>laster ordbok...</h3>
         <div>
             <span style="font-size: 22px;">

@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{%lang1%} - {%lang2%} - Giellatekno Webdict (Standalone)</title>
+        <script>
+            const data = '{%DATA%}';
+            class Trie {
+                constructor(root) { this.root = root; }
+                static from_buffer(buffer) {
+                    const string = new TextDecoder().decode(buffer);
+                    const root = JSON.parse(string);
+                    return new Trie({ root });
+                }
+
+                *prefix_search(prefix) {
+                    const node = this._find_exact_node(prefix);
+                    if (node !== null) yield *this._prefix_search_from_node(node, prefix);
+                }
+
+                _find_exact_node(key) {
+                    let node = this.root;
+                    for (let i = 0; i < key.length; i++) {
+                        const char = key[i];
+                        node = node[1][char];
+                        if (node === undefined) return null;
+                    }
+                    return node;
+                }
+
+                *_prefix_search_from_node(node, current_string) {
+                    if (has_data(node)) {
+                        for (const [pos, translations] of get_data(node)) {
+                            yield [current_string, pos, translations];
+                        }
+                    }
+
+                    for (let [char, child] of children(node)) {
+                        const next_string = current_string + char;
+                        yield *this._prefix_search_from_node(child, current_string + char);
+                    }
+                }
+            }
+
+            function has_data(node) { return node[0] !== null; }
+            function *get_data(node) { for (let [pos, translations] of node[0]) yield [pos, translations]; }
+            function children(node) {
+                // ensure that we list alphabetically
+                const entries = Object.entries(node[1]);
+                entries.sort((a, b) => a[0].localeCompare(b[0]));
+                return entries;
+            }
+
+            const trie = new Trie(JSON.parse(data));
+
+            function addSearchResult(lemma, pos, translations) {
+                if (!results_el) return;
+
+                const new_li = document.createElement("li");
+                new_li.innerHTML = `${lemma} (${pos}) - ${translations}`;
+                results_el.appendChild(new_li);
+            }
+
+            var results_el;
+            var input_el;
+        </script>
+    </head>
+
+    <body>
+        <h1>{%lang1%} - {%lang2%}</h1>
+        <input id="search" />
+
+        <ul id="results">
+        </ul>
+    </body>
+
+    <script>
+        results_el = document.getElementById("results");
+        input_el = document.getElementById("search");
+        input_el.addEventListener("input", (ev) => {
+            results_el.innerHTML = "";
+            const search_query = ev.target.value;
+            if (search_query === "") return;
+
+            const results = Array.from(trie.prefix_search(search_query));
+
+            for (let i = 0; i < results.length; i++) {
+                const [lemma, pos, translations] = results[i];
+                addSearchResult(lemma, pos, translations);
+            }
+        });
+    </script>
+</html>
+    
