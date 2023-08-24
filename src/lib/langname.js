@@ -4,7 +4,7 @@
 
 const LANGNAMES = {
     chp: { eng: "Denesuline", nob: "Denesuline", sme: "Denesuline", },
-    chr: { eng: "Cherokee", nob: "Cherokesisk", /*sme: "",*/ },
+    chr: { eng: "Cherokee", nob: "Cherokesisk", sme: "Cherokee" },
     deu: { eng: "German", nob: "Tysk", sme: "Duiskkagiella", },
     eng: { eng: "English", nob: "Engelsk", sme: "Eaŋgalsgiella", },
     est: { eng: "Estonian", nob: "Estisk", sme: "Esttegiella", },
