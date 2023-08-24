@@ -33,6 +33,12 @@ VALID_LANG = set([
     "spa", "srs", "swe", "udm", "vep", "vot", "vro", "yrk",
 ])
 
+# A list to be filled out of the specific dictionaries we want to include
+INCLUDED_DICTS = set([
+    #"nobsme",
+    #"smenob",
+    #...
+])
 
 # os.sched_getaffinity(0) is not available for MacOS, solution for it from
 # https://stackoverflow.com/questions/74048135/alternatives-to-os-sched-getaffinity-for-macos
@@ -154,6 +160,8 @@ def find_gt_dictionaries(GTHOME):
             # only directories whose name is 6 characters long
             continue
         if (entry.name[0:3] not in VALID_LANG) or (entry.name[3:6] not in VALID_LANG):
+            continue
+        if INCLUDED_DICTS and entry.name not in INCLUDED_DICTS:
             continue
         dictionaries.append(entry)
 
