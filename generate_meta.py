@@ -93,8 +93,8 @@ class NCpus(argparse.Action):
         )
         if "help" not in kwargs:
             kwargs["help"] = (
-                "The number of cpus to use. If unspecified, defaults to using "
-                f"as many cpus as it can. {self.CHOOSE_BETWEEN_STR}"
+                "The number of cpus to use. If unspecified, defaults to most "
+                f"(={most}). {self.CHOOSE_BETWEEN_STR}"
             )
         super().__init__(option_strings, dest, **kwargs)
 
@@ -143,18 +143,36 @@ def logg(msg):
         print(f"{message} ({t:.2f}ms)")
 
 
+def read_gt_envvar(varname, warn_on_not_set=False):
+    """Read an environment variable, and check that it points to a directory
+    that exists. Return the Path to the resolved directory, or None if the
+    environment variable was not set, or pointed to a nonexisting or
+    non-directory path."""
+    try:
+        var = os.environ[varname]
+    except KeyError:
+        if warn_on_not_set:
+            warn(f"{varname} environment variable is not set")
+        return
+
+    resolved = Path(var).resolve()
+    if not resolved.exists():
+        warn("You have errors in your configuration:\n"
+             f"{varname} environment variable exists, but the path it points "
+             f"to does not exist. ({var})")
+        return
+    if not resolved.is_dir():
+        warn("You have errors in your configuration:\n"
+             f"{varname} environment variable points to a path that is not "
+             f"a directory. ({var})")
+        return
+
+    return resolved
+
+
 def find_gt_dictionaries_from_guthome():
-    GUTHOME = os.environ.get("GUTHOME")
-    if not GUTHOME:
-        return
-    GUTHOME = Path(GUTHOME)
-    if not GUTHOME.exists():
-        warn("GUTHOME environment variable exists, but the directory it "
-             f"points to doesn't exist. ({GUTHOME})")
-        return
-    if not GUTHOME.is_dir():
-        warn("GUTHOME environment variable exists, but the path it points to "
-             f"is not a directory. ({GUTHOME})")
+    GUTHOME = read_gt_envvar("GUTHOME")
+    if GUTHOME is None:
         return
 
     giellalt_dir = GUTHOME / "giellalt"
@@ -167,13 +185,13 @@ def find_gt_dictionaries_from_guthome():
 
     # in git, dictionaries are named "dict-xxx-yyy"
     dict_re = re.compile(r"^dict-(?P<lang1>[a-z]{3})-(?P<lang2>[a-z]{3})$")
-    for entry in GUTHOME.iterdir():
+    for entry in giellalt_dir.iterdir():
         if m := dict_re.fullmatch(entry.name):
             lang1, lang2 = m["lang1"], m["lang2"]
             if not entry.is_dir():
                 warn("Your gut folder has errors: "
                      f"Expected $GUTHOME/giellalt/{m.string} to be a "
-                     "dictionary, but it isn't.")
+                     "directory, but it isn't!")
                 continue
             if (lang1 not in VALID_LANG) or (lang2 not in VALID_LANG):
                 print(f"skipping {m.string}, as one of the two language codes "
@@ -183,20 +201,8 @@ def find_gt_dictionaries_from_guthome():
 
 
 def find_gt_dictionaries_from_gthome():
-    try:
-        GTHOME = os.environ["GTHOME"]
-    except KeyError:
-        print("Info: GTHOME environment variable not set")
-        return
-
-    GTHOME = Path(GTHOME)
-    if not GTHOME.exists():
-        warn("GTHOME environment variable exists, but the directory it points "
-             "to doesn't exist. ({GTHOME})")
-        return
-    if not GTHOME.is_dir():
-        warn("GTHOME environment variable exists, but the path it points to "
-             f"is not a directory. ({GTHOME})")
+    GTHOME = read_gt_envvar("GTHOME", warn_on_not_set=True)
+    if GTHOME is None:
         return
 
     dictionaries_svn_path = GTHOME / "words" / "dicts"
@@ -214,7 +220,7 @@ def find_gt_dictionaries_from_gthome():
         if m := dict_re.fullmatch(entry.name):
             lang1, lang2 = m["lang1"], m["lang2"]
             if not entry.is_dir():
-                warn("Your GTHOME svn has errors: "
+                warn("Your GTHOME svn folder has errors: "
                      "Expected dictionary folder $GTHOME/words/dicts/"
                      f"{m.string} to be a directory, but it isn't.")
                 continue
@@ -225,21 +231,58 @@ def find_gt_dictionaries_from_gthome():
             yield (lang1, lang2), entry
 
 
-def find_gt_dictionaries(prioritize_git_dict=False):
-    dictionaries = {}
-    for langpair, directory in find_gt_dictionaries_from_guthome():
-        dictionaries[langpair] = directory
+def find_gt_dictionaries_from_gtlangs():
+    GTLANGS = read_gt_envvar("GTLANGS")
+    if GTLANGS is None:
+        return
 
-    for langpair, directory in find_gt_dictionaries_from_gthome():
-        if langpair in dictionaries:
-            print("info: dictionary for language pair "
-                  f"({langpair[0]}, {langpair[1]}) found in both $GUTHOME and "
-                  "$GTHOME, using the one found in ")
-            if prioritize_git_dict:
-                print("$GUTHOME (due to --prioritize-git-dict)")
-            else:
-                print("GTHOME (use --prioritize-git-dict to override this)")
-        if not prioritize_git_dict:
+    dict_re = re.compile(r"^dict-(?P<lang1>[a-z]{3})-(?P<lang2>[a-z]{3})$")
+    for entry in GTLANGS.iterdir():
+        if m := dict_re.fullmatch(entry.name):
+            lang1, lang2 = m["lang1"], m["lang2"]
+            if not entry.is_dir():
+                warn("Your $GTLANGS folder has errors: "
+                     f"Expected $GTLANGS/{m.string} to be a "
+                     "directory, but it isn't!")
+                continue
+            if (lang1 not in VALID_LANG) or (lang2 not in VALID_LANG):
+                print(f"skipping {m.string}, as one of the two language codes "
+                      "were not recognized")
+                continue
+            yield (lang1, lang2), entry
+
+
+def find_gt_dictionaries(
+    check_guthome=True,
+    check_gtlangs=True,
+    check_gthome=True,
+):
+    dictionaries = {}
+    # First svn, then overridden by gtlangs, finally overriden by gut
+    # this is fine for me, but if someone else does this at some point, it
+    # may possibly be confusing
+
+    if check_gthome:
+        # old svn path: $GTHOME/words/dicts/xxxyyy
+        for langpair, directory in find_gt_dictionaries_from_gthome():
+            dictionaries[langpair] = directory
+
+    if check_gtlangs:
+        # git, stored as $GTLANGS/dict-xxx-yyy
+        for langpair, directory in find_gt_dictionaries_from_gtlangs():
+            if langpair in dictionaries:
+                L1, L2 = langpair
+                print(f"Info: Dictionary {L1}-{L2} overwritten with the one"
+                      f"found in $GTLANGS/dict-{L1}-{L2}")
+            dictionaries[langpair] = directory
+
+    if check_guthome:
+        # managed by gut, stored in $GUTHOME/giellalt/dict-xxx-yyy
+        for langpair, directory in find_gt_dictionaries_from_guthome():
+            if langpair in dictionaries:
+                L1, L2 = langpair
+                print(f"Info: Dictionary {L1}-{L2} overwritten with the one "
+                      f"found in $GUTHOME/giellalt/dict-{L1}-{L2}")
             dictionaries[langpair] = directory
 
     return dictionaries
@@ -523,21 +566,35 @@ def process_gtdict(lang1, lang2, dictionary_path, meta_entry):
         "l2": lang2,
     })
 
-    print(f"done processing {lang1}{lang2}")
+    print(f"done processing {lang1}-{lang2}")
     return meta_entry
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--clean", action="store_true")
+    parser.add_argument("--ncpus", action=NCpus)
     parser.add_argument(
-        "--ncpus", action=NCpus, default="most"
+        "--guthome",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Check for dictionaries in git repos managed by gut "
+             "(in $GUTHOME/giellalt). Defaults to True."
     )
-    parser.add_argument("--prioritize-git-dict", action="store_true",
-                        help="When a dictionary is found under both svn and "
-                             "git, by default it uses the one found in svn. "
-                             "Use this option to use the one found in git "
-                             "instead")
+    parser.add_argument(
+        "--gtlangs",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Check for dictionaries in git repos (in $GTLANGS). "
+             "Defaults to True."
+    )
+    parser.add_argument(
+        "--gthome",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Check for dictionaries in svn ($GTHOME/words/dicts). "
+             "Defaults to True."
+    )
     parser.add_argument("--only")
     # parser.add_argument("--check-unique-lemmas", action="store_true")
 
@@ -545,6 +602,12 @@ def parse_args():
 
     if args.only:
         args.only = set(args.only.split(","))
+
+    if not args.guthome and not args.gtlangs and not args.gthome:
+        parser.error(
+            "Must have at least one place to search for dictionaries"
+            ", remove one of: --no-guthome, --no-gtlangs, --no-gthome"
+        )
 
     return args
 
@@ -558,12 +621,15 @@ def main():
         exit(0)
 
     metas = Metas.from_metafile(Path("./src/lib/dict_metas.js"))
-    print("metas:", metas)
     Path("./static/tries").mkdir(parents=True, exist_ok=True)
 
     t0 = perf_counter_ns()
-    prio_git = args.prioritize_git_dict
-    dictionaries = find_gt_dictionaries(prioritize_git_dict=prio_git)
+    dictionaries = find_gt_dictionaries(
+        check_guthome=args.guthome,
+        check_gtlangs=args.gtlangs,
+        check_gthome=args.gthome,
+    )
+
     if args.only:
         only_dicts = {}
         for langpair in args.only:
