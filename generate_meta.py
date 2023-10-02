@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+"""Generate tries from all giellatekno dictionaries, and store them in
+static/tries/, as gzipped, jsonified tries that will be used by the frontend.
+Additionally, create a metadata file src/lib/dict_metas.js with information
+about the dictionaries, such as the number of lemmas, file size, etc."""
 
 # dictionary meta data structure:
 # s: file size of minified, uncompressed .xml file
@@ -9,14 +13,16 @@
 # l2: language 1 (iso code)
 
 import argparse
-import json
-import subprocess
-import xml.etree.ElementTree as ET
-import os
-import gzip
 import concurrent.futures
+import gzip
+import json
 import multiprocessing
+import os
+import re
+import subprocess
+import sys
 import traceback
+import xml.etree.ElementTree as ET
 from contextlib import contextmanager
 from datetime import datetime
 from pathlib import Path
@@ -33,12 +39,10 @@ VALID_LANG = set([
     "spa", "srs", "swe", "udm", "vep", "vot", "vro", "yrk",
 ])
 
-# A list to be filled out of the specific dictionaries we want to include
-INCLUDED_DICTS = set([
-    #"nobsme",
-    #"smenob",
-    #...
-])
+
+def warn(*msg):
+    print("Warning: ", *msg, file=sys.stderr)
+
 
 # os.sched_getaffinity(0) is not available for MacOS, solution for it from
 # https://stackoverflow.com/questions/74048135/alternatives-to-os-sched-getaffinity-for-macos
@@ -105,18 +109,6 @@ class NCpus(argparse.Action):
         setattr(namespace, self.dest, value)
 
 
-def find_gthome():
-    try:
-        gthome = Path(os.environ["GTHOME"])
-    except KeyError:
-        exit("GTHOME environment variable not set, don't know where to find dictionary sources, aborting")
-
-    if not gthome.is_dir():
-        exit("GTHOME set to something that is not a directory, aborting")
-
-    return gthome
-
-
 def log(msg):
     def wrapper(f):
         def decorated(*args, **kwargs):
@@ -151,19 +143,104 @@ def logg(msg):
         print(f"{message} ({t:.2f}ms)")
 
 
-def find_gt_dictionaries(GTHOME):
-    dictionaries = []
-    for entry in (GTHOME / "words" / "dicts").iterdir():
-        if not entry.is_dir():
-            continue
-        if len(entry.name) != 6:
-            # only directories whose name is 6 characters long
-            continue
-        if (entry.name[0:3] not in VALID_LANG) or (entry.name[3:6] not in VALID_LANG):
-            continue
-        if INCLUDED_DICTS and entry.name not in INCLUDED_DICTS:
-            continue
-        dictionaries.append(entry)
+def find_gt_dictionaries_from_guthome():
+    GUTHOME = os.environ.get("GUTHOME")
+    if not GUTHOME:
+        return
+    GUTHOME = Path(GUTHOME)
+    if not GUTHOME.exists():
+        warn("GUTHOME environment variable exists, but the directory it "
+             f"points to doesn't exist. ({GUTHOME})")
+        return
+    if not GUTHOME.is_dir():
+        warn("GUTHOME environment variable exists, but the path it points to "
+             f"is not a directory. ({GUTHOME})")
+        return
+
+    giellalt_dir = GUTHOME / "giellalt"
+    if not giellalt_dir.exists():
+        return
+    if not giellalt_dir.is_dir():
+        warn("Your GUTHOME directory has errors: Expected $GUTHOME/giellalt "
+             "to be a directory, but it isn't.")
+        return
+
+    # in git, dictionaries are named "dict-xxx-yyy"
+    dict_re = re.compile(r"^dict-(?P<lang1>[a-z]{3})-(?P<lang2>[a-z]{3})$")
+    for entry in GUTHOME.iterdir():
+        if m := dict_re.fullmatch(entry.name):
+            lang1, lang2 = m["lang1"], m["lang2"]
+            if not entry.is_dir():
+                warn("Your gut folder has errors: "
+                     f"Expected $GUTHOME/giellalt/{m.string} to be a "
+                     "dictionary, but it isn't.")
+                continue
+            if (lang1 not in VALID_LANG) or (lang2 not in VALID_LANG):
+                print(f"skipping {m.string}, as one of the two language codes "
+                      "were not recognized")
+                continue
+            yield (lang1, lang2), entry
+
+
+def find_gt_dictionaries_from_gthome():
+    try:
+        GTHOME = os.environ["GTHOME"]
+    except KeyError:
+        print("Info: GTHOME environment variable not set")
+        return
+
+    GTHOME = Path(GTHOME)
+    if not GTHOME.exists():
+        warn("GTHOME environment variable exists, but the directory it points "
+             "to doesn't exist. ({GTHOME})")
+        return
+    if not GTHOME.is_dir():
+        warn("GTHOME environment variable exists, but the path it points to "
+             f"is not a directory. ({GTHOME})")
+        return
+
+    dictionaries_svn_path = GTHOME / "words" / "dicts"
+    if not dictionaries_svn_path.exists():
+        # After the dictionaries have been moved to git, they will be deleted
+        # from svn, so this would then be expected
+        return
+    if not dictionaries_svn_path.is_dir():
+        warn("Your GTHOME svn directory has errors: Expected "
+             "$GTHOME/words/dicts to be a directory, but it isn't.")
+        return
+
+    dict_re = re.compile(r"^(?P<lang1>[a-z]{3})(?P<lang2>[a-z]{3})$")
+    for entry in dictionaries_svn_path.iterdir():
+        if m := dict_re.fullmatch(entry.name):
+            lang1, lang2 = m["lang1"], m["lang2"]
+            if not entry.is_dir():
+                warn("Your GTHOME svn has errors: "
+                     "Expected dictionary folder $GTHOME/words/dicts/"
+                     f"{m.string} to be a directory, but it isn't.")
+                continue
+            if (lang1 not in VALID_LANG) or (lang2 not in VALID_LANG):
+                print(f"skipping {m.string}, as one of the two language codes "
+                      "were not recognized")
+                continue
+            yield (lang1, lang2), entry
+
+
+def find_gt_dictionaries(prioritize_git_dict=False):
+    dictionaries = {}
+    for langpair, directory in find_gt_dictionaries_from_guthome():
+        dictionaries[langpair] = directory
+
+    for langpair, directory in find_gt_dictionaries_from_gthome():
+        if langpair in dictionaries:
+            print("info: dictionary for language pair "
+                  f"({langpair[0]}, {langpair[1]}) found in both $GUTHOME and "
+                  "$GTHOME, using the one found in ")
+            if prioritize_git_dict:
+                print("$GUTHOME (due to --prioritize-git-dict)")
+            else:
+                print("GTHOME (use --prioritize-git-dict to override this)")
+        if not prioritize_git_dict:
+            dictionaries[langpair] = directory
 
     return dictionaries
 
@@ -282,18 +359,17 @@ def run_in_parallel(function, max_workers, dictionaries, metas):
 
     try:
         with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as pool:
-            for dictionary in dictionaries:
-                lang1, lang2 = dictionary.name[0:3], dictionary.name[3:6]
+            for (lang1, lang2), dictionary_path in dictionaries.items():
                 meta_entry = metas.find_by_langs(lang1, lang2)
-                future = pool.submit(function, dictionary, meta_entry)
-                futures[future] = dictionary
+                future = pool.submit(function, lang1, lang2, dictionary_path, meta_entry)
+                futures[future] = (lang1, lang2, dictionary_path)
 
             completed = concurrent.futures.as_completed(futures)
             for i, future in enumerate(completed):
                 new_or_updated_meta_entry = future.result()
                 metas.apply(new_or_updated_meta_entry)
                 dictionary = futures.pop(future)
-                lang1, lang2 = dictionary.name[0:3], dictionary.name[3:6]
+                lang1, lang2 = dictionary[0], dictionary[1]
 
                 exc = future.exception()
                 if exc is not None:
@@ -406,11 +482,11 @@ def run(cmd, echo=False):
             cmd, text=True, shell=True, capture_output=True)
 
 
-def process_gtdict(directory_path, meta_entry):
-    lang1, lang2 = directory_path.name[0:3], directory_path.name[3:6]
-
-    src_dir = directory_path / "src"
+def process_gtdict(lang1, lang2, dictionary_path, meta_entry):
+    src_dir = dictionary_path / "src"
     if not src_dir.is_dir():
+        warn(f"When processing dictionary ({lang1}, {lang2}): dictionary has "
+             "no src/ folder")
         return
 
     if meta_entry is None:
@@ -419,13 +495,13 @@ def process_gtdict(directory_path, meta_entry):
     last_modified, dict_meta, xml_source_files = read_gt_dictionary(src_dir)
 
     if ("d" in meta_entry) and (last_modified >= datetime.fromisoformat(meta_entry["d"])):
-        print(f"skipping {lang1}{lang2} (not modified since last run)")
+        print(f"skipping ({lang1}, {lang2}) (not modified since last run)")
         return
 
     lemmas = parse_gtdict(xml_source_files, check_unique_lemmas=False)
 
     if not lemmas:
-        print(f"no lemmas in {lang1}{lang2}, skipping")
+        print(f"no lemmas in ({lang1}, {lang2}), skipping")
         return
 
     trie = lemmas_into_trie(lemmas)
@@ -452,21 +528,28 @@ def process_gtdict(directory_path, meta_entry):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--clean", action="store_true")
     parser.add_argument(
         "--ncpus", action=NCpus, default="most"
     )
+    parser.add_argument("--prioritize-git-dict", action="store_true",
+                        help="When a dictionary is found under both svn and "
+                             "git, by default it uses the one found in svn. "
+                             "Use this option to use the one found in git "
+                             "instead")
     parser.add_argument("--only")
     # parser.add_argument("--check-unique-lemmas", action="store_true")
 
     args = parser.parse_args()
+
+    if args.only:
+        args.only = set(args.only.split(","))
+
     return args
 
 
 def main():
-    GTHOME = find_gthome()
-
     args = parse_args()
 
     if args.clean:
@@ -474,22 +557,29 @@ def main():
         run("rm -f src/lib/dict_metas.js", echo=True)
         exit(0)
 
-    onlylangs = set() if not args.only else set(args.only.split(","))
-
     metas = Metas.from_metafile(Path("./src/lib/dict_metas.js"))
     print("metas:", metas)
     Path("./static/tries").mkdir(parents=True, exist_ok=True)
 
     t0 = perf_counter_ns()
-    dictionaries = list(find_gt_dictionaries(GTHOME))
-    if onlylangs:
-        dictionaries = [d for d in dictionaries if d.name in onlylangs]
+    prio_git = args.prioritize_git_dict
+    dictionaries = find_gt_dictionaries(prioritize_git_dict=prio_git)
+    if args.only:
+        only_dicts = {}
+        for langpair in args.only:
+            langpair = (langpair[0:3], langpair[3:6])
+            if langpair in dictionaries:
+                only_dicts[langpair] = dictionaries[langpair]
+            else:
+                warn(f"Language pair ({langpair[0]}, {langpair[1]}) requested "
+                     "throgh --only, but that dictionary does not exist on "
+                     "this system.")
+        dictionaries = only_dicts
 
     if args.ncpus == 1:
-        for dictionary in dictionaries:
-            lang1, lang2 = dictionary.name[0:3], dictionary.name[3:6]
+        for (lang1, lang2), dictionary_path in dictionaries.items():
             meta = metas.find_by_langs(lang1, lang2)
-            updated_meta = process_gtdict(dictionary, meta)
+            updated_meta = process_gtdict(lang1, lang2, dictionary_path, meta)
             metas.apply(updated_meta)
     else:
         run_in_parallel(process_gtdict, args.ncpus, dictionaries, metas)
