@@ -70,6 +70,7 @@ async function _download(
         console.error(`download(): fetch() failed: ${e}`);
         debug(`_download(): fetch() failed: ${e}`);
         on_fail(e);
+        throw new Error("download failed");
         return;
     }
 
