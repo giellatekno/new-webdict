@@ -1,5 +1,8 @@
 import adapter from '@sveltejs/adapter-static';
 
+const dev = process.env.NODE_ENV == "development";
+const prod = process.env.NODE_ENV == "production";
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -8,6 +11,9 @@ const config = {
             "$assets": "src/assets",
             "$tries": "src/tries/",
             "$components": "src/lib/components",
+        },
+        paths: {
+            base: dev ? "" : "/new-webdict",
         },
 		adapter: adapter(),
 	}

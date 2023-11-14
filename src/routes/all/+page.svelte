@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import { flip } from 'svelte/animate';
     import { quintOut } from 'svelte/easing';
+    import { base } from "$app/paths";
     import { human_filesize } from "$lib/utils.js";
     import { saved_dictionaries } from "$lib/dictionary.js";
     import { langname } from "$lib/langname.js";
@@ -89,7 +90,7 @@
         dicts[dict_index].status = "downloading";
         const meta = dicts[dict_index];
 
-        const url = `/tries/${meta.l1}-${meta.l2}-lr-trie.min.xml.gz`;
+        const url = `${base}/tries/${meta.l1}-${meta.l2}-lr-trie.min.xml.gz`;
         console.log(url);
         const { signal, data } = download(url, {
             on_progress: chunk => {
@@ -131,7 +132,7 @@
                 animate:flip={{ easing: quintOut, duration: 1000 }}
             >
                 <span class="name">
-                    <a href="/{l1}-{l2}">
+                    <a href="{base}/{l1}-{l2}">
                         {langname(l1, $locale)} → {langname(l2, $locale)}
                     </a>
                 </span>

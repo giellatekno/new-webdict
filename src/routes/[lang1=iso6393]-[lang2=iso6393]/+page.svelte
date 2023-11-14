@@ -1,6 +1,7 @@
 <script>
     import { tick } from "svelte";
     import { fade } from "svelte/transition";
+    import { base } from "$app/paths";
 
     import { debug } from "$lib/debug_console.js";
     import WordInput from "$components/WordInput.svelte";
@@ -124,7 +125,7 @@
 </script>
 
 <div class="wrapper centered-column-flex">
-    <a href="/{data.meta.l1}-{data.meta.l2}/download">Last ned</a>
+    <a href="{base}/{data.meta.l1}-{data.meta.l2}/download">Last ned</a>
 
     {#if state == "initial"}
         <!-- intentionally left blank -->

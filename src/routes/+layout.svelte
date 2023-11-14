@@ -1,14 +1,13 @@
 <script>
-    import { onMount, onDestroy } from "svelte";
-
+    import { base } from "$app/paths";
     import { fly } from "svelte/transition";
-    import { debug_console, debug } from "$lib/debug_console.js";
+    import { debug_console } from "$lib/debug_console.js";
     import LocaleSelector from "$components/LocaleSelector.svelte";
     import { t } from "svelte-intl-precompile";
     // TEMP debug
     import { delete_database } from "$lib/dictionary.js";
 
-    let console_hidden = false;
+    let console_hidden = true;
     function close_console() { console_hidden = true; }
     // TEMP debug
     /*
@@ -88,8 +87,8 @@
         <LocaleSelector />
     </div>
     <header>
-        <a class="big" href="/">Giellatekno Webdict</a>
-        <a class="small" href="/all">{$t("dictionaries")}</a>
+        <a class="big" href="{base}/">Giellatekno Webdict</a>
+        <a class="small" href="{base}/all">{$t("dictionaries")}</a>
     </header>
     <div class="line"></div>
     <main>
@@ -141,7 +140,7 @@
     }
 
     div.wrapper {
-        width: 100vw;
+        width: calc(100vw - 6vw);
     }
 
     div.line {

@@ -1,48 +1,81 @@
 <script>
+    import { base } from "$app/paths";
     import { langname } from "$lib/langname.js";
     import { locale } from "$lib/locale.js";
     import META from "$lib/dict_metas.js";
 
-    const most_used = [
-        [ "sme", "nob" ],
-        [ "nob", "sme" ],
-        [ "sma", "nob" ],
-        [ "nob", "sma" ],
+    const rest = META.map(({ l1, l2 }) => [l1, l2]);
+
+    function get_langs(lang) {
+        return META.filter(m => m.l1 === lang).map(m => m.l2);
+    }
+
+    const lang_categories = [
+        {
+            summary: "Samiske språk",
+            langs: ["smn", "sjd", "smj", "sme", "sms", "sma", "sjt"],
+        },
+        {
+            summary: "Østersjøfinske språk",
+            langs: ["est", "fin", "fkv", "olo", "vot", "vro"],
+        },
+        {
+            summary: "Andre uralske språk",
+            langs: ["myv", "koi", "mns", "mdf", "kpv", "udm", "hun", "mrj", "mhr"],
+        },
+        {
+            summary: "Indoeuropeiske språk",
+            langs: ["eng", "lav", "nob", "ron", "rus", "swe", "deu"],
+        },
+        {
+            summary: "Andre språk",
+            langs: ["chr", "hdn", "otw", "som", "srs"],
+        },
     ];
 
-    function not_in_most_used([l1, l2]) {
-        for (let pair of most_used) {
-            if (pair[0] === l1 && pair[1] === l2) {
-                return false;
-            }
-        }
-        return true;
+    let all_open = false;
+    function expand_all() {
+        all_open = !all_open;
     }
-    const rest = META
-        .map(({ l1, l2 }) => [l1, l2])
-        .filter(not_in_most_used);
 </script>
 
 <main>
     <h2>Giellatekno Webdict</h2>
     <p>Ei enkel og rask ordbok, som også fungerer offline.</p>
-    <h2>Våre ordbøker</h2>
+    <h2>
+        Våre ordbøker
+        <span on:click={expand_all} class="expand">
+            ({#if all_open}lukk{:else}åpne{/if} alle)
+        </span>
+    </h2>
 
-    <div class="mostused">
-        {#each most_used as [l1, l2]}
-            <a href="{l1}-{l2}">
-                {langname(l1, $locale)}&nbsp;→&nbsp;{langname(l2, $locale)}
-            </a>
+    <section class="langs">
+        {#each lang_categories as { summary, langs }}
+            <details open>
+                <summary>{summary}</summary>
+                <ul>
+                    {#each langs as l1}
+                        <li>
+                            <details open={all_open}>
+                                <summary>{langname(l1, "nob")}</summary>
+                                <ul class="inner">
+                                    {#each get_langs(l1) as l2}
+                                        <li>
+                                            <a href="{base}/{l1}-{l2}">
+                                                {langname(l1, "nob")}
+                                                &nbsp;→&nbsp;
+                                                {langname(l2, "nob")}
+                                            </a>
+                                        </li>
+                                    {/each}
+                                </ul>
+                            </details>
+                        </li>
+                    {/each}
+                </ul>
+            </details>
         {/each}
-    </div>
-
-    <div class="rest">
-        {#each rest as [l1, l2]}
-            <a href="{l1}-{l2}">
-                {langname(l1, $locale)}&nbsp;→&nbsp;{langname(l2, $locale)}
-            </a>
-        {/each}
-    </div>
+    </section>
 </main>
 
 <style>
@@ -57,20 +90,32 @@
         align-items: center;
     }
 
-    div.mostused {
+    span.expand {
+        cursor: pointer;
+        color: blue;
+        font-size: 0.8em;
+    }
+
+    section.langs {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 26px;
-    }
-
-    div.mostused > a {
-        font-size: 26px;
-    }
-
-    div.rest {
-        margin-top: 3em;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 16px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul.inner > li {
+        padding: 6px 0px;
+
+    }
+
+    details > summary {
+        padding: 2px 6px;
+        font-size: 1.2em;
+        width: 15em;
+        border: none;
+        cursor: pointer;
     }
 </style>

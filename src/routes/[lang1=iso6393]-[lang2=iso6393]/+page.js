@@ -2,6 +2,7 @@
 export const ssr = false;
 
 import { error } from "@sveltejs/kit";
+import { base } from "$app/paths";
 import { get_meta } from "$lib/dictionary.js";
 
 export async function load({ fetch, params }) {
@@ -12,7 +13,7 @@ export async function load({ fetch, params }) {
         throw error(404, "No such dictionary");
     }
 
-    const trie_path = `/tries/${lang1}-${lang2}.json.gz`;
+    const trie_path = `${base}/tries/${lang1}-${lang2}.json.gz`;
 
     return { trie_path, meta };
 }

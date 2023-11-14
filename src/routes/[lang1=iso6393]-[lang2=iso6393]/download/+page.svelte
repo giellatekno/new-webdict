@@ -1,5 +1,6 @@
 <script>
     import { tick } from "svelte";
+    import { base } from "$app/paths";
     import { get_from_indexeddb } from "$lib/dictionary.js";
     import { Trie } from "$lib/trie.js";
     import standalone_html_template from "$assets/standalone.template.html?raw";
@@ -84,7 +85,7 @@
 
     eller
 
-    <a href="/{data.meta.l1}-{data.meta.l2}">Gå tilbake</a>
+    <a href="{base}/{data.meta.l1}-{data.meta.l2}">Gå tilbake</a>
 
     <!-- svelte-ignore a11y-missing-content a11y-missing-attribute -->
     <a bind:this={a_el} download={filename}></a>
