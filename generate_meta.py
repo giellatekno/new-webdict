@@ -32,11 +32,11 @@ from hashlib import sha1
 from trie import Trie
 
 VALID_LANG = set([
-    "chr", "crk", "dan", "deu", "eng", "est", "fin", "fkv", "gle",
-    "hdn", "hun", "izh", "kal", "koi", "kpv", "lav", "liv", "mdf", "mhr",
-    "mns", "mrj", "myv", "nob", "non", "olo", "otw", "rom", "ron",
-    "rup", "rus", "sjd", "sjt", "sma", "sme", "smj", "smn", "sms", "som",
-    "spa", "srs", "swe", "udm", "vep", "vot", "vro", "yrk",
+    "chr", "crk", "dan", "deu", "eng", "est", "fin", "fit", "fkv", "gle",
+    "hdn", "hun", "izh", "kal", "koi", "kom", "kpv", "lav", "liv", "mdf",
+    "mhr", "mns", "mrj", "mul", "myv", "nob", "non", "olo", "otw", "rom",
+    "ron", "rup", "rus", "sjd", "sje", "sjt", "sma", "sme", "smj", "smn",
+    "sms", "som", "spa", "srs", "swe", "udm", "vep", "vot", "vro", "yrk",
 ])
 
 
@@ -143,43 +143,46 @@ def logg(msg):
         print(f"{message} ({t:.2f}ms)")
 
 
-def read_gt_envvar(varname, warn_on_not_set=False):
-    """Read an environment variable, and check that it points to a directory
-    that exists. Return the Path to the resolved directory, or None if the
-    environment variable was not set, or pointed to a nonexisting or
-    non-directory path."""
-    try:
-        var = os.environ[varname]
-    except KeyError:
-        if warn_on_not_set:
-            warn(f"{varname} environment variable is not set")
-        return
-
-    resolved = Path(var).resolve()
-    if not resolved.exists():
-        warn("You have errors in your configuration:\n"
-             f"{varname} environment variable exists, but the path it points "
-             f"to does not exist. ({var})")
-        return
-    if not resolved.is_dir():
-        warn("You have errors in your configuration:\n"
-             f"{varname} environment variable points to a path that is not "
-             f"a directory. ({var})")
-        return
-
-    return resolved
+def langcode_to_3iso(langcode):
+    if len(langcode) == 3:
+        return langcode
+    if langcode == "se":
+        return "sme"
+    elif langcode == "no":
+        return "nob"
 
 
-def find_gt_dictionaries_from_guthome():
-    GUTHOME = read_gt_envvar("GUTHOME")
-    if GUTHOME is None:
-        return
+def find_gut_root():
+    proc = subprocess.run(["gut", "show", "config"], capture_output=True, text=True)
+    if proc.returncode != 0:
+        raise Exception("running gut failed. (gut not installed?)")
+    for line in proc.stdout.splitlines(keepends=False):
+        if line.startswith("Root directory:"):
+            line = line[15:].strip()
+            gutroot = Path(line).resolve()
+            if not gutroot.exists:
+                msg = ("gut root specified, but folder doesn't exist "
+                       "(you can try to reinitialze gut)")
+                raise FileNotFoundError(msg)
+            if not gutroot.is_dir():
+                msg = ("gut root specified, but the path it points to is "
+                       "not a directory (..for some reason) "
+                       "(you can try to reinitialze gut)")
+                raise NotADirectoryError(msg)
+            return gutroot
+    msg = ("root directory not found in config that gut reported."
+           " (you can try to re-initialize gut)")
+    raise Exception(msg)
+
+
+def find_gt_dictionaries():
+    GUTHOME = find_gut_root()
 
     giellalt_dir = GUTHOME / "giellalt"
     if not giellalt_dir.exists():
         return
     if not giellalt_dir.is_dir():
-        warn("Your GUTHOME directory has errors: Expected $GUTHOME/giellalt "
+        warn("Your gut root directory has errors: Expected <gutroot>/giellalt "
              "to be a directory, but it isn't.")
         return
 
@@ -198,94 +201,6 @@ def find_gt_dictionaries_from_guthome():
                       "were not recognized")
                 continue
             yield (lang1, lang2), entry
-
-
-def find_gt_dictionaries_from_gthome():
-    GTHOME = read_gt_envvar("GTHOME", warn_on_not_set=True)
-    if GTHOME is None:
-        return
-
-    dictionaries_svn_path = GTHOME / "words" / "dicts"
-    if not dictionaries_svn_path.exists():
-        # After the dictionaries have been moved to git, they will be deleted
-        # from svn, so this would then be expected
-        return
-    if not dictionaries_svn_path.is_dir():
-        warn("Your GTHOME svn directory has errors: Expected "
-             "$GTHOME/words/dicts to be a directory, but it isn't.")
-        return
-
-    dict_re = re.compile(r"^(?P<lang1>[a-z]{3})(?P<lang2>[a-z]{3})$")
-    for entry in dictionaries_svn_path.iterdir():
-        if m := dict_re.fullmatch(entry.name):
-            lang1, lang2 = m["lang1"], m["lang2"]
-            if not entry.is_dir():
-                warn("Your GTHOME svn folder has errors: "
-                     "Expected dictionary folder $GTHOME/words/dicts/"
-                     f"{m.string} to be a directory, but it isn't.")
-                continue
-            if (lang1 not in VALID_LANG) or (lang2 not in VALID_LANG):
-                print(f"skipping {m.string}, as one of the two language codes "
-                      "were not recognized")
-                continue
-            yield (lang1, lang2), entry
-
-
-def find_gt_dictionaries_from_gtlangs():
-    GTLANGS = read_gt_envvar("GTLANGS")
-    if GTLANGS is None:
-        return
-
-    dict_re = re.compile(r"^dict-(?P<lang1>[a-z]{3})-(?P<lang2>[a-z]{3})$")
-    for entry in GTLANGS.iterdir():
-        if m := dict_re.fullmatch(entry.name):
-            lang1, lang2 = m["lang1"], m["lang2"]
-            if not entry.is_dir():
-                warn("Your $GTLANGS folder has errors: "
-                     f"Expected $GTLANGS/{m.string} to be a "
-                     "directory, but it isn't!")
-                continue
-            if (lang1 not in VALID_LANG) or (lang2 not in VALID_LANG):
-                print(f"skipping {m.string}, as one of the two language codes "
-                      "were not recognized")
-                continue
-            yield (lang1, lang2), entry
-
-
-def find_gt_dictionaries(
-    check_guthome=True,
-    check_gtlangs=True,
-    check_gthome=True,
-):
-    dictionaries = {}
-    # First svn, then overridden by gtlangs, finally overriden by gut
-    # this is fine for me, but if someone else does this at some point, it
-    # may possibly be confusing
-
-    if check_gthome:
-        # old svn path: $GTHOME/words/dicts/xxxyyy
-        for langpair, directory in find_gt_dictionaries_from_gthome():
-            dictionaries[langpair] = directory
-
-    if check_gtlangs:
-        # git, stored as $GTLANGS/dict-xxx-yyy
-        for langpair, directory in find_gt_dictionaries_from_gtlangs():
-            if langpair in dictionaries:
-                L1, L2 = langpair
-                print(f"Info: Dictionary {L1}-{L2} overwritten with the one"
-                      f"found in $GTLANGS/dict-{L1}-{L2}")
-            dictionaries[langpair] = directory
-
-    if check_guthome:
-        # managed by gut, stored in $GUTHOME/giellalt/dict-xxx-yyy
-        for langpair, directory in find_gt_dictionaries_from_guthome():
-            if langpair in dictionaries:
-                L1, L2 = langpair
-                print(f"Info: Dictionary {L1}-{L2} overwritten with the one "
-                      f"found in $GUTHOME/giellalt/dict-{L1}-{L2}")
-            dictionaries[langpair] = directory
-
-    return dictionaries
 
 
 def parse_gtxml_entry(e):
@@ -345,15 +260,6 @@ def parse_gtxml_entry(e):
     if not translations:
         raise ValueError("no translations")
     return lemma, pos, translations.strip()
-
-
-def langcode_to_3iso(langcode):
-    if len(langcode) == 3:
-        return langcode
-    if langcode == "se":
-        return "sme"
-    elif langcode == "no":
-        return "nob"
 
 
 class Metas:
@@ -574,27 +480,6 @@ def parse_args():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--clean", action="store_true")
     parser.add_argument("--ncpus", action=NCpus)
-    parser.add_argument(
-        "--guthome",
-        action=argparse.BooleanOptionalAction,
-        default=True,
-        help="Check for dictionaries in git repos managed by gut "
-             "(in $GUTHOME/giellalt). Defaults to True."
-    )
-    parser.add_argument(
-        "--gtlangs",
-        action=argparse.BooleanOptionalAction,
-        default=True,
-        help="Check for dictionaries in git repos (in $GTLANGS). "
-             "Defaults to True."
-    )
-    parser.add_argument(
-        "--gthome",
-        action=argparse.BooleanOptionalAction,
-        default=True,
-        help="Check for dictionaries in svn ($GTHOME/words/dicts). "
-             "Defaults to True."
-    )
     parser.add_argument("--only")
     # parser.add_argument("--check-unique-lemmas", action="store_true")
 
@@ -602,12 +487,6 @@ def parse_args():
 
     if args.only:
         args.only = set(args.only.split(","))
-
-    if not args.guthome and not args.gtlangs and not args.gthome:
-        parser.error(
-            "Must have at least one place to search for dictionaries"
-            ", remove one of: --no-guthome, --no-gtlangs, --no-gthome"
-        )
 
     return args
 
@@ -624,11 +503,7 @@ def main():
     Path("./static/tries").mkdir(parents=True, exist_ok=True)
 
     t0 = perf_counter_ns()
-    dictionaries = find_gt_dictionaries(
-        check_guthome=args.guthome,
-        check_gtlangs=args.gtlangs,
-        check_gthome=args.gthome,
-    )
+    dictionaries = dict(find_gt_dictionaries())
 
     if args.only:
         only_dicts = {}
