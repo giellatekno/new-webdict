@@ -442,8 +442,9 @@ def process_gtdict(lang1, lang2, dictionary_path, meta_entry):
         meta_entry = {}
 
     last_modified, dict_meta, xml_source_files = read_gt_dictionary(src_dir)
+    #print(f"dict: ({lang1}, {lang2}). {last_modified=}, {datetime.fromisoformat(meta_entry['d'])=}")
 
-    if ("d" in meta_entry) and (last_modified >= datetime.fromisoformat(meta_entry["d"])):
+    if ("d" in meta_entry) and (last_modified < datetime.fromisoformat(meta_entry["d"])):
         print(f"skipping ({lang1}, {lang2}) (not modified since last run)")
         return
 
