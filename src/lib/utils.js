@@ -159,7 +159,7 @@ export function min(iterable, opts = {}) {
     try {
         it = iterable[Symbol.iterator]();
     } catch (e) {
-        throw new TypeError(`min(): argument 'iterable' must be an interable, and '${typeof iterable}' is not.`);
+        throw new TypeError(`min(): argument 'iterable' must be an interable, and '${type(iterable)}' is not.`);
     }
 
     const first = it.next();

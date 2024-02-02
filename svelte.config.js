@@ -13,7 +13,7 @@ const config = {
             "$components": "src/lib/components",
         },
         paths: {
-            base: dev ? "" : "/new-webdict",
+            base: dev ? "" : "/webdict",
         },
 		adapter: adapter(),
 	}

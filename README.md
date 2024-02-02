@@ -1,4 +1,4 @@
-# new-webdict
+# webdict
 
 A rewrite of Giellatekno Webdict, using the same underlying algorithm and 
 data, but using SvelteKit, and served on Azure.
