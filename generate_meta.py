@@ -234,7 +234,6 @@ def parse_gtxml_entry(e, lang2):
                 lang = tg.attrib.get("{http://www.w3.org/XML/1998/namespace}lang")
                 if lang is not None and lang != lang2:
                     # not target lang we're after
-                    print(f"xml:lang of this tg is {lang}, not {lang2}, which is what we're after")
                     continue
                 re = tg.find("re")
                 if re is not None:
@@ -258,7 +257,6 @@ def parse_gtxml_entry(e, lang2):
                 lang = tg.get("{http://www.w3.org/XML/1998/namespace}lang")
                 if lang is not None and lang != lang2:
                     # not target lang we're after
-                    print(f"xml:lang of this tg is {lang}, not {lang2}, which is what we're after")
                     continue
                 re = tg.find("re")
                 if re is not None:
