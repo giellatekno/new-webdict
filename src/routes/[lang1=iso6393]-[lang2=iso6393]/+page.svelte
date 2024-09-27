@@ -59,8 +59,38 @@
         }
     }
 
+    async function do_download(data) {
+        const { signal: signal, data: downloaded_data } = download(
+            data.trie_path,
+            {
+                on_start: () => recieved_bytes = 0,
+                on_progress: chunk => {
+                    recieved_bytes += chunk.length;
+                },
+                on_fail: () => state = "failed",
+                on_abort: () => state = "",
+                decompressed_size: size,
+            }
+        );
+
+        abort_signal = signal;
+
+        debug("await downloaded data...");
+        let buffer;
+        try {
+            buffer = await downloaded_data;
+        } catch (e) {
+            // error when downloading: aborted or network fail
+            console.log(e);
+            return;
+        }
+
+        abort_signal = null;
+        return buffer;
+    }
+
     async function load_dictionary(data) {
-        debug("load_dictionary()");
+        debug("load_dictionary(), data = ", data);
         trie = null;
         const meta = data.meta;
         dict_lemmas = meta.n;
@@ -68,13 +98,59 @@
         state = "initial";
         await tick();
 
+        const lang1 = meta.l1;
+        const lang2 = meta.l2;
+        const server_info = fetch(`/meta-info/${lang1}-${lang2}`);
+
         const db_dict = await get_from_indexeddb(meta);
 
         if (db_dict) {
-            debug("dictionary found in idb");
+            debug("dictionary found in idb, show it, while also checking for newer");
             trie = Trie.from_buffer(db_dict);
             state = "ready";
             await tick();
+            let response;
+            try {
+                response = await server_info;
+            } catch (e) {
+                debug("fetch() for server meta-info failed (server error, no internet, or such)");
+                console.debug(e);
+                return;
+            }
+
+            let servers_meta;
+            try {
+                servers_meta = await response.json();
+            } catch (e) {
+                debug("fetch() returned non-json or otherwise invalid response", e);
+                return;
+            }
+
+            debug(`server returned hash '${servers_meta.h}' for dict ${lang1}-${lang2}`);
+
+            if (meta.h !== servers_meta.h) {
+                debug(`our hash != server's hash - download newest dictionary`);
+                let buffer;
+                try {
+                    buffer = await do_download(meta);
+                } catch (e) {
+                    debug("error when downloading dictionary",e);
+                    // nothing more we can do
+                    return;
+                }
+
+                trie = Trie.from_buffer(buffer);
+
+                debug("got new dict. replace the old in idb...");
+                try {
+                    await save_to_indexeddb(servers_meta, buffer, { allow_replace: true });
+                } catch (e) {
+                    debug("error replacing old with new dict in idb", e);
+                }
+                debug("saved new version of dictionary to idb");
+            } else {
+                debug("we have the newest version of this dictionary");
+            }
             return;
         }
 

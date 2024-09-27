@@ -1,3 +1,12 @@
+import { debug } from "$lib/debug_console.js";
+
+// Wrappers around the native IndexedDB functionality
+
+// IDB wraps an IndexedDB database, and provides:
+// - a constructor: make a database from a spec
+// - transaction(): operate on some specified stores in a transaction
+// - delete_database(): request to delete the database
+//
 export class IDB {
     constructor(spec) {
         if (typeof window === "undefined") {
@@ -17,6 +26,17 @@ export class IDB {
 
                 const stores = Object.entries(this.spec.stores);
                 for (const [ name, { keyPath } ] of stores) {
+                    // try to delete any previous object stores.
+                    // There may not be any, for many reasons:
+                    // - new user who's never been to the site
+                    // - data got deleted, manually or otherwise
+                    // - an actual upgrade occurred, but these are old names
+                    try {
+                        db.deleteObjectStore(name);
+                    } catch (_) {
+                        // ... so, silently ignore errors if the object store
+                        // didn't exist
+                    }
                     db.createObjectStore(name, { keyPath });
                 }
             };
@@ -90,7 +110,7 @@ export class IDB {
 
 class ObjectStore {
     constructor(object_store) {
-        // TODO maybe assert that it's actually an ObjectStore
+        console.assert(object_store instanceof IDBObjectStore);
         this._store = object_store;
     }
 
@@ -98,11 +118,37 @@ class ObjectStore {
     get name() { return this._store.name; }
 
     // add an object to this store
-    add(object, key) {
+    add(object, { key, allow_replace = false } = {}) {
         return new Promise((resolve, reject) => {
             const request = this._store.add(object, key);
             request.onsuccess = ev => resolve();
-            request.onerror = ev => reject(ev.target.error);
+            request.onerror = ev => {
+                if (allow_replace) {
+                    console.log("add() error, but replace allowed, try to delete");
+                    const delete_request = this._store.delete(key)
+                    delete_request.onsuccess = ev => {
+                        resolve();
+                    }
+                    delete_request.onerror = ev => {
+                        console.log("failed to delete");
+                        reject(ev.target.error);
+                    }
+                } else {
+                    reject(ev.target.error);
+                }
+            }
+        });
+    }
+
+    get(key) {
+        debug(`store.get(key) [store=${this.name}], key = `, key);
+        return new Promise((resolve, reject) => {
+            const request = this._store.get(key);
+            request.onsuccess = ev => {
+                debug("store.get(): ev.target.result = ", ev.target.result);
+                resolve(ev.target.result);
+            }
+            request.onerror = ev => reject("key not found");
         });
     }
 
@@ -114,6 +160,11 @@ class ObjectStore {
         });
     }
 
+    contains(key) {
+        return new Promise((resolve, reject) => {
+            const request = this._store.openCursor(key);
+        });
+    }
     // gets the one value, or throws an error if
     // there is not exactly one object for that key
     get_one(key) {

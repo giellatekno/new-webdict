@@ -5,12 +5,10 @@ import METAS from "$lib/dict_metas.js";
 
 const DATABASE_SPEC = {
     name: "dictionaries",
-    version: 1,
+    version: 2,
     stores: {
-        // copy of the meta-data for the dict, plus saved
-        // date (TODO should be dictionary date, but we don't
-        // have that - yet)
-        metas: { keyPath: ["l1", "l2"] },
+        // copy of the meta-data for the dict, keyed by hash
+        metas: { keyPath: "h" },
         // no the gzipped xml data, keyed out-of-line by hash
         blobs: {},
     },
@@ -33,44 +31,33 @@ export async function delete_database() {
     await DATABASE.delete_database();
 }
 
+// Get the dictionary in the idb for this meta,
+// return arraybuffer of decompressed data on success, or
+// undefined if the corresponding data for the 'meta' was not found
 export async function get_from_indexeddb(meta) {
-    debug("get_from_indexeddb()");
+    debug("enter get_from_indexeddb()", meta);
     return await DATABASE.transaction(
         ["metas", "blobs"],
         "readonly",
         async ([metastore, blobstore]) => {
-            const key = [meta.l1, meta.l2];
-            debug("  in transaction: metastore.get_all_objects()");
-            const metas = await metastore.get_all_objects(key);
-            debug("  done awaiting for all objects");
-            
-            const meta_entry = min(metas, {
-                key: meta => Date.parse(meta.date),
-                default: null,
-            });
-            if (meta_entry === null) {
-                debug("no meta entry, get_from_indexeddb() returns null");
-                return null;
+            const blob = await blobstore.get(meta.h);
+            if (blob === undefined) {
+                return undefined;
+            } else {
+                debug("return from get_from_indexeddb()");
+                return await gunzip(blob);
             }
-
-            debug("  blobstore.get_one()");
-            const blob = await blobstore.get_one(meta_entry.h);
-            debug("returning gunzip(blob)");
-            return await gunzip(blob);
         }
     );
 }
 
-export async function save_to_indexeddb(meta, buffer) {
+export async function save_to_indexeddb(meta, buffer, { allow_replace = false } = {}) {
     await DATABASE.transaction(
         ["metas", "blobs"],
         "readwrite",
         async ([metastore, blobstore]) => {
-            await metastore.add({
-                ...meta,
-                date: (new Date()).toISOString(),
-            });
-            await blobstore.add(await gzip(buffer), meta.h);
+            await metastore.add({ ...meta }, { allow_replace });
+            await blobstore.add(await gzip(buffer), { key: meta.h, allow_replace });
         },
     );
 }

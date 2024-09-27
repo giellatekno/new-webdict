@@ -3,10 +3,10 @@ import { writable } from "svelte/store";
 
 const debug_console = writable([]);
 
-async function debug(msg) {
-    debug_console.update(arr => [...arr, msg]);
+async function debug(...msg) {
+    debug_console.update(arr => [...arr, ...msg]);
     await tick();
-    console.log(msg);
+    console.log(...msg);
 
     if (typeof window !== "undefined") {
         const element = window.document.getElementById("debug-console");

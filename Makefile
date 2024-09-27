@@ -6,9 +6,9 @@ help:
 	@echo "export - save container image to webdict.tar.gz"
 	@echo "upload - upload wedict.tar.gz to gtweb"
 	@echo "run-image - run image locally"
-	@echo "push-image - [NOT OPERATIONAL] push built image to container registry"
+	@echo "push-labacr - push built image to gtlab container registry"
 	@echo "update-app - [NOT OPERATIONAL] restart azure container app with new image"
-	@echo "login-acr - [NOT OPERATIONAL] login to the azure container registry"
+	@echo "login-acr - login to the azure container registry"
 
 
 .PHONY: clean
@@ -36,7 +36,7 @@ run-image:
 	podman run -p 8080:80 webdict
 
 .PHONY: push-image
-push-image:
+push-labacr:
 	podman tag webdict gtlabcontainerregistry.azurecr.io/webdict
 	podman push gtlabcontainerregistry.azurecr.io/webdict
 

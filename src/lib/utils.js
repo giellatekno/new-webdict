@@ -126,12 +126,15 @@ export async function gzip(buffer) {
     return gzipped_blob;
 }
 
-// in: Blob (gzipped)
-// out: ArrayBuffer (gunzipped)
+// decompress gzipped data
+//   arg 'obj': Blob | ArrayBuffer | Uint8Array 
+//   returns: ArrayBuffer
 export async function gunzip(obj) {
     let stream;
 
-    if (obj instanceof Blob) {
+    if (obj === undefined || obj == null) {
+        throw new TypeError(`gunzip(): 'obj' must be a Blob or ArrayBuffer, got ${type(obj)}`);
+    } else if (obj instanceof Blob) {
         stream = obj.stream();
     } else if (obj.constructor === ArrayBuffer) {
         stream = arraybuffer_to_readablestream(obj);
@@ -151,16 +154,12 @@ export async function gunzip(obj) {
     return buffer;
 }
 
+const _throw = Symbol("throw");
 export function min(iterable, opts = {}) {
     // we could special-case the array, on the hypothesis that
     // it's faster to loop over it natively, than doing
     // through an iterator, but for now we're not
-    let it;
-    try {
-        it = iterable[Symbol.iterator]();
-    } catch (e) {
-        throw new TypeError(`min(): argument 'iterable' must be an interable, and '${type(iterable)}' is not.`);
-    }
+    const it = iter_or_throw(iterable, `min(): invalid argument ${iterable}`);
 
     const first = it.next();
     if (first.done) {
@@ -210,12 +209,6 @@ export function min(iterable, opts = {}) {
     return winner;
 }
 
-export function type(obj) {
-    if (obj === undefined) return "undefined";
-    if (obj === null) return "null";
-    return obj.constructor.name;
-}
-
 export function clamp(value, min, max) {
     if (typeof value === "number") {
         if (Number.isNaN(value)) {
@@ -244,3 +237,61 @@ export function clamp(value, min, max) {
     return Math.max(min, Math.min(max, value));
 }
 
+export function type(obj) {
+    if (obj === undefined) return "undefined";
+    if (obj === null) return "null";
+    return obj.constructor.name;
+}
+
+export function iter(obj) {
+    if (typeof obj === "undefined") {
+        throw new TypeError("iter(): undefined is not iterable");
+    }
+    if (obj === null) {
+        throw new TypeError("iter(): null is not iterable");
+    }
+    if (typeof obj === "boolean") {
+        throw new TypeError("iter(): boolean is not iterable");
+    }
+
+    if (obj && typeof obj.next === "function") {
+        // an object is an iterator if it has a next() method, and the next()
+        // method returns a { done, value } object - but we can't really call
+        // it to check, because that would advance the iterator.. so we just
+        // assume the object is an iterator if it has a next() method
+        return obj;
+    }
+
+    const it = obj[Symbol.iterator];
+    if (typeof it === "function") {
+        return it.call(obj);
+    }
+
+    if (is_pojo(obj)) {
+        return object_iter(obj);
+    }
+
+    throw new TypeError("iter(): don't know how to make an iterator out of that");
+}
+
+function is_pojo(obj) {
+    return !!obj && obj.constructor === Object;
+}
+
+function *object_iter(obj) {
+    for (let key in obj) {
+        if (Object.hasOwn(obj, key)) {
+            yield [key, obj[key]];
+        }
+    }
+}
+
+function iter_or_throw(object, msg) {
+    let it;
+    try {
+        it = iter(object);
+    } catch (e) {
+        throw new TypeError(`${msg} ('${type(object)}' is not iterable). [${e}]`);
+    }
+    return it;
+}

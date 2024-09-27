@@ -6,7 +6,8 @@ data, but using SvelteKit, and served on Azure.
 ## Running
 
 Install node dependencies using `pnpm i`, and make the gzipped trie files
-from the originals using `python3 generate_metas.py`.
+from the originals using `python3 generate_metas.py`. Use `gut` to update
+the dictionaries.
 
 The `xmllint` program is in package `libxml2-utils` on Debian/Ubuntu.
 
@@ -29,8 +30,15 @@ do...
 
 ## Deployment
 
-To create the deployment image, do `make image`, followed by `make push-image`.
-If all goes well, the newly built image will be up and running on the url in
-a couple of minutes.
+```bash
+make image
+make push-labacr
+# if this fails, login as follows:
+podman login gtlabcontainerregistry.azurecr.io
+ssh gtweb-02.uit.no
+sudo su - services
+tjeneste webdict pull
+sudo tjeneste webdict restart
+```
 
 To run a preview of the image locally, do `make run-image`.

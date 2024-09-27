@@ -176,6 +176,12 @@ def find_gut_root():
 
 
 def find_gt_dictionaries():
+    """Yield all ((lang1, lang2), entry) tuples, where
+    (lang1, lang2) are languages, and entry is a Path to
+    that directory of all dictionaries in giellalt that
+    follows the "dict-xxx-yyy" format, where xxx and yyy
+    are language codes.
+    """
     GUTHOME = find_gut_root()
 
     giellalt_dir = GUTHOME / "giellalt"
@@ -203,7 +209,7 @@ def find_gt_dictionaries():
             yield (lang1, lang2), entry
 
 
-def parse_gtxml_entry(e):
+def parse_gtxml_entry(e, lang2):
     """Parses an <e> in a GT .xml dictionary file, and
     Returns lemma, pos, translations"""
     l_node = e.find("lg/l")
@@ -225,12 +231,18 @@ def parse_gtxml_entry(e):
             # could there be more than 1 tg? sure, and each one may or may not
             # have a <re>
             for tg in mg.findall("tg"):
+                lang = tg.attrib.get("{http://www.w3.org/XML/1998/namespace}lang")
+                if lang is not None and lang != lang2:
+                    # not target lang we're after
+                    print(f"xml:lang of this tg is {lang}, not {lang2}, which is what we're after")
+                    continue
                 re = tg.find("re")
                 if re is not None:
                     translations += f"({re.text}) "
                 t_elements = []
                 for t in tg.findall("t"):
-                    if t.text is None or t.text.strip() == "" or t.text == "None":
+                    if (t.text is None or t.text.strip() == "" or
+                            t.text == "None" or "_" in t.text):
                         # shouldn't happen, but in the dict files, it does..
                         continue
                     t_elements.append(t.text)
@@ -243,12 +255,18 @@ def parse_gtxml_entry(e):
         for n, mg in enumerate(mgs, start=1):
             translations += f" {n}. "
             for tg in mg.findall("tg"):
+                lang = tg.get("{http://www.w3.org/XML/1998/namespace}lang")
+                if lang is not None and lang != lang2:
+                    # not target lang we're after
+                    print(f"xml:lang of this tg is {lang}, not {lang2}, which is what we're after")
+                    continue
                 re = tg.find("re")
                 if re is not None:
                     translations += f"({re.text}) "
                 t_elements = []
                 for t in tg.findall("t"):
-                    if t.text is None or t.text.strip() == "" or t.text == "None":
+                    if (t.text is None or t.text.strip() == "" or
+                            t.text == "None" or "_" in t.text):
                         # shouldn't happen, but in the dict files, it does..
                         continue
                     t_elements.append(t.text)
@@ -315,16 +333,17 @@ def run_in_parallel(function, max_workers, dictionaries, metas):
 
             completed = concurrent.futures.as_completed(futures)
             for i, future in enumerate(completed):
-                new_or_updated_meta_entry = future.result()
-                metas.apply(new_or_updated_meta_entry)
-                dictionary = futures.pop(future)
-                lang1, lang2 = dictionary[0], dictionary[1]
-
                 exc = future.exception()
                 if exc is not None:
                     print(f"{lang1}{lang2} failed!")
                     print(exc)
                     print(traceback.format_exc())
+                else:
+                    new_or_updated_meta_entry = future.result()
+                    metas.apply(new_or_updated_meta_entry)
+                    dictionary = futures.pop(future)
+                    lang1, lang2 = dictionary[0], dictionary[1]
+
     except concurrent.futures.ProcessPoolExecutor:
         print("Processing was terminated unexpectedly")
     except KeyboardInterrupt:
@@ -382,7 +401,7 @@ def read_gt_dictionary(lang_src_directory):
     return last_modified, dict_meta, file_list
 
 
-def parse_gtdict(lang_src_folder, check_unique_lemmas=False):
+def parse_gtdict(lang_src_folder, check_unique_lemmas=False, lang2=""):
     """Parses all dictionary files, and
     Returns a dictionary of (lemma, pos) -> translation string"""
     lemmas = {}
@@ -391,7 +410,7 @@ def parse_gtdict(lang_src_folder, check_unique_lemmas=False):
         root = ET.parse(file)
         for e in root.iter("e"):
             try:
-                lemma, pos, translations = parse_gtxml_entry(e)
+                lemma, pos, translations = parse_gtxml_entry(e, lang2=lang2)
             except ValueError:
                 # something wrong when parsing this <e>, so we skip it
                 continue
@@ -448,7 +467,7 @@ def process_gtdict(lang1, lang2, dictionary_path, meta_entry):
         print(f"skipping ({lang1}, {lang2}) (not modified since last run)")
         return
 
-    lemmas = parse_gtdict(xml_source_files, check_unique_lemmas=False)
+    lemmas = parse_gtdict(xml_source_files, check_unique_lemmas=False, lang2=lang2)
 
     if not lemmas:
         print(f"no lemmas in ({lang1}, {lang2}), skipping")
