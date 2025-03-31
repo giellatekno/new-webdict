@@ -24,6 +24,7 @@ import sys
 import traceback
 import xml.etree.ElementTree as ET
 from contextlib import contextmanager
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 from time import perf_counter_ns
@@ -206,7 +207,14 @@ def find_gt_dictionaries():
                 print(f"skipping {m.string}, as one of the two language codes "
                       "were not recognized")
                 continue
-            yield (lang1, lang2), entry
+            if lang2 != "mul":
+                yield (lang1, lang2), entry
+            else:
+                print(f"skipping {lang1}-{lang2}, because we don't know which "
+                      "specific lang2 we want ('{lang2}')")
+                # lang2 == "mul", so we need to somehow figure out which
+                # langs there are..
+                pass
 
 
 def parse_gtxml_entry(e, lang2):
@@ -401,8 +409,8 @@ def read_gt_dictionary(lang_src_directory):
 
 def parse_gtdict(lang_src_folder, check_unique_lemmas=False, lang2=""):
     """Parses all dictionary files, and
-    Returns a dictionary of (lemma, pos) -> translation string"""
-    lemmas = {}
+    Returns a dictionary of (lemma, pos) -> list of translation strings"""
+    lemmas = defaultdict(list)
 
     for file in lang_src_folder:
         root = ET.parse(file)
@@ -420,7 +428,7 @@ def parse_gtdict(lang_src_folder, check_unique_lemmas=False, lang2=""):
             #     else:
             #         msg += f" file1: {other_file}, file2: {file}"
             #     print(msg)
-            lemmas[(lemma, pos)] = translations
+            lemmas[(lemma, pos)].append(translations)
 
     return lemmas
 
@@ -432,12 +440,13 @@ def lemmas_into_trie(lemmas):
             continue
         node = trie._find_exact_node(lemma)
         if node is None:
-            trie.insert(lemma, [(pos, translations)])
+            trie.insert(lemma, [(pos, "...".join(translations))])
         else:
-            if node.data is not None:
-                node.data.append((pos, translations))
-            else:
-                node.data = [(pos, translations)]
+            for translation in translations:
+                if node.data is not None:
+                    node.data.append((pos, translation))
+                else:
+                    node.data = [(pos, translation)]
     return trie
 
 
