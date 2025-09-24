@@ -217,6 +217,43 @@ def find_gt_dictionaries():
                 pass
 
 
+def should_include_translation(l_node, t_node):
+    """Should this translation be included, or no?"""
+    lpos = l_node.get("pos")
+    tpos = t_node.get("pos")
+
+    tx = t_node.text
+    if (tx is None or tx.strip() == "" or tx == "None" or "_" in tx):
+        # shouldn't happen, but in real world dict files, it does...
+        return False
+
+    if (tpos is None) and (t_node.attrib.get("t_type") == "expl"):
+        # <t> has no pos, but it has attribute t_type == "expl", so include it
+        return True
+
+    if lpos == tpos:
+        # <l> pos == <t> pos, so always include this <t>
+        return True
+
+    if tpos == "Phrase":
+        # <t> pos is "Phrase", always included
+        return True
+
+    if (lpos == "Pr" and tpos == "Po") or (tpos == "Po" and lpos == "Pr"):
+        # Pr and Po are okay both ways
+        return True
+
+    l_is_adv = lpos == "Adv"
+    t_is_adv = tpos == "Adv"
+    t_is_interj = tpos == "Interj"
+    l_is_interj = lpos == "Interj"
+
+    if (l_is_adv and t_is_interj) or (l_is_interj and t_is_adv):
+        return True
+
+    return False
+
+
 def parse_gtxml_entry(e, lang2):
     """Parses an <e> in a GT .xml dictionary file, and
     Returns lemma, pos, translations"""
@@ -248,10 +285,9 @@ def parse_gtxml_entry(e, lang2):
                     translations += f"({re.text}) "
                 t_elements = []
                 for t in tg.findall("t"):
-                    if (t.text is None or t.text.strip() == "" or
-                            t.text == "None" or "_" in t.text):
-                        # shouldn't happen, but in the dict files, it does..
+                    if not should_include_translation(l_node, t):
                         continue
+                    if t.attrib.get("expl")
                     t_elements.append(t.text)
                 if not t_elements:
                     translations = ""
