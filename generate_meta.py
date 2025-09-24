@@ -287,7 +287,6 @@ def parse_gtxml_entry(e, lang2):
                 for t in tg.findall("t"):
                     if not should_include_translation(l_node, t):
                         continue
-                    if t.attrib.get("expl")
                     t_elements.append(t.text)
                 if not t_elements:
                     translations = ""
