@@ -235,13 +235,16 @@ def should_include_translation(l_node, t_node):
         # <l> pos == <t> pos, so always include this <t>
         return True
 
-    if tpos == "Phrase":
+    if tpos == "Phrase" or lpos == "Phrase":
         # <t> pos is "Phrase", always included
         return True
 
-    if (lpos == "Pr" and tpos == "Po") or (tpos == "Po" and lpos == "Pr"):
+    if (lpos == "Pr" and tpos == "Po") or (lpos == "Po" and tpos == "Pr"):
         # Pr and Po are okay both ways
         return True
+
+    # TODO legge til Det -> Adv ???
+    # if lpos == "Det"
 
     l_is_adv = lpos == "Adv"
     t_is_adv = tpos == "Adv"
@@ -280,41 +283,36 @@ def parse_gtxml_entry(e, lang2):
                 if lang is not None and lang != lang2:
                     # not target lang we're after
                     continue
-                re = tg.find("re")
-                if re is not None:
-                    translations += f"({re.text}) "
                 t_elements = []
                 for t in tg.findall("t"):
-                    if not should_include_translation(l_node, t):
-                        continue
-                    t_elements.append(t.text)
-                if not t_elements:
-                    translations = ""
-                else:
+                    if should_include_translation(l_node, t):
+                        t_elements.append(t.text)
+                if t_elements:
+                    re = tg.find("re")
+                    if re is not None:
+                        translations += f"({re.text}) "
                     translations += ", ".join(t_elements)
     else:
         # numbered, so we enumerate from 1
         for n, mg in enumerate(mgs, start=1):
-            translations += f" {n}. "
+            current_translations = ""
             for tg in mg.findall("tg"):
                 lang = tg.get("{http://www.w3.org/XML/1998/namespace}lang")
                 if lang is not None and lang != lang2:
                     # not target lang we're after
                     continue
-                re = tg.find("re")
-                if re is not None:
-                    translations += f"({re.text}) "
                 t_elements = []
                 for t in tg.findall("t"):
-                    if (t.text is None or t.text.strip() == "" or
-                            t.text == "None" or "_" in t.text):
-                        # shouldn't happen, but in the dict files, it does..
-                        continue
-                    t_elements.append(t.text)
-                if not t_elements:
-                    translations = ""
-                else:
-                    translations += ", ".join(t_elements)
+                    if should_include_translation(l_node, t):
+                        t_elements.append(t.text)
+                if t_elements:
+                    re = tg.find("re")
+                    if re is not None:
+                        translations += f"({re.text}) "
+                    current_translations += ", ".join(t_elements)
+
+            if current_translations:
+                translations += f" {n}. {current_translations}"
 
     if not translations:
         raise ValueError("no translations")
@@ -452,8 +450,10 @@ def parse_gtdict(lang_src_folder, check_unique_lemmas=False, lang2=""):
         for e in root.iter("e"):
             try:
                 lemma, pos, translations = parse_gtxml_entry(e, lang2=lang2)
-            except ValueError:
+            except ValueError as err:
                 # something wrong when parsing this <e>, so we skip it
+                #s = ET.tostring(e, encoding="unicode")
+                #print(f"skipped (or failed) entry ({err}):\n{s}", file=sys.stderr)
                 continue
             # if check_unique_lemmas and (lemma, pos) in lemmas:
             #     other_file = lemmas[(lemma, pos)][0]
