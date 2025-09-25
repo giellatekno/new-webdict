@@ -231,30 +231,19 @@ def should_include_translation(l_node, t_node):
         # <t> has no pos, but it has attribute t_type == "expl", so include it
         return True
 
-    if lpos == tpos:
-        # <l> pos == <t> pos, so always include this <t>
-        return True
-
-    if tpos == "Phrase" or lpos == "Phrase":
-        # <t> pos is "Phrase", always included
-        return True
-
-    if (lpos == "Pr" and tpos == "Po") or (lpos == "Po" and tpos == "Pr"):
-        # Pr and Po are okay both ways
-        return True
-
-    # TODO legge til Det -> Adv ???
-    # if lpos == "Det"
-
-    l_is_adv = lpos == "Adv"
-    t_is_adv = tpos == "Adv"
-    t_is_interj = tpos == "Interj"
-    l_is_interj = lpos == "Interj"
-
-    if (l_is_adv and t_is_interj) or (l_is_interj and t_is_adv):
-        return True
-
-    return False
+    match lpos, tpos:
+        case a, b if a == b:
+            return True
+        case ("Phrase", _) | (_, "Phrase"):
+            return True
+        case "Det", _:
+            return True
+        case ("Pr", "Po") | ("Po", "Pr"):
+            return True
+        case ("Adv", "Interj") | ("Interj", "Adv"):
+            return True
+        case _, _:
+            return False
 
 
 def parse_gtxml_entry(e, lang2):
@@ -268,55 +257,81 @@ def parse_gtxml_entry(e, lang2):
     lemma = l_node.text
     pos = l_node.get("pos")
 
-    translations = ""
-
     mgs = e.findall("mg")
-    if len(mgs) == 0:
+    if not mgs:
         raise ValueError("<e> has no <mg> (no translations)")
-    if len(mgs) == 1:
-        # not numbered, just 1 meaning group
-        for mg in mgs:
-            # could there be more than 1 tg? sure, and each one may or may not
-            # have a <re>
-            for tg in mg.findall("tg"):
-                lang = tg.attrib.get("{http://www.w3.org/XML/1998/namespace}lang")
-                if lang is not None and lang != lang2:
-                    # not target lang we're after
-                    continue
-                t_elements = []
-                for t in tg.findall("t"):
-                    if should_include_translation(l_node, t):
-                        t_elements.append(t.text)
-                if t_elements:
-                    re = tg.find("re")
-                    if re is not None:
-                        translations += f"({re.text}) "
-                    translations += ", ".join(t_elements)
-    else:
-        # numbered, so we enumerate from 1
-        for n, mg in enumerate(mgs, start=1):
-            current_translations = ""
-            for tg in mg.findall("tg"):
-                lang = tg.get("{http://www.w3.org/XML/1998/namespace}lang")
-                if lang is not None and lang != lang2:
-                    # not target lang we're after
-                    continue
-                t_elements = []
-                for t in tg.findall("t"):
-                    if should_include_translation(l_node, t):
-                        t_elements.append(t.text)
-                if t_elements:
-                    re = tg.find("re")
-                    if re is not None:
-                        translations += f"({re.text}) "
-                    current_translations += ", ".join(t_elements)
 
-            if current_translations:
-                translations += f" {n}. {current_translations}"
+    translations = ""
+    multiple_mgs = len(mgs) >= 2
+    for n, mg in enumerate(mgs, start=1):
+        current_translations = ""
+        for tg in mg.findall("tg"):
+            lang = tg.attrib.get("{http://www.w3.org/XML/1998/namespace}lang")
+            if lang is not None and lang != lang2:
+                # not target lang we're after
+                continue
+            t_elements = []
+            for t in tg.findall("t"):
+                if should_include_translation(l_node, t):
+                    t_elements.append(t.text)
+            if t_elements:
+                re = tg.find("re")
+                if re is not None:
+                    current_translations += f"({re.text}) "
+                current_translations += ", ".join(t_elements)
+        if current_translations:
+            if multiple_mgs:
+                translations += f" {n}. "
+            translations += f"{current_translations}"
 
     if not translations:
         raise ValueError("no translations")
     return lemma, pos, translations.strip()
+
+    # if len(mgs) == 1:
+    #     # not numbered, just 1 meaning group
+    #     for mg in mgs:
+    #         # could there be more than 1 tg? sure, and each one may or may not
+    #         # have a <re>
+    #         for tg in mg.findall("tg"):
+    #             lang = tg.attrib.get("{http://www.w3.org/XML/1998/namespace}lang")
+    #             if lang is not None and lang != lang2:
+    #                 # not target lang we're after
+    #                 continue
+    #             t_elements = []
+    #             for t in tg.findall("t"):
+    #                 if should_include_translation(l_node, t):
+    #                     t_elements.append(t.text)
+    #             if t_elements:
+    #                 re = tg.find("re")
+    #                 if re is not None:
+    #                     translations += f"({re.text}) "
+    #                 translations += ", ".join(t_elements)
+    # else:
+    #     # numbered, so we enumerate from 1
+    #     for n, mg in enumerate(mgs, start=1):
+    #         current_translations = ""
+    #         for tg in mg.findall("tg"):
+    #             lang = tg.get("{http://www.w3.org/XML/1998/namespace}lang")
+    #             if lang is not None and lang != lang2:
+    #                 # not target lang we're after
+    #                 continue
+    #             t_elements = []
+    #             for t in tg.findall("t"):
+    #                 if should_include_translation(l_node, t):
+    #                     t_elements.append(t.text)
+    #             if t_elements:
+    #                 re = tg.find("re")
+    #                 if re is not None:
+    #                     translations += f"({re.text}) "
+    #                 current_translations += ", ".join(t_elements)
+
+    #         if current_translations:
+    #             translations += f" {n}. {current_translations}"
+
+    # if not translations:
+    #     raise ValueError("no translations")
+    # return lemma, pos, translations.strip()
 
 
 class Metas:
